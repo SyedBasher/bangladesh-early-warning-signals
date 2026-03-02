@@ -2,8 +2,9 @@ import json
 import os
 import yaml
 import hashlib
+import re
 from datetime import date
-from signal_definitions import SIGNALS   # <- new central taxonomy
+from signal_definitions import SIGNALS
 
 today = str(date.today())
 
@@ -28,6 +29,9 @@ def confidence_level(text):
 
 def hash_text(t):
     return hashlib.md5(t.encode()).hexdigest()
+
+def clean_html(text):
+    return re.sub('<.*?>', '', text)
 
 # ---------------------------
 # classification logic
@@ -61,7 +65,7 @@ seen_hashes = set()
 
 for item in headlines:
 
-    title = item["title"].strip()
+    title = clean_html(item["title"]).strip()
     link = item["link"]
 
     result = classify(title)
