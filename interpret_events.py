@@ -23,8 +23,11 @@ def confidence_level(text):
         return "low"
     return "medium"
 
+def importance_from_confidence(c):
+    return {"low":"low","medium":"medium","high":"high"}[c]
+
 # ---------------------------
-# deduplication helper
+# helpers
 # ---------------------------
 
 def hash_text(t):
@@ -72,7 +75,7 @@ for item in headlines:
     if not result:
         continue
 
-    # remove duplicates
+    # deduplicate
     h = hash_text(title)
     if h in seen_hashes:
         continue
@@ -83,13 +86,14 @@ for item in headlines:
         "country": "Bangladesh",
         "summary": title,
         **result,
+        "importance": importance_from_confidence(result["confidence"]),
         "sources": [link]
     }
 
     notes.append(note)
 
 # ---------------------------
-# write individual YAML drafts
+# write YAML drafts
 # ---------------------------
 
 os.makedirs("drafts", exist_ok=True)
