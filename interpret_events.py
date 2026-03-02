@@ -3,33 +3,16 @@ import os
 import yaml
 import hashlib
 from datetime import date
+from signal_definitions import SIGNALS   # <- new central taxonomy
 
 today = str(date.today())
 
 # ---------------------------
-# keyword groups (semantic buckets)
+# confidence detection
 # ---------------------------
-
-ENERGY = [
-    "gas","lng","oil","diesel","fuel","petroleum",
-    "electricity tariff","power tariff","energy price"
-]
-
-EXPORT = [
-    "export","shipment","orders","rmg","apparel",
-    "garment","buyers","factory","overtime",
-    "export earnings","shipment receipts"
-]
 
 STRONG = ["surge","collapse","halt","freeze","spike","crisis","plunge","shortage"]
 WEAK   = ["may","possible","expected","considering","proposal","plan"]
-
-# ---------------------------
-# helpers
-# ---------------------------
-
-def contains_any(text, words):
-    return any(w in text for w in words)
 
 def confidence_level(text):
     t = text.lower()
@@ -38,6 +21,10 @@ def confidence_level(text):
     if any(w in t for w in WEAK):
         return "low"
     return "medium"
+
+# ---------------------------
+# deduplication helper
+# ---------------------------
 
 def hash_text(t):
     return hashlib.md5(t.encode()).hexdigest()
@@ -50,34 +37,15 @@ def classify(headline):
 
     h = headline.lower()
 
-    # ENERGY SHOCK
-    if contains_any(h, ENERGY):
-        return {
-            "event": "energy_price_shock",
-            "channel": "cost_push",
-            "transmission": [
-                "fuel import cost",
-                "electricity tariff pressure",
-                "food production cost",
-                "CPI food"
-            ],
-            "expected_effect": "regressive welfare loss",
-            "confidence": confidence_level(h)
-        }
-
-    # EXPORT DEMAND SHOCK
-    if contains_any(h, EXPORT):
-        return {
-            "event": "export_demand_shock",
-            "channel": "external_sector",
-            "transmission": [
-                "factory hours",
-                "labor income",
-                "urban consumption"
-            ],
-            "expected_effect": "income slowdown",
-            "confidence": confidence_level(h)
-        }
+    for name, info in SIGNALS.items():
+        if any(keyword in h for keyword in info["keywords"]):
+            return {
+                "event": name,
+                "channel": info["channel"],
+                "transmission": info["transmission"],
+                "expected_effect": info["effect"],
+                "confidence": confidence_level(h)
+            }
 
     return None
 
@@ -100,7 +68,7 @@ for item in headlines:
     if not result:
         continue
 
-    # deduplicate repeated news stories
+    # remove duplicates
     h = hash_text(title)
     if h in seen_hashes:
         continue
