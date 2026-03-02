@@ -1,0 +1,41 @@
+name: Build dataset
+
+on:
+  push:
+    paths:
+      - 'signals/*.yml'
+      - 'signals/*.yaml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install yq
+        run: sudo snap install yq
+
+      - name: Combine signals into dataset
+        run: |
+          mkdir -p data
+          echo "[" > data/signals.json
+          first=true
+          for f in signals/*.yml signals/*.yaml; do
+            [ -e "$f" ] || continue
+            if [ "$first" = true ]; then
+              first=false
+            else
+              echo "," >> data/signals.json
+            fi
+            yq -o=json '.' "$f" >> data/signals.json
+          done
+          echo "]" >> data/signals.json
+
+      - name: Commit dataset
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "bot@github"
+          git add data/signals.json
+          git commit -m "update dataset" || echo "no changes"
+          git push
