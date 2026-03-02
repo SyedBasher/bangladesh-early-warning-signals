@@ -1,9 +1,13 @@
 SIGNALS = {
 
+# ---------------- EXTERNAL SECTOR ----------------
+
 "external_liquidity_stress": {
     "keywords": [
-        "dollar shortage","reserve fall","lc margin","import restriction",
-        "kerb market","forex shortage","payment backlog"
+        "dollar shortage","forex shortage","forex crisis","reserve fall",
+        "reserves drop","lc margin","lc opening","import payment backlog",
+        "import payments delayed","kerb market","open market dollar",
+        "bank unable to open lc","letter of credit problem"
     ],
     "channel": "external_sector",
     "transmission": [
@@ -14,8 +18,9 @@ SIGNALS = {
 
 "exchange_rate_adjustment_pressure": {
     "keywords": [
-        "exchange rate pressure","devaluation expectation","multiple rate",
-        "crawling peg change","currency pressure"
+        "taka depreciates","taka falls","currency weakens","devaluation",
+        "exchange rate pressure","multiple exchange rate","crawling peg",
+        "dollar rate rises","interbank rate rises"
     ],
     "channel": "expectations",
     "transmission": [
@@ -26,8 +31,9 @@ SIGNALS = {
 
 "export_demand_shock": {
     "keywords": [
-        "export fall","shipment decline","orders drop","rmg orders",
-        "buyers cut","apparel demand"
+        "exports fall","export decline","shipment fall","orders fall",
+        "orders drop","buyers cut orders","rmg orders drop",
+        "garment demand weak","export earnings drop"
     ],
     "channel": "external_demand",
     "transmission": [
@@ -38,8 +44,8 @@ SIGNALS = {
 
 "remittance_flow_shift": {
     "keywords": [
-        "remittance decline","hundi","remittance incentive",
-        "migrant inflow drop"
+        "remittance falls","remittance drops","hundi","informal remittance",
+        "remittance incentive","migrant inflow declines"
     ],
     "channel": "external_sector",
     "transmission": [
@@ -48,9 +54,12 @@ SIGNALS = {
     "effect": "fx pressure"
 },
 
+# ---------------- ENERGY ----------------
+
 "energy_supply_constraint": {
     "keywords": [
-        "load shedding","gas rationing","power outage","captive shutdown"
+        "load shedding","loadshed","power outage","gas crisis",
+        "gas rationing","captive power shutdown","power cut"
     ],
     "channel": "production",
     "transmission": [
@@ -61,7 +70,10 @@ SIGNALS = {
 
 "energy_price_shock": {
     "keywords": [
-        "fuel price","gas price","diesel price","electricity tariff"
+        "gas price","gas prices","fuel price","fuel prices",
+        "diesel price","petrol price","octane price",
+        "electricity tariff","power tariff","energy price",
+        "global oil price","lng price"
     ],
     "channel": "cost_push",
     "transmission": [
@@ -70,9 +82,13 @@ SIGNALS = {
     "effect": "regressive inflation"
 },
 
+# ---------------- SUPPLY CHAIN ----------------
+
 "logistics_disruption": {
     "keywords": [
-        "port congestion","container backlog","truck strike","shipment delay"
+        "port congestion","container backlog","shipment delay",
+        "truck strike","transport strike","customs delay",
+        "cargo stuck","clearance delay"
     ],
     "channel": "supply_chain",
     "transmission": [
@@ -81,9 +97,12 @@ SIGNALS = {
     "effect": "temporary inflation"
 },
 
+# ---------------- FINANCIAL SYSTEM ----------------
+
 "banking_liquidity_stress": {
     "keywords": [
-        "liquidity shortage","cash shortage","interbank rate spike","repo support"
+        "liquidity shortage","cash shortage","interbank rate spike",
+        "repo support","central bank support","banks face liquidity pressure"
     ],
     "channel": "financial",
     "transmission": [
@@ -94,7 +113,8 @@ SIGNALS = {
 
 "credit_allocation_tightening": {
     "keywords": [
-        "loan cap","credit ceiling","lending restriction","sector lending limit"
+        "loan cap","credit ceiling","lending restriction",
+        "sector lending limit","bank stops lending"
     ],
     "channel": "financial",
     "transmission": [
@@ -105,7 +125,8 @@ SIGNALS = {
 
 "deposit_confidence_event": {
     "keywords": [
-        "withdrawal panic","bank run","merger pressure","deposit concern"
+        "withdrawal panic","bank run","depositors worried",
+        "bank merger pressure","deposit safety concern"
     ],
     "channel": "financial",
     "transmission": [
@@ -114,9 +135,12 @@ SIGNALS = {
     "effect": "bank stress"
 },
 
+# ---------------- POLICY ----------------
+
 "import_compression_policy": {
     "keywords": [
-        "import ban","luxury import restriction","lc restriction"
+        "import ban","import restriction","luxury import restriction",
+        "lc restriction","import control"
     ],
     "channel": "administrative",
     "transmission": [
@@ -127,7 +151,8 @@ SIGNALS = {
 
 "price_control_intervention": {
     "keywords": [
-        "price cap","admin price","fixed price","price ceiling"
+        "price cap","price ceiling","fixed price","government price",
+        "admin price"
     ],
     "channel": "administrative",
     "transmission": [
@@ -138,7 +163,8 @@ SIGNALS = {
 
 "subsidy_adjustment": {
     "keywords": [
-        "subsidy cut","fertilizer subsidy","fuel subsidy reduction"
+        "subsidy cut","fuel subsidy reduction","fertilizer subsidy",
+        "subsidy reduced","subsidy withdrawn"
     ],
     "channel": "fiscal",
     "transmission": [
@@ -147,9 +173,12 @@ SIGNALS = {
     "effect": "inflation"
 },
 
+# ---------------- LABOR & PRODUCTION ----------------
+
 "labor_income_shock": {
     "keywords": [
-        "layoff","overtime cut","factory closure","wage delay"
+        "layoffs","workers laid off","overtime cut",
+        "factory closure","wage delay","salary delay"
     ],
     "channel": "labor",
     "transmission": [
@@ -160,7 +189,8 @@ SIGNALS = {
 
 "industrial_capacity_shift": {
     "keywords": [
-        "factory relocation","capacity shutdown","production halt"
+        "factory relocation","capacity shutdown","production halt",
+        "factory shuts down","plant closure"
     ],
     "channel": "production",
     "transmission": [
