@@ -36,4 +36,4 @@ Signals are derived from contemporaneous information flows, not retrospective ma
 Public feed: delayed  
 Institutional feed: real-time structured dataset
 
-Contact: your_email_here
+Contact: syed.basher@gmail.com
