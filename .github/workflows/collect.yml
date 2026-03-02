@@ -17,17 +17,28 @@ jobs:
         with:
           python-version: '3.11'
 
+      # Install ALL required packages
       - name: Install packages
-        run: pip install feedparser
+        run: pip install feedparser pyyaml
 
+      # Step 1: Collect news
       - name: Run collector
         run: python scripts/collector.py
 
+      # Step 2: Interpret events into signals
       - name: Run interpreter
         run: python interpret_events.py
 
-      - name: Upload file
+      # Upload shortlist (for inspection)
+      - name: Upload candidates
         uses: actions/upload-artifact@v4
         with:
           name: daily_candidates
           path: daily_candidates.json
+
+      # Upload generated signal drafts
+      - name: Upload signal drafts
+        uses: actions/upload-artifact@v4
+        with:
+          name: signal_drafts
+          path: drafts/
