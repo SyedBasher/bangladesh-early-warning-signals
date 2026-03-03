@@ -54,7 +54,13 @@ jobs:
           fi
 
       # ------------------------------------------------
-      # Step 5: Build combined signals.json
+      # Step 5: Pull latest repo state
+      # ------------------------------------------------
+      - name: Pull latest changes
+        run: git pull origin main
+
+      # ------------------------------------------------
+      # Step 6: Build combined signals.json
       # ------------------------------------------------
       - name: Build signals.json
         run: |
@@ -78,7 +84,7 @@ jobs:
           EOF
 
       # ------------------------------------------------
-      # Step 6: Commit and push if changes exist
+      # Step 7: Commit and push changes
       # ------------------------------------------------
       - name: Commit and push changes
         run: |
