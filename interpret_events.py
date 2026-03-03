@@ -55,22 +55,21 @@ def classify(headline):
 
     h = headline.lower()
 
-    # detect numeric magnitude
-    pct = extract_percentage(h)
+    # normalize plural forms
+    h = h.replace("exports", "export")
+    h = h.replace("loans", "loan")
+    h = h.replace("prices", "price")
+
+    negative_words = ["drop", "fall", "decline", "slump", "plunge", "contract"]
+    positive_words = ["rise", "increase", "surge", "expand", "grow"]
 
     for name, info in SIGNALS.items():
 
-        # flexible keyword match
         keyword_hit = any(k.lower() in h for k in info["keywords"])
 
-        # optional magnitude rule
-        magnitude_trigger = False
-        if pct is not None:
-            if pct >= info.get("min_percent", 0):
-                magnitude_trigger = True
+        directional_hit = any(w in h for w in negative_words + positive_words)
 
-        if keyword_hit or magnitude_trigger:
-
+        if keyword_hit and directional_hit:
             return {
                 "event": name,
                 "channel": info["channel"],
@@ -80,7 +79,6 @@ def classify(headline):
             }
 
     return None
-
 # ------------------------------------------------
 # read candidate headlines
 # ------------------------------------------------
