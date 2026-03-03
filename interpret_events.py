@@ -91,7 +91,10 @@ if not os.path.exists("daily_candidates.json"):
 
 with open("daily_candidates.json") as f:
     headlines = json.load(f)
+print("Total headlines loaded:", len(headlines))
 
+for h in headlines[:10]:
+    print("Sample headline:", h.get("title"))
 notes = []
 seen_hashes = set()
 
