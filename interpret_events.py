@@ -30,11 +30,30 @@ def importance_from_confidence(c):
 # helpers
 # ------------------------------------------------
 
+from html import unescape
+
 def hash_text(t):
     return hashlib.md5(t.encode()).hexdigest()
 
 def clean_html(text):
-    return re.sub('<.*?>', '', text)
+    """
+    Properly remove HTML tags and decode entities.
+    Handles <a href="...">Title</a> safely.
+    """
+    text = re.sub(r'<[^>]+>', '', text)  # remove all HTML tags
+    return unescape(text).strip()
+
+def normalize_text(text):
+    """
+    Normalize common plural forms and spacing.
+    Makes matching more flexible.
+    """
+    t = text.lower()
+    t = t.replace("exports", "export")
+    t = t.replace("loans", "loan")
+    t = t.replace("prices", "price")
+    t = re.sub(r'\s+', ' ', t)
+    return t
 
 def extract_percentage(text):
     """
@@ -42,7 +61,10 @@ def extract_percentage(text):
     'exports fall 12%'
     'inflation rises to 9.4 percent'
     """
-    match = re.search(r'(\d+(\.\d+)?)\s?%|\b(\d+(\.\d+)?)\s?percent\b', text.lower())
+    match = re.search(
+        r'(\d+(\.\d+)?)\s?%|\b(\d+(\.\d+)?)\s?percent\b',
+        text.lower()
+    )
     if match:
         return float(match.group(1))
     return None
@@ -53,19 +75,30 @@ def extract_percentage(text):
 
 def classify(headline):
 
-    h = headline.lower()
+    raw = clean_html(headline)
+    h = normalize_text(raw)
 
-    # normalize plural forms
-    h = h.replace("exports", "export")
-    h = h.replace("loans", "loan")
-    h = h.replace("prices", "price")
-
-    negative_words = ["drop", "fall", "decline", "slump", "plunge", "contract"]
-    positive_words = ["rise", "increase", "surge", "expand", "grow"]
+    negative_words = ["drop","fall","decline","slump","plunge","contract","weak"]
+    positive_words = ["rise","increase","surge","expand","grow"]
 
     for name, info in SIGNALS.items():
 
-        keyword_hit = any(k.lower() in h for k in info["keywords"])
+        # Relax keyword matching:
+        # Instead of requiring full phrase match,
+        # match any core token inside keywords.
+        keyword_hit = False
+
+        for k in info["keywords"]:
+            k_norm = normalize_text(k)
+            if k_norm in h:
+                keyword_hit = True
+                break
+
+            # Also allow partial token match (first word)
+            first_token = k_norm.split()[0]
+            if first_token in h:
+                keyword_hit = True
+                break
 
         directional_hit = any(w in h for w in negative_words + positive_words)
 
@@ -79,6 +112,7 @@ def classify(headline):
             }
 
     return None
+    
 # ------------------------------------------------
 # read candidate headlines
 # ------------------------------------------------
