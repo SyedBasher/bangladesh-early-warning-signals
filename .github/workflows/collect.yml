@@ -9,36 +9,52 @@ jobs:
   collect:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write   # REQUIRED to push changes
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      # Install ALL required packages
-      - name: Install packages
+      - name: Install required packages
         run: pip install feedparser pyyaml
 
       # Step 1: Collect news
       - name: Run collector
         run: python scripts/collector.py
 
-      # Step 2: Interpret events into signals
+      # Step 2: Interpret events into signal drafts
       - name: Run interpreter
         run: python interpret_events.py
 
-      # Upload shortlist (for inspection)
-      - name: Upload candidates
-        uses: actions/upload-artifact@v4
-        with:
-          name: daily_candidates
-          path: daily_candidates.json
+      # Step 3: Ensure signals folder exists
+      - name: Prepare signals folder
+        run: mkdir -p signals/Bangladesh
 
-      # Upload generated signal drafts
-      - name: Upload signal drafts
-        uses: actions/upload-artifact@v4
-        with:
-          name: signal_drafts
-          path: drafts/
+      # Step 4: Move generated drafts into signals
+      - name: Move drafts to signals folder
+        run: |
+          if [ -d "drafts" ] && [ "$(ls -A drafts)" ]; then
+            mv drafts/*.yaml signals/Bangladesh/ || true
+          else
+            echo "No drafts to publish."
+          fi
+
+      # Step 5: Commit and push only if changes exist
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add signals/Bangladesh
+
+          if git diff --staged --quiet; then
+            echo "No new signals to commit."
+          else
+            git commit -m "Auto publish daily signals"
+            git push
+          fi
