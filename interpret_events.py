@@ -8,12 +8,12 @@ from signal_definitions import SIGNALS
 
 today = str(date.today())
 
-# ---------------------------
+# ------------------------------------------------
 # confidence detection
-# ---------------------------
+# ------------------------------------------------
 
-STRONG = ["surge","collapse","halt","freeze","spike","crisis","plunge","shortage"]
-WEAK   = ["may","possible","expected","considering","proposal","plan"]
+STRONG = ["surge","collapse","halt","freeze","spike","crisis","plunge","shortage","slump"]
+WEAK   = ["may","possible","expected","considering","proposal","plan","talks"]
 
 def confidence_level(text):
     t = text.lower()
@@ -26,9 +26,9 @@ def confidence_level(text):
 def importance_from_confidence(c):
     return {"low":"low","medium":"medium","high":"high"}[c]
 
-# ---------------------------
+# ------------------------------------------------
 # helpers
-# ---------------------------
+# ------------------------------------------------
 
 def hash_text(t):
     return hashlib.md5(t.encode()).hexdigest()
@@ -36,16 +36,41 @@ def hash_text(t):
 def clean_html(text):
     return re.sub('<.*?>', '', text)
 
-# ---------------------------
-# classification logic
-# ---------------------------
+def extract_percentage(text):
+    """
+    Detect percentage change like:
+    'exports fall 12%'
+    'inflation rises to 9.4 percent'
+    """
+    match = re.search(r'(\d+(\.\d+)?)\s?%|\b(\d+(\.\d+)?)\s?percent\b', text.lower())
+    if match:
+        return float(match.group(1))
+    return None
+
+# ------------------------------------------------
+# improved classification logic
+# ------------------------------------------------
 
 def classify(headline):
 
     h = headline.lower()
 
+    # detect numeric magnitude
+    pct = extract_percentage(h)
+
     for name, info in SIGNALS.items():
-        if any(keyword in h for keyword in info["keywords"]):
+
+        # flexible keyword match
+        keyword_hit = any(k.lower() in h for k in info["keywords"])
+
+        # optional magnitude rule
+        magnitude_trigger = False
+        if pct is not None:
+            if pct >= info.get("min_percent", 0):
+                magnitude_trigger = True
+
+        if keyword_hit or magnitude_trigger:
+
             return {
                 "event": name,
                 "channel": info["channel"],
@@ -56,9 +81,13 @@ def classify(headline):
 
     return None
 
-# ---------------------------
+# ------------------------------------------------
 # read candidate headlines
-# ---------------------------
+# ------------------------------------------------
+
+if not os.path.exists("daily_candidates.json"):
+    print("No daily_candidates.json found.")
+    exit()
 
 with open("daily_candidates.json") as f:
     headlines = json.load(f)
@@ -68,8 +97,11 @@ seen_hashes = set()
 
 for item in headlines:
 
-    title = clean_html(item["title"]).strip()
-    link = item["link"]
+    title = clean_html(item.get("title", "")).strip()
+    link = item.get("link", "")
+
+    if not title:
+        continue
 
     result = classify(title)
     if not result:
@@ -92,9 +124,9 @@ for item in headlines:
 
     notes.append(note)
 
-# ---------------------------
+# ------------------------------------------------
 # write YAML drafts
-# ---------------------------
+# ------------------------------------------------
 
 os.makedirs("drafts", exist_ok=True)
 
