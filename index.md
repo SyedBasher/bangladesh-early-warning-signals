@@ -36,7 +36,7 @@ Signals are derived from contemporaneous information flows, not retrospective ma
 Public feed: delayed  
 Institutional feed: real-time structured dataset
 
-Contact: syed.basher@gmail.com
+Contact: [syed.basher@gmail.com](mailto:syed.basher@gmail.com)
 
 ---
 
@@ -48,29 +48,56 @@ Contact: syed.basher@gmail.com
 fetch('/bangladesh-early-warning-signals/data/signals.json')
   .then(res => res.json())
   .then(data => {
+
     const container = document.getElementById('signals');
+    container.innerHTML = "";
 
-    data.slice().reverse().forEach(signal => {
-      const block = document.createElement('div');
-      block.style.marginBottom = "20px";
+    data
+      .slice()
+      .reverse()
+      .slice(0, 10)   // show latest 10 only
+      .forEach(signal => {
 
-      const eventLabel = signal.event.replace(/_/g, " ");
+        const block = document.createElement('div');
+        block.style.marginBottom = "24px";
 
-      block.innerHTML = `
-        <hr>
-        <strong>${signal.date}</strong> — ${eventLabel}<br>
-        ${signal.summary}<br>
-        Channel: ${signal.channel}<br>
-        Confidence: ${signal.confidence}<br>
-        Importance: ${signal.importance}<br>
-        <a href="${signal.sources[0]}" target="_blank">Source</a>
-      `;
+        const eventLabel = signal.event.replace(/_/g, " ");
 
-      container.appendChild(block);
-    });
+        const color = {
+          high: "#b30000",
+          medium: "#cc8400",
+          low: "#006600"
+        }[signal.importance] || "#000";
+
+        const source = (signal.sources && signal.sources.length)
+          ? signal.sources[0]
+          : "#";
+
+        block.innerHTML = `
+          <hr>
+          <strong style="color:${color}; font-size:1.05em;">
+            ${signal.date} — ${eventLabel}
+          </strong><br>
+          <div style="margin-top:4px;">
+            ${signal.summary}
+          </div>
+          <div style="font-size:0.9em; margin-top:6px;">
+            Channel: ${signal.channel} |
+            Confidence: ${signal.confidence} |
+            Importance: ${signal.importance}
+          </div>
+          <div style="margin-top:6px;">
+            <a href="${source}" target="_blank">Source</a>
+          </div>
+        `;
+
+        container.appendChild(block);
+      });
+
   })
   .catch(err => {
-    document.getElementById('signals').innerText = "Could not load signals.";
+    document.getElementById('signals').innerText =
+      "Could not load signals.";
     console.error(err);
   });
 </script>
