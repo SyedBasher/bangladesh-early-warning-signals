@@ -45,7 +45,7 @@ Contact: [syed.basher@gmail.com](mailto:syed.basher@gmail.com)
 <div id="signals"></div>
 
 <script>
-fetch('/bangladesh-early-warning-signals/data/signals.json')
+fetch('data/signals.json')
   .then(res => res.json())
   .then(data => {
 
