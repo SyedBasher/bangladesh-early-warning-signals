@@ -163,14 +163,21 @@ for item in headlines:
 # write YAML drafts
 # ------------------------------------------------
 
-os.makedirs("drafts", exist_ok=True)
+# inside your loop, replace note creation with:
 
-for i, note in enumerate(notes, 1):
+signal_info = SIGNALS[result["event"]]
 
-    short = note["event"].replace("_", "-")
-    filename = f"drafts/{today}-{short}-{i}.yaml"
-
-    with open(filename, "w") as f:
-        yaml.dump(note, f, sort_keys=False, allow_unicode=True)
-
-print("Draft signals generated:", len(notes))
+note = {
+    "title": signal_info["title"],
+    "date": today,
+    "signal_type": signal_info["signal_type"],
+    "lead_indicator": signal_info["lead_indicator"],
+    "time_horizon": signal_info["time_horizon"],
+    "direction": signal_info["direction"],
+    "confidence": result["confidence"],
+    "economic_mechanism": signal_info["economic_mechanism"],
+    "who_should_care": signal_info["who_should_care"],
+    "expected_effects": signal_info["expected_effects"],
+    "headline": title,
+    "sources": [link]
+}
