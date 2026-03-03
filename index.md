@@ -54,9 +54,11 @@ fetch('/bangladesh-early-warning-signals/data/signals.json')
       const block = document.createElement('div');
       block.style.marginBottom = "20px";
 
+      const eventLabel = signal.event.replace(/_/g, " ");
+
       block.innerHTML = `
         <hr>
-        <strong>${signal.date}</strong> — ${signal.event}<br>
+        <strong>${signal.date}</strong> — ${eventLabel}<br>
         ${signal.summary}<br>
         Channel: ${signal.channel}<br>
         Confidence: ${signal.confidence}<br>
