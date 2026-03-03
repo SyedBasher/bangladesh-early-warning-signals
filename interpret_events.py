@@ -1,15 +1,15 @@
 import json
 import os
-import yaml
-import hashlib
 import re
+import hashlib
 from datetime import date
+from html import unescape
 from signal_definitions import SIGNALS
 
 today = str(date.today())
 
 # ------------------------------------------------
-# confidence detection
+# Confidence detection
 # ------------------------------------------------
 
 STRONG = ["surge","collapse","halt","freeze","spike","crisis","plunge","shortage","slump"]
@@ -23,31 +23,18 @@ def confidence_level(text):
         return "low"
     return "medium"
 
-def importance_from_confidence(c):
-    return {"low":"low","medium":"medium","high":"high"}[c]
-
 # ------------------------------------------------
-# helpers
+# Helpers
 # ------------------------------------------------
-
-from html import unescape
 
 def hash_text(t):
     return hashlib.md5(t.encode()).hexdigest()
 
 def clean_html(text):
-    """
-    Properly remove HTML tags and decode entities.
-    Handles <a href="...">Title</a> safely.
-    """
-    text = re.sub(r'<[^>]+>', '', text)  # remove all HTML tags
+    text = re.sub(r'<[^>]+>', '', text)
     return unescape(text).strip()
 
 def normalize_text(text):
-    """
-    Normalize common plural forms and spacing.
-    Makes matching more flexible.
-    """
     t = text.lower()
     t = t.replace("exports", "export")
     t = t.replace("loans", "loan")
@@ -55,22 +42,8 @@ def normalize_text(text):
     t = re.sub(r'\s+', ' ', t)
     return t
 
-def extract_percentage(text):
-    """
-    Detect percentage change like:
-    'exports fall 12%'
-    'inflation rises to 9.4 percent'
-    """
-    match = re.search(
-        r'(\d+(\.\d+)?)\s?%|\b(\d+(\.\d+)?)\s?percent\b',
-        text.lower()
-    )
-    if match:
-        return float(match.group(1))
-    return None
-
 # ------------------------------------------------
-# improved classification logic
+# Classification
 # ------------------------------------------------
 
 def classify(headline):
@@ -83,18 +56,15 @@ def classify(headline):
 
     for name, info in SIGNALS.items():
 
-        # Relax keyword matching:
-        # Instead of requiring full phrase match,
-        # match any core token inside keywords.
         keyword_hit = False
 
         for k in info["keywords"]:
             k_norm = normalize_text(k)
+
             if k_norm in h:
                 keyword_hit = True
                 break
 
-            # Also allow partial token match (first word)
             first_token = k_norm.split()[0]
             if first_token in h:
                 keyword_hit = True
@@ -103,18 +73,12 @@ def classify(headline):
         directional_hit = any(w in h for w in negative_words + positive_words)
 
         if keyword_hit and directional_hit:
-            return {
-                "event": name,
-                "channel": info["channel"],
-                "transmission": info["transmission"],
-                "expected_effect": info["effect"],
-                "confidence": confidence_level(h)
-            }
+            return name
 
     return None
-    
+
 # ------------------------------------------------
-# read candidate headlines
+# Load candidate headlines
 # ------------------------------------------------
 
 if not os.path.exists("daily_candidates.json"):
@@ -123,11 +87,14 @@ if not os.path.exists("daily_candidates.json"):
 
 with open("daily_candidates.json") as f:
     headlines = json.load(f)
+
 print("Total headlines loaded:", len(headlines))
 
-for h in headlines[:10]:
-    print("Sample headline:", h.get("title"))
-notes = []
+# ------------------------------------------------
+# Build structured signals
+# ------------------------------------------------
+
+signals_output = []
 seen_hashes = set()
 
 for item in headlines:
@@ -138,8 +105,8 @@ for item in headlines:
     if not title:
         continue
 
-    result = classify(title)
-    if not result:
+    event_key = classify(title)
+    if not event_key:
         continue
 
     # deduplicate
@@ -148,36 +115,37 @@ for item in headlines:
         continue
     seen_hashes.add(h)
 
-    note = {
+    signal_info = SIGNALS[event_key]
+
+    structured_signal = {
+        "title": signal_info["title"],
         "date": today,
-        "country": "Bangladesh",
-        "summary": title,
-        **result,
-        "importance": importance_from_confidence(result["confidence"]),
+        "signal_type": signal_info["signal_type"],
+        "lead_indicator": signal_info["lead_indicator"],
+        "time_horizon": signal_info["time_horizon"],
+        "direction": signal_info["direction"],
+        "confidence": confidence_level(title),
+        "economic_mechanism": signal_info["economic_mechanism"],
+        "who_should_care": signal_info["who_should_care"],
+        "expected_effects": signal_info["expected_effects"],
+        "headline": title,
         "sources": [link]
     }
 
-    notes.append(note)
+    signals_output.append(structured_signal)
 
 # ------------------------------------------------
-# write YAML drafts
+# Ensure data folder exists
 # ------------------------------------------------
 
-# inside your loop, replace note creation with:
+if not os.path.exists("data"):
+    os.makedirs("data")
 
-signal_info = SIGNALS[result["event"]]
+# ------------------------------------------------
+# Write JSON output
+# ------------------------------------------------
 
-note = {
-    "title": signal_info["title"],
-    "date": today,
-    "signal_type": signal_info["signal_type"],
-    "lead_indicator": signal_info["lead_indicator"],
-    "time_horizon": signal_info["time_horizon"],
-    "direction": signal_info["direction"],
-    "confidence": result["confidence"],
-    "economic_mechanism": signal_info["economic_mechanism"],
-    "who_should_care": signal_info["who_should_care"],
-    "expected_effects": signal_info["expected_effects"],
-    "headline": title,
-    "sources": [link]
-}
+with open("data/signals.json", "w", encoding="utf-8") as f:
+    json.dump(signals_output, f, indent=2, ensure_ascii=False)
+
+print("Signals written:", len(signals_output))
