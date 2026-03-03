@@ -55,40 +55,45 @@ fetch('/bangladesh-early-warning-signals/data/signals.json')
     data
       .slice()
       .reverse()
-      .slice(0, 10)   // show latest 10 only
+      .slice(0, 10)
       .forEach(signal => {
 
         const block = document.createElement('div');
-        block.style.marginBottom = "24px";
-
-        const eventLabel = signal.event.replace(/_/g, " ");
+        block.style.marginBottom = "28px";
 
         const color = {
-          high: "#b30000",
-          medium: "#cc8400",
-          low: "#006600"
-        }[signal.importance] || "#000";
-
-        const source = (signal.sources && signal.sources.length)
-          ? signal.sources[0]
-          : "#";
+          tightening: "#b30000",
+          easing: "#006600"
+        }[signal.direction] || "#000";
 
         block.innerHTML = `
           <hr>
-          <strong style="color:${color}; font-size:1.05em;">
-            ${signal.date} — ${eventLabel}
+          <strong style="color:${color}; font-size:1.1em;">
+            ${signal.title}
           </strong><br>
-          <div style="margin-top:4px;">
-            ${signal.summary}
-          </div>
-          <div style="font-size:0.9em; margin-top:6px;">
-            Channel: ${signal.channel} |
-            Confidence: ${signal.confidence} |
-            Importance: ${signal.importance}
-          </div>
-          <div style="margin-top:6px;">
-            <a href="${source}" target="_blank">Source</a>
-          </div>
+          <em>${signal.date}</em><br><br>
+
+          <strong>Mechanism:</strong>
+          ${signal.economic_mechanism}<br><br>
+
+          <strong>Expected Effects:</strong>
+          <ul>
+            ${signal.expected_effects.map(e => `<li>${e}</li>`).join("")}
+          </ul>
+
+          <strong>Who Should Care:</strong>
+          ${signal.who_should_care.join(", ")}<br><br>
+
+          <strong>Lead Indicator:</strong>
+          ${signal.lead_indicator}<br>
+          <strong>Time Horizon:</strong>
+          ${signal.time_horizon}<br>
+          <strong>Confidence:</strong>
+          ${signal.confidence}<br><br>
+
+          <a href="${signal.sources[0]}" target="_blank">
+            Source Headline
+          </a>
         `;
 
         container.appendChild(block);
