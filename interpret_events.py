@@ -117,7 +117,7 @@ NEGATIVE = [
     "hike", "surge", "spike", "soar", "rise", "jump",
     "strike", "protest", "unrest", "block", "ban",
     "impose", "restrict", "raise", "demand", "condition",
-    "short", "cancel"
+    "short", "cancel", "crash", "wipe"
 ]
 
 POSITIVE = [
