@@ -1,102 +1,40 @@
-name: Daily news scan
+name: Daily Signal Collection
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 9 AM Bangladesh time
+    # Run twice daily: 6 AM and 6 PM Bangladesh time (UTC+6)
+    - cron: '0 0,12 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  collect:
+  collect-and-classify:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install required packages
-        run: pip install feedparser pyyaml
-
-      # ------------------------------------------------
-      # Step 1: Collect news
-      # ------------------------------------------------
-      - name: Run collector
+      - name: Collect headlines from RSS feeds
         run: python scripts/collector.py
 
-      # ------------------------------------------------
-      # Step 2: Interpret events into drafts
-      # ------------------------------------------------
-      - name: Run interpreter
+      - name: Classify and generate signals
         run: python interpret_events.py
 
-      # ------------------------------------------------
-      # Step 3: Ensure signals folder exists
-      # ------------------------------------------------
-      - name: Prepare signals folder
-        run: mkdir -p signals/Bangladesh
+      - name: Generate CSV export
+        run: python scripts/export_csv.py
 
-      # ------------------------------------------------
-      # Step 4: Move drafts into signals
-      # ------------------------------------------------
-      - name: Move drafts to signals folder
+      - name: Commit and push
         run: |
-          if [ -d "drafts" ] && [ "$(ls -A drafts)" ]; then
-            mv drafts/*.yaml signals/Bangladesh/ || true
-          else
-            echo "No drafts to publish."
-          fi
-
-      # ------------------------------------------------
-      # Step 5: Pull latest repo state
-      # ------------------------------------------------
-      - name: Pull latest changes
-        run: git pull origin main
-
-      # ------------------------------------------------
-      # Step 6: Build combined signals.json
-      # ------------------------------------------------
-      - name: Build signals.json
-        run: |
-          mkdir -p data
-          python - <<EOF
-          import os, yaml, json
-
-          signals = []
-          folder = "signals/Bangladesh"
-
-          if os.path.exists(folder):
-              for fname in sorted(os.listdir(folder)):
-                  if fname.endswith(".yaml"):
-                      with open(os.path.join(folder, fname)) as f:
-                          signals.append(yaml.safe_load(f))
-
-          with open("data/signals.json", "w") as f:
-              json.dump(signals, f, indent=2)
-
-          print("signals.json rebuilt")
-          EOF
-
-      # ------------------------------------------------
-      # Step 7: Commit and push changes
-      # ------------------------------------------------
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-
-          git add signals/Bangladesh
-          git add data/signals.json
-
-          if git diff --staged --quiet; then
-            echo "No new signals to commit."
-          else
-            git commit -m "Auto publish daily signals"
-            git push
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ signals/ daily_candidates.json
+          git diff --cached --quiet || git commit -m "Auto publish daily signals"
+          git push
