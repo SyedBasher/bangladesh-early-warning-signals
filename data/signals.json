@@ -1,380 +1,72 @@
 [
   {
-    "id": "2026-03-08_food_price_pressure_a1b2c3d4",
-    "title": "Food Price Pressure",
-    "date": "2026-03-08",
-    "signal_type": "price_signal",
-    "channel": "Food Prices",
-    "lead_indicator": "staple_price_acceleration",
-    "time_horizon": "immediate–3 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
-    "who_should_care": [
-      "consumer sector",
-      "food importers",
-      "social protection agencies"
-    ],
-    "expected_effects": [
-      "real income erosion for the poor",
-      "wage pressure",
-      "headline inflation rise"
-    ],
-    "headline": "Rice prices surge to record high amid supply disruption",
-    "source": "The Daily Star",
-    "sources": [
-      "https://www.thedailystar.net/business/economy/news/rice-prices-surge"
-    ]
-  },
-  {
-    "id": "2026-03-08_external_liquidity_stress_e5f6g7h8",
-    "title": "External Liquidity Stress",
-    "date": "2026-03-08",
-    "signal_type": "balance_of_payments",
-    "channel": "Foreign Exchange",
-    "lead_indicator": "fx_reserves_pressure",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
-    "who_should_care": [
-      "trade finance banks",
-      "importers",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "import compression",
-      "industrial input shortage",
-      "informal FX premium widening"
-    ],
-    "headline": "BB forex reserves drop below $20bn mark",
-    "source": "The Financial Express",
-    "sources": [
-      "https://thefinancialexpress.com.bd/economy/bb-reserves-drop"
-    ]
-  },
-  {
-    "id": "2026-03-07_energy_supply_constraint_i9j0k1l2",
-    "title": "Energy Supply Constraint",
-    "date": "2026-03-07",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost push inflation"
-    ],
-    "headline": "Load shedding surges as power plants face gas shortage",
-    "source": "Dhaka Tribune",
-    "sources": [
-      "https://www.dhakatribune.com/business/power-load-shedding"
-    ]
-  },
-  {
-    "id": "2026-03-07_banking_sector_fragility_m3n4o5p6",
-    "title": "Banking Sector Fragility",
-    "date": "2026-03-07",
-    "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_change",
-    "time_horizon": "3–12 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
-    "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
-    ],
-    "expected_effects": [
-      "credit rationing",
-      "deposit flight risk",
-      "fiscal contingent liability"
-    ],
-    "headline": "Default loans rise to Tk 182,000cr, highest in banking history",
-    "source": "The Business Standard",
-    "sources": [
-      "https://www.tbsnews.net/economy/banking/default-loans-rise"
-    ]
-  },
-  {
-    "id": "2026-03-06_export_demand_shock_q7r8s9t0",
-    "title": "Export Demand Contraction",
-    "date": "2026-03-06",
-    "signal_type": "balance_of_payments",
-    "channel": "Exports",
-    "lead_indicator": "export_orders_decline",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
-    "who_should_care": [
-      "exporters",
-      "garment sector",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "lower manufacturing output",
-      "urban income slowdown",
-      "FX earnings pressure"
-    ],
-    "headline": "RMG export earnings drop 8% in February amid weak EU demand",
-    "source": "New Age",
-    "sources": [
-      "https://www.newagebd.net/business/rmg-export-drop"
-    ]
-  },
-  {
-    "id": "2026-03-06_fiscal_revenue_stress_u1v2w3x4",
-    "title": "Fiscal Revenue Stress",
-    "date": "2026-03-06",
-    "signal_type": "fiscal",
-    "channel": "Fiscal",
-    "lead_indicator": "revenue_collection_shortfall",
-    "time_horizon": "3–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
-    "who_should_care": [
-      "bond market",
-      "development agencies",
-      "government contractors"
-    ],
-    "expected_effects": [
-      "development spending cut",
-      "domestic borrowing increase",
-      "treasury yield pressure"
-    ],
-    "headline": "NBR revenue collection falls 12% short of target in Jan–Feb",
-    "source": "The Financial Express",
-    "sources": [
-      "https://thefinancialexpress.com.bd/economy/nbr-revenue-shortfall"
-    ]
-  },
-  {
-    "id": "2026-03-05_climate_agricultural_shock_y5z6a7b8",
-    "title": "Climate & Agricultural Shock",
-    "date": "2026-03-05",
-    "signal_type": "supply_shock",
-    "channel": "Agriculture",
-    "lead_indicator": "crop_damage_report",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Floods, droughts, or cyclones destroy crops and infrastructure, reducing agricultural output and triggering food price spikes.",
-    "who_should_care": [
-      "agricultural sector",
-      "food security analysts",
-      "insurers"
-    ],
-    "expected_effects": [
-      "crop output loss",
-      "food price spike",
-      "rural income contraction"
-    ],
-    "headline": "Flash floods destroy boro crop in Sylhet haor areas",
-    "source": "The Daily Star",
-    "sources": [
-      "https://www.thedailystar.net/environment/flash-floods-boro-crop"
-    ]
-  },
-  {
-    "id": "2026-03-05_credit_allocation_tightening_c9d0e1f2",
-    "title": "Credit Allocation Tightening",
-    "date": "2026-03-05",
-    "signal_type": "financial_conditions",
-    "channel": "Credit",
-    "lead_indicator": "credit_growth_slowdown",
-    "time_horizon": "3–6 months",
-    "direction": "tightening",
-    "confidence": "low",
-    "economic_mechanism": "Bank lending constraints reduce investment and working capital availability across the real economy.",
-    "who_should_care": [
-      "commercial banks",
-      "corporate borrowers",
-      "investment desks"
-    ],
-    "expected_effects": [
-      "investment slowdown",
-      "working capital shortages",
-      "lower GDP growth"
-    ],
-    "headline": "BB considers loan ceiling for real estate sector",
-    "source": "bdnews24",
-    "sources": [
-      "https://bdnews24.com/economy/bb-loan-ceiling"
-    ]
-  },
-  {
-    "id": "2026-03-04_remittance_flow_disruption_g3h4i5j6",
-    "title": "Remittance Flow Disruption",
-    "date": "2026-03-04",
-    "signal_type": "balance_of_payments",
-    "channel": "Remittances",
-    "lead_indicator": "remittance_growth_change",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
-    "who_should_care": [
-      "rural economy analysts",
-      "consumer sector",
-      "central bank"
-    ],
-    "expected_effects": [
-      "rural consumption slowdown",
-      "FX supply reduction",
-      "hundi channel widening"
-    ],
-    "headline": "Remittance inflow declines 5% in February year-on-year",
-    "source": "The Business Standard",
-    "sources": [
-      "https://www.tbsnews.net/economy/remittance-decline"
-    ]
-  },
-  {
-    "id": "2026-03-04_labor_market_stress_k7l8m9n0",
-    "title": "Labor Market Stress",
-    "date": "2026-03-04",
-    "signal_type": "real_economy",
-    "channel": "Labor Market",
-    "lead_indicator": "employment_disruption",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
-    "who_should_care": [
-      "garment sector",
-      "labor unions",
-      "consumer sector analysts"
-    ],
-    "expected_effects": [
-      "consumption contraction",
-      "social tension",
-      "urban poverty increase"
-    ],
-    "headline": "Three garment factories shut in Gazipur amid order slump",
-    "source": "Dhaka Tribune",
-    "sources": [
-      "https://www.dhakatribune.com/business/garment-factory-closures"
-    ]
-  },
-  {
-    "id": "2026-03-03_monetary_policy_shift_o1p2q3r4",
-    "title": "Monetary Policy Shift",
-    "date": "2026-03-03",
-    "signal_type": "financial_conditions",
-    "channel": "Monetary Policy",
-    "lead_indicator": "policy_rate_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Central bank tightening raises borrowing costs, slows credit expansion, and signals concern about inflation or external balance.",
-    "who_should_care": [
-      "banks",
-      "bond market",
-      "corporate treasurers"
-    ],
-    "expected_effects": [
-      "higher borrowing costs",
-      "bond yield rise",
-      "investment dampening"
-    ],
-    "headline": "Bangladesh Bank raises repo rate by 50 basis points to 8.5%",
-    "source": "The Financial Express",
-    "sources": [
-      "https://thefinancialexpress.com.bd/economy/bb-repo-rate-hike"
-    ]
-  },
-  {
-    "id": "2026-03-03_trade_policy_disruption_s5t6u7v8",
-    "title": "Trade Policy Disruption",
-    "date": "2026-03-03",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Govt imposes new regulatory duty on 300 import items",
-    "source": "New Age",
-    "sources": [
-      "https://www.newagebd.net/business/regulatory-duty-import"
-    ]
-  },
-  {
-    "id": "2026-03-02_sovereign_political_risk_w9x0y1z2",
-    "title": "Sovereign & Political Risk",
     "date": "2026-03-02",
-    "signal_type": "institutional",
-    "channel": "Political Risk",
-    "lead_indicator": "governance_disruption",
-    "time_horizon": "1–12 months",
-    "direction": "tightening",
+    "country": "Bangladesh",
+    "summary": "Exports fall 12% in February to $3.49b",
+    "event": "export_demand_shock",
+    "channel": "external_demand",
+    "transmission": [
+      "factory utilization",
+      "labor income",
+      "urban consumption"
+    ],
+    "expected_effect": "income slowdown",
     "confidence": "medium",
-    "economic_mechanism": "Political instability, policy reversals, or governance failures undermine investor confidence and raise country risk premia.",
-    "who_should_care": [
-      "foreign investors",
-      "rating agencies",
-      "multilateral lenders"
-    ],
-    "expected_effects": [
-      "FDI slowdown",
-      "sovereign spread widening",
-      "policy uncertainty premium"
-    ],
-    "headline": "IMF conditions demand further fiscal reforms ahead of next tranche",
-    "source": "bdnews24",
+    "importance": "medium",
     "sources": [
-      "https://bdnews24.com/economy/imf-conditions-reforms"
+      "https://www.thedailystar.net/business/news/exports-fall-12-february-349b-4118706"
     ]
   },
   {
-    "id": "2026-03-01_infrastructure_logistics_disruption_a3b4c5d6",
-    "title": "Infrastructure & Logistics Disruption",
-    "date": "2026-03-01",
-    "signal_type": "production_constraint",
-    "channel": "Logistics",
-    "lead_indicator": "transport_bottleneck",
-    "time_horizon": "immediate–1 month",
-    "direction": "tightening",
+    "date": "2026-03-03",
+    "country": "Bangladesh",
+    "summary": "Bad loans fall by Tk 87,298cr in three months",
+    "event": "credit_allocation_tightening",
+    "channel": "financial",
+    "transmission": [
+      "investment slowdown"
+    ],
+    "expected_effect": "lower investment",
     "confidence": "medium",
-    "economic_mechanism": "Port congestion, transport disruption, or infrastructure failure raises delivery times and costs across supply chains.",
-    "who_should_care": [
-      "exporters",
-      "importers",
-      "logistics firms"
-    ],
-    "expected_effects": [
-      "supply chain delays",
-      "higher transport costs",
-      "export shipment bottleneck"
-    ],
-    "headline": "Chattogram port container handling drops amid vessel delays",
-    "source": "The Daily Star",
+    "importance": "medium",
     "sources": [
-      "https://www.thedailystar.net/business/chattogram-port-delays"
+      "https://www.thedailystar.net/business/economy/news/bad-loans-fall-tk-87298cr-three-months-4119206"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "country": "Bangladesh",
+    "summary": "Global oil, gas shipping costs surge as Iran vows to close Strait of Hormuz",
+    "event": "energy_supply_constraint",
+    "channel": "production",
+    "transmission": [
+      "industrial hours",
+      "output",
+      "wages"
+    ],
+    "expected_effect": "output loss",
+    "confidence": "high",
+    "importance": "high",
+    "sources": [
+      "https://www.thedailystar.net/business/news/global-oil-gas-shipping-costs-surge-iran-vows-close-strait-hormuz-4119526"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "country": "Bangladesh",
+    "summary": "Exports drop for 7th straight month on garment slump",
+    "event": "export_demand_shock",
+    "channel": "external_demand",
+    "transmission": [
+      "factory utilization",
+      "labor income",
+      "urban consumption"
+    ],
+    "expected_effect": "income slowdown",
+    "confidence": "high",
+    "importance": "high",
+    "sources": [
+      "https://www.thedailystar.net/business/economy/news/exports-drop-7th-straight-month-garment-slump-4119196"
     ]
   }
 ]
