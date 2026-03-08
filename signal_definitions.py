@@ -422,4 +422,75 @@ SIGNALS = {
     ]
 },
 
+# ================================================================
+# GEOPOLITICAL & EXTERNAL SHOCKS
+# ================================================================
+
+"geopolitical_risk": {
+    "title": "Geopolitical Risk",
+    "signal_type": "external_shock",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "channel": "Geopolitical Risk",
+    "economic_mechanism":
+        "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+        "exporters",
+        "remittance-dependent sectors",
+        "energy importers"
+    ],
+    "expected_effects": [
+        "remittance channel disruption",
+        "trade route uncertainty",
+        "energy price volatility"
+    ],
+    "keywords": [
+        "middle east war", "middle east conflict", "middle east tension",
+        "gulf crisis", "gulf war", "saudi policy",
+        "iran tension", "red sea shipping", "suez disruption",
+        "myanmar crisis", "rohingya", "india border",
+        "india ban", "india restrict", "china trade war",
+        "us sanction", "eu sanction", "russia ukraine",
+        "oil price shock", "global recession", "global slowdown",
+        "south china sea", "taiwan strait",
+        "migrant worker ban", "labor ban gulf"
+    ]
+},
+
+# ================================================================
+# CAPITAL MARKETS
+# ================================================================
+
+"capital_markets_stress": {
+    "title": "Capital Markets Stress",
+    "signal_type": "financial_conditions",
+    "lead_indicator": "equity_market_shift",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "channel": "Capital Markets",
+    "economic_mechanism":
+        "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
+    "who_should_care": [
+        "equity investors",
+        "portfolio managers",
+        "foreign investors"
+    ],
+    "expected_effects": [
+        "equity valuation decline",
+        "FDI slowdown",
+        "market liquidity tightening"
+    ],
+    "keywords": [
+        "dse index fall", "dse index drop", "dse index decline",
+        "dhaka stock", "stock market crash", "stock market fall",
+        "share price fall", "market capitalization drop",
+        "fdi decline", "fdi drop", "fdi slow",
+        "foreign investment fall", "foreign investment drop",
+        "portfolio outflow", "investor confidence",
+        "ipo market", "capital flight", "bsec",
+        "stock exchange turnover", "market turnover drop"
+    ]
+},
+
 }
