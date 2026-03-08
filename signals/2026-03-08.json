@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-03-08_external_liquidity_stress_d3924852",
+    "title": "External Liquidity Stress",
+    "date": "2026-03-08",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_pressure",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import compression",
+      "industrial input shortage",
+      "informal FX premium widening"
+    ],
+    "headline": "Forex reserves fall to $29.38b after ACU payment",
+    "source": "The Business Standard",
+    "sources": [
+      "https://www.tbsnews.net/economy/forex-reserves-fall-2938b-after-acu-payment-1380816"
+    ]
+  },
+  {
     "id": "2026-03-08_remittance_flow_disruption_5c020818",
     "title": "Remittance Flow Disruption",
     "date": "2026-03-08",
@@ -78,33 +105,6 @@
     "source": "The Business Standard",
     "sources": [
       "https://www.tbsnews.net/economy/banking/bangladesh-bank-allows-renewal-continuous-loans-default-3-month-window-1376046"
-    ]
-  },
-  {
-    "id": "2026-03-08_food_price_pressure_9f4cc341",
-    "title": "Food Price Pressure",
-    "date": "2026-03-08",
-    "signal_type": "price_signal",
-    "channel": "Food Prices",
-    "lead_indicator": "staple_price_acceleration",
-    "time_horizon": "immediate–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
-    "who_should_care": [
-      "consumer sector",
-      "food importers",
-      "social protection agencies"
-    ],
-    "expected_effects": [
-      "real income erosion for the poor",
-      "wage pressure",
-      "headline inflation rise"
-    ],
-    "headline": "Gold prices hiked by Tk3,324 per bhori",
-    "source": "The Business Standard",
-    "sources": [
-      "https://www.tbsnews.net/economy/bazaar/gold-prices-hiked-tk3324-bhori-1375961"
     ]
   }
 ]
