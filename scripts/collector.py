@@ -2,14 +2,16 @@
 collector.py
 ------------
 Fetches Bangladesh economic headlines from multiple source types:
-  1. Google News RSS — aggregates all BD newspapers (last 3 days only)
+  1. Google News RSS — aggregates all BD newspapers
   2. Direct RSS feeds — The Business Standard subsections (verified working)
 
+Articles older than 3 days are filtered out.
 Writes: daily_candidates.json
 """
 
 import json
 import re
+import time
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
@@ -18,52 +20,40 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError
 
 TODAY = str(date.today())
-FRESHNESS_DAYS = 3  # only keep articles from the last N days
+FRESHNESS_DAYS = 3
 
 # ------------------------------------------------------------------ #
-# Google News RSS searches — limited to last 3 days with "when:3d"
+# Google News RSS — fewer broader queries to reduce request count
 # ------------------------------------------------------------------ #
 
 GOOGLE_NEWS_FEEDS = [
     {
-        "name": "Google News — BD Economy",
-        "url": "https://news.google.com/rss/search?q=bangladesh+economy+OR+GDP+OR+inflation+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "name": "Google News — BD Economy & Finance",
+        "url": "https://news.google.com/rss/search?q=bangladesh+economy+OR+GDP+OR+inflation+OR+forex+OR+remittance+OR+reserves&hl=en-BD&gl=BD&ceid=BD:en"
     },
     {
-        "name": "Google News — BD Exports & Trade",
-        "url": "https://news.google.com/rss/search?q=bangladesh+exports+OR+garment+OR+RMG+OR+trade+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "name": "Google News — BD Trade & Exports",
+        "url": "https://news.google.com/rss/search?q=bangladesh+exports+OR+garment+OR+RMG+OR+trade+OR+tariff+OR+import&hl=en-BD&gl=BD&ceid=BD:en"
     },
     {
-        "name": "Google News — BD Banking & Finance",
-        "url": "https://news.google.com/rss/search?q=bangladesh+bank+OR+loan+OR+banking+OR+interest+rate+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "name": "Google News — BD Banking & Credit",
+        "url": "https://news.google.com/rss/search?q=bangladesh+banking+OR+loan+OR+default+OR+interest+rate+OR+Bangladesh+Bank&hl=en-BD&gl=BD&ceid=BD:en"
     },
     {
-        "name": "Google News — BD Forex & Remittance",
-        "url": "https://news.google.com/rss/search?q=bangladesh+dollar+OR+forex+OR+remittance+OR+reserves+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "name": "Google News — BD Energy & Infrastructure",
+        "url": "https://news.google.com/rss/search?q=bangladesh+power+OR+energy+OR+gas+OR+electricity+OR+port+OR+logistics&hl=en-BD&gl=BD&ceid=BD:en"
     },
     {
-        "name": "Google News — BD Energy & Power",
-        "url": "https://news.google.com/rss/search?q=bangladesh+power+OR+energy+OR+gas+OR+electricity+OR+load+shedding+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "name": "Google News — BD Prices & Agriculture",
+        "url": "https://news.google.com/rss/search?q=bangladesh+rice+price+OR+food+price+OR+crop+OR+flood+OR+agriculture&hl=en-BD&gl=BD&ceid=BD:en"
     },
     {
-        "name": "Google News — BD Food Prices",
-        "url": "https://news.google.com/rss/search?q=bangladesh+rice+price+OR+food+price+OR+onion+price+OR+inflation+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
-    },
-    {
-        "name": "Google News — BD Stock Market",
-        "url": "https://news.google.com/rss/search?q=bangladesh+stock+market+OR+DSE+OR+share+price+OR+FDI+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
-    },
-    {
-        "name": "Google News — BD Revenue & Fiscal",
-        "url": "https://news.google.com/rss/search?q=bangladesh+NBR+revenue+OR+budget+OR+tax+OR+fiscal+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
-    },
-    {
-        "name": "Google News — BD Climate & Agriculture",
-        "url": "https://news.google.com/rss/search?q=bangladesh+flood+OR+cyclone+OR+crop+OR+agriculture+OR+drought+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "name": "Google News — BD Markets & Investment",
+        "url": "https://news.google.com/rss/search?q=bangladesh+stock+market+OR+DSE+OR+FDI+OR+investment+OR+revenue+OR+budget&hl=en-BD&gl=BD&ceid=BD:en"
     },
     {
         "name": "Google News — BD Labor & Industry",
-        "url": "https://news.google.com/rss/search?q=bangladesh+factory+OR+worker+OR+garment+closure+OR+layoff+OR+wage+when:3d&hl=en-BD&gl=BD&ceid=BD:en"
+        "url": "https://news.google.com/rss/search?q=bangladesh+factory+OR+worker+OR+wage+OR+layoff+OR+closure+OR+strike&hl=en-BD&gl=BD&ceid=BD:en"
     },
 ]
 
@@ -87,15 +77,17 @@ DIRECT_FEEDS = [
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
 }
 
 # ------------------------------------------------------------------ #
-# RSS Feed parser — extracts pubDate for real article dates
+# Date helpers
 # ------------------------------------------------------------------ #
 
 def parse_pub_date(pub_date_str):
-    """Parse RSS pubDate to YYYY-MM-DD. Returns None if unparseable."""
+    """Parse RSS pubDate to YYYY-MM-DD."""
     if not pub_date_str:
         return None
     try:
@@ -103,7 +95,6 @@ def parse_pub_date(pub_date_str):
         return str(dt.date())
     except Exception:
         pass
-    # Try ISO format
     try:
         dt = datetime.fromisoformat(pub_date_str.replace("Z", "+00:00"))
         return str(dt.date())
@@ -113,21 +104,33 @@ def parse_pub_date(pub_date_str):
 def is_fresh(date_str, max_days=FRESHNESS_DAYS):
     """Check if a date string is within the last N days."""
     if not date_str:
-        return True  # if we can't parse date, keep it
+        return True
     try:
         d = datetime.strptime(date_str, "%Y-%m-%d").date()
         return (date.today() - d).days <= max_days
     except Exception:
         return True
 
-def fetch_feed(url, timeout=20):
-    try:
-        req = Request(url, headers=HEADERS)
-        with urlopen(req, timeout=timeout) as resp:
-            raw = resp.read()
-    except (URLError, Exception) as e:
-        print(f"  FAIL: {url} — {e}")
-        return []
+# ------------------------------------------------------------------ #
+# RSS Feed parser
+# ------------------------------------------------------------------ #
+
+def fetch_feed(url, timeout=20, retries=2):
+    """Fetch RSS feed with retry logic."""
+    for attempt in range(retries + 1):
+        try:
+            req = Request(url, headers=HEADERS)
+            with urlopen(req, timeout=timeout) as resp:
+                raw = resp.read()
+            break
+        except (URLError, Exception) as e:
+            if attempt < retries:
+                wait = 3 * (attempt + 1)
+                print(f"  Retry {attempt+1} in {wait}s... ({e})")
+                time.sleep(wait)
+            else:
+                print(f"  FAIL: {url} — {e}")
+                return []
 
     try:
         root = ET.fromstring(raw)
@@ -144,10 +147,8 @@ def fetch_feed(url, timeout=20):
         pub   = (item.findtext("pubDate") or "").strip()
         if title:
             items.append({
-                "title": title,
-                "link": link,
-                "source_tag": source,
-                "pubDate": pub
+                "title": title, "link": link,
+                "source_tag": source, "pubDate": pub
             })
 
     for entry in root.iter("{http://www.w3.org/2005/Atom}entry"):
@@ -157,10 +158,8 @@ def fetch_feed(url, timeout=20):
         pub = (entry.findtext("{http://www.w3.org/2005/Atom}updated") or "").strip()
         if title:
             items.append({
-                "title": title,
-                "link": link,
-                "source_tag": "",
-                "pubDate": pub
+                "title": title, "link": link,
+                "source_tag": "", "pubDate": pub
             })
 
     return items
@@ -170,34 +169,32 @@ def fetch_feed(url, timeout=20):
 # ------------------------------------------------------------------ #
 
 def clean(text):
-    """Remove HTML tags, unescape entities."""
     text = re.sub(r'<[^>]+>', '', text)
     return unescape(text).strip()
 
 def strip_source_suffix(title):
-    """Remove ' - Source Name' suffix that Google News appends."""
-    # Match " - Source Name" at end (source is typically 1-5 words)
+    """Remove ' - Source Name' suffix from Google News headlines."""
     cleaned = re.sub(r'\s+[-–—]\s+[\w\s\.&\|\',]{2,50}$', '', title)
-    # Don't strip if it removed too much (more than 40% of title)
     if len(cleaned) < len(title) * 0.6:
         return title
     return cleaned if cleaned else title
 
 # ------------------------------------------------------------------ #
-# Main collection
+# Main
 # ------------------------------------------------------------------ #
 
 def collect():
     all_candidates = []
     seen_titles = set()
 
-    cutoff = str(date.today() - timedelta(days=FRESHNESS_DAYS))
-
     # Phase 1: Google News RSS
-    print("=== Phase 1: Google News RSS (last 3 days) ===")
+    print("=== Phase 1: Google News RSS ===")
     google_total = 0
     google_fresh = 0
-    for feed in GOOGLE_NEWS_FEEDS:
+    for i, feed in enumerate(GOOGLE_NEWS_FEEDS):
+        if i > 0:
+            time.sleep(2)  # polite delay between requests
+
         print(f"Fetching: {feed['name']}")
         items = fetch_feed(feed["url"])
         print(f"  Got {len(items)} items")
@@ -208,16 +205,13 @@ def collect():
             if not raw_title:
                 continue
 
-            # Use real publication date, not today
             pub_date = parse_pub_date(item.get("pubDate", ""))
             article_date = pub_date or TODAY
 
-            # Skip stale articles
             if not is_fresh(article_date):
                 continue
             google_fresh += 1
 
-            # Clean headline for display and classification
             title = strip_source_suffix(raw_title)
             source_name = item.get("source_tag", "") or feed["name"]
 
@@ -268,14 +262,13 @@ def collect():
                 "date": article_date
             })
 
-    # Write output
     with open("daily_candidates.json", "w", encoding="utf-8") as f:
         json.dump(all_candidates, f, indent=2, ensure_ascii=False)
 
     print(f"\n=== Summary ===")
     print(f"Google News items:       {google_total}")
     print(f"Direct RSS items:        {direct_total}")
-    print(f"Total unique candidates: {len(all_candidates)} (after freshness filter)")
+    print(f"Total unique candidates: {len(all_candidates)} (fresh only)")
     return all_candidates
 
 if __name__ == "__main__":
