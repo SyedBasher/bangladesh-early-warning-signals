@@ -208,6 +208,12 @@
   .heatmap-cell:hover {
     background: var(--bg-warm);
   }
+  .heatmap-cell.stale {
+    opacity: 0.5;
+  }
+  .heatmap-cell.stale .heatmap-dot {
+    background: var(--gray) !important;
+  }
   .heatmap-channel {
     font-size: 13px;
     font-weight: 600;
@@ -611,15 +617,21 @@
     return "conf-none";
   }
 
-  function relativeDate(dateStr) {
+  function daysAgo(dateStr) {
     const d = new Date(dateStr + "T00:00:00");
-    const now = new Date();
-    const diff = Math.floor((now - d) / 86400000);
+    return Math.floor((new Date() - d) / 86400000);
+  }
+
+  function relativeDate(dateStr) {
+    const diff = daysAgo(dateStr);
     if (diff === 0) return "today";
     if (diff === 1) return "yesterday";
     if (diff < 7) return diff + "d ago";
     return dateStr;
   }
+
+  const FRESH_DAYS = 3;   // full color
+  const STALE_DAYS = 14;  // show grayed out
 
   // ---- FETCH AND RENDER ----
 
@@ -647,17 +659,46 @@
         cell.className = 'heatmap-cell';
 
         if (s) {
-          const dc = dotClass(s.direction, s.confidence);
-          const cc = confClass(s.confidence);
-          cell.innerHTML = `
-            <div class="heatmap-channel">
-              <span class="heatmap-dot ${dc}"></span>
-              ${ch}
-            </div>
-            <span class="heatmap-conf ${cc}">${s.confidence} conf</span>
-            <div class="heatmap-headline">${s.headline}</div>
-            <div class="heatmap-date">${relativeDate(s.date)}</div>
-          `;
+          const age = daysAgo(s.date);
+          const isStale = age > FRESH_DAYS;
+          const tooOld = age > STALE_DAYS;
+
+          if (tooOld) {
+            // Older than 14 days — treat as no signal
+            cell.innerHTML = `
+              <div class="heatmap-channel">
+                <span class="heatmap-dot dot-gray"></span>
+                ${ch}
+              </div>
+              <span class="heatmap-conf conf-none">no signal</span>
+              <div class="heatmap-headline" style="opacity:0.35">No recent activity</div>
+            `;
+          } else if (isStale) {
+            // 4–14 days old — show grayed out with real content
+            cell.classList.add('stale');
+            cell.innerHTML = `
+              <div class="heatmap-channel">
+                <span class="heatmap-dot dot-gray"></span>
+                ${ch}
+              </div>
+              <span class="heatmap-conf conf-none">last known</span>
+              <div class="heatmap-headline">${s.headline}</div>
+              <div class="heatmap-date">${relativeDate(s.date)}</div>
+            `;
+          } else {
+            // Fresh — full color
+            const dc = dotClass(s.direction, s.confidence);
+            const cc = confClass(s.confidence);
+            cell.innerHTML = `
+              <div class="heatmap-channel">
+                <span class="heatmap-dot ${dc}"></span>
+                ${ch}
+              </div>
+              <span class="heatmap-conf ${cc}">${s.confidence} conf</span>
+              <div class="heatmap-headline">${s.headline}</div>
+              <div class="heatmap-date">${relativeDate(s.date)}</div>
+            `;
+          }
         } else {
           cell.innerHTML = `
             <div class="heatmap-channel">
