@@ -1,29 +1,29 @@
 [
   {
-    "id": "2026-03-12_remittance_flow_disruption_cd4acdb2",
-    "title": "Remittance Flow Disruption",
-    "date": "2026-03-12",
-    "signal_type": "balance_of_payments",
-    "channel": "Remittances",
-    "lead_indicator": "remittance_growth_change",
-    "time_horizon": "1–3 months",
+    "id": "2026-03-13_trade_policy_disruption_75c2bba7",
+    "title": "Trade Policy Disruption",
+    "date": "2026-03-13",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
     "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
     "who_should_care": [
-      "rural economy analysts",
-      "consumer sector",
-      "central bank"
+      "importers",
+      "exporters",
+      "trade policy analysts"
     ],
     "expected_effects": [
-      "rural consumption slowdown",
-      "FX supply reduction",
-      "hundi channel widening"
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
     ],
-    "headline": "44.3pc growth of remittance inflow till March 11 - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "headline": "War on Iran risks inflation and higher import costs for Bangladesh: CPD",
+    "source": "The Daily Star",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83dHQwbF85MkpocW5naEJ1U0xPbUpKOEVnNklKNncwUktWSXF1X1VFam9INEVXVUd1ekhNRDczWWV4U2ZoVWsyODk1Zk9zVXYy?oc=5"
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ2xiVVgtOHBKTHBZTUtyenZ6ZW5aMHRYbVlTODk1OWU2SnRDRXFVb3dUMUljUEEzODM4aVJ1WXdYYjJDU2xqUXNRREUySHAwa0pJSDVBOVY0T2tWS1ZOMm5SSThGWnh2c0VFVTZ3RFdLc2FhNkJpYmZHc1lZZENHR3hBSmdjRE5OeW1LT21YWTJSSVNjTXhlTFBHUHNqeURleFFBZy1sRndoSnkya3hyWlZFUHI?oc=5"
     ]
   },
   {
@@ -81,30 +81,30 @@
     ]
   },
   {
-    "id": "2026-03-10_trade_policy_disruption_75c2bba7",
-    "title": "Trade Policy Disruption",
-    "date": "2026-03-10",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
+    "id": "2026-03-12_remittance_flow_disruption_cd4acdb2",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-03-12",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_change",
+    "time_horizon": "1–3 months",
     "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
     "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
     ],
     "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
     ],
-    "headline": "War on Iran risks inflation and higher import costs for Bangladesh: CPD",
-    "source": "The Daily Star",
+    "headline": "44.3pc growth of remittance inflow till March 11 - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ2xiVVgtOHBKTHBZTUtyenZ6ZW5aMHRYbVlTODk1OWU2SnRDRXFVb3dUMUljUEEzODM4aVJ1WXdYYjJDU2xqUXNRREUySHAwa0pJSDVBOVY0T2tWS1ZOMm5SSThGWnh2c0VFVTZ3RFdLc2FhNkJpYmZHc1lZZENHR3hBSmdjRE5OeW1LT21YWTJSSVNjTXhlTFBHUHNqeURleFFBZy1sRndoSnkya3hyWlZFUHI?oc=5"
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83dHQwbF85MkpocW5naEJ1U0xPbUpKOEVnNklKNncwUktWSXF1X1VFam9INEVXVUd1ekhNRDczWWV4U2ZoVWsyODk1Zk9zVXYy?oc=5"
     ]
   },
   {
@@ -129,9 +129,9 @@
       "headline inflation rise"
     ],
     "headline": "Bangladesh inflation touches 10-month high in Feb as food prices surge",
-    "source": "lokmattimes.com",
+    "source": "IANS LIVE",
     "sources": [
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWN1aHFVYmkyb2p4QWNURlNWVkNJVXRNZU1qbWNRSkp6MFZEX0FBUFpHdGR1UDR4VnBmeDl3bGJZaHVWVE1Qd2IyM3RkNnRzYk14VHBVNmEyLXRQa0lORVNVN3U5Q01COHdSX3c3eVVHc1E2NnNrOS1yZG5nX0dNalJ0SGFncldzcGV4V0VueHdjUHhTU3NrTV84bTZPeG0xS096Ui1mWFpWc0Qt0gGyAUFVX3lxTE9rXzUzSzlmeXVXWHpYRmxzUHRVaWxwOEQyWFVQU3dhaDFZYlZGdjAzSHB5UDFnMmtzcTZxU2NKQnhEWjJSOGsxcUQ4WTRyWVllWVRqbjlzTVhJSUlOV1B0VnB1RHZkMzJMVUFtdjJFd3FZMlpPZVJob0dCcmZFcTQzS0h3NGlFcC1Ycm5rbkFkMDVtNjVpaGVXT3ZFQTVpbTRqZF9jdnB4akdRNWlyY3BGMlE?oc=5"
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbnJFNmg3OTNHeHJEQmZISC1YRkRudm02b0hTVGdvdEh3R05YTnBnVmpSVnF3QktVZ1FKRjFyczJXVXBkTXlJZW85N0NUU3k4M2l3OU1YQlBvV2JpQTlKM3hkWldvTXRJV3I1VENzZHlxT3EteGdBNUpEYnZ4dlRwOS1Wa2g5d1ZUUjZRM1NOUmw3aUtpU0xQQlBjTEpQZy0yVHBTU3ctMjRRZw?oc=5"
     ]
   },
   {
@@ -189,30 +189,30 @@
     ]
   },
   {
-    "id": "2026-03-11_geopolitical_risk_5762eae3",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-11",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
+    "id": "2026-03-13_trade_policy_disruption_1a30a9a5",
+    "title": "Trade Policy Disruption",
+    "date": "2026-03-13",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
     "time_horizon": "1–6 months",
     "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
     "who_should_care": [
+      "importers",
       "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
+      "trade policy analysts"
     ],
     "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
     ],
-    "headline": "Middle East war threatens Bangladesh's migrant jobs - The Financial Express | First Financial Daily of Bangladesh",
-    "source": "The Financial Express | First Financial Daily of Bangladesh",
+    "headline": "Bangladesh seeks US waiver to import Russian oil",
+    "source": "Muslim Network TV",
     "sources": [
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSjRuQzVxcmFuQ3dScEJncFhFbHhtN0hVT1h0aU1yb3RUVEItcDU1eDNiR2QxczlrYTZGRDJHT2FCSDdlQ0hsM0h6Mm9BYzg5Uk11c2RnQ0JOV25YV2lJck1PU3NNeWJ6LUg5OVh5LUNBdEkxcXZKVnA4dGY5bkM4aDhxRFlyMkFXVzZNdDQ3VlkzRVE4N2c?oc=5"
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVHYyQko4Sk9VeXpTS19Bdnd3QzJHUFRtWXhZYjYwc0F0djloTUFYSTR1LUNvTUR4MGY5VW9Lem44VHRJZ1NsMURhNXNxTG1aQU0xTkxVam1lWkRDRGRVRkllMTQwNTNXalhHX0VIaU5YSFkyOXFNdHZkZVo5SlVFUnhPQkc?oc=5"
     ]
   },
   {
@@ -324,33 +324,6 @@
     ]
   },
   {
-    "id": "2026-03-12_trade_policy_disruption_df18d82e",
-    "title": "Trade Policy Disruption",
-    "date": "2026-03-12",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "USDA cuts Bangladesh’s cotton import forecast",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb0U4NGdYUkV1eXRpRl83bmNCZ210N0JsWElhNnhQV08xbWVRMVQwcnk3bmFiY3VpRnNIdG9ON0QwTnZhcG1LaWxoVXRlZGRyU2hqTDRGdm9zZXlWU1B4OFVpaGtfTU1LdGN0RW9yS21uRDh0YzFrMFExZ1FJSXJGM2FHeG95RENCWFVWNHhBeG92eWcxa0VHazd3NkpIbi1vOHdwbmJ3?oc=5"
-    ]
-  },
-  {
     "id": "2026-03-12_geopolitical_risk_0633e7d2",
     "title": "Geopolitical Risk",
     "date": "2026-03-12",
@@ -375,6 +348,33 @@
     "source": "Pressenza - International Press Agency",
     "sources": [
       "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1JmY3BpMC15eWhXN2xrcE1UdDkwQkl2OWVSaGd1SmFWUUxQUV90RzhxdnViT0JkQXhWWkgydmlaU3FIRl96WEFxYVhXU2l2RUVqWV9KU3F4VTExZUtlQ2M1cFMtbmJsN2MxZGVCNlR0aFNpVm41QS1XTXJtT3hkdV8teGx6LWUwbVd5alBLellJR3doYXVZS2xva1NiaUlGSmZua2U2bGZzckM3VksyX0MySDNDckRvLWhSSl92SQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-12_trade_policy_disruption_df18d82e",
+    "title": "Trade Policy Disruption",
+    "date": "2026-03-12",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "USDA cuts Bangladesh’s cotton import forecast",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb0U4NGdYUkV1eXRpRl83bmNCZ210N0JsWElhNnhQV08xbWVRMVQwcnk3bmFiY3VpRnNIdG9ON0QwTnZhcG1LaWxoVXRlZGRyU2hqTDRGdm9zZXlWU1B4OFVpaGtfTU1LdGN0RW9yS21uRDh0YzFrMFExZ1FJSXJGM2FHeG95RENCWFVWNHhBeG92eWcxa0VHazd3NkpIbi1vOHdwbmJ3?oc=5"
     ]
   },
   {
@@ -459,33 +459,6 @@
     ]
   },
   {
-    "id": "2026-03-12_trade_policy_disruption_c86d8c4e",
-    "title": "Trade Policy Disruption",
-    "date": "2026-03-12",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh seeks similar waiver to India from US to import Russian oil",
-    "source": "Prothom Alo English",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zcklDeGM4VTltOG1aX1hzVE9lVHpmbUxycDR5NHV1b0dZVGdiLWczZDBvck55ZWs1WUJndVFpbVpuaXdQVHdXQzV3TEZlcjNpQ090NEFZYWVpdTNRUHprX9IBbkFVX3lxTE9aWHh2dHBUVTJRalJCOVU0aVFIbTBrR21EOHExZ1VEa0p3UkFSbnJ4TmhSRUFMSUM0WU9iTDY0dVJHS0E1clVpcGdtNmRqSmxPWDJYTF93bmxFYWFkZ0JDSjRMQWR0amxyOV8zbnB3?oc=5"
-    ]
-  },
-  {
     "id": "2026-03-11_geopolitical_risk_aa63f9b0",
     "title": "Geopolitical Risk",
     "date": "2026-03-11",
@@ -507,36 +480,9 @@
       "energy price volatility"
     ],
     "headline": "Bangladesh’s trade reliance on India may deepen amid Middle East crisis",
-    "source": "Daily Bonik Barta",
+    "source": "Bonik Barta",
     "sources": [
       "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZYjNhV1F6NHY4YXJsVTFzV2tIbGFCbjExSXFCTDljZjlRdVJtbVRUUGx4R0tNRU9TSlF1YTZFdlgxel81QllGTmwtbW8yNjVaUXZVQjg0V2c2blBSeTVkbw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-12_trade_policy_disruption_d06841be",
-    "title": "Trade Policy Disruption",
-    "date": "2026-03-12",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh seeks US permission to import Russian oil",
-    "source": "Operativ Məlumat Mərkəzi",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFGOGNkbkhRVjdNY3dua3FXTmpXQkNGWkNndzhDelBCVjkzU3hoalpGTENQWEpNNmR1cWw5RWZ4N19hYWlFY3BGeTJPOFpxTUVYRmU5S2labnA0Z0F2MXlWVE1VeW13b0pDTWNxTVhEUGlhX29NbERHbi1HWFFzalRwYlAxeXZmOUNyelpqWWZDUQ?oc=5"
     ]
   },
   {
@@ -567,6 +513,33 @@
     ]
   },
   {
+    "id": "2026-03-12_trade_policy_disruption_c86d8c4e",
+    "title": "Trade Policy Disruption",
+    "date": "2026-03-12",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh seeks similar waiver to India from US to import Russian oil",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zcklDeGM4VTltOG1aX1hzVE9lVHpmbUxycDR5NHV1b0dZVGdiLWczZDBvck55ZWs1WUJndVFpbVpuaXdQVHdXQzV3TEZlcjNpQ090NEFZYWVpdTNRUHprX9IBbkFVX3lxTE9aWHh2dHBUVTJRalJCOVU0aVFIbTBrR21EOHExZ1VEa0p3UkFSbnJ4TmhSRUFMSUM0WU9iTDY0dVJHS0E1clVpcGdtNmRqSmxPWDJYTF93bmxFYWFkZ0JDSjRMQWR0amxyOV8zbnB3?oc=5"
+    ]
+  },
+  {
     "id": "2026-03-10_geopolitical_risk_d0394acc",
     "title": "Geopolitical Risk",
     "date": "2026-03-10",
@@ -591,6 +564,33 @@
     "source": "The Times of India",
     "sources": [
       "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTXI2NUV0cHdSS3lXVURrcEtLNndvMkxVd21rUE5CUFdHZ3FkZDRwZUpyY1k1Y3U0c0NHMDdMU014dzduemRZekpZSElKdE8xc1BMNlVjcjNSTmltTFBSd2lyNVJWa214UkJCM2xHc2tWbVBtSHhwRm5Renp4eWlFdjJPaW4xaWpwQzhaUFFRdFRqR196ZTN1TmZxY2UwSmlRa2hlalMyN3otUlZLeFprWWg1RENKUkJJT0cxRXBqS0c4SF9IZjhpMW5PSVFzR1hlbUlLcnRJTmpoeHlV0gHiAUFVX3lxTE92RkUwekROY1M2eGFwbDEyeWV4ZEExZVE5MXIxNk00aXZsVUdjSGdVa1ZabV9JSlJ3a015SF91YWFqekxZM1dUV3dXXzFZc1V6Wmw5MkQtY3MyM1dWNVBQVE1wNjlLQ0x0V3FNMFB1ZGtsc2JWcGRiUVFpb09PMUJrbHFxaHVuLS1uM1ZDX1JsbER4dlh6a3ZuZlY2ZjR1aDhyOVlXQTh1UkhlVm40eng2TGFxS1R2OThnakl6NS0ybHh4RWtGbzkzb0dtLUZXQ2daVnJfV0pBZTdXTnVhUHRjR3c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-12_trade_policy_disruption_d06841be",
+    "title": "Trade Policy Disruption",
+    "date": "2026-03-12",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh seeks US permission to import Russian oil",
+    "source": "Operativ Məlumat Mərkəzi",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEFGOGNkbkhRVjdNY3dua3FXTmpXQkNGWkNndzhDelBCVjkzU3hoalpGTENQWEpNNmR1cWw5RWZ4N19hYWlFY3BGeTJPOFpxTUVYRmU5S2labnA0Z0F2MXlWVE1VeW13b0pDTWNxTVhEUGlhX29NbERHbi1HWFFzalRwYlAxeXZmOUNyelpqWWZDUQ?oc=5"
     ]
   },
   {
@@ -756,33 +756,6 @@
     ]
   },
   {
-    "id": "2026-03-12_geopolitical_risk_899efa4c",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-12",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "India recieved requests for energy supplies from Bangladesh, Sri Lanka and Maldives, says MEA",
-    "source": "The Hindu",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcmRoUUlnVlBQSE10T01YLXE3dGYxMG5nWjAyWjh2YWd1S01FLWtZQU5jdXBsSU5lTWs3Q3AzaldWRlppY3VjakRaQ3BMWFpoUlQ2QjNQdlhPUzF0YVJGdFB1ZVZMOEtJOUZKT0JmanlOeGZEOXRuYVNLRDB3OFpHZ1gxZmdxb0hGbnpuR0dBeFZVQWpqRUNTODRlUEY2TVZRNHU1X0xrMFktYUV0QmxIR3ZyNk5udUJ5X2FobjdCakd1M3hGandJcTd3Q1Q2QWhQeTU1bGRlaFNYMmpwUlpkMnE0X27SAesBQVVfeXFMT0FhRlV0LVFtM3NmNkJfcE1hY2tna1BiVTlUQlU1cGVRN2ZsMXd2SERsX21iNUl0N1hvXzM3ZFRDclA0NmQyNnhFdE1BRndRRTljRWp3M1BMdWhxUzdZaWYxajhOLWU3R3FaTTdCSTlfaHh1M3FFRUw4TWItRnNzTk80V2FpbkRrbmFZb3lubjB1QXRTY0lwd3J2MnI3VmsxcmRiZlVKZEpGVjdWNkVGYlJYTmU5YnlKczZTVU1PUmJKMnFfc2lJN2ZpVXFwS1NrZ2QxSGFzSGs1NU11RTNpcDEtTGl3N01wU2xTbw?oc=5"
-    ]
-  },
-  {
     "id": "2026-03-11_geopolitical_risk_26f8cc57",
     "title": "Geopolitical Risk",
     "date": "2026-03-11",
@@ -807,33 +780,6 @@
     "source": "Anadolu Ajansı",
     "sources": [
       "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWJCRkxGRVQ3WmctcUxFbkJPakFRcW8tQWhTQW1mNVZaNFQ2UndNRW1WdTdjSDAtcGtrR2RMMEkxN3ZLYzZlYW51LXhsTHBWTDhtZ1FWZEYxU0w1T0Z4bi1aWUF5YVRDWWFOYVRXNkFOeXNCbVhsazNLWGxQYmdxV1dYU1Nsc3JRVnlzelBvaGtaYWVpazBBRVYzTW95MVhpcDE0SDZZTWxRVk4xb3M4MklhaWFOZ1NDSU1rUWpRVmIxcUZYczhYQTNBMG9oUms?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-12_geopolitical_risk_4053f838",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-12",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "Bangladesh amps up energy imports from India, China to protect energy security amid Middle East war",
-    "source": "Daily Excelsior",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQejdDOG50MkhpdDZUa1ZnLVk5eXNsaWVYeFl6UUV2UUpNeDdVaEVwbjZGMXctd0JYM25UXy1CRXFqT1d4b2EyMF9ZZVlxYUpzLUxMXzB6Sk5QUm9UVkw1M1otWWdSUjUzb3Z3QnhSVkI0YTNxdmlRRTIxRmdqbF9KaGZhZXpibDBPSDMwaVJtYzRfWHJNT2tFeVdBRktoWV9vd1pPQ1hjbEI4VXl1bGpQQ1Q2VU53UlZUSnVwSDY5UGtDQW0xOU55cE9n?oc=5"
     ]
   },
   {
@@ -864,9 +810,9 @@
     ]
   },
   {
-    "id": "2026-03-10_geopolitical_risk_5950d41d",
+    "id": "2026-03-12_geopolitical_risk_899efa4c",
     "title": "Geopolitical Risk",
-    "date": "2026-03-10",
+    "date": "2026-03-12",
     "signal_type": "external_shock",
     "channel": "Geopolitical Risk",
     "lead_indicator": "geopolitical_tension_change",
@@ -884,10 +830,37 @@
       "trade route uncertainty",
       "energy price volatility"
     ],
-    "headline": "As energy scarcity hits Bangladesh, India sends diesel using ‘Friendship Pipeline’",
+    "headline": "India recieved requests for energy supplies from Bangladesh, Sri Lanka and Maldives, says MEA",
     "source": "The Hindu",
     "sources": [
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZnBXdk1TalVtUzgwbDZVR1N2Vk5TSV9hTmI4VE1zdzBGMnhhMi11My1lcGpFQmNhZXE2M2Flb3RPUmdwOENGVU82R05wSXd6NkNWOWhDeEVrbTc0REMwUVVXZ2ZPLVpsMWxHRzRpYnVOSVdxSUZMX2p1TzFuSEVkU09yRktISTEyaWhReGxkV3kzNkk4cm8xWEgwNHJnYUNSQko1Y3Bjckc2TERjbHfSAbQBQVVfeXFMTjIwTXFTbzhlclAwQ1phSThBcFhfQkdmTmxWeFpWUEVYMFljVTVnQmFDSTZpa3ZpNjd3QjJHR2tXWkRHTm9ZQ1ZKcVN6bkNlTVJjb1QxdW80cXBaeFZYSHJVMkd6OUFyRWttV0dhZkZQeXFsM1VqNVprdmVkeXhubnBxel9qUmt6VVVGNl9mX05kYVdyRHFkZERsNUNrMEppbXA3aVB1VV8wMXFaQmUwZDdERnFq?oc=5"
+      "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcmRoUUlnVlBQSE10T01YLXE3dGYxMG5nWjAyWjh2YWd1S01FLWtZQU5jdXBsSU5lTWs3Q3AzaldWRlppY3VjakRaQ3BMWFpoUlQ2QjNQdlhPUzF0YVJGdFB1ZVZMOEtJOUZKT0JmanlOeGZEOXRuYVNLRDB3OFpHZ1gxZmdxb0hGbnpuR0dBeFZVQWpqRUNTODRlUEY2TVZRNHU1X0xrMFktYUV0QmxIR3ZyNk5udUJ5X2FobjdCakd1M3hGandJcTd3Q1Q2QWhQeTU1bGRlaFNYMmpwUlpkMnE0X27SAesBQVVfeXFMT0FhRlV0LVFtM3NmNkJfcE1hY2tna1BiVTlUQlU1cGVRN2ZsMXd2SERsX21iNUl0N1hvXzM3ZFRDclA0NmQyNnhFdE1BRndRRTljRWp3M1BMdWhxUzdZaWYxajhOLWU3R3FaTTdCSTlfaHh1M3FFRUw4TWItRnNzTk80V2FpbkRrbmFZb3lubjB1QXRTY0lwd3J2MnI3VmsxcmRiZlVKZEpGVjdWNkVGYlJYTmU5YnlKczZTVU1PUmJKMnFfc2lJN2ZpVXFwS1NrZ2QxSGFzSGs1NU11RTNpcDEtTGl3N01wU2xTbw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-12_geopolitical_risk_4053f838",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-12",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Bangladesh amps up energy imports from India, China to protect energy security amid Middle East war",
+    "source": "Daily Excelsior",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQejdDOG50MkhpdDZUa1ZnLVk5eXNsaWVYeFl6UUV2UUpNeDdVaEVwbjZGMXctd0JYM25UXy1CRXFqT1d4b2EyMF9ZZVlxYUpzLUxMXzB6Sk5QUm9UVkw1M1otWWdSUjUzb3Z3QnhSVkI0YTNxdmlRRTIxRmdqbF9KaGZhZXpibDBPSDMwaVJtYzRfWHJNT2tFeVdBRktoWV9vd1pPQ1hjbEI4VXl1bGpQQ1Q2VU53UlZUSnVwSDY5UGtDQW0xOU55cE9n?oc=5"
     ]
   },
   {
@@ -945,6 +918,33 @@
     ]
   },
   {
+    "id": "2026-03-10_geopolitical_risk_5950d41d",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-10",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "As energy scarcity hits Bangladesh, India sends diesel using ‘Friendship Pipeline’",
+    "source": "The Hindu",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZnBXdk1TalVtUzgwbDZVR1N2Vk5TSV9hTmI4VE1zdzBGMnhhMi11My1lcGpFQmNhZXE2M2Flb3RPUmdwOENGVU82R05wSXd6NkNWOWhDeEVrbTc0REMwUVVXZ2ZPLVpsMWxHRzRpYnVOSVdxSUZMX2p1TzFuSEVkU09yRktISTEyaWhReGxkV3kzNkk4cm8xWEgwNHJnYUNSQko1Y3Bjckc2TERjbHfSAbQBQVVfeXFMTjIwTXFTbzhlclAwQ1phSThBcFhfQkdmTmxWeFpWUEVYMFljVTVnQmFDSTZpa3ZpNjd3QjJHR2tXWkRHTm9ZQ1ZKcVN6bkNlTVJjb1QxdW80cXBaeFZYSHJVMkd6OUFyRWttV0dhZkZQeXFsM1VqNVprdmVkeXhubnBxel9qUmt6VVVGNl9mX05kYVdyRHFkZERsNUNrMEppbXA3aVB1VV8wMXFaQmUwZDdERnFq?oc=5"
+    ]
+  },
+  {
     "id": "2026-03-10_geopolitical_risk_bf5e8d33",
     "title": "Geopolitical Risk",
     "date": "2026-03-10",
@@ -969,114 +969,6 @@
     "source": "Kashmir Life",
     "sources": [
       "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVGhiUTJQQ29jd2J3Q2pZUHdhSklCbThISDhBOGpFOUR3cTF0bG02LWdTYnR6V2I1Y0R2TGdYV3pwZjNDWUhZcml6aFlIZWpIWlAzZFlQLWNqLVlhZXVDUmkzdlBLZFA2Y3hxYUpfNXB3VnlsekFVc0RHdEc1LTVYckpGTGVNUUJhTkJhSlFMUVljaUowWXlHRmpCYTBoeFI3UW5Jbzg1Q20xVXVlWmZnWi1TVXVlNXpkX0VDUE40ZmVGUXN6YXIzVldNMWxrbkJTbWtZVERGWWlXMEVXR2c?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-10_geopolitical_risk_74bcf4ec",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-10",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "India begins diesel supply to Bangladesh via cross-border pipeline",
-    "source": "newskarnataka.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2Zsd2E1SjB1ODVnSFRmLXNsa2lOLXMxeWxrNkFlNzdwdEpzTGhTUlVPN05sSDNpejlKdmI2bXgzQWNzYjR0SFpmR2RmTlp1dHhqQ3NHODBOcDlKR0xrMUQ4UWk3TGZmU1l1SV9pMXU1QXNXSVI4RXl3cUJQbWh3UEhiM2w5M21SQ3BjQXJGZFlBU0x2TzJBUFBIMnNTOGJGZm9lY0Z1Y2JpVGs?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-12_geopolitical_risk_09980c2c",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-12",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "Bangladesh Seeks Diesel From India | Big Energy Diplomacy Move",
-    "source": "Business Today",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSG5HUkQ3R0JXRWxrNWt1N0Z4MFlYbzhCOXJScVl0WHBDcUt4ZVFXcjZnMi1lVkZiVzlHWEVDMW55UVYyVHVOVGx6dnRjdWlNY3dnZzJOeVdrbWhrOExKSm80dVY5T3JmcUFKaGJMaEpJN25sZGZYa1IxM0JzYlhBaS1KeG5mREFYdHhiWVk5U0c5dUdES0xSMmJxWi1tNk1HbUxBQjBpYnA2NEotZkZHMGRZcWw5OUl6YlVCcnE2ZVo0eUU?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-10_geopolitical_risk_ab354bc4",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-10",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "Iran war: 5,000 tons of diesel en route to Bangladesh from India amid energy constraints",
-    "source": "Business Today",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQejlRbjVzMmRtdzFyWklVSDllLVdLRWt1VjRKaEhlLWhVVGx6NnpsY2d5enQySWRLcmdUNFpFRE9CalJWS1lZRWlySm5DVEtTaW5yVVE5eHQ4aERwbUZ1d1JqNm1sMUU2WnZLcmpnblVMamU4WGlaWnVXWlVPazU0cGJGUHBySU9rMDNkdGNZU2wxdjVnX1VzVncybm1WYU9mT2hHT2NQX1ZYejhQOElwdDZfeTM1Q0VsMFJmUjBzd0czbHpBVmdnNkpMRU5OTnluMkZYTE82UklxbFVobUHSAeMBQVVfeXFMTUVpRG54VXVNYlYtVkVIbzdRTkJaWC1ZczktNzdueHh4QXBTWlY0TkVhWWd4MVFlZmVzLU00U2Z6NEg3QlA0U190ZzQ5R193V1IzYW9UUDFOUTl2NWxUWDljazdQNFFwb3Y5UWx2cmwxVThzUXVGYU4tdGVzcV9wN1czV0p3S0JvMFJrOHlZcVFwVjl6SVM3OFQ3anJhRzVkZl9ReW1fdjFYcWU3Z3hpamVZTTdXZ19jSlRGSEY5UG9OMmxNVmNFVjF5QjZaS3hYdG5CV01GcDYtbUxpZHp1YXhjWWM?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-10_geopolitical_risk_dcad5544",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-10",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "Bangladesh-India Fuel Partnership: A Lifeline Amid Crisis",
-    "source": "Devdiscourse",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVU9kczBlQnpzOWlLYTVSRTRYbXBlLVdtR0EwRVhoNTczUlA4eDcwX045R3BSTkVkeVRtX0dkWjZsQkxFQWN4dDJkT05XQjlvcGdkUUc2cVlubHFoZjd6T3E3NmkyMnJBZWVGQ2M5UVdKekV5RmpJcVF4X0lKOXlGSnAwZ1BGRTlBVXVWUUlPN2lqd0ZIUEliQlcxNUN3dVc0dEViaUN6aVdvZjVxQmNrM9IBtgFBVV95cUxNOXRFR2YxWXZ6RDU5cG53RFFzclBKTlhCaDI5ZUhOSVEzNVI3N0FtNk81YU1VaDdjMXdCUEQ5bGJSZEE3cWQ5Wk9BOVFBUjduN04zRFpVeWNKM3dBaWhNM0FOTXlBSnBuVUxvTHpIQ0k1WGdBNWxhSndtQjhqZW8yaVZtNzBuNXlJY1N3SFlVWnJFQlZhU0FZeUk0WXNmS05aV19ndU52S281SEIxTVhmRUlrdVF6dw?oc=5"
     ]
   },
   {
@@ -1107,30 +999,57 @@
     ]
   },
   {
-    "id": "2026-03-11_energy_supply_constraint_4430475d",
-    "title": "Energy Supply Constraint",
-    "date": "2026-03-11",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
+    "id": "2026-03-10_geopolitical_risk_74bcf4ec",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-10",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
     "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
     "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
     ],
     "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost push inflation"
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
     ],
-    "headline": "West Asia crisis: Bangladesh seeks increased diesel supply from India amid energy strain",
-    "source": "Mint",
+    "headline": "India begins diesel supply to Bangladesh via cross-border pipeline",
+    "source": "newskarnataka.com",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVNyc3VCM1lqdF9QbWRldHV1WHpoblVYZGNCS3RUVlY3aFJWQk96cm5RUGNwTTBYOEZkMzVjZkFhOXhEZmEwQV9La2tPZnozd01pX0VmdENBWmEyY1czckYwa2pma2xucXNSandiaXNYNnM3OURNU09abHY0NW42anlDQVl0RG8td3pnRzJ3akZmSlg4eEt4RUxoWHpXS0xXYWczRUEyZDJ1SnFRekNUSlU0a9IBuAFBVV95cUxQdGJtMG1BcW90MTVkYjlEam1leTFCdXJxWVZZLUVuQ0RlQmtKR0czaEhFbFRRRm92Y3k5NkdqNTNEMGx4bjlIWGMyNWZQTVcwaVdQS1FFd2w2WFlIb0FlLTEzOEpCclFpQTBpUlpCelFlenF1bTg2X3UySjhXNXl4NlVmRlZMQ3M4Rk5uRFBjNzVVSDdMeTc2X0NZejBVZ19LTEZrMm8tZkMwMmJZV1U2QkdKa2JEZXo5?oc=5"
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2Zsd2E1SjB1ODVnSFRmLXNsa2lOLXMxeWxrNkFlNzdwdEpzTGhTUlVPN05sSDNpejlKdmI2bXgzQWNzYjR0SFpmR2RmTlp1dHhqQ3NHODBOcDlKR0xrMUQ4UWk3TGZmU1l1SV9pMXU1QXNXSVI4RXl3cUJQbWh3UEhiM2w5M21SQ3BjQXJGZFlBU0x2TzJBUFBIMnNTOGJGZm9lY0Z1Y2JpVGs?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-10_geopolitical_risk_dcad5544",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-10",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Bangladesh-India Fuel Partnership: A Lifeline Amid Crisis",
+    "source": "Devdiscourse",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVU9kczBlQnpzOWlLYTVSRTRYbXBlLVdtR0EwRVhoNTczUlA4eDcwX045R3BSTkVkeVRtX0dkWjZsQkxFQWN4dDJkT05XQjlvcGdkUUc2cVlubHFoZjd6T3E3NmkyMnJBZWVGQ2M5UVdKekV5RmpJcVF4X0lKOXlGSnAwZ1BGRTlBVXVWUUlPN2lqd0ZIUEliQlcxNUN3dVc0dEViaUN6aVdvZjVxQmNrM9IBtgFBVV95cUxNOXRFR2YxWXZ6RDU5cG53RFFzclBKTlhCaDI5ZUhOSVEzNVI3N0FtNk81YU1VaDdjMXdCUEQ5bGJSZEE3cWQ5Wk9BOVFBUjduN04zRFpVeWNKM3dBaWhNM0FOTXlBSnBuVUxvTHpIQ0k1WGdBNWxhSndtQjhqZW8yaVZtNzBuNXlJY1N3SFlVWnJFQlZhU0FZeUk0WXNmS05aV19ndU52S281SEIxTVhmRUlrdVF6dw?oc=5"
     ]
   },
   {
@@ -1161,6 +1080,33 @@
     ]
   },
   {
+    "id": "2026-03-11_energy_supply_constraint_4430475d",
+    "title": "Energy Supply Constraint",
+    "date": "2026-03-11",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "West Asia crisis: Bangladesh seeks increased diesel supply from India amid energy strain",
+    "source": "Mint",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVNyc3VCM1lqdF9QbWRldHV1WHpoblVYZGNCS3RUVlY3aFJWQk96cm5RUGNwTTBYOEZkMzVjZkFhOXhEZmEwQV9La2tPZnozd01pX0VmdENBWmEyY1czckYwa2pma2xucXNSandiaXNYNnM3OURNU09abHY0NW42anlDQVl0RG8td3pnRzJ3akZmSlg4eEt4RUxoWHpXS0xXYWczRUEyZDJ1SnFRekNUSlU0a9IBuAFBVV95cUxQdGJtMG1BcW90MTVkYjlEam1leTFCdXJxWVZZLUVuQ0RlQmtKR0czaEhFbFRRRm92Y3k5NkdqNTNEMGx4bjlIWGMyNWZQTVcwaVdQS1FFd2w2WFlIb0FlLTEzOEpCclFpQTBpUlpCelFlenF1bTg2X3UySjhXNXl4NlVmRlZMQ3M4Rk5uRFBjNzVVSDdMeTc2X0NZejBVZ19LTEZrMm8tZkMwMmJZV1U2QkdKa2JEZXo5?oc=5"
+    ]
+  },
+  {
     "id": "2026-03-10_geopolitical_risk_77642acd",
     "title": "Geopolitical Risk",
     "date": "2026-03-10",
@@ -1185,33 +1131,6 @@
     "source": "Khmer Times",
     "sources": [
       "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3lLX3VydDhzRFEyaGVVenI1MGZRNHh2RE12azBLdTB1Y2VSajhmeXpGaW1GX3pQTDhRUHI5ODQ4UUNTTko5LWpISkRGSnFsSUpyWXEwUEp1bkFYRnczOU1CMDhRekVFeFRud1IyenA3Ulh4M0lYV2hYblNtNzZQMloyQk51a2Ewejc0SEVrZkRwU2JD?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-10_geopolitical_risk_378e2c40",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-10",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "India to supply 5,000 tonnes of diesel to Bangladesh despite West Asia supply concerns",
-    "source": "ET EnergyWorld",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbW9ZQlI5ZDBPLTQtZTFjZjZzV092TXdsWm45eWtWRVJwOUhEUTExTWFUM2Z5OGZDVTFlRDdyMDlJaG5pZHU2OUVIWFcyMHpScTQ1ZGdkNkU2QlEtZXV4SEcxVXp2UW8yUWwwNmlXLXJ0Uy1OWWtybEM3eS04d2EzWEtRbXE1X28wdDlPN2VrNjJYLW5WWFpTRnVqbXNqU3dVcXlPeUNmTFdXWHFfZnR5RTJfbWI4QVh1TjBXRnBLNy1RZVh3WU5ZaEVPNzBpNGZFTlJ0Z0NSNVhNbHdqWGdjSmx4RXVUQ1NqVld3ZNIB8gFBVV95cUxQVG5VQXRyYUZzc3VBcjNTZk1OZExYTm5hLTRMa3hJRThNeDB3NEdDQS11LTRBU1dWMUw5Z1FhMWhWbG4wNVFFbHVPT2NIWGlZbjk2cVp0YWljeDBLeFByVThabTF3djVkX0xwWGo4VFBIa0xuRDE4QUx2dFp6N19rQkJBbmROSVBudndRMVVMaVM1NUc4QmRDRUFHNnpSbG5aZ3dLb0trbGx0ZEl1NzBSZXhxNWszdUpwR0FNaGpTVkx5VndDRFcxQW9CMGJPMlBIYng1TXFlandVakhIUjJFSTVGOFJ2U05Ic3lnc2JDQjRwUQ?oc=5"
     ]
   },
   {
@@ -1242,6 +1161,33 @@
     ]
   },
   {
+    "id": "2026-03-10_geopolitical_risk_378e2c40",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-10",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "India to supply 5,000 tonnes of diesel to Bangladesh despite West Asia supply concerns",
+    "source": "ET EnergyWorld",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbW9ZQlI5ZDBPLTQtZTFjZjZzV092TXdsWm45eWtWRVJwOUhEUTExTWFUM2Z5OGZDVTFlRDdyMDlJaG5pZHU2OUVIWFcyMHpScTQ1ZGdkNkU2QlEtZXV4SEcxVXp2UW8yUWwwNmlXLXJ0Uy1OWWtybEM3eS04d2EzWEtRbXE1X28wdDlPN2VrNjJYLW5WWFpTRnVqbXNqU3dVcXlPeUNmTFdXWHFfZnR5RTJfbWI4QVh1TjBXRnBLNy1RZVh3WU5ZaEVPNzBpNGZFTlJ0Z0NSNVhNbHdqWGdjSmx4RXVUQ1NqVld3ZNIB8gFBVV95cUxQVG5VQXRyYUZzc3VBcjNTZk1OZExYTm5hLTRMa3hJRThNeDB3NEdDQS11LTRBU1dWMUw5Z1FhMWhWbG4wNVFFbHVPT2NIWGlZbjk2cVp0YWljeDBLeFByVThabTF3djVkX0xwWGo4VFBIa0xuRDE4QUx2dFp6N19rQkJBbmROSVBudndRMVVMaVM1NUc4QmRDRUFHNnpSbG5aZ3dLb0trbGx0ZEl1NzBSZXhxNWszdUpwR0FNaGpTVkx5VndDRFcxQW9CMGJPMlBIYng1TXFlandVakhIUjJFSTVGOFJ2U05Ic3lnc2JDQjRwUQ?oc=5"
+    ]
+  },
+  {
     "id": "2026-03-10_geopolitical_risk_b7c3c0fb",
     "title": "Geopolitical Risk",
     "date": "2026-03-10",
@@ -1269,7 +1215,7 @@
     ]
   },
   {
-    "id": "2026-03-10_geopolitical_risk_6be058c0",
+    "id": "2026-03-10_geopolitical_risk_8a59ed7a",
     "title": "Geopolitical Risk",
     "date": "2026-03-10",
     "signal_type": "external_shock",
@@ -1289,10 +1235,64 @@
       "trade route uncertainty",
       "energy price volatility"
     ],
-    "headline": "India to supply 5000 tonnes of diesel to Bangladesh amid fuel concerns",
+    "headline": "India to supply 5,000 tonnes of diesel to Bangladesh amid fuel concerns",
+    "source": "PGurus",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcXBrZ0pSaEFiZ3U3Qml6MXlaMGItb3czYzZTck9UMWF3SHl2WlhZQ01rOThDd1RWdzFiVVd1Q0hmaUhEYk9MTFN0V2oxM1JWdkloV1ROWXpVTFlSQ3NROXpSTjdPcmtOWmFPclJqcHdYSzlWMmg4UEE4RzdwY2U3dmFuMElQNUxsQ1BubE9JaDNvQ0tRTkFTcjBB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-10_energy_supply_constraint_473d20ce",
+    "title": "Energy Supply Constraint",
+    "date": "2026-03-10",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "India Supplies 5,000 Tonnes Of Diesel To Bangladesh Via Pipeline As Energy Crisis Deepens",
+    "source": "English Bombay Samachar",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdGdYeGw3Y2ZTNFVFLVB0LUstdDhZVURkTEJmQ29FZElrQ3F3SWM5bzhfUjdsY09Ha2JjYjRqOXVmQV9sUnZmck91OGZtdzd6SFFmNTNPZFJFS0cxRXVLdHpXQVI2a1BWYjZzaFF5amRJY18tRzRIeEl0TmNuYno0VkxlX1ZEU1hGTUJWSTNZQVZIcmhkeGZMVTZRbUdiRW9kNV9FeWRYUmgwSUFUSmRkb0ozS0t5ZXYwc25zSGd4UVgzOXhmUnp2M0gyWE1RLVV1?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-11_geopolitical_risk_48e090e0",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-11",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "India, Bangladesh urea firms shut operations as war disrupts LNG flow",
     "source": "Business Standard",
     "sources": [
-      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTnF1cGlxRmRTYjl3YlFSbjBzMVNMTXN2Z0hUTEVncWwydlhGTkMyMnFkYnpuTUxzVVRFdU0tQ3hjdXdfcGN3N1NDbDFVeXFjeXVtZDNBWjB5TlNOT0QtaGstbllleGltaEZZdllPRzd6TUNLN3N1MUU2cG55YUttb09EZzF2NlRJWmVFMUEyUHBmSGI5VXNhaExyNnlmWVVvWS1UUUhpZWZkNnU1amJaZ1VuMG5fOXJaNVZZVWVwRkN1c1hIQzNUODV4Z2Z5clJs0gHWAUFVX3lxTE5HLUJ4TzBhbjlISTEtS3Q1MW1QdmFMalNKdWtvY1oyMGlSVERpWnlQUTVyQjdpb202SkhfcXVvQUY0SUUxb0ZJRGdZN042Uy1VR2JYalB1UWdkcEVPUUtaT3Jjc2VETTRRQUY5NnprbDdoeDloWWN6TkF1SkJnM1otcndwaklzMnpEbFVMeUV1X0RGemFJX0MwcG9Hc2xwYUx4elZkalNkTHp6OGVfUzlhS0RkTEJUYnp0TEJheGRQWUNieTA2OUY2UXV3SExyMkFPVlFHMWc?oc=5"
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZGpLR3hkRkNHNEpKaXVTUURrTVhtci0wYVRBUlkzRVZ0TFRYUDlSQ3N4UkxxNTFXZVdHZ2t4QVNBM3VRQnNOeTZVeWs0SjI5a0VGWGFnN2RzbnRBZXNXV0c1cWdNcUp2cnZxMkdBQ3VpSy1JUVhDRTlJUFg0VXBKUTJIU0pYNG5DTnFRMng0SWRvd2RzbG4yY19EbHViak92TUtSdHdwS2RXUmN3dFhGOHVnWm5zSEZ2dlpaOXVycEtoZUxydWx0MS1IYUw4b3FxTVHSAdcBQVVfeXFMTnpqVUpQWlluMWNXUWgyVlJRRUx0MHNPY2dkLUpCUWtsYy1IRzRtcEJQLWtEcTZZZER3MnI3aldrUGdCaVFudWdQUXE3cUIwRnBIb2EtT2c4NlFjWVQxQ1c5dmtHLU1xenFJTEUtZU1FOGtmVVJldTdPWHF5UVBuYXBRRFc0SGpiTnZLUnZ0NG1xbzR3ajItQkdwWEM4T2YtYTlYeF9STHB6R3BLTEJkVnFKdk1IUWU1RU96bEZ1Umg1VDhNN002VkFQZHhKY2tQVWdqTWZKbVU?oc=5"
     ]
   },
   {
