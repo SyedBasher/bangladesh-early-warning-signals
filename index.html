@@ -248,6 +248,11 @@
   .conf-medium { background: var(--amber-bg); color: var(--amber); }
   .conf-low    { background: var(--gray-bg);  color: var(--text-dim); }
   .conf-none   { background: var(--gray-bg);  color: var(--gray); }
+  .conf-awaiting {
+    background: transparent;
+    color: var(--gray);
+    border: 1px dashed var(--gray);
+  }
 
   .heatmap-headline {
     font-size: 12.5px;
@@ -543,7 +548,7 @@
       <div class="footer-col-title">Institutional Access</div>
       <p>
         Full historical dataset &amp; real-time structured feed<br>
-        <a href="mailto:syed.basher@gmail.com">syed.basher@gmail.com</a>
+        <a href="/cdn-cgi/l/email-protection#06757f6362286467756e637446616b676f6a2865696b"><span class="__cf_email__" data-cfemail="1e6d677b7a307c7f6d767b6c5e79737f7772307d7173">[email&#160;protected]</span></a>
       </p>
     </div>
     <div class="footer-col">
@@ -559,7 +564,7 @@
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function() {
 
   // ---- PIPELINE HEALTH CHECK ----
@@ -700,13 +705,14 @@
             `;
           }
         } else {
+          cell.classList.add('stale');
           cell.innerHTML = `
             <div class="heatmap-channel">
               <span class="heatmap-dot dot-gray"></span>
               ${ch}
             </div>
-            <span class="heatmap-conf conf-none">no signal</span>
-            <div class="heatmap-headline" style="opacity:0.35">No recent activity</div>
+            <span class="heatmap-conf conf-awaiting">awaiting</span>
+            <div class="heatmap-headline" style="opacity:0.35">Monitoring — no signal yet</div>
           `;
         }
 
@@ -783,13 +789,4 @@
     })
     .catch(err => {
       document.getElementById('heatmap').innerHTML =
-        '<div class="loading" style="grid-column:1/-1;">Could not load signals. Check data/signals.json.</div>';
-      document.getElementById('feed').innerHTML =
-        '<div class="loading">Error loading signal feed.</div>';
-      console.error(err);
-    });
-
-})();
-</script>
-</body>
-</html>
+        '<div class="loading" style="grid-column

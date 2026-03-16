@@ -83,6 +83,14 @@ def normalize(text):
 # Keyword matching — supports multi-word phrases and partial matches
 # ------------------------------------------------------------------ #
 
+def _word_in(token, text):
+    """Check if token appears as a whole word (or word-prefix) in text,
+    not as a substring of an unrelated word.
+    E.g. 'rice' should match 'rice price' but NOT 'price'."""
+    pattern = r'(?<!\w)' + re.escape(token)
+    return bool(re.search(pattern, text))
+
+
 def keyword_score(headline_norm, keywords):
     """
     Returns (hit_count, best_match_length).
@@ -92,20 +100,20 @@ def keyword_score(headline_norm, keywords):
     best_len = 0
     for kw in keywords:
         kw_norm = normalize(kw)
-        # exact phrase match
+        # exact phrase match (substring is fine for full phrases)
         if kw_norm in headline_norm:
             hits += 1
             best_len = max(best_len, len(kw_norm.split()))
             continue
-        # partial: check if all tokens of the keyword appear in headline
+        # partial: check if all tokens of the keyword appear as whole words
         tokens = kw_norm.split()
-        if len(tokens) >= 2 and all(tok in headline_norm for tok in tokens):
+        if len(tokens) >= 2 and all(_word_in(tok, headline_norm) for tok in tokens):
             hits += 1
             best_len = max(best_len, len(tokens))
     return hits, best_len
 
 # ------------------------------------------------------------------ #
-# Directional words — distinguish tightening vs easing
+# Directional / action words — used to filter noise headlines
 # ------------------------------------------------------------------ #
 
 NEGATIVE = [
@@ -123,7 +131,15 @@ NEGATIVE = [
 POSITIVE = [
     "rise", "increase", "surge", "expand", "grow", "growth",
     "improve", "gain", "boost", "recover", "rebound", "jump",
-    "high", "record", "strong"
+    "high", "record", "strong",
+    # --- broadened: policy/neutral action words ---
+    "reform", "allow", "ease", "launch", "announce",
+    "approve", "enhance", "promote", "stable", "stabilize",
+    "strengthen", "support", "extend", "liberalize",
+    "restore", "revive", "attract", "develop",
+    "accelerate", "double", "triple", "widen",
+    "hit", "cross", "touch", "reach", "exceed",
+    "climb", "advance", "rally", "uptick"
 ]
 
 # Note: some words (rise, surge, jump) appear in both lists because

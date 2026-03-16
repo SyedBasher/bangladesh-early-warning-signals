@@ -180,7 +180,17 @@ SIGNALS = {
         "sector lending limit", "bank stop lending",
         "credit growth slow", "private credit",
         "advance deposit ratio", "interest rate cap",
-        "lending rate hike", "credit squeeze"
+        "lending rate hike", "credit squeeze",
+        # --- broadened: credit policy, general activity ---
+        "credit growth", "private sector credit",
+        "bank lending", "loan disbursement",
+        "loan growth", "credit expansion",
+        "credit card limit", "credit facility",
+        "loan against", "collateral loan",
+        "bb loan policy", "lending rate cut",
+        "credit recovery", "loan recovery",
+        "loan default rate", "credit risk",
+        "capital repatriation", "capital exit"
     ]
 },
 
@@ -238,7 +248,15 @@ SIGNALS = {
         "monetary tightening", "standing lending facility",
         "reverse repo", "treasury yield rise",
         "call money rate spike", "interbank rate",
-        "repo rate", "policy rate", "bank rate"
+        "repo rate", "policy rate", "bank rate",
+        # --- broadened: general monetary policy activity ---
+        "interest rate", "bank interest rate",
+        "single-digit interest", "lending rate",
+        "deposit rate", "monetary policy statement",
+        "monetary policy review", "bb rate decision",
+        "inflation target", "money supply",
+        "liquidity injection", "open market operation",
+        "treasury bill", "treasury bond auction"
     ]
 },
 
@@ -271,7 +289,15 @@ SIGNALS = {
         "vegetable price", "edible oil price",
         "sugar price", "egg price", "chicken price",
         "essential commodity price", "tcb sale",
-        "food price spike", "consumer price"
+        "food price spike", "consumer price",
+        # --- broadened: general food/inflation activity ---
+        "food price", "rice price", "commodity price",
+        "inflation rate", "inflation hit", "inflation rise",
+        "inflation high", "inflation cross", "inflation touch",
+        "cpi rise", "cpi increase", "cost of living",
+        "ramadan price", "eid price",
+        "food import", "food supply",
+        "price stable", "price control", "price monitor"
     ]
 },
 
@@ -299,7 +325,17 @@ SIGNALS = {
         "cyclone damage", "drought", "boro crop",
         "aman crop", "haor flood", "river erosion",
         "flash flood", "waterlogging", "salinity intrusion",
-        "harvest loss", "paddy damage", "fishery loss"
+        "harvest loss", "paddy damage", "fishery loss",
+        # --- broadened: general agriculture activity ---
+        "crop output", "crop production", "crop harvest",
+        "agricultural output", "agricultural production",
+        "boro harvest", "aman harvest", "aus harvest",
+        "fertilizer price", "fertilizer shortage",
+        "seed distribution", "irrigation crisis",
+        "agriculture subsidy", "farm income",
+        "fishery output", "shrimp export",
+        "poultry output", "livestock",
+        "cold storage", "food grain stock"
     ]
 },
 
@@ -418,7 +454,18 @@ SIGNALS = {
         "worker retrench", "job loss", "job cut",
         "wage arrear", "wage protest", "minimum wage",
         "worker unrest", "unemployment rise",
-        "worker lay off", "redundancy"
+        "worker lay off", "redundancy",
+        # --- broadened: general labor market activity ---
+        "labour market", "labor market",
+        "job market", "employment rate",
+        "worker demand", "labour demand",
+        "manpower shortage", "skill shortage",
+        "overseas employment", "overseas job",
+        "worker migration", "migrant labour",
+        "garment worker", "rmg worker",
+        "wage hike", "wage increase", "wage review",
+        "worker safety", "factory compliance",
+        "youth unemployment", "informal employment"
     ]
 },
 
@@ -489,7 +536,20 @@ SIGNALS = {
         "foreign investment fall", "foreign investment drop",
         "portfolio outflow", "investor confidence",
         "ipo market", "capital flight", "bsec",
-        "stock exchange turnover", "market turnover drop"
+        "stock exchange turnover", "market turnover drop",
+        # --- broadened: general capital market activity ---
+        "dse index", "dse turnover", "dse trading",
+        "stock market", "stock exchange",
+        "share market", "equity market",
+        "capital market", "bond market",
+        "market rally", "market rebound",
+        "ipo launch", "ipo oversubscribed",
+        "fdi inflow", "foreign investment",
+        "portfolio investment", "institutional investor",
+        "market reform", "securities regulation",
+        "bond guarantee", "bond issuance",
+        "mutual fund", "merchant bank",
+        "payment crisis", "bond profit"
     ]
 },
 
