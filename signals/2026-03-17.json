@@ -1,8 +1,8 @@
 [
   {
-    "id": "2026-03-16_food_price_pressure_6264ce58",
+    "id": "2026-03-17_food_price_pressure_6264ce58",
     "title": "Food Price Pressure",
-    "date": "2026-03-16",
+    "date": "2026-03-17",
     "signal_type": "price_signal",
     "channel": "Food Prices",
     "lead_indicator": "staple_price_acceleration",
@@ -108,9 +108,9 @@
     ]
   },
   {
-    "id": "2026-03-16_credit_allocation_tightening_9e2b244f",
+    "id": "2026-03-17_credit_allocation_tightening_9e2b244f",
     "title": "Credit Allocation Tightening",
-    "date": "2026-03-16",
+    "date": "2026-03-17",
     "signal_type": "financial_conditions",
     "channel": "Credit",
     "lead_indicator": "credit_growth_slowdown",
@@ -162,30 +162,30 @@
     ]
   },
   {
-    "id": "2026-03-15_remittance_flow_disruption_93a5d8f4",
-    "title": "Remittance Flow Disruption",
+    "id": "2026-03-15_credit_allocation_tightening_8e4937ed",
+    "title": "Credit Allocation Tightening",
     "date": "2026-03-15",
-    "signal_type": "balance_of_payments",
-    "channel": "Remittances",
-    "lead_indicator": "remittance_growth_change",
-    "time_horizon": "1–3 months",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_slowdown",
+    "time_horizon": "3–6 months",
     "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "economic_mechanism": "Bank lending constraints reduce investment and working capital availability across the real economy.",
     "who_should_care": [
-      "rural economy analysts",
-      "consumer sector",
-      "central bank"
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
     ],
     "expected_effects": [
-      "rural consumption slowdown",
-      "FX supply reduction",
-      "hundi channel widening"
+      "investment slowdown",
+      "working capital shortages",
+      "lower GDP growth"
     ],
-    "headline": "35.7pc growth of remittance inflow till March 14 - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "headline": "Bangladesh Bank raises max credit card limit to Tk40 lakh",
+    "source": "The Business Standard",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WMlA0UmRvR1YyNHJTcFhCQXBoWngyOTdrTDFCVkoyb0Jjck54cGUxLUNJYnRpeXZQRi1CZEMtUDVoZkppSG1BMkxjQVN6anFB?oc=5"
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwYlFqd2JncW1JTkJURm1HWDNyU3VBMmNuUk8yZmVOWXgxZE5mdHRfdVpPcDB1cDhwMHJ3RnJMVXZCUklqVzJXSVE2N0ZZVjlXRVAwVE9wcmZmSS15OWFXT25wVVBHdWdoY0IwNWJIVld3aExpTGpRdzlRTjlZMzDSAYQBQVVfeXFMT2JsbmhWcEJLbDN3Rjltc3JNS0tLY3FPRTlvajdFZ1FDaS1VQmdvYTdNeXpETnhEUlljNW1ScFJsd1FhZVpNUHFpUFBZRC1waFJCRk9WVV81elpZUWV2NTlzdmI2eGxKVkQzVTU0WG9jTHdiQmp6eGlRdGktdndpejZTS3NX?oc=5"
     ]
   },
   {
@@ -216,6 +216,33 @@
     ]
   },
   {
+    "id": "2026-03-17_geopolitical_risk_e9913d78",
+    "title": "Geopolitical Risk",
+    "date": "2026-03-17",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "low",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "India, Bangladesh Review LOC, Explore Power Trade And Digital Cooperation",
+    "source": "KNN India",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVEVFVVdWLXB1b29OVzI5aXU4dWJTcFdsTFJvODEyZ1RfdkRmdFpMU0RjeHhXcENNakE4SmNOOXd0OC16dWNDbFBpS2xFMkpwVldSdUlLOXhxYThZSzZYdnpaNFVRU1ZWbnZCYjM3TnYtdDNDeG5jMEpxM2JkMmZCeE00OFpYNnBHWV9BR1BiSWw4RDFhNFlwU0QzaEU2b0cxZTFGZkZ5Q2dJMEV2TzNJY0R5cDl5V1lSVGc?oc=5"
+    ]
+  },
+  {
     "id": "2026-03-15_trade_policy_disruption_be8a5ab4",
     "title": "Trade Policy Disruption",
     "date": "2026-03-15",
@@ -237,9 +264,9 @@
       "trade diversion"
     ],
     "headline": "Bangladesh to import 45,000 tonnes of diesel from India",
-    "source": "The Indian EYE",
+    "source": "The Economic Times",
     "sources": [
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd1JDN0M0LXFpa1V0Y2U2QkNYLXNRLUlIUXN2TnhSWHBHTGx2WW1SWXZxX2hOV1V1b3dQWlBhcG84NGFyWnV0aWpFZ2dhdUN5MGFvQjJRaGx5bVZPZmR6c2g3clFSSHBGUTRSVzNCTHhlVDNYMllvRTJueVp3aF9lbkZQMVc0ZTlSRnRJRGN0NE8zWDdLWmc?oc=5"
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVmtHSnhSQzFSd3dFOGtuME5WV2RNSEVJdS1zbmhRdF9qenExeWtEczUzQmIxYW9JQzhjeEJ2Xy15VHZTTnpGaXBwLU1keFhjMk9fRkkza192aU55NDVpVTMwcHpBczZnWHh3ZWNMOUlSQWJOY1ZiRjAxUVk4TUUtZE92QWd5UXRXRHJNcUNQMkJTSDQwQjZNN3U4RF96TkJnMDd6ZF8yaVFsYmZUS1dJTWlpY1hNeUhJMU9XcVpKTng5VGdpbmJjV3pXZFTSAdIBQVVfeXFMTnFlRGw5dWdOSVdfV19TdTktN1poY29zZEVxb055NzFQdHVKVjdkOFNzQnNmZTd5Z1ZaTGFGcUEwMW9IbXkyMTlyNTc5WUZ5aUpJMEVvZFpZNHJva05BMXZ1T3FXWE1odVlzbkRCUldFbkNLay1JcDJCUXM1UDhDcFlDVng3b3ZBUFJNbzk1UkJBa3htN1J2MHV1bmZHV2dDRDRFajQwQ3UwRUVFblBrMXR4cmFPTnN4TmcyQ1p4U3VocWhwcVFWLVR3VThQY0VpRlJn?oc=5"
     ]
   },
   {
@@ -270,9 +297,36 @@
     ]
   },
   {
-    "id": "2026-03-17_credit_allocation_tightening_cf93d78b",
-    "title": "Credit Allocation Tightening",
+    "id": "2026-03-17_monetary_policy_shift_c7acc35f",
+    "title": "Monetary Policy Shift",
     "date": "2026-03-17",
+    "signal_type": "financial_conditions",
+    "channel": "Monetary Policy",
+    "lead_indicator": "policy_rate_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Central bank tightening raises borrowing costs, slows credit expansion, and signals concern about inflation or external balance.",
+    "who_should_care": [
+      "banks",
+      "bond market",
+      "corporate treasurers"
+    ],
+    "expected_effects": [
+      "higher borrowing costs",
+      "bond yield rise",
+      "investment dampening"
+    ],
+    "headline": "Australia hikes key interest rate citing 'sharply higher fuel prices' - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0azRzZTRhYzU0dDRYQUltUnoxeDZVbnNxcmJIczBLYmh6ODBTYjhiVDJTR1Z5YlhYX0o4cWwtZ3BlZWM5NGJMT1YyYWo1RUdw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-15_credit_allocation_tightening_cf93d78b",
+    "title": "Credit Allocation Tightening",
+    "date": "2026-03-15",
     "signal_type": "financial_conditions",
     "channel": "Credit",
     "lead_indicator": "credit_growth_slowdown",
@@ -321,33 +375,6 @@
     "source": "bdnews24.com",
     "sources": [
       "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WaXE1VUdpWF9tTDZ5QXhveG5sMjBVWXVMVDRpclB1RFg0UnJmdlVIQkJpRHktSWV6RlJCc0Q5MHdnT1ZfcmdrcjVyQngzbWgySTQ3aA?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-15_credit_allocation_tightening_8e4937ed",
-    "title": "Credit Allocation Tightening",
-    "date": "2026-03-15",
-    "signal_type": "financial_conditions",
-    "channel": "Credit",
-    "lead_indicator": "credit_growth_slowdown",
-    "time_horizon": "3–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Bank lending constraints reduce investment and working capital availability across the real economy.",
-    "who_should_care": [
-      "commercial banks",
-      "corporate borrowers",
-      "investment desks"
-    ],
-    "expected_effects": [
-      "investment slowdown",
-      "working capital shortages",
-      "lower GDP growth"
-    ],
-    "headline": "Bangladesh Bank raises max credit card limit to Tk40 lakh",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwYlFqd2JncW1JTkJURm1HWDNyU3VBMmNuUk8yZmVOWXgxZE5mdHRfdVpPcDB1cDhwMHJ3RnJMVXZCUklqVzJXSVE2N0ZZVjlXRVAwVE9wcmZmSS15OWFXT25wVVBHdWdoY0IwNWJIVld3aExpTGpRdzlRTjlZMzDSAYQBQVVfeXFMT2JsbmhWcEJLbDN3Rjltc3JNS0tLY3FPRTlvajdFZ1FDaS1VQmdvYTdNeXpETnhEUlljNW1ScFJsd1FhZVpNUHFpUFBZRC1waFJCRk9WVV81elpZUWV2NTlzdmI2eGxKVkQzVTU0WG9jTHdiQmp6eGlRdGktdndpejZTS3NX?oc=5"
     ]
   },
   {
@@ -426,36 +453,36 @@
       "energy price volatility"
     ],
     "headline": "India, Bangladesh focus on LOC, power exchange market",
-    "source": "ANI News",
+    "source": "The Indian EYE",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTWZnY3N2ZnRWNGdUQ2hhWmtpTlRmYWx3SmNkdi1WSEU5aEhqUzVFazhPSFpPaUtqMUVRR2J0a3AtdjhORlBZb1lVQzRNSWJvUWJNM0o4dlFvYXN5N1llbHVpY01rZzhLd2E5UVpLbWlUQ2ZUZ2VLTVRiOS1aSFlCMGVkMUZJVDN2UXFKWEY4ZldoUG9NYjItOVBMajRPdVR1YUHSAa8BQVVfeXFMT2c5R2ZYbHVvYkl1Zmp0cmVoeXlJcENRekJjRHhVd0pWcFpYVWxMY2UxT2FvVFU0MU9JY2gzdXpXcGdyc3BySzJRZW1nMTBPc2llOFFzNG9FOHo0OXFWSGV0aFI0MmVSMmE3SFEzVVd0SHNiai1GZmpud09JWk1TbVNPdDVDWUtmZ0NVektTSGxrbGllS01UajI0dzlLckU5YkJjWUI3SmtONmJWZjh5VQ?oc=5"
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRzdHZzEySnFkQUhvQ0t1T0hQQi1tb0VDRDRWWElka1FPZlVtNUdaajAtbUcwaUZFMHR2ZjNlMjF3YjBpTGJEVTRlOTBtbVRYM2tVeGdUZXhKUTI0R19MZHNuWjNObENXcm1vTXBocDh4ZHd4bklKSUlrSnFnZktmM3EwWnZQYy0wQVA5NHpGVXUxUQ?oc=5"
     ]
   },
   {
-    "id": "2026-03-15_geopolitical_risk_094ee909",
-    "title": "Geopolitical Risk",
-    "date": "2026-03-15",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
+    "id": "2026-03-16_trade_policy_disruption_40b7f2ab",
+    "title": "Trade Policy Disruption",
+    "date": "2026-03-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
     "time_horizon": "1–6 months",
     "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "confidence": "high",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
     "who_should_care": [
+      "importers",
       "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
+      "trade policy analysts"
     ],
     "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
     ],
-    "headline": "How Bangladesh Can Withstand Impacts of Middle East Conflict - daily-sun.com",
-    "source": "daily-sun.com",
+    "headline": "Bangladesh Ramps Up Diesel Imports From India Via Friendship Pipeline Ahead Of Eid Travel Surge",
+    "source": "Swarajyamag",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKVThWdTlxNkRoTFNMZzVBTXFNdHJJRmJHZkptSW1IVjZMeHNpLXZUbENIRlBDZmQzRHI5SW9NSnVMYnNnODhQRXVabkZxaEdlVEE?oc=5"
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRnlLbmxLel9yMlpKaHBFbTdEN1BkTWsxU0ZpSHRneE9mLWdVcm5lMDcwTEU1VTV4RVhiVkxNTWFCck5NYmFFdHBtYldOQjJRc21XN2JDdTRmNl9mc2VaS1AxWnNKVDFrbGYtVU80cElEcFhqQzN3NUFiZ092dzAzRzRvdXZsT1VVN1YzN2IxM3czRkJ0OFVLWlJfTnlqc3NpRnhKRFdWbkNHdVFYY0dfbGtzLW40ZFFlSHNUZ3lObXdyQV8zaGE5Wk9B0gHaAUFVX3lxTFA4MU1ZanFTeVQ0aGxaVExrajhuNjQ5Y3JWQkZXUHlpZGRhTF9oX1doY0R0bjdFZ1NubzJSOHhlaEZuM0ZTdDZGOEgwcDFWNUJsOG54a2M2NDJ4U3NGcTVVNjYxSWROS1lEd09hejNHNnczSjgwT08wQjZYUlpNbGpjRnJxSnh2UHZURVRqdkl5R1ZSWmhRdzVIbXU2ejlEdjYzTmx6Q0dnOWpSbS1IeGtjX3ZmUnI1Sk1ucVlrVzZmbUZpM29tTDNxUkFXUV9RUERHQzgwZFA0Y3hR?oc=5"
     ]
   },
   {
@@ -486,6 +513,33 @@
     ]
   },
   {
+    "id": "2026-03-16_capital_markets_stress_3b188896",
+    "title": "Capital Markets Stress",
+    "date": "2026-03-16",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_shift",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation decline",
+      "FDI slowdown",
+      "market liquidity tightening"
+    ],
+    "headline": "ADB eyes bond guarantee fund to boost Bangladesh capital market",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV1JtdzlvN29mdnlYdFcteENubFFETXQ0TDE4bXVLN09VY2JyYnREd0l0eURJYkFReUg4UklSRDBCUWNsbW5GZ3hlVzJ5SkhBWWxvYVlnc2VHNVE0SjlsOG83d3RvYkh3S0M0R0hHeHdVWGFfOWdJRWR5azhfQUtNTm41OXFTajh4Z3FoSXpRSlpEb2hUQ0IwUFFLcENfWDhCNU1YUVV4OGtEd2vSAbABQVVfeXFMTWtTS3dYM3N6REpLQmhQWm1wanpkOXFYUWNVelQwNExvUEpEUDRDYnl2VTJCMXkwYmJtdU1xRGJENHpvaGczSlc5RjJnX1hud21KX0ZpcEdVMS1iM29GVmFpQnlOcHowV21nMnQzNnJRTWR4S29jN0lGbzlCUVNtZWNtUGxrNG9ORUVBbVhsMC1nTFUyd2tfQVJldE1HaGwzOFBtTWI5NUwxRzN0UnM2S1A?oc=5"
+    ]
+  },
+  {
     "id": "2026-03-16_capital_markets_stress_451a02b2",
     "title": "Capital Markets Stress",
     "date": "2026-03-16",
@@ -510,33 +564,6 @@
     "source": "MSN",
     "sources": [
       "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQR0cxZkIxM2ZLeUY2dzRCb3pUYnhsRVJPcmFsRnBLMUE0czdhRUlNSGV2Y09JLVZGYlJOSzZJT3l6TklkLVhRNHJLRWhtUlloUlJfLVh2V2hVeHhid090UG1NRmtVRDNMcmJqUzVkdWY4eWdfUU0wLUpTTDl0VmdvSjlpdFczX2F3YlFCLUQ2MkZ6MlBRWnV6MzJsazJIaDJ1aC1LQW1VY3ZjMWtUa1lDek4wTEZQTEpKaUN3dE9zOG1BRkR3TzNaM2xNekF0Znk1eHNWLTdlYk1YU2hJSXY3VmhDTGFRT1RBV01OOGR4OUhyWXI2N1VhS2s0SkI4d24wbER6a1ZoUEk4MW5NLWtJWl9OVkZadVVIeXIwRWdadDIzd05GUTBEWE9veEljMjVQVXhBUkZRbi1qQUJkMG5JRnlLZnc1LTJiNmZuTEVOMGw3cXlw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-03-15_capital_markets_stress_3b188896",
-    "title": "Capital Markets Stress",
-    "date": "2026-03-15",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_shift",
-    "time_horizon": "immediate–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation decline",
-      "FDI slowdown",
-      "market liquidity tightening"
-    ],
-    "headline": "ADB eyes bond guarantee fund to boost Bangladesh capital market",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV1JtdzlvN29mdnlYdFcteENubFFETXQ0TDE4bXVLN09VY2JyYnREd0l0eURJYkFReUg4UklSRDBCUWNsbW5GZ3hlVzJ5SkhBWWxvYVlnc2VHNVE0SjlsOG83d3RvYkh3S0M0R0hHeHdVWGFfOWdJRWR5azhfQUtNTm41OXFTajh4Z3FoSXpRSlpEb2hUQ0IwUFFLcENfWDhCNU1YUVV4OGtEd2vSAbABQVVfeXFMTWtTS3dYM3N6REpLQmhQWm1wanpkOXFYUWNVelQwNExvUEpEUDRDYnl2VTJCMXkwYmJtdU1xRGJENHpvaGczSlc5RjJnX1hud21KX0ZpcEdVMS1iM29GVmFpQnlOcHowV21nMnQzNnJRTWR4S29jN0lGbzlCUVNtZWNtUGxrNG9ORUVBbVhsMC1nTFUyd2tfQVJldE1HaGwzOFBtTWI5NUwxRzN0UnM2S1A?oc=5"
     ]
   },
   {
