@@ -189,33 +189,6 @@
     ]
   },
   {
-    "id": "2026-03-16_trade_policy_disruption_45fa31e0",
-    "title": "Trade Policy Disruption",
-    "date": "2026-03-16",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh to import 45,000 tonnes of diesel from India by April - Northeast News - Northeast India news 24×7 -",
-    "source": "Northeast News - Northeast India news 24×7 -",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaUxPZ0dXXy1SSjFtR1oyNGRoQ3A5ZkJEb2c2UEhySkZNT1pBdEtWY2FMek5OZThaeXI3S21IaTRHV3BoOHBnQkM1V2x5YTltQlNEU0g5U08yVnZJX2NINWh2ZUxzTTIzNDVTV3NRZWoyZnlVcmFqNHFndjV6cnFISXpsLWw5ekgxUmlWc2FHVXFnQmJKNEJoR0cyWC15TVRa?oc=5"
-    ]
-  },
-  {
     "id": "2026-03-19_credit_allocation_tightening_8e4937ed",
     "title": "Credit Allocation Tightening",
     "date": "2026-03-19",
@@ -240,6 +213,33 @@
     "source": "The Business Standard",
     "sources": [
       "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwYlFqd2JncW1JTkJURm1HWDNyU3VBMmNuUk8yZmVOWXgxZE5mdHRfdVpPcDB1cDhwMHJ3RnJMVXZCUklqVzJXSVE2N0ZZVjlXRVAwVE9wcmZmSS15OWFXT25wVVBHdWdoY0IwNWJIVld3aExpTGpRdzlRTjlZMzDSAYQBQVVfeXFMT2JsbmhWcEJLbDN3Rjltc3JNS0tLY3FPRTlvajdFZ1FDaS1VQmdvYTdNeXpETnhEUlljNW1ScFJsd1FhZVpNUHFpUFBZRC1waFJCRk9WVV81elpZUWV2NTlzdmI2eGxKVkQzVTU0WG9jTHdiQmp6eGlRdGktdndpejZTS3NX?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-18_export_demand_shock_53884fb0",
+    "title": "Export Demand Contraction",
+    "date": "2026-03-18",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_decline",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "lower manufacturing output",
+      "urban income slowdown",
+      "FX earnings pressure"
+    ],
+    "headline": "Bangladesh Bank extends loan rescheduling deadline for raw jute exporters",
+    "source": "MSN",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQaENiMlhTM2ZvS2tIbVF6U1QxNC1rdW9sWGUxbE9QbnptaDhqa2tBT3ptMzhqMnBmUUtWdk5VbEY4NXBuNWR2Sm9QdlNDYXlPbVBvVzB4N3pjZ1VmeVd1MjkxTWtzZDlMbV80RGR0bEk5X1JvZ0xqUHg5bDl4MWJ1Y3J0alJjRnZnbml1SHdJV1EzNm5ZNDNoZDRCTGpEYjNqV05fdVhiMUdyM2dPc3pIRmg5czU2LWZhSE12MXB1M3VmLXNGcWlldXpnbmpBTTRkdGZkUkpaTzRfUkFZZmhLeFRHcmRfYjhydGRmeDhPNHJ2WHNtQzkxWjV5WU5iNWVrVm9BOWx3U0VzMVFMUzFKUTFjbjNTd1lqUzVLOGFVOHd1ODJPdWMta3hiUkxxRWN3MG9sYWVvVExvdGFLRmYtV1hxNks0ekFCNldaM29NdGhWMDY5QVRLZTU0bw?oc=5"
     ]
   },
   {
@@ -401,7 +401,7 @@
     "headline": "Mixed trading at Bangladesh stock market in early hours",
     "source": "MSN",
     "sources": [
-      "https://news.google.com/rss/articles/CBMixAJBVV95cUxOa0paV0lGQS1acWJoV3NSUFFYTHZNRmZYaG13dmxmNFNqTGVJWTUzR2lFTjdtekt3aG1TaUZhZW1jZ3BJaEV0OUhmMlBsRGdackltOGM4d3JWTUxSWEVYU21VdkdVR2dha1pBZDdROU1LMWx2TXE4OC1GcG5Pa0dCenlvX1RNUm9FVzQ0SWtRcHJodmV6TVFtck0wRVZjWDhxR28weHZMUi1qXzhhVXdVdG9TQXpIRE02azNNWUd2OTVYUGFWYzV5MDM1eGFjSDg5eWdXOWYxdGhuZVJLSEdJSnhQOGlEelVZXzNscWtROFlOVGZnb0YxYkN0Z1pXcHdqU1J5MmZFTHRjTC1Tc3VPT2FxQ2xIcXNiWi1ZNE1RV2VtMnJMVVZ4cGhoQTl5MGYxZEE1aFVFZlhyNnFSdnR1TE84RUk?oc=5"
+      "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOb3dOVm83X1NqVWJSMC1sOVJFUXh1VXoyaUNzQ1pIMXkxN0JIWHZhTEswNnY0U1lTdkhDbjRaWUpCT0loY2ZxenZXU2c4TG5oZWhkeTdfaUVRaHNSNjJJOVZWWEM1aDBXNkpzQmpBekhiY3U2bW5XVUJuZWxGME1EVEk3c3o4bVVwLXNvYjV6YmliOXFuT2JrWFB5QTVtVnY4SnBjQ29LZm12eDZpdXgzUk1mVWlNeENqSWZmdktZODgwaUxtb2hSYU5mNHY4c0ppZ3BqWmNSSnFCR0d5WEEyaU1UVmlsbUQzWUlOQlZ3dFd0ZURMazhoNFJFQjZaT1l2TTFScEk0akd0S0haRmF6dnBWenBSbkpLWXQ4Z1VhTnBfdVNLNkJDOXlucmhJS3hnZWdKOHV3RDFMQWJEQ2FJeENlOA?oc=5"
     ]
   },
   {
