@@ -155,6 +155,63 @@ def has_directional_word(headline_norm):
     return False
 
 # ------------------------------------------------------------------ #
+# Bangladesh-relevance gate
+# ------------------------------------------------------------------ #
+
+# Foreign country / central bank names — if these appear WITHOUT a
+# Bangladesh marker, the headline is about another economy.
+FOREIGN_MARKERS = re.compile(
+    r'\b('
+    # Countries & regions
+    r'australia|india|pakistan|sri lanka|nepal|bhutan|myanmar|'
+    r'china|japan|south korea|north korea|taiwan|'
+    r'indonesia|thailand|philippines|vietnam|malaysia|singapore|cambodia|laos|'
+    r'usa|united states|america|canada|mexico|brazil|argentina|colombia|chile|'
+    r'uk|united kingdom|britain|england|france|germany|italy|spain|'
+    r'russia|ukraine|turkey|iran|iraq|saudi arabia|uae|qatar|kuwait|'
+    r'egypt|nigeria|south africa|kenya|ghana|ethiopia|'
+    r'europe|eurozone|eu\b|'
+    # Foreign central banks / institutions
+    r'federal reserve|fed rate|ecb|bank of england|boe|'
+    r'bank of japan|boj|pboc|rbi|reserve bank|'
+    r'bank of canada|bank of korea|'
+    # Foreign currencies (when clearly foreign context)
+    r'yen|euro|pound sterling|rupee|yuan|renminbi|'
+    r'australian dollar|canadian dollar|'
+    # Foreign stock indices
+    r'wall street|nasdaq|dow jones|s&p 500|nikkei|ftse|dax|sensex|nifty'
+    r')\b', re.IGNORECASE
+)
+
+BD_MARKERS = re.compile(
+    r'\b('
+    r'bangladesh|dhaka|chittagong|chattogram|bangla|bangladeshi|'
+    r'taka|bdt|'
+    r'bangladesh bank|bb governor|'
+    r'rmg|garment|readymade|'
+    r'bepza|beza|bida|bsec|dse|cse|'
+    r'padma bridge|rooppur|matarbari|payra|mongla|'
+    r'boro|aman|jute|hilsa'
+    r')\b', re.IGNORECASE
+)
+
+def is_bangladesh_relevant(text):
+    """
+    Returns True if the headline is plausibly about Bangladesh.
+    Logic:
+      - If it mentions a foreign country/institution AND does NOT
+        mention any Bangladesh marker → reject.
+      - Otherwise accept (BD RSS feeds are mostly BD-focused,
+        so absence of any country name is fine).
+    """
+    has_foreign = bool(FOREIGN_MARKERS.search(text))
+    if not has_foreign:
+        return True
+    has_bd = bool(BD_MARKERS.search(text))
+    return has_bd
+
+
+# ------------------------------------------------------------------ #
 # Classification
 # ------------------------------------------------------------------ #
 
@@ -166,6 +223,10 @@ def classify(headline):
     """
     raw = clean_html(headline)
     h = normalize(raw)
+
+    # Gate 1: must be about Bangladesh (or at least not clearly foreign)
+    if not is_bangladesh_relevant(raw):
+        return None
 
     if not has_directional_word(h):
         return None

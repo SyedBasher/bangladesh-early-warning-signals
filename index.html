@@ -644,6 +644,13 @@
     .then(r => r.json())
     .then(data => {
 
+      // Client-side guard: drop signals that are clearly about other countries
+      const NON_BD_COUNTRIES = /\b(Australia|India|Pakistan|Sri Lanka|Nepal|China|Japan|USA|UK|Europe|Nigeria|South Africa|Brazil|Indonesia|Thailand|Philippines|Vietnam|Myanmar|Malaysia|Singapore|Canada|Mexico|Argentina|Turkey|Egypt|Saudi Arabia|Iran|Russia|Ukraine|Germany|France|Italy|Spain|Kenya|Ghana|South Korea|Taiwan)\b/i;
+      data = data.filter(s => {
+        const text = (s.headline || '') + ' ' + (s.title || '');
+        return !NON_BD_COUNTRIES.test(text);
+      });
+
       data.sort((a, b) => b.date.localeCompare(a.date));
 
       const channelMap = {};
