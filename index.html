@@ -34,6 +34,17 @@
   "publisher": {
     "@type": "Organization",
     "name": "Macro Pulse"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Dr. Syed Abul Basher",
+    "jobTitle": "Research Economist",
+    "url": "https://scholar.google.com/citations?user=SYED_BASHER",
+    "sameAs": [],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "York University, Canada"
+    }
   }
 }
 </script>
@@ -453,6 +464,64 @@
     font-size: 14px;
   }
 
+  /* ---- ABOUT & METHODOLOGY ---- */
+  .content-section {
+    padding-top: 40px;
+  }
+  .content-section h2 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 16px;
+  }
+  .content-section p {
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.72;
+    margin-bottom: 14px;
+    max-width: 700px;
+  }
+  .content-section .credential {
+    font-size: 13.5px;
+    color: var(--text-sec);
+    line-height: 1.7;
+  }
+  .channel-list-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 32px;
+    margin: 16px 0 20px;
+    max-width: 640px;
+  }
+  .channel-list-grid span {
+    font-size: 13.5px;
+    color: var(--text-sec);
+    padding: 3px 0;
+  }
+  @media (max-width: 480px) {
+    .channel-list-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ---- NOSCRIPT ---- */
+  noscript .noscript-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 32px;
+  }
+  noscript h2 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+  noscript p {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.65;
+    margin-bottom: 10px;
+  }
+
   /* ---- RESPONSIVE ---- */
   @media (max-width: 700px) {
     .header h1 { font-size: 26px; }
@@ -531,7 +600,93 @@
     <div class="loading">Loading…</div>
   </div>
 
+  <!-- METHODOLOGY -->
+  <div class="content-section" id="methodology">
+    <div class="section-label">Methodology</div>
+    <div class="section-rule"></div>
+    <h2>How Macro Pulse Works</h2>
+    <p>
+      Macro Pulse scans Bangladesh's contemporaneous information environment daily — policy 
+      announcements, news flows from major outlets, market signals, and institutional actions — 
+      and classifies them into structured economic signals using a keyword-based classifier 
+      mapped to 16 economic channels.
+    </p>
+    <p>
+      Unlike retrospective macro data (which arrives with weeks or months of lag), these signals 
+      capture constraint changes as they emerge in real time. Each signal is tagged with a 
+      direction (tightening or easing), confidence level, time horizon, the underlying economic 
+      mechanism, who should care, and expected downstream effects.
+    </p>
+    <p>
+      The 16 monitored channels span the full macroeconomic landscape of Bangladesh:
+    </p>
+    <div class="channel-list-grid">
+      <span>Foreign Exchange / Reserves</span><span>Fiscal Revenue Stress</span>
+      <span>Export Demand</span><span>Capital Markets</span>
+      <span>Remittance Flows</span><span>Geopolitical Risk</span>
+      <span>Energy Supply</span><span>Labour Market</span>
+      <span>Infrastructure / Logistics</span><span>Political Risk</span>
+      <span>Credit Conditions</span><span>Trade Policy</span>
+      <span>Banking Sector</span><span>Agriculture / Food Supply</span>
+      <span>Monetary Policy</span><span>Food Prices / Inflation</span>
+    </div>
+    <p>
+      The automated pipeline runs on GitHub Actions and publishes updated signals daily. 
+      Data is available in JSON and CSV formats. The public feed covers the most recent 
+      10 days; institutional subscribers receive the full historical dataset.
+    </p>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="content-section" id="about">
+    <div class="section-label">About</div>
+    <div class="section-rule"></div>
+    <h2>About the Analyst</h2>
+    <p>
+      Macro Pulse is developed and maintained by Dr. Syed Abul Basher, an independent 
+      research economist based in Dhaka, Bangladesh, with over 25 years of experience 
+      in macroeconomic analysis and policy research.
+    </p>
+    <p class="credential">
+      PhD in Economics, York University (Canada). Former Research Economist at 
+      Qatar Central Bank (2007–2013). Author of 70+ peer-reviewed publications 
+      on oil markets, exchange rates, PPP, and development economics. Regular 
+      consultant to the World Bank, Asian Development Bank, and Bangladesh Bank.
+    </p>
+    <p style="margin-top: 20px;">
+      For institutional access, custom analysis, or research collaboration:<br>
+      <a href="mailto:syed.basher@gmail.com" style="color: var(--accent);">syed.basher@gmail.com</a>
+    </p>
+  </div>
+
 </div>
+
+<!-- NOSCRIPT FALLBACK for search engine crawlers -->
+<noscript>
+  <div class="noscript-content">
+    <h2>Bangladesh Economic Early Warning Signals</h2>
+    <p>
+      Macro Pulse provides automated daily early warning signals for the Bangladesh economy 
+      across 16 channels: foreign exchange reserves, exports, remittances, energy supply, 
+      banking sector, monetary policy, food prices, credit conditions, capital markets, 
+      fiscal revenue, geopolitical risk, trade policy, labour market, logistics, agriculture, 
+      and political risk.
+    </p>
+    <p>
+      Each signal includes the affected channel, direction (tightening or easing), confidence 
+      level, time horizon, economic mechanism, expected effects, and the relevant stakeholders. 
+      Data is available in JSON and CSV formats.
+    </p>
+    <p>
+      Developed by Dr. Syed Abul Basher, PhD Economics (York University, Canada), with 25+ years 
+      of macroeconomic research experience including six years at Qatar Central Bank and regular 
+      consulting for the World Bank, ADB, and Bangladesh Bank.
+    </p>
+    <p>
+      Public feed: <a href="data/signals.json">signals.json</a> · <a href="data/signals.csv">signals.csv</a>
+    </p>
+  </div>
+</noscript>
 
 <!-- FOOTER -->
 <div class="footer">
@@ -552,10 +707,10 @@
       </p>
     </div>
     <div class="footer-col">
-      <div class="footer-col-title">Method</div>
+      <div class="footer-col-title">Navigate</div>
       <p>
-        Signals derived from contemporaneous<br>
-        information flows, not retrospective macro data.
+        <a href="#methodology">Methodology</a><br>
+        <a href="#about">About the Analyst</a>
       </p>
     </div>
     <div class="footer-note">
@@ -796,8 +951,8 @@
     })
     .catch(err => {
       console.error('Signal load error:', err);
-      document.getElementById('heatmap').innerHTML = '<div class="loading">Unable to load signal data. Check that data/signals.json exists.</div>';
-      document.getElementById('feed').innerHTML = '<div class="loading">Unable to load signals.</div>';
+      document.getElementById('heatmap').innerHTML = '<div class="loading">Unable to load signals. Please try again later.</div>';
+      document.getElementById('feed').innerHTML = '';
     });
 
 })();
