@@ -8557,5 +8557,221 @@
     "sources": [
       "https://www.tbsnews.net/economy/foreign-loan-disbursement-falls-26-8-months-fy26-1397921"
     ]
+  },
+  {
+    "id": "2026-03-30_external_liquidity_stress_a7575bf4",
+    "title": "External Liquidity Stress",
+    "date": "2026-03-30",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_pressure",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import compression",
+      "industrial input shortage",
+      "informal FX premium widening"
+    ],
+    "headline": "Forex reserves stand at $34.06b - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iTDZmQ01kSlVDS1hhVWZJSmhjVDV2c1gtNGd0aE10ZUQ4dXBvZVJSUl93Z25FeVQzeTc0QjUxMG5VQm5VS2Raa0RpVG9rbTcy?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-30_remittance_flow_disruption_66b6ee5c",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-03-30",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_change",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
+    ],
+    "headline": "Remittance inflow grows 19.3pc till March 29 - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0ycXpRSm5MbnVTUFphTzBpbTd4MERGWFZnZUtrX2tzZW1zd19TWC1KVGZjdnRUd3lCcHdNeHllRmFUM3JuaE93SjV0VFh1bTVM?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-29_remittance_flow_disruption_68eb144d",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-03-29",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_change",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
+    ],
+    "headline": "Remittance inflows hit $3.33b in 28 days of March",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CWnNDeFdNa0VJOWNNZnczR1huakprMlUxNjFYeENtTTc4dzd2MHRXYUtZR0hIZ3ZjWlJPVHRGWjZOY1doaklIRVVpQy02NDg2YjVZS0pzUDJZV3FxbmtCX9IBbkFVX3lxTFBNN2d1OUwxMUthbWJoM3NWR0tVeWxubzBfbEx2X1h2TFR3dS1wZUJKT3BqLWhwdzZIa3JZMEdrX0w1alZQWjJsMlNNTmZta0xEOEVGYTRzREM5SWhGRXpFSS0tLXR5NlhDVjV0UlBn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-30_energy_supply_constraint_030449ee",
+    "title": "Energy Supply Constraint",
+    "date": "2026-03-30",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Bangladesh seeks US waiver to import Russian diesel as energy crisis deepens",
+    "source": "TradingView",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSmt0ZnVyaXlwRmVWUk1GclMtR2ZqeVdzRDI5YWV4dGtScF9jeWxUcFpEWHFPdFpQZi1mRmJnLVhhd19EdDdaeW1PNU9fOVdsZlpFNV9UUzVKZXZkRkN4UHJfMktEOGhnbkJyTHRKWXZrdWVZdGUzaC0yZG1qVzNyVnpCd2hRdUR5SThoeXhnQXhOMDVubFVLTmlJTTNpM01DdGVoUDJWYS16c1BCZzFIYjhZOUR1VVNycFVLMkgzVzI1SGl5WDFheGQwWHN6cXNmdDBLQWZXTjNtakRuNDBZ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-30_energy_supply_constraint_ce8ba753",
+    "title": "Energy Supply Constraint",
+    "date": "2026-03-30",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Bangladesh the first casualty as energy crisis spreads globally",
+    "source": "telegraph.co.uk",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHhLSmZ5NU12QTViZVhsWUJmVVpDaS1ZdGprMHlvSm9zeWd6TDhWeVBpclg5dzNIcXcxRjBINUszUlI0LVpoZDdReG9KbUxReU9PaVBuUUJTTmVhWDdoQkZtZ3Bnamxod0ZPMV9CRzh1YXRkcTVuZ3ZEU3VobUJOdG45Rnh3aGw2LW41Yy1scDFnUnA4ZXlMM3hRZk5sVWkycmlDM2Fjbw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-30_energy_supply_constraint_85fceaaf",
+    "title": "Energy Supply Constraint",
+    "date": "2026-03-30",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Lights off, ACs limited: Bangladesh moves to save power as Iran war deepens energy crisis across Asia",
+    "source": "Moneycontrol.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQaWV1OF9WRnFDSS1ybHd2QkhzQUlGNFNJNm9BbkNGTS1rbGdGZEs1MW82S1dzMEtZTFdOTWljRkkxUy1wYmJWQklQSzJ5NUI2TDZBZFpBZGFSTk9xTTBnYjE4UlV0QUFyblpMMkpPcUl1cnpZNGFYRWZzN0lidTR4eFdJZFRIVGhNaEVqc3NqczBvMFkxOUlUN3dveE9hanJVVzBENzZpN3c0c25WMlFUT2hsVHNoVExNeGpYNWpKdjBUc3NxZ2E0WldJWHJDakJqd1lfS2lEbHI3TjhVR3lETVdoSVZRSU11ZHAtStIB8gFBVV95cUxOSlRUN1pxQjZYc0E0Rk8tcjNvSV9Va2VfcEhKcGJjX1BKYldFbDJoOXZyaDEzem5zTFlERTBkWjhsLXNQMkNhMmFwNmptYUZiQ21DVm5Vdm1uczVRRm04b1lMOENsSnhXWlE0Nm1qWGNEMzdzR2ZsV05GblIxbi1WZ21JSWlrT0JzWUdxcDRUSk9aTWhhUXI2VnpYSTE3Qzc0Z2xvWks5MnVDeVdENDNFWktzYUUtVVVzc3prSmVqcnNnSnoyeGtUOXZDWXdxal9seGw4V1ZfdjJvZ21Gd29sc0M2Q2paWjNSc0JWMDQ2cndGQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-30_energy_supply_constraint_b8745615",
+    "title": "Energy Supply Constraint",
+    "date": "2026-03-30",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Energy crisis forces Bangladesh to cut power use in offices",
+    "source": "Arab Times Kuwait News",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPUk9vSGRtdi04dlZjSk01WUxkNVNGSUpfb1dYVk1LS1VkNm9aU3ZwMXhYY2wyVEhNMC1kMDZ6aEMtc1RjSm0zNDdTSHFDNTJMMkUzTTNaeW9QbGtQR3JmS1NERjF3ajdjS1kwcU03SHFzekZrRDR5a2pmcDA4MmJ4RGFHTklJaThVMk92UkZmcFBGOXNVbml6SkZ3Uk5xQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-03-30_credit_allocation_tightening_1e88a864",
+    "title": "Credit Allocation Tightening",
+    "date": "2026-03-30",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_slowdown",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Bank lending constraints reduce investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment slowdown",
+      "working capital shortages",
+      "lower GDP growth"
+    ],
+    "headline": "Foreign loan disbursement falls 26% in first eight months of fiscal year",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/foreign-loan-disbursement-falls-26-8-months-fy26-1397921"
+    ]
   }
 ]
