@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-04-07_food_price_pressure_3a0da053",
+    "title": "Food Price Pressure",
+    "date": "2026-04-07",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Bangladesh Inflation Slows from 10-Month High",
+    "source": "TradingView",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmN2R2tnOFVKdEVpY3VtTXVvMWdXZnpyWTY1aENhWTlKMlVXYWIyREV6aFdjV1pfWU1lTDEwM0U2bnF4a0RtUmpvUTg0UGx3N0xkT0U2N2ZLSmt0bUJVaVVYVnU3LUpPc0tSVjh1X2xDbzhfeDViVG45Q0d4cVFfVk53SEpMNGdoQS1rUHZOTlh2Ty1UaEdHN0NST2M?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-06_external_liquidity_stress_142e421c",
     "title": "External Liquidity Stress",
     "date": "2026-04-06",
@@ -24,33 +51,6 @@
     "source": "The Business Standard",
     "sources": [
       "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeFpiSVg3NmJzMVBkcmdCckVxdlNTWHJhZ1FuQk1XUjNnVFJaVVBNdVBrQ2p5ZFlQYWx6c3NOMlpRNWpuc1pNdDhKcktMWUlfbHowSTVOcmF4VkpKbHNOY3EzOF9mSFlFY3BHTGpuTEJjNjVsTlBCekxGYWtRS1JITE1RVUc4NmJ1YzF5RmRYY9IBlAFBVV95cUxNdGRlWUNVWHVodTlndC15WUxjYlVVOHRnaHgxNEhWUkxlRnlWREt1MUdKRTVnR1FlSnJiNDNtRjh4THpwQUtxM0RKVkNtMl9NVjhaY2tBMEJnWXB3UDBhOWU1VXFGeEdIa2dyLThNTElHOVpjY3dydXpLeklzY0huZXktekxudy1SbGdLMTE2cHJHWTZ2?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-06_remittance_flow_disruption_6a150417",
-    "title": "Remittance Flow Disruption",
-    "date": "2026-04-06",
-    "signal_type": "balance_of_payments",
-    "channel": "Remittances",
-    "lead_indicator": "remittance_growth_change",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
-    "who_should_care": [
-      "rural economy analysts",
-      "consumer sector",
-      "central bank"
-    ],
-    "expected_effects": [
-      "rural consumption slowdown",
-      "FX supply reduction",
-      "hundi channel widening"
-    ],
-    "headline": "353.3pc growth of remittance inflow till April 5 - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1bS13R3ZtMFVpR0ZHS21oNjhuSlBCcmdXUmJXRzVwdEFCT1VzQnpheElzRURsYW9IazkwNjJHQTJSdEhpbzZmSXM0UnhXZjdZ?oc=5"
     ]
   },
   {
@@ -135,6 +135,60 @@
     ]
   },
   {
+    "id": "2026-04-06_remittance_flow_disruption_6a150417",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-04-06",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_change",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
+    ],
+    "headline": "353.3pc growth of remittance inflow till April 5 - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1bS13R3ZtMFVpR0ZHS21oNjhuSlBCcmdXUmJXRzVwdEFCT1VzQnpheElzRURsYW9IazkwNjJHQTJSdEhpbzZmSXM0UnhXZjdZ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-07_export_demand_shock_bc569391",
+    "title": "Export Demand Contraction",
+    "date": "2026-04-07",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_decline",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "lower manufacturing output",
+      "urban income slowdown",
+      "FX earnings pressure"
+    ],
+    "headline": "EU's changing apparel market and Bangladesh's export challenges",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1hTMnZ0S3ZtTmZuLUpIRzA2RFhLel96b0xiX09BMHU3Y1RpSmFvazhjcXE4Y2V4NWhxa1dBcENVYmNXdXRFOHhRbVZTTFQ0OGx5ODhhR3RVclZGU0tPcWJfREdjLUI3RXg4Z3ZINDI2UmlMVmZIangyUG5sS2VMeG1HaU1XbDAwMHN3UHBSVVpab0ZNYzNsa3RwM1JHa3kyWktKQUVKeWxRZkJsWGppOE1aWnI3Z3lRNDZlTHV2Z0lSR2xlT0E?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-06_export_demand_shock_1596deee",
     "title": "Export Demand Contraction",
     "date": "2026-04-06",
@@ -159,33 +213,6 @@
     "source": "Pressenza - International Press Agency",
     "sources": [
       "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcXp1SUxtTjJJcTB0SERCRnBwTWtMb21NQXBwTUwyQm9TeUlldW9JMmc3eXIzYURJcFVxM21idjBwT1k0eFlRNklka0lvVlI0YkZkeU16Umk0ODFyZ2RWc3c2VTV5R2tfWTBlMUhIYm1YLUgzbklKNGoxR3V4YzVGbFpUWDNSZ2N6bVkwTUQxQzZTdzFpdE8yVUlITTFpRVRQOUdxMUxFNV91aFE?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-06_export_demand_shock_bc569391",
-    "title": "Export Demand Contraction",
-    "date": "2026-04-06",
-    "signal_type": "balance_of_payments",
-    "channel": "Exports",
-    "lead_indicator": "export_orders_decline",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
-    "who_should_care": [
-      "exporters",
-      "garment sector",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "lower manufacturing output",
-      "urban income slowdown",
-      "FX earnings pressure"
-    ],
-    "headline": "EU's changing apparel market and Bangladesh's export challenges",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1hTMnZ0S3ZtTmZuLUpIRzA2RFhLel96b0xiX09BMHU3Y1RpSmFvazhjcXE4Y2V4NWhxa1dBcENVYmNXdXRFOHhRbVZTTFQ0OGx5ODhhR3RVclZGU0tPcWJfREdjLUI3RXg4Z3ZINDI2UmlMVmZIangyUG5sS2VMeG1HaU1XbDAwMHN3UHBSVVpab0ZNYzNsa3RwM1JHa3kyWktKQUVKeWxRZkJsWGppOE1aWnI3Z3lRNDZlTHV2Z0lSR2xlT0E?oc=5"
     ]
   },
   {
@@ -216,6 +243,33 @@
     ]
   },
   {
+    "id": "2026-04-06_food_price_pressure_962b5366",
+    "title": "Food Price Pressure",
+    "date": "2026-04-06",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Bangladesh stabilizes vegetable oil market through price controls and import policy",
+    "source": "ukragroconsult.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQnZCdUVSVzExZGhxT1NLeTFuWUpQU0Y5c2tPd0tRX3ZTV05HQXBsaUZaT2lHVjl0dDNZamEzejBtTU9feVhaZDVHamh3VmxLdUd5eUZIYXdKU1d3NzJTcTBVVnV1YzN5aVY4V2RiM3Z0SlNEM2J2Qm5uemlUWmlobG0tLVdQY2JBSE0tYTBBUGdfM05JZllQXzdraTV4M2NNVHBzcURPck5CdHFsZ2U0UUtOVEhnLWtTNGs4?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-06_geopolitical_risk_9517f883",
     "title": "Geopolitical Risk",
     "date": "2026-04-06",
@@ -240,33 +294,6 @@
     "source": "Asia News Network",
     "sources": [
       "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaGdUSDcwNnlLakM3RGFwOE16N2t0QlFPZDRSWDVlS2JpQnMza3g5bFVRYWtfNzlYVEQ5X2hqNGFCbGgyaGw0cnEyc0RSVVY2YXVVbVVJd0xLa1ZORDJ5TERYSkJmdjRDNTFPTG9GN3hUMTExQzc0OTRwdV9VREhmc2lWZ3A0TFB3RS1NUUVn?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-06_labor_market_stress_e0c30651",
-    "title": "Labor Market Stress",
-    "date": "2026-04-06",
-    "signal_type": "real_economy",
-    "channel": "Labor Market",
-    "lead_indicator": "employment_disruption",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
-    "who_should_care": [
-      "garment sector",
-      "labor unions",
-      "consumer sector analysts"
-    ],
-    "expected_effects": [
-      "consumption contraction",
-      "social tension",
-      "urban poverty increase"
-    ],
-    "headline": "BGMEA pledges support to prevent closure of SME garment factories - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CeWpLcDJIYWwwVzRUZWVGZ1BXVmFmU0dsZ3JyYVBmODhud2ZhOHpaOERncVg2eFc4UXZFcG5Ld2QyT3R5WWh1RXA2MnVNOTVt?oc=5"
     ]
   },
   {
@@ -297,6 +324,87 @@
     ]
   },
   {
+    "id": "2026-04-07_export_demand_shock_edd97021",
+    "title": "Export Demand Contraction",
+    "date": "2026-04-07",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_decline",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "lower manufacturing output",
+      "urban income slowdown",
+      "FX earnings pressure"
+    ],
+    "headline": "Bangladesh garment exports to US face decline as Vietnam, Cambodia gain ground - en.bd-pratidin.com",
+    "source": "en.bd-pratidin.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45cVFFdjRwNkNPaExtWndYbUZiTHRHNkQzUG1RclpyeHF5YXZYdFFVTWhzc25ZbTBoeEVheUR2WEZiWnhxX2tlWk14RTR4bkpPUXBHQ1hINFZiLVZxLUg4Rg?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-06_labor_market_stress_e0c30651",
+    "title": "Labor Market Stress",
+    "date": "2026-04-06",
+    "signal_type": "real_economy",
+    "channel": "Labor Market",
+    "lead_indicator": "employment_disruption",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
+    "who_should_care": [
+      "garment sector",
+      "labor unions",
+      "consumer sector analysts"
+    ],
+    "expected_effects": [
+      "consumption contraction",
+      "social tension",
+      "urban poverty increase"
+    ],
+    "headline": "BGMEA pledges support to prevent closure of SME garment factories - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CeWpLcDJIYWwwVzRUZWVGZ1BXVmFmU0dsZ3JyYVBmODhud2ZhOHpaOERncVg2eFc4UXZFcG5Ld2QyT3R5WWh1RXA2MnVNOTVt?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-05_geopolitical_risk_ad7efb2a",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-05",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "India's role seen as vital to bolster Bangladesh-Nepal economic ties",
+    "source": "The Hans India",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxQN3MweExHX3dvc0M0VHRRaEZndHR5YjRtWEYtOVlFdVpRREtuNERSSkltemd1Q1VjcWphdVdjeWpWQmFaTmMzMGt2OFRyc2VBcUhqOFRxUHhSYWxMdDRnZWgwNm1XNHR4V29VUW94Z1ZvMk5JMER5Qzl1Y3BLMHdnei1BMzlzb0lFSUhQWjY2VFhRNFJlMXZsaFBabGJVUXV2a0YwaEFGOTRPcy1fTUZsUVYzZlJvVTFycUE?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-06_trade_policy_disruption_346e9009",
     "title": "Trade Policy Disruption",
     "date": "2026-04-06",
@@ -321,60 +429,6 @@
     "source": "Jagonews24.com",
     "sources": [
       "https://news.google.com/rss/articles/CBMiXkFVX3lxTE90Q3RzeVRxVFZVQV9kM3V1bkNOdURkVXk5VFlMVE5BOUdoVHYtTThaajhEamloaTY4dkQ3bU9aaGxwYmFSX204SmdOLWNwUV9FZzdPYzZDbDl0QmJrakHSAVBBVV95cUxNSFB6TTR3YlJQclA5V0hWX05YNWpseHdWYnN1cW5fRHh4anBTZG9pWm5USVhNXzk4VG1QLTc0cTgyaWNZV2t1VXRjS1hTWmlJUQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-04_export_demand_shock_7fa94ce2",
-    "title": "Export Demand Contraction",
-    "date": "2026-04-04",
-    "signal_type": "balance_of_payments",
-    "channel": "Exports",
-    "lead_indicator": "export_orders_decline",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
-    "who_should_care": [
-      "exporters",
-      "garment sector",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "lower manufacturing output",
-      "urban income slowdown",
-      "FX earnings pressure"
-    ],
-    "headline": "Apparel exports to US decline 8.53% in Jan-Feb amid regional competition",
-    "source": "United News of Bangladesh",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmZnQTVwb1BYcGtKRW00cXRSMm5CbkNzQ25pTHpOVVNHYzdBWk5DWlJsMXhZSWJiRU1LMXZ0Ni1CZzI2cW54dlRPVzFiZUt0WGhJUUQyVklKeHRaaXFxZTdKNWJBUzRJTjVIOEUyVDA2cGJoTEdNTEZIaHdMNE5KZmV4ZG9pZFJSUjVVSTlMX3o2R1FQbXZ1dERYNTZSdm42V3hrdmhERlB3djZ5bWFqVjFLRnM?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-05_geopolitical_risk_52a0fb2f",
-    "title": "Geopolitical Risk",
-    "date": "2026-04-05",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
-    "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
-    ],
-    "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
-    ],
-    "headline": "India’s Role Seen As Vital To Bolster Bangladesh-Nepal Economic Ties",
-    "source": "Ommcom News",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVFlQM1FBa2dZamxYczBTNFRxVGJObWcyQlhBald2cjdOM1I4bnAtSnBrQ21FSlJHYk1aM3QtZUF3ZjBaTnpkVUNmaHhPWkhVU05KZm45cV9rbDcwZXVnRVc1Y3g5NXFUOUVoVkxqaGpuaEhlbTYteFljN3BVSko5ajJqa3VsUnA3UXVVV0M4aEhuUDd1ekRKMmZ6dzNubHRpcW9BRw?oc=5"
     ]
   },
   {
@@ -432,7 +486,7 @@
     ]
   },
   {
-    "id": "2026-04-06_banking_sector_fragility_a45be5b1",
+    "id": "2026-04-06_banking_sector_fragility_62330af7",
     "title": "Banking Sector Fragility",
     "date": "2026-04-06",
     "signal_type": "financial_conditions",
@@ -452,37 +506,10 @@
       "deposit flight risk",
       "fiscal contingent liability"
     ],
-    "headline": "Defaulted loans hit Tk 5.45 lakh crore in banking sector: Amir Khosru - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "headline": "DCCI urges Bangladesh Bank to extend loan default period to six months",
+    "source": "bdnews24.com",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9IVmJ4dVk0N1NvandjSXVQR3Q5R1FXN1Y2NWlDY0hFNnMzMWVac1czeXVXcW9zYnpqZ0h6dTZZb1U3VXUzTlppUEFLWjdobm14Vklz?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-06_banking_sector_fragility_98c44aa0",
-    "title": "Banking Sector Fragility",
-    "date": "2026-04-06",
-    "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_change",
-    "time_horizon": "3–12 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
-    "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
-    ],
-    "expected_effects": [
-      "credit rationing",
-      "deposit flight risk",
-      "fiscal contingent liability"
-    ],
-    "headline": "Defaulted loans hit Tk 5.45 lakh crore",
-    "source": "citynewsdhaka.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11UkduTGhWc1pUaVdna0wzMGpvM2dFaFZGS19mRm83U29icExORGJ5NzVJMGxuV1BtZDlRODZ0TGViZk1DbkZ5VEdLR1lCUllIRmJxSFFmSE9sZ29HLWNOYQ?oc=5"
+      "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04M0JqbWZfVHlFalhRRkhyLTdJNXFLc2RkRmwzNjJZNjF1MDNDYzdIWVJVZnRFYVdJaThWQVBWWmk5UFcwYnFhZEdCd2hDS0hDOEQ0OA?oc=5"
     ]
   },
   {
@@ -513,34 +540,61 @@
     ]
   },
   {
-    "id": "2026-04-05_credit_allocation_tightening_5da84611",
-    "title": "Credit Allocation Tightening",
-    "date": "2026-04-05",
+    "id": "2026-04-06_banking_sector_fragility_a45be5b1",
+    "title": "Banking Sector Fragility",
+    "date": "2026-04-06",
     "signal_type": "financial_conditions",
-    "channel": "Credit",
-    "lead_indicator": "credit_growth_slowdown",
-    "time_horizon": "3–6 months",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_change",
+    "time_horizon": "3–12 months",
     "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Bank lending constraints reduce investment and working capital availability across the real economy.",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
     "who_should_care": [
-      "commercial banks",
-      "corporate borrowers",
-      "investment desks"
+      "depositors",
+      "bank regulators",
+      "financial analysts"
     ],
     "expected_effects": [
-      "investment slowdown",
-      "working capital shortages",
-      "lower GDP growth"
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
     ],
-    "headline": "Prime Bank becomes first in Bangladesh to disburse consumer loans against Treasury Bonds",
-    "source": "thefinancialexpress.com.bd",
+    "headline": "Defaulted loans hit Tk 5.45 lakh crore in banking sector: Amir Khosru - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODJtQWdWRFFfTUExYmVHcDY3OXg1c1VoNXA1YzR1T2ZZb3c3b1BJUmM4RnA5UGV2d1pNdGRYVEVjMURtb0pWaVZ4QlpkUmZ0bU1OSnEyNVluYXdsakhoMmhITGZQLV9MSER1RnRORjNZT3Z6SUxHUjVXXzQ3YTN3WDNWd2lScExXTEl6NFVyZU5FVjVFbUFjMUpmeElVbjJaR3QtMWt6SzJUanJsYkc4OHdEY0hnTnVDNkl2cWtpREhodldPZC1LWg?oc=5"
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9IVmJ4dVk0N1NvandjSXVQR3Q5R1FXN1Y2NWlDY0hFNnMzMWVac1czeXVXcW9zYnpqZ0h6dTZZb1U3VXUzTlppUEFLWjdobm14Vklz?oc=5"
     ]
   },
   {
-    "id": "2026-04-05_credit_allocation_tightening_e7dc17fa",
+    "id": "2026-04-06_banking_sector_fragility_aa6f799f",
+    "title": "Banking Sector Fragility",
+    "date": "2026-04-06",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_change",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "List of top 20 loan defaulters out as bad loans hit Tk 5.44tn",
+    "source": "bdnews24.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zREhYOWpPOHJ0RkdobnZkXzRuTVU5bm1oVEc5WEhESGNHaXZvWUl4ekU4LV9xWEZ3T1lxYjE1b2FlbEwzNzRRdDAzSFNWRnRfT2dsN1B0UQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-05_credit_allocation_tightening_2772a5a0",
     "title": "Credit Allocation Tightening",
     "date": "2026-04-05",
     "signal_type": "financial_conditions",
@@ -560,10 +614,10 @@
       "working capital shortages",
       "lower GDP growth"
     ],
-    "headline": "Prime Bank first in Bangladesh to disburse consumer loan against treasury bond",
-    "source": "The Business Standard",
+    "headline": "Prime Bank becomes first in Bangladesh to disburse consumer loans against Treasury Bonds - The Financial Express | First Financial Daily of Bangladesh",
+    "source": "The Financial Express | First Financial Daily of Bangladesh",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYll6cENheDFjaUgzTXctUWVBNzhES1hpTmwxOEYtMXVlYUxvQnZ3X1VnTW9DTGhoNUFDMWdZR1VUcFdKbkVleXVVa0xHR0NkYlNEZzEzYXhVV0RqSmY2X3ZzUmJ4TnV0VDl2QTJHQlRUcHgtRi1CRHl1dmo2OVVkcjNzQWkyM2hlRjlTOFlGTFZVZm9EblVTaFNyc0EwSi1hZklUZUtkc0FBdjMtNUYtc05PSVF1OHNWUEFKRnoxSTHSAcYBQVVfeXFMTUhJVVRXYWo2ajdvdmlYRjJrdlIyY09tY0VWT2h2dXJKRnZtUmFBY2VkWlE2bWc1X2l3OVZ1Z1lPTmdpY18tUGZnU0h3UlBVLTlXWTNOUW5GYUFFSHptN1paeUJoM1MwaC16a2ZaY3AyX0JiSk9IUERLakZLWW5NeFdsa3ROZVhwUXZseHB5alBiZDFpWHlUYUpnOFVRVGFFSU0yZWRLaTlYdWpVSmgxZUQxOGZRUlltMTNHckkzNm1CbTRpakh3?oc=5"
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODJtQWdWRFFfTUExYmVHcDY3OXg1c1VoNXA1YzR1T2ZZb3c3b1BJUmM4RnA5UGV2d1pNdGRYVEVjMURtb0pWaVZ4QlpkUmZ0bU1OSnEyNVluYXdsakhoMmhITGZQLV9MSER1RnRORjNZT3Z6SUxHUjVXXzQ3YTN3WDNWd2lScExXTEl6NFVyZU5FVjVFbUFjMUpmeElVbjJaR3QtMWt6SzJUanJsYkc4OHdEY0hnTnVDNkl2cWtpREhodldPZC1LWg?oc=5"
     ]
   },
   {
@@ -594,6 +648,114 @@
     ]
   },
   {
+    "id": "2026-04-07_fiscal_revenue_stress_33274a98",
+    "title": "Fiscal Revenue Stress",
+    "date": "2026-04-07",
+    "signal_type": "fiscal",
+    "channel": "Fiscal",
+    "lead_indicator": "revenue_collection_shortfall",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
+    "who_should_care": [
+      "bond market",
+      "development agencies",
+      "government contractors"
+    ],
+    "expected_effects": [
+      "development spending cut",
+      "domestic borrowing increase",
+      "treasury yield pressure"
+    ],
+    "headline": "PM's adviser acknowledges supply strain, warns of tougher austerity measures if crisis deepens",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOempodkd3WFd2WGhoS3NtYk5MMnBRanR4bG1uYU1Rc3FRMk9ySzZzSWpGSVNjdVBFbTlzYjBtT3RaME9rSnFhRHpmbXBhTHVtV195VUJWQmt4bDFFcC1EWlJ5TXZxMzJyWTJieHE3QVRfRkdOOVYzMlBJS2NMVk5pc214SF9xR2lQbXpad01obzNObGJaNmlESlFmeXhEdzZvLTYxZWxWNUd2QXFMRDdiVThTNnFWVTk5TVdEbTdHVVPSAcYBQVVfeXFMUDgtWEY5SVRTRnc3ckdIbHNyNGRkQ2RoQmJlZWh1em9rSXZpSnZtZ3htYWNvWGlNUUotMGpGemdDeXBPWFNWWTRwNEc1dDRDUTdTOVVOT2M1WFJKMjA3WTNrdkJmNWlVaVE0V2dkSDhQZlpLV2x0RllGcHUzNHFpaXhZMFotYWwzLWpVZWZYREZCNC1YdnJOdldvTWkwSzhZbDlyN09mZm55UklUeFoxNW84LXB3ODlqSWlSanF0NFUwNnJRZnpn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-07_energy_supply_constraint_79996f2e",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-07",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Bangladesh Load Shedding 2026 | Nation braces for power cuts in hot summer | Bangladesh Electricity Crisis",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmVranhGRDlidi1wYTc3b0IydWZSZTc3SEoyM2Q4Ti11a09IekxXUVBwVWRyLVpKTHhKZHY1eU1RWHZRR1lUcGE0WldubVpqRlpSaV9tMjA2aDhvX3ltRzVvZl9WdG1STkxheFEzZXhiWFpfUndmdXpmRUN0a2JzM1piZllFalZEV3dtaU43RVpnaWNyNkFfNw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-07_energy_supply_constraint_a1ffc280",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-07",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "low",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "No fuel price hike now as stocks sufficient, next month's adjustment after talks: Minister",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcFhvcUJxX1NfU2x6eWZnWUVORl9tckJ2MXR5SVFMeUNFX1FRaWUtSTBPYWdUX1dnV2hXczVQQkJmcmVjZ19hMC1HZlZPYy11UnVOZGpNbVNEQjdUOTZwVHREelFXQnAyUE9TbkFTdXdPQUdaTkx0bEhVbVlDT0JqTEF4dmlqcUVhNTJEZ05CUVZNMEo0OHpDWVJ6NHZWU2tSbUdxWmY4QVlaRGExLVZUdkh4UWxOQ1o30gG-AUFVX3lxTE5UM0F6Smd3dVpDRGYtWWxtUHBxWVFTNUZtaml0RW1naUpBR3JMRFgtdFZyY1dCVGlUM0s2Y2JNSGNBekVnT1hHQ0FlLUxuRmRfbWlqcUxzT1YwbUdQLUVTdjM3UmtTbTF6OGg1OXlXOE1LeXl0UEhiN3pFXzZCNXRIcV9WdWhYMGV2WVZFeEQyS0ZtM1VXTWRHNFdIVGpLaDNtcEh6NU4wVHJRTWtrdFIwbm5PZkk4aHZSVHVVQ0E?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-07_energy_supply_constraint_501e1748",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-07",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "LNG being imported at double the price to maintain supply",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tMTM3X0xwMm43QjRZTXdLTU1LNmN3b0pibDhNVENBeEdaZHRIQmxNODhFVG1ydjhhaThVX0R5aGUxSjlpX1JjWXNOc2pRTVRaQUplelphNVNZLU3SAWhBVV95cUxPQlhRMmhjWnNHbzI2OF8yVXFOd0dGNWV4RW9ja1hmU1c0NnMtdi0xSF9MRG1XZHd5aHBueFFNR2hDYlRlTjZ1djJQbWVhZXg5eVZNY09RUDBRSW15VHJvZnRqTk5WOW1XZg?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-06_energy_supply_constraint_7075803b",
     "title": "Energy Supply Constraint",
     "date": "2026-04-06",
@@ -621,30 +783,57 @@
     ]
   },
   {
-    "id": "2026-04-04_energy_supply_constraint_79996f2e",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-04",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
+    "id": "2026-04-07_geopolitical_risk_6dc4b12c",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-07",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
     "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
     "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
     ],
     "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost push inflation"
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
     ],
-    "headline": "Bangladesh Load Shedding 2026 | Nation braces for power cuts in hot summer | Bangladesh Electricity Crisis",
-    "source": "The Daily Star",
+    "headline": "Bangladesh foreign minister’s landmark India visit to reset bilateral ties",
+    "source": "The Times of India",
     "sources": [
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmVranhGRDlidi1wYTc3b0IydWZSZTc3SEoyM2Q4Ti11a09IekxXUVBwVWRyLVpKTHhKZHY1eU1RWHZRR1lUcGE0WldubVpqRlpSaV9tMjA2aDhvX3ltRzVvZl9WdG1STkxheFEzZXhiWFpfUndmdXpmRUN0a2JzM1piZllFalZEV3dtaU43RVpnaWNyNkFfNw?oc=5"
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTWJXT3FSdDlBTUhoaEw2bVZraVZJNlZrdmxnSHd0ajBNSk1VRzBQQjFDX1BmSVlYUUF5XzNWbmpSd2R4dERjU2FsclBpNk9VY0k0N2N5ZHU2NGxOTVRsdDVnZ05RUlNxanlicHBJWjRhVjlsMWhSR01QYlhZMVg1NGdxdjlLeC01NjBPUUNfX1o2Nm1rMEpJT2FmN3cwaWVpRjJjam1zR2Q1LXlzSC0zUkNMT19QclFkemlTbUVRZmnSAcABQVVfeXFMTk1iV09xUnQ5QU1IaGhMNm1Wa2lWSTZWa3ZsZ0h3dGowTUpNVUcwUEIxQ19QZklZWFFBeV8zVm5qUndkeHREY1NhbHJQaTZPVWNJNDdjeWR1NjRsTk1UbHQ1Z2dOUVJTcWp5YnBwSVo0YVY5bDFoUkdNUGJYWTFYNTRncXY5S3gtNTYwT1FDX19aNjZtazBKSU9hZjd3MGllaUYyY2ptc0dkNS15c0gtM1JDTE9fUHJRZHppU21FUWZp?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-07_geopolitical_risk_c642a343",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-07",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Bangladesh FM Khalilur Rahman Begins India Visit To Reset Ties, Focus On Energy And Infra",
+    "source": "News18",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMEw5MktwRnpYa3lPV3lIRTMxRk9feHYxQnpCOHRYLW0xSlZrcjRNUFBKekVpbVJDZGtfeWJ6b19KeUdJenJYbGxabUtUalRkRlUxZU02ZHZseFZwTGRZTmJzWHRDaFYxQU91TkNhczFTeUpFa1hWY293Zi1DbkZFSWxURFcwSFBnUGFGSDdRUTY3clFmRlg4cklid0ZmMWh1QUJwam5oa2V3ZUdDRVRHeXRwMllfNlZSUXNqRVdodnNkYXBOVlhfOHZDZzJvN1NMZVHSAdcBQVVfeXFMT3dmX2xVZ1h1el9oWkpQaVBlYzBQUG9pNjJPb1B0UjZQaGhmS0laNXRPajk0WVFBQzJCVUhkWHppSkt2djRfRHAyekNrTy1XZkdLMDlHOWJnSjBvWmJYQjVRYXZmVVAxbDA2WEZNeWdCd2ZtMlB1TGxENWhBSV9Vbk0xTXJTSjF1WGVqU255V3NTOHRHSll4YWJLcVV5emVmZ1dFVUp3UmJqd2dBaXMxUURFUGhzOFh2UTVBMWx6cEZLWU5fdW9ySmhJOUx1bTFCTzJWTDFRUEk?oc=5"
     ]
   },
   {
@@ -729,6 +918,33 @@
     ]
   },
   {
+    "id": "2026-04-04_capital_markets_stress_537a4fce",
+    "title": "Capital Markets Stress",
+    "date": "2026-04-04",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_shift",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation decline",
+      "FDI slowdown",
+      "market liquidity tightening"
+    ],
+    "headline": "Bangladesh reduces stock market trading hours amid energy-saving measures - The Financial Express | First Financial Daily of Bangladesh",
+    "source": "The Financial Express | First Financial Daily of Bangladesh",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVZaV3lqaWRvU3N5MlRGUmV0WVg4eG9DSWJHRDBoYnl1N1cyNW11Nmp2M2pFWjY1ekFIdU9HVnljSS1qdkJROF9rSnJDMkZqYm9jQjY2VGpnMEl4S215ZE5fSEVIVlVhNXlxWVd0NXJVa1U2T1dEOGNVTEQtVHhDcUVwS25QVlloVk5iZDg3Qko5dEwyaXM2V2JvSG1oRF9EcjhLT3NkMzVwQWlId2ZHOHBtTQ?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-06_capital_markets_stress_2e003186",
     "title": "Capital Markets Stress",
     "date": "2026-04-06",
@@ -780,33 +996,6 @@
     "source": "The Business Standard",
     "sources": [
       "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb0FVTDd1aHNIUDFfcWQ0am01VEpGNFM1bmlCWEtLeVhKcllrRXFQTXhJRXJ4blVlU194SFdXWUxTWXRwTFhtYzdiUUZXbGNGNERKLTVGYm5SZzlMbDliTEdBQlNobVRVb1FFTEU0VnJsLTNUZ1FDUXpSd05SODlyV0VyZmp0NXFUczJmZVV2U25kTDlKVjUwNjdCMHhjaE1Zci16bU1FMC1wYWFINEHSAbMBQVVfeXFMT1hLVU5ybEF1NVp6bWtqM080VGptdmowT0dCTHAtWTdlbm01U1Azckh4ODVteE5rcGhrbmJ5YUZ3M2RJaG1nckN3bk5pNnZuangwbXFPNW8ydmpKeW10YllNbk5wNkJVc2FKSF9nSGUxMUpFT1pMSDhlODZJYnVOYkZhV01CVmNrR3hZamQwT2xJUDVKX0ZGMnF3eHFKTE4yeWtvdUNJZVRtTEwtYlhsc241SlU?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-04_capital_markets_stress_41a25b07",
-    "title": "Capital Markets Stress",
-    "date": "2026-04-04",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_shift",
-    "time_horizon": "immediate–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation decline",
-      "FDI slowdown",
-      "market liquidity tightening"
-    ],
-    "headline": "Bangladesh reduces stock market trading hours amid energy-saving measures",
-    "source": "thefinancialexpress.com.bd",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVZaV3lqaWRvU3N5MlRGUmV0WVg4eG9DSWJHRDBoYnl1N1cyNW11Nmp2M2pFWjY1ekFIdU9HVnljSS1qdkJROF9rSnJDMkZqYm9jQjY2VGpnMEl4S215ZE5fSEVIVlVhNXlxWVd0NXJVa1U2T1dEOGNVTEQtVHhDcUVwS25QVlloVk5iZDg3Qko5dEwyaXM2V2JvSG1oRF9EcjhLT3NkMzVwQWlId2ZHOHBtTQ?oc=5"
     ]
   },
   {
