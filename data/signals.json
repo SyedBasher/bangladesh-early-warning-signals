@@ -14929,5 +14929,275 @@
     "sources": [
       "https://www.tbsnews.net/economy/stocks/banks-warned-against-buying-dollars-inflated-rates-1407591"
     ]
+  },
+  {
+    "id": "2026-04-11_food_price_pressure_c6508342",
+    "title": "Food Price Pressure",
+    "date": "2026-04-11",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "low",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Bangladesh’s GDP may fall 1.2%, inflation to rise 4% if fuel prices jump further: Sanem",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0s1eHllMjF5THo0TWRndHdNTVZjNW8yWXYtQVpzeW5yYVlOTnA1WnZ0dzBfNVlaeHJyaUsyWFlzX0JMbGRZQkpxNU5VQmJjSEROUEttSGhsTmlwbTNTMGt3Q2hISDFOanczMVhyQU1ZcTNpbDFueXBmcEpEZjlENXRva1FyVTRFYTlVV01aXzJTWmJNeE5RR3pjYkhTY2FKQXZnb3RFQloyblZWU24zWWhMMjR2MGZ50gG-AUFVX3lxTE90dG5FUkpfX3E1enVucXZfUWxvRklZWHl0bmhNVFlKUUN5dWN0ek5VNGpiX09MYWw3TUhzUHJBUUR2c1ZOc1RaajU0SnZhS3RpVW84LXo4WUFEVXVHWG52N3dxMERmZUo4YWZCSzczdE5QUUJUZ3hfVFdvZVR5RTlIM2RoOWEwQzNLT3AtLXU0S2J6dzM3VzU2WEttSWlpUm5kaDFUSU9sbVhUT0JvTXFsOC14dlk2UE00ZE9pQ1E?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-08_external_liquidity_stress_8775878b",
+    "title": "External Liquidity Stress",
+    "date": "2026-04-08",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_pressure",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import compression",
+      "industrial input shortage",
+      "informal FX premium widening"
+    ],
+    "headline": "Forex market stable, reserves hit $34.35b amid record remittance: BB - en.bd-pratidin.com",
+    "source": "en.bd-pratidin.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HNEFYRlJaakpyb0s4ZnFJSEV5cnZzeDJEZTBRME1GbTl2YVJqa0h5U2xkeVljNjNUVXdlbDJIZnRQTHpCdUNoakkwWkRCbVdIUk5NOVJlN2w1M2dtcWtOYg?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-11_geopolitical_risk_4d271854",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-11",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "India, Bangladesh reset ties, rebuild cooperation in trade, energy",
+    "source": "myind.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxONGdnZWgwYUZGODk3eEZBMjlsTy1meHVDc0lOV3h5OWE1eURIalhZQWlUbE5DSTlSSVhJR2pyeUtUYkZRcVc3aTM5M2JHd1F5Vi01QzMwYWEtVGZzTmlhenVpY1lZRFl5dXFVa01JdFVYMHYxVVM1cnE1TEFranRIQVgxeHN0X0J2VUd4VE1lak9LRFo3amhwUzZ3NVNUZ00?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-11_trade_policy_disruption_aaeba2a3",
+    "title": "Trade Policy Disruption",
+    "date": "2026-04-11",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh: Trade deficit widens to $17 billion amid weak exports and rising import pressure",
+    "source": "News On AIR",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjFNRjR0dUN5aFBmWkMyU2JVSEwwbm91azROYkhWQ3VQTE1JbktqMmlrRDAzaUtCQVNvNFpJWFk2c2NYODBXZmVSYVh3ZlFGcjZOTUtjSlBzakdUamJvREpkWGd3bHNXQ2ZJR0s5dzIxbi1Pek1DRy0tNmZraUJoLVF1Z1NkM0padDJWdTJHMl9VWHY3NFg5ZWN2UzE0azA3ZjVBUS1fbEVrUWFwNWhJSTdsSWNTcm0yeS1RNA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-11_geopolitical_risk_0c9bdfce",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-11",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Bangladesh seeks to refine Russian crude in India to diversify energy sources",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSjNMc3o2RDZDQzRuQ0U5R0RCQzl3enJYVmVPTHNFNHk1QU5mcjY2RHZNRE04cS1UR1VqMElURUJ3MlBWLTJfUnRkdEJlOVRKNkQ0MVdCM1lSU0d0bjJfZUs5amZiYW44QzdVWThJSDNSS2hndTRXYm9mZVFkanNwQ2ZPRFNIMXlmZDM0V2xhNnpBS3NDMW41U1pscUZxV3pvT1Y5UFVIbGM4R3BJSFdUWTBaOGpOdkQxTkHSAb8BQVVfeXFMTzI3c0VjeGdqNEhGTmRYa1dZTDhpR195V0I5aVg3LXpiVlpFaFNLTWNzTGhnbmI3Z0YxZy1jelNRamhOSXFfRUFqOHp1bG1UZnpscUlHbkc2amJ4NVlTbjlFdkY5d0k4OW5DTjRneTY3OFVkS1NmSnpDTktsR184VE92MkY0NTBWdmhDaDAxb3NnUlhDZTN5Vm5FR2gxcG1FUnNOQ1Btb3ZBdndXTHpuRW5DYTNhX1pnei1Eb1NKS00?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-11_energy_supply_constraint_a8d12d70",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-11",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Bangladesh seeks collective action amid global energy crisis",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPREZ5dlZlQlZRUEdEbXJxLWtlVmRUaFBVS1VGMXhfRnVfMDZac2g2VFBPTXhTVDRNZXpCcnFBS0piQ1IwM2J3WGRXU1NfOWptSzZmZENQOVJwQk1MQ1dITkIxcTVqSzFSNnlNZFVLaGpmdUVnS1FtRGRGU1RaMG1rWllNU1o4YXdhQWxvLWFsakg1SWNPT1d2MmIxcXYtQmlHS3FsZEFoS1ktOG_SAbABQVVfeXFMUDdGVEpMRkRNWm8yYVFFdzNKTEN3NzF0VUVMZVRRZkNHUEpBdHJzUUpxcVV5WUNiWVhrTDE3STFwSkFHbEw1emZmZ2V4QnlQcTBVM1Y3TUc3WUJ1UmNHV0xaUzAxVUZtV1JKY2wyVUVlRTFjQndMODBSTHBEUE9vZXgxd2oxN0RDbVdYZlZ1ODdEb0NBcUJsSWJ5LUx3TTY4eDl1TUFUOTE5Ym5KX1YtbHI?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-09_energy_supply_constraint_a02459cc",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Energy crisis: Experts stress renewables, policy reforms, expedited decisionmaking",
+    "source": "United News of Bangladesh",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaVhTTVUzRkVlQkIya2hHWUxEcWEyM2hKSmtwWVBTRGpzNXFuMUN2MG1zSTJyWThYSl9PUFB1dndjaGZXYzdmRjdoRzRwaVFLQ0dQTXJvS01TUjMza0o2Z1lBc1d5UlNJZnJ4WTJsUERiaGFVcWhmM2dVZkEwa29UM0E5bEs1RTdwWkNlME13RzZac3R2Y3RmUVFpRWtCcTEwdWxwcVhBOEZtNVoxUUxXbEhUOFE1ZWVMdGpwVG1YRHc0N2M?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-11_capital_markets_stress_3038f9fc",
+    "title": "Capital Markets Stress",
+    "date": "2026-04-11",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_shift",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation decline",
+      "FDI slowdown",
+      "market liquidity tightening"
+    ],
+    "headline": "What are Bangladesh’s short-, mid-, and long-term stock market trends?",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVjFhQXg0NEpQR2RuM0RBcFBMakd6d0JUNTZQSmt1RWVIRXpxY2FUaHM4WVFlS2pDckRVT2tDYkdwdGpuYjJIZXVqZUIzV3VnMFIxaWVYb0JLUG1zMFE2dnJCM18zMEd5aEp0d1dfdGxHQ1dKWjVqRmtDYnpkY0N3bUk1MXA4dEZlNXU4cktJRDB1dW5LQ1haQi1FelE1SGxKTkt1V3dnR0dXRVpWNjhaUFdfYTBxc1XSAbwBQVVfeXFMTWxYeVhKYy1LbHNTZml0TTBoSWN3d2U0Tjk0NlhvQVRhNURkWUVvSjFBOExxbmNDMjR1NWxpVjloZWpLRTB1QlRudkREOXBqMGFReFhRX2NhV3BfRVlKS3lCMEZuWW5sVDlYRk9tSmhOOTF1VnFMMTY4OW4zUFhUOENSQ2piM2xPcUNqQTE2R1BaYWNrdS1na3BuSVZHZ2Y0eTNveHZrUWRaOENLc1AzSWdkWTFFeGRpdThFeEo?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-11_food_price_pressure_6229db18",
+    "title": "Food Price Pressure",
+    "date": "2026-04-11",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Hilsa prices surge ahead of Pahela Baishakh; vegetables, chicken also costlier",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/markets/hilsa-prices-surge-ahead-pahela-baishakh-vegetables-chicken-also-costlier-1408321"
+    ]
+  },
+  {
+    "id": "2026-04-11_food_price_pressure_db2072f7",
+    "title": "Food Price Pressure",
+    "date": "2026-04-11",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Mideast war drives surge in imported essential commodity prices",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/mideast-war-drives-surge-imported-essential-commodity-prices-1408316"
+    ]
   }
 ]
