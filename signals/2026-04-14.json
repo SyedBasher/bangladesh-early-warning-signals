@@ -1,32 +1,5 @@
 [
   {
-    "id": "2026-04-13_trade_policy_disruption_4777a4fc",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-13",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh faces economic shock as Iran war hits oil imports",
-    "source": "Eastern Mirror",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUldpWHBERURnallJdk4tUUM0aFk4ZDNsUEtDc1BpclljdjEyaXJkbFQyY204NC1VWkRkeGdDOVBpVlZPWFRCY2cxNFRoN18wMDhOMW9uMmpRODM2WVZ5VEdhSTExaVQwT05ObU5JVkpSTWVGNmx0SFRQYTNQakY0OTNZeGYwbFVJMk9fYWdfTTFuN0I3cVRuMHRjdVl1WGc?oc=5"
-    ]
-  },
-  {
     "id": "2026-04-13_external_liquidity_stress_565555d7",
     "title": "External Liquidity Stress",
     "date": "2026-04-13",
@@ -51,6 +24,60 @@
     "source": "The Business Standard",
     "sources": [
       "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUGNKS1liYmxId3l1VENjV3lFeVpDQUlyTUhPemhPdk9HcVZWbXZXVmZLdTZiM0lWYXhpd2xSTjNCNTM0endOZXNVMEJTb1dUN0NCMnJhWUtIYm1RUmFZdWpNTkRqVzJuQlRkenREV0F5X1F1bUxUNnVISy1YcDhVUzRNUGdBNTNYQ2ZPUDN3Nm1ZN19wRjJvak4zVTdhZUZ6cXBuN0JMOGl6UdIBrwFBVV95cUxPSmY5UFROTGNhNWVQelJHVGhYemx4bmFsMUpMUmhidGdCZ2pOc3dBQUVFOUtGWmU2SkVKTEhYT0t5SDZUUWV4OHFSa3l5bFdvd3JQM0VVVjNuOFNlVHZONFlzR3NKUzBydHlpYkl5N3VzUFBoUWVKWmJtZ05uWFdjTjFFN1F5NWVWQ3ZkRzBlU09yODEzVmNDOXN4VzUtWDF3YWhtMjQyV2ttU1JhNTNn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-13_external_liquidity_stress_3b07fb4e",
+    "title": "External Liquidity Stress",
+    "date": "2026-04-13",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_pressure",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import compression",
+      "industrial input shortage",
+      "informal FX premium widening"
+    ],
+    "headline": "Forex reserves stand at $34.66b - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KcG9IQmVfVlpaTDZrVWxKc1BaYjAtTkRWczZVUTNDSXd2X2J2aElfSVZzb05PdkRfZWV4WHU4a0cyTWwxbFJCT3ZvQzBqb1BY?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-13_trade_policy_disruption_4777a4fc",
+    "title": "Trade Policy Disruption",
+    "date": "2026-04-13",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh faces economic shock as Iran war hits oil imports",
+    "source": "Eastern Mirror",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUldpWHBERURnallJdk4tUUM0aFk4ZDNsUEtDc1BpclljdjEyaXJkbFQyY204NC1VWkRkeGdDOVBpVlZPWFRCY2cxNFRoN18wMDhOMW9uMmpRODM2WVZ5VEdhSTExaVQwT05ObU5JVkpSTWVGNmx0SFRQYTNQakY0OTNZeGYwbFVJMk9fYWdfTTFuN0I3cVRuMHRjdVl1WGc?oc=5"
     ]
   },
   {
@@ -105,6 +132,60 @@
     "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
       "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ad0lReHptRG9KTnhtS0d6aHVxUmhvTnNtWER2UGVWUnM0bWotNHFja2owc2dqQlBqSVpOcEpvc0wzRWhfVFRNVDdtcjRIb1h4?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-14_energy_supply_constraint_486d6b41",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "Bangladesh’s Energy Crisis worsens as US-Israeli War on Iran Drags on",
+    "source": "Informed Comment",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vUm1LVnpRWUJDYUNpTHZRZlNESVZNQjlVWi1EdWx6aWR6SGh5YXo1QzdYYWJydUFhcXJGOUNocHI1NzlMNnFVNDljNldldURua05TOUhUaDlGeGd3LVRXOG5OYUJEcWpLd2RfN3FKeWpaQVU?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-13_trade_policy_disruption_aaeba2a3",
+    "title": "Trade Policy Disruption",
+    "date": "2026-04-13",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh: Trade deficit widens to $17 billion amid weak exports and rising import pressure",
+    "source": "News On AIR",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjFNRjR0dUN5aFBmWkMyU2JVSEwwbm91azROYkhWQ3VQTE1JbktqMmlrRDAzaUtCQVNvNFpJWFk2c2NYODBXZmVSYVh3ZlFGcjZOTUtjSlBzakdUamJvREpkWGd3bHNXQ2ZJR0s5dzIxbi1Pek1DRy0tNmZraUJoLVF1Z1NkM0padDJWdTJHMl9VWHY3NFg5ZWN2UzE0azA3ZjVBUS1fbEVrUWFwNWhJSTdsSWNTcm0yeS1RNA?oc=5"
     ]
   },
   {
@@ -189,60 +270,6 @@
     ]
   },
   {
-    "id": "2026-04-11_trade_policy_disruption_aaeba2a3",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-11",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh: Trade deficit widens to $17 billion amid weak exports and rising import pressure",
-    "source": "Chennaionline",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT1MzTFBRUmRHbGd2UndkaEpZR1R3THBuRzd6MmRweEwyeVlHeS1Za0ZwcEQ2OGdsWlo0UnM0bm1fcUtOQ3RmT3k1N1NiemlYb2JIX0NSR1hGSzRPQmgzYzZWZWRMUWJRS2tpRVFuRFJpM2RSYjQ1N2VoWUtfUVlsNzg2bnJIZGJfUDJOT2ZtLTFGTHE3QTRQWExqNXlQQ2hzakRRSGNyTDdoT0M2bUZmc1JhclhCN2ZGSUcyY2NwR2Y1U29u0gHEAUFVX3lxTE9PUzNMUFFSZEdsZ3ZSd2RoSllHVHdMcG5HN3oyZHB4TDJ5WUd5LVlrRnBwRDY4Z2xaWjRSczRubV9xS05DdGZPeTU3U2J6aVhvYkhfQ1JHWEZLNE9CaDNjNlZlZExRYlFLa2lFUW5EUmkzZFJiNDU3ZWhZS19RWWw3ODZuckhkYl9QMk5PZm0tMUZMcTdBNFBYTGo1eVBDaHNqRFFIY3JMN2hPQzZtRmZzUmFyWEI3ZkZJRzJjY3BHZjVTb24?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-13_trade_policy_disruption_faa9e681",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-13",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh Fuel Import Cost Rising | Petroleum import bills surged 52% even before Iran war",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGxpVU9fWjkwU0VxNXVoa01yc3JHeUx3NFhrdk5XYWFBVzY5azlIZHFhZ09HUzBUX083V2I1X0Z4bm5QSkZlWWktUmQ4Uk5sQ0tuUmNLaUhCSFBTUVlxNUdCTThSRVdWbC03czQtbGtVTW02QUwtUVd6MnNzZm5VQUNxS0NwblhUUXB3SFdQVXFSUkhVeWNzS2U1cHFIU25mM042OVpSb0Y?oc=5"
-    ]
-  },
-  {
     "id": "2026-04-13_trade_policy_disruption_eb622cdc",
     "title": "Trade Policy Disruption",
     "date": "2026-04-13",
@@ -324,6 +351,33 @@
     ]
   },
   {
+    "id": "2026-04-14_geopolitical_risk_e01685d9",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-14",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "India Joins Russia, China, Bangladesh, Iraq and More in Securing Safe Passage Through the Strait of Hormuz with Iran’s Support, Ensuring Uninterrupted Global Shipping and Maritime Travel Amid US Blockade",
+    "source": "Travel And Tour World",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOdkF5UGZUQmdNVVJPS3BwQ0d2WTVYQWpic1NHYmRXRXhBZUpKRGhYanFIZHJiRGYwNVZ4T1pIMzhNVVZGZHZEb0tCQml6Y3ZKQTVFVkxkSk1fUmJOY25JbmR4ZUxNZmdfN3BOZTZGSE5BbHNzdkVIZDA2bEhvdzB1ZzZrWnBSNUJ4N1p0ZWFoS3d6bGJNN0tscWtqMzNKcS1hWDBjZjdsNFFCdzAzcUkxMGliVkllU2kzUm05aGdPZ0Z2TlR3RWI2TEJIbkEzalF0SnhDMTlzMDh1OE9CeDVEWk9mYmJKMm4xVHhfalhFOGk0eEZBQXNzbDR5am1fWjdLeDVIQmZSNFNRYlpScExpYWtfTTJ6QWRRTXVkdzA5blppSlJERjRaaE1YZlNKMmtNbDVPOEZFSVZCaUdxTDdwVHNhYXM1djRBZU5Fdk1yLU9aZWJUYTRMT2x1VlhYdVRD?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-13_energy_supply_constraint_c4b016e6",
     "title": "Energy Supply Constraint",
     "date": "2026-04-13",
@@ -351,30 +405,30 @@
     ]
   },
   {
-    "id": "2026-04-14_trade_policy_disruption_82acf13a",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-14",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
+    "id": "2026-04-12_geopolitical_risk_b6c2d1f6",
+    "title": "Geopolitical Risk",
+    "date": "2026-04-12",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_change",
     "time_horizon": "1–6 months",
     "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "confidence": "high",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
     "who_should_care": [
-      "importers",
       "exporters",
-      "trade policy analysts"
+      "remittance-dependent sectors",
+      "energy importers"
     ],
     "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
     ],
-    "headline": "Bangladesh imports another 8,000 tonnes of diesel from India",
-    "source": "The Business Standard",
+    "headline": "Energy Crisis and Economic Impact of the Gulf War on Bangladesh - daily-sun.com",
+    "source": "daily-sun.com",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTNpcFB3bWRjS0RPYVpuZ3JPcDluVGRpZGJFUnk3a3RQc01DNng3c2tCVGVqOXFudllHQUo4LUt5MUlobTZhVF94S0w1Yl9HaUo4S2dVbllIQ1dWc3NzU0tscUtXMkgwNF9hZmFrWTEwdUxHaDg4SXVvaHgxX01XYmFYbWUxSjJmMC1PdnRhc0ZOQ0oxMmZvLUVwNW02N1pXUW1R0gGoAUFVX3lxTE5semJOYV9aclhLdUUwTTZ6VFhHZDVpdVFya0Y3VHV2cGtlMjhsdzhDZTVvSU81cVdKLTgxbmdrOEdnLWMxQVBLd2p0dzhjV1YwdkFYbUJWd3ZxTW4tRE1rMGhKZUwxaXhveHBKaHJFVVBKSncxSGt5b1AyYTB2c0xnR29rV3N4V1d5VUFkZE8wQmtjM1RmemI3dnRjSVVUNGpBX3I4b2hxaA?oc=5"
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ0E2a0Z2dUgzcTlsNGhacVFZOThqVGVqZU1sV3FBaFRmemtUUWRmSzR1a25CbmVySWpWT0xhUUI1MmpMc0ttcjNNSkk1TUlpdmUyblJPb3ViV2dXelJ1dm55UFgxa1hIU1FCN29sUDl1SnR4c0NvQlloVUc5cFhzeWNxUklOejNaUEh1Y01sX0xwaWE2OUtvZW5GZmNMY2liZk51cERqRQ?oc=5"
     ]
   },
   {
@@ -405,30 +459,57 @@
     ]
   },
   {
-    "id": "2026-04-12_geopolitical_risk_b6c2d1f6",
-    "title": "Geopolitical Risk",
-    "date": "2026-04-12",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_change",
+    "id": "2026-04-14_trade_policy_disruption_82acf13a",
+    "title": "Trade Policy Disruption",
+    "date": "2026-04-14",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
     "time_horizon": "1–6 months",
     "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
     "who_should_care": [
+      "importers",
       "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
+      "trade policy analysts"
     ],
     "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
     ],
-    "headline": "Energy Crisis and Economic Impact of the Gulf War on Bangladesh - daily-sun.com",
-    "source": "daily-sun.com",
+    "headline": "Bangladesh imports another 8,000 tonnes of diesel from India",
+    "source": "The Business Standard",
     "sources": [
-      "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ0E2a0Z2dUgzcTlsNGhacVFZOThqVGVqZU1sV3FBaFRmemtUUWRmSzR1a25CbmVySWpWT0xhUUI1MmpMc0ttcjNNSkk1TUlpdmUyblJPb3ViV2dXelJ1dm55UFgxa1hIU1FCN29sUDl1SnR4c0NvQlloVUc5cFhzeWNxUklOejNaUEh1Y01sX0xwaWE2OUtvZW5GZmNMY2liZk51cERqRQ?oc=5"
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTNpcFB3bWRjS0RPYVpuZ3JPcDluVGRpZGJFUnk3a3RQc01DNng3c2tCVGVqOXFudllHQUo4LUt5MUlobTZhVF94S0w1Yl9HaUo4S2dVbllIQ1dWc3NzU0tscUtXMkgwNF9hZmFrWTEwdUxHaDg4SXVvaHgxX01XYmFYbWUxSjJmMC1PdnRhc0ZOQ0oxMmZvLUVwNW02N1pXUW1R0gGoAUFVX3lxTE5semJOYV9aclhLdUUwTTZ6VFhHZDVpdVFya0Y3VHV2cGtlMjhsdzhDZTVvSU81cVdKLTgxbmdrOEdnLWMxQVBLd2p0dzhjV1YwdkFYbUJWd3ZxTW4tRE1rMGhKZUwxaXhveHBKaHJFVVBKSncxSGt5b1AyYTB2c0xnR29rV3N4V1d5VUFkZE8wQmtjM1RmemI3dnRjSVVUNGpBX3I4b2hxaA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-13_trade_policy_disruption_46338d6e",
+    "title": "Trade Policy Disruption",
+    "date": "2026-04-13",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost changes",
+      "trade diversion"
+    ],
+    "headline": "Commerce minister: Bangladesh faces rising energy import costs amid global volatility",
+    "source": "Dhaka Tribune",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWtSXzBEdHYxcnR2QTdUMU5pZjBEcmdPTjJqNERXNGFzZlZvQWNJa2JNbVNKZWJDa1N4SmREOG1VRWYteTMwQTN1aGtZdnBGUWFOT3lTbXBsX2lCNUFkRHZKaTVNRUdiVlpIOUJnZE9pTkppelk3QjFzTzc2V1d3aDFBcVZmaS04R052MjhVXzhPVkRaTGFnV1pFSGx1SFFyb2pjRjd0TjI5ajlY0gGyAUFVX3lxTFBGVUR4V1Zkcm1lVjBJM0VoeFEyTG9USDQ3dTFkOU1WazRidFZnNFU2RjRrSFMwWC1pb3o0Zl9KbG42ZXphTi1NbXhiM05jSHREanJDRWczTExVY1RBY0dsU1pXUzd2MVZzOFFOaHhXZ3g2dFd6U1J2V2hvZUtYek1leElibUI2SXJ4UnY4eHFkRHhLWndNUDlLTWtNTkktQXhEbFQ3TzdWNFFpR2JtOXBseXc?oc=5"
     ]
   },
   {
@@ -567,33 +648,6 @@
     ]
   },
   {
-    "id": "2026-04-13_capital_markets_stress_d3a2a365",
-    "title": "Capital Markets Stress",
-    "date": "2026-04-13",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_shift",
-    "time_horizon": "immediate–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation decline",
-      "FDI slowdown",
-      "market liquidity tightening"
-    ],
-    "headline": "Restoring trust in Bangladesh’s capital market: how blockchain and AI can end IPO fraud",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFNwa1QzV1B2b29LOTFPWTVmZjQwUkxTRkNSMTZNNzFoejVPWjQ2dU9IUWhtdzF0eTlaSEtwYTBaY1QwcE9kY05XeUdHNERyS3dBQ3NwZnZXbUJFTk84ZlBXWVRqODBwbnh3bHRFX2t4V2h3QmJlb2UxOGRHSTZJcFVmRWZ6OXUydmhmZU9VX2FEbTdfSUoxTndEM1hJWEdCdmUzSW9Zc2xPR2k4X01fZlhWa3NkVVNJQVVTOE9jZ2V5bEhEWlM4WWxBQUg2dw?oc=5"
-    ]
-  },
-  {
     "id": "2026-04-12_capital_markets_stress_e0ef7ad3",
     "title": "Capital Markets Stress",
     "date": "2026-04-12",
@@ -618,6 +672,33 @@
     "source": "The Daily Star",
     "sources": [
       "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOEFsYnhxVFlFUGdSR2J5ZUlFejEzRTV1UlZKNU84QmZrQ3M0MnRqMkJXMDZnWm52NUlFLUYxV3QxYU5UREJ5QTlieHA3UVctQ0hOeFM2U0pVZjF3VnRZaG1RTTF5aWMzSlYzcU0yamFZRHgzWE1TOThkc3pxa0tfTFBvMFItV1M3UVUw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-13_capital_markets_stress_d3a2a365",
+    "title": "Capital Markets Stress",
+    "date": "2026-04-13",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_shift",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation decline",
+      "FDI slowdown",
+      "market liquidity tightening"
+    ],
+    "headline": "Restoring trust in Bangladesh’s capital market: how blockchain and AI can end IPO fraud",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFNwa1QzV1B2b29LOTFPWTVmZjQwUkxTRkNSMTZNNzFoejVPWjQ2dU9IUWhtdzF0eTlaSEtwYTBaY1QwcE9kY05XeUdHNERyS3dBQ3NwZnZXbUJFTk84ZlBXWVRqODBwbnh3bHRFX2t4V2h3QmJlb2UxOGRHSTZJcFVmRWZ6OXUydmhmZU9VX2FEbTdfSUoxTndEM1hJWEdCdmUzSW9Zc2xPR2k4X01fZlhWa3NkVVNJQVVTOE9jZ2V5bEhEWlM4WWxBQUg2dw?oc=5"
     ]
   },
   {
