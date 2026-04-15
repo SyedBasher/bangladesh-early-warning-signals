@@ -1,5 +1,59 @@
 [
   {
+    "id": "2026-04-15_energy_supply_constraint_f1e4ddaa",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-15",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
+    ],
+    "headline": "PM seeks $2bn external support to tackle energy crisis",
+    "source": "Just News BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsR21JNXpqVVJpUE12SmFXMGhvT25TWmRiN2pHMTJuZWt4TUNzb1VNVmZxVUFnNnFibGIxZmhyX3RwOUJVb19IVlhvdXNRbGFRdnM3SjFuRVF3UXkwUEdvTw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-15_remittance_flow_disruption_cd060206",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-04-15",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_change",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
+    ],
+    "headline": "25.2pc growth of remittance inflow till April 14 - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yWXdsVG5qdEFKVDdEemNkRVpYWlFaM2RHWjRWUDdVcFlLdklCQmJJd3QxOVZzR3hEaFFoWTZRTVFPUWYyM0J1Sm9hSExaNndi?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-13_external_liquidity_stress_3b07fb4e",
     "title": "External Liquidity Stress",
     "date": "2026-04-13",
@@ -54,6 +108,33 @@
     ]
   },
   {
+    "id": "2026-04-12_remittance_flow_disruption_f1010bca",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-04-12",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_change",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
+    ],
+    "headline": "18.4pc growth of remittance inflow till April 11 - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ad0lReHptRG9KTnhtS0d6aHVxUmhvTnNtWER2UGVWUnM0bWotNHFja2owc2dqQlBqSVpOcEpvc0wzRWhfVFRNVDdtcjRIb1h4?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-13_trade_policy_disruption_4777a4fc",
     "title": "Trade Policy Disruption",
     "date": "2026-04-13",
@@ -81,6 +162,33 @@
     ]
   },
   {
+    "id": "2026-04-15_labor_market_stress_c1cd61e4",
+    "title": "Labor Market Stress",
+    "date": "2026-04-15",
+    "signal_type": "real_economy",
+    "channel": "Labor Market",
+    "lead_indicator": "employment_disruption",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
+    "who_should_care": [
+      "garment sector",
+      "labor unions",
+      "consumer sector analysts"
+    ],
+    "expected_effects": [
+      "consumption contraction",
+      "social tension",
+      "urban poverty increase"
+    ],
+    "headline": "Bangladesh’s garment worker roadmap ‘stalling’",
+    "source": "Ecotextile News",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWXFvWjNSVm9CY1BJdGFBVkJ0YThyZlhSbnBaN2FNQmYwQ0F2M21VaGE3cVMwRUZiU18yYXNkV0hELVVpWmR5aC1MM3N5Z0ctSUs0cFhiMk8xdElSMjhPOW04ellVN1RzQS1fOVlQa1dmSkVWNGR2MHhTbHR0TVdHMlY0eEtwanZFS3g4M1dXV2Y2X0U5bDZueDI4TmtlckNEY3NyRnNJbjRIVVBKc0lpS1p2ejExWjQ?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-14_energy_supply_constraint_486d6b41",
     "title": "Energy Supply Constraint",
     "date": "2026-04-14",
@@ -105,33 +213,6 @@
     "source": "Informed Comment",
     "sources": [
       "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vUm1LVnpRWUJDYUNpTHZRZlNESVZNQjlVWi1EdWx6aWR6SGh5YXo1QzdYYWJydUFhcXJGOUNocHI1NzlMNnFVNDljNldldURua05TOUhUaDlGeGd3LVRXOG5OYUJEcWpLd2RfN3FKeWpaQVU?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-14_trade_policy_disruption_aaeba2a3",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-14",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh: Trade deficit widens to $17 billion amid weak exports and rising import pressure",
-    "source": "News On AIR",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjFNRjR0dUN5aFBmWkMyU2JVSEwwbm91azROYkhWQ3VQTE1JbktqMmlrRDAzaUtCQVNvNFpJWFk2c2NYODBXZmVSYVh3ZlFGcjZOTUtjSlBzakdUamJvREpkWGd3bHNXQ2ZJR0s5dzIxbi1Pek1DRy0tNmZraUJoLVF1Z1NkM0padDJWdTJHMl9VWHY3NFg5ZWN2UzE0azA3ZjVBUS1fbEVrUWFwNWhJSTdsSWNTcm0yeS1RNA?oc=5"
     ]
   },
   {
@@ -213,6 +294,33 @@
     "source": "Bangladesh Post",
     "sources": [
       "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUDlTYUljcVRfdU15cVp4T2VVT1FKQ24wVmMtalctUlNLUjZZWXcwcXQ1aDVSNDBhNTZUQ0YyWGl3dWtPUFlPd0lHSWlSYmlLelUwU3ZXckFZTWxCbXVsOTdFcm41eDk1dHFCanh2cGhBcXphdWJDaDdoVmNhaVdvTzBLQjlHa1JjQkRKdk5OVlZjcDVkTGZpaU9fSDA4V1hUdDBqUmY4SXdyREk0WElHOG5ZekJMZw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-15_monetary_policy_shift_d8dc23aa",
+    "title": "Monetary Policy Shift",
+    "date": "2026-04-15",
+    "signal_type": "financial_conditions",
+    "channel": "Monetary Policy",
+    "lead_indicator": "policy_rate_change",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Central bank tightening raises borrowing costs, slows credit expansion, and signals concern about inflation or external balance.",
+    "who_should_care": [
+      "banks",
+      "bond market",
+      "corporate treasurers"
+    ],
+    "expected_effects": [
+      "higher borrowing costs",
+      "bond yield rise",
+      "investment dampening"
+    ],
+    "headline": "Bangladesh Bank rolls out daily interest rate benchmarks to match global standards",
+    "source": "bdnews24.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVMHFnSXJUUnI4MmlHV2VNZExkUGJPLUNjc1Ztb1o1eWJwQi1iNkMtUHpYUjVfRjB6OWFkNnRhQzFMbkxaM1VRYTEtUUJSLXdITmdz?oc=5"
     ]
   },
   {
@@ -351,63 +459,36 @@
     ]
   },
   {
-    "id": "2026-04-14_trade_policy_disruption_82acf13a",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-14",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
+    "id": "2026-04-15_energy_supply_constraint_845d9897",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-15",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
     "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
     "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
     ],
     "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
+      "output loss",
+      "production cost increase",
+      "cost push inflation"
     ],
-    "headline": "Bangladesh imports another 8,000 tonnes of diesel from India",
-    "source": "The Business Standard",
+    "headline": "Fuel crisis unlikely in next two months: Energy Division spokesperson",
+    "source": "Bangladesh Post",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTNpcFB3bWRjS0RPYVpuZ3JPcDluVGRpZGJFUnk3a3RQc01DNng3c2tCVGVqOXFudllHQUo4LUt5MUlobTZhVF94S0w1Yl9HaUo4S2dVbllIQ1dWc3NzU0tscUtXMkgwNF9hZmFrWTEwdUxHaDg4SXVvaHgxX01XYmFYbWUxSjJmMC1PdnRhc0ZOQ0oxMmZvLUVwNW02N1pXUW1R0gGoAUFVX3lxTE5semJOYV9aclhLdUUwTTZ6VFhHZDVpdVFya0Y3VHV2cGtlMjhsdzhDZTVvSU81cVdKLTgxbmdrOEdnLWMxQVBLd2p0dzhjV1YwdkFYbUJWd3ZxTW4tRE1rMGhKZUwxaXhveHBKaHJFVVBKSncxSGt5b1AyYTB2c0xnR29rV3N4V1d5VUFkZE8wQmtjM1RmemI3dnRjSVVUNGpBX3I4b2hxaA?oc=5"
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVUt0UWdBdWxuLThHZlhVOGpLb21DUVFoOFZNSEtGNFJQRnhGZTNXTndwYnUzLVBlbF9xRS13NmpLa3hLLW9SWkEwWk9za1B2Z3pibXdWcVB2amNCWWNrdGFIS25IZnA0T3l1eHR2UXZtU1VYZG5ZLWp5RU9UN0dGTWJFM3BCdGEydWE1SHpKT3d2QnZENGhCMEVGYzZsdlhxaXk0SnhOY0VnSElD?oc=5"
     ]
   },
   {
-    "id": "2026-04-13_trade_policy_disruption_46338d6e",
-    "title": "Trade Policy Disruption",
-    "date": "2026-04-13",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_change",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Import bans, tariff changes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost changes",
-      "trade diversion"
-    ],
-    "headline": "Commerce minister: Bangladesh faces rising energy import costs amid global volatility",
-    "source": "Dhaka Tribune",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWtSXzBEdHYxcnR2QTdUMU5pZjBEcmdPTjJqNERXNGFzZlZvQWNJa2JNbVNKZWJDa1N4SmREOG1VRWYteTMwQTN1aGtZdnBGUWFOT3lTbXBsX2lCNUFkRHZKaTVNRUdiVlpIOUJnZE9pTkppelk3QjFzTzc2V1d3aDFBcVZmaS04R052MjhVXzhPVkRaTGFnV1pFSGx1SFFyb2pjRjd0TjI5ajlY0gGyAUFVX3lxTFBGVUR4V1Zkcm1lVjBJM0VoeFEyTG9USDQ3dTFkOU1WazRidFZnNFU2RjRrSFMwWC1pb3o0Zl9KbG42ZXphTi1NbXhiM05jSHREanJDRWczTExVY1RBY0dsU1pXUzd2MVZzOFFOaHhXZ3g2dFd6U1J2V2hvZUtYek1leElibUI2SXJ4UnY4eHFkRHhLWndNUDlLTWtNTkktQXhEbFQ3TzdWNFFpR2JtOXBseXc?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-12_capital_markets_stress_e0ef7ad3",
+    "id": "2026-04-15_capital_markets_stress_d3a2a365",
     "title": "Capital Markets Stress",
-    "date": "2026-04-12",
+    "date": "2026-04-15",
     "signal_type": "financial_conditions",
     "channel": "Capital Markets",
     "lead_indicator": "equity_market_shift",
@@ -425,10 +506,10 @@
       "FDI slowdown",
       "market liquidity tightening"
     ],
-    "headline": "Zombie Companies in Bangladesh Stock Market | Dead firms, rising shares",
+    "headline": "Restoring trust in Bangladesh’s capital market: how blockchain and AI can end IPO fraud",
     "source": "The Daily Star",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOEFsYnhxVFlFUGdSR2J5ZUlFejEzRTV1UlZKNU84QmZrQ3M0MnRqMkJXMDZnWm52NUlFLUYxV3QxYU5UREJ5QTlieHA3UVctQ0hOeFM2U0pVZjF3VnRZaG1RTTF5aWMzSlYzcU0yamFZRHgzWE1TOThkc3pxa0tfTFBvMFItV1M3UVUw?oc=5"
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFNwa1QzV1B2b29LOTFPWTVmZjQwUkxTRkNSMTZNNzFoejVPWjQ2dU9IUWhtdzF0eTlaSEtwYTBaY1QwcE9kY05XeUdHNERyS3dBQ3NwZnZXbUJFTk84ZlBXWVRqODBwbnh3bHRFX2t4V2h3QmJlb2UxOGRHSTZJcFVmRWZ6OXUydmhmZU9VX2FEbTdfSUoxTndEM1hJWEdCdmUzSW9Zc2xPR2k4X01fZlhWa3NkVVNJQVVTOE9jZ2V5bEhEWlM4WWxBQUg2dw?oc=5"
     ]
   },
   {
