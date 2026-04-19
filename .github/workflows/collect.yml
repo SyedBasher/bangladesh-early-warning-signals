@@ -1,36 +1,29 @@
 name: Daily Signal Collection
-
 on:
   schedule:
     # Run twice daily: 6 AM and 6 PM Bangladesh time (UTC+6)
     - cron: '0 0,12 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   collect-and-classify:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Collect headlines from RSS feeds
         run: python scripts/collector.py
-
       - name: Classify and generate signals
         run: python interpret_events.py
-
       - name: Generate CSV export
         run: python scripts/export_csv.py
-
+      - name: Build full-history CSV
+        run: python scripts/build_full_csv.py
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
