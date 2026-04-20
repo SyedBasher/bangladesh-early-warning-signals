@@ -16,9 +16,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install dependencies
+        run: pip install anthropic
       - name: Collect headlines from RSS feeds
         run: python scripts/collector.py
       - name: Classify and generate signals
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python interpret_events.py
       - name: Generate CSV export
         run: python scripts/export_csv.py
