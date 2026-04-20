@@ -1,359 +1,346 @@
 """
 interpret_events.py
 -------------------
-Classifies daily headline candidates into structured economic signals.
-Reads:  daily_candidates.json   (list of {title, link, source?, date?})
-Writes: data/signals.json       (structured signal feed)
-        signals/YYYY-MM-DD.json (daily snapshot)
+LLM-based classifier for Bangladesh economic early warning signals.
+
+Pipeline:
+  1. Read daily_candidates.json (produced by scripts/collector.py)
+  2. For each headline, check the persistent cache; on miss, call Claude
+     Haiku to classify (channel, direction, confidence, is_bangladesh)
+  3. Look up metadata from signal_definitions.CHANNELS and emit a
+     structured signal for each classified headline
+  4. Persist cache to data/classification_cache.json (survives across runs)
+
+Environment:
+  ANTHROPIC_API_KEY (required) — set via GitHub Actions secret
 """
 
+import hashlib
 import json
 import os
 import re
-import hashlib
-from datetime import date
+import sys
+import time
+from datetime import date, datetime, timezone
 from html import unescape
-from signal_definitions import SIGNALS
+
+import anthropic
+
+from signal_definitions import CHANNELS
+
+# ------------------------------------------------------------------ #
+# Config
+# ------------------------------------------------------------------ #
 
 TODAY = str(date.today())
 
-# ------------------------------------------------------------------ #
-# Confidence scoring
-# ------------------------------------------------------------------ #
+CANDIDATES_FILE = "daily_candidates.json"
+SIGNALS_FILE    = "data/signals.json"
+SNAPSHOT_DIR    = "signals"
+META_FILE       = "data/meta.json"
+CACHE_FILE      = "data/classification_cache.json"
 
-HIGH_CONF = [
-    "surge", "collapse", "halt", "freeze", "spike", "crisis",
-    "plunge", "shortage", "slump", "soar", "crash", "panic",
-    "record high", "record low", "all-time", "unprecedented",
-    "suspend", "shut down", "emergency"
-]
-LOW_CONF = [
-    "may", "possible", "expected", "considering", "proposal",
-    "plan", "talk", "explore", "likely", "could", "might",
-    "under review", "preliminary", "draft"
-]
-
-def confidence_level(text):
-    t = text.lower()
-    if any(w in t for w in HIGH_CONF):
-        return "high"
-    if any(w in t for w in LOW_CONF):
-        return "low"
-    return "medium"
+MODEL = "claude-haiku-4-5-20251001"
+MAX_TOKENS = 200
+MAX_RETRIES = 3
+RETRY_BACKOFF_SEC = 2
 
 # ------------------------------------------------------------------ #
 # Text helpers
 # ------------------------------------------------------------------ #
 
 def hash_text(t):
-    return hashlib.md5(t.encode()).hexdigest()
+    return hashlib.md5(t.encode("utf-8")).hexdigest()
+
 
 def clean_html(text):
-    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r"<[^>]+>", "", text)
     return unescape(text).strip()
 
-def normalize(text):
-    """Lowercase, collapse whitespace, basic plural normalization."""
-    t = text.lower()
-    # normalize common plurals/variants
-    t = re.sub(r"exports?", "export", t)
-    t = re.sub(r"imports?", "import", t)
-    t = re.sub(r"loans?", "loan", t)
-    t = re.sub(r"prices?", "price", t)
-    t = re.sub(r"orders?", "order", t)
-    t = re.sub(r"reserves?", "reserve", t)
-    t = re.sub(r"workers?", "worker", t)
-    t = re.sub(r"factories", "factory", t)
-    t = re.sub(r"banks?(?!\w)", "bank", t)   # "banks" → "bank" but not "banking"
-    t = re.sub(r"rates?(?!\w)", "rate", t)
-    # verb forms
-    t = re.sub(r"falls\b", "fall", t)
-    t = re.sub(r"drops\b", "drop", t)
-    t = re.sub(r"rises\b", "rise", t)
-    t = re.sub(r"declines\b", "decline", t)
-    t = re.sub(r"raises\b", "raise", t)
-    t = re.sub(r"imposes\b", "impose", t)
-    t = re.sub(r"demands?\b", "demand", t)
-    t = re.sub(r"surges\b", "surge", t)
-    t = re.sub(r"conditions?\b", "condition", t)
-    t = re.sub(r'\s+', ' ', t).strip()
-    return t
 
 # ------------------------------------------------------------------ #
-# Keyword matching — supports multi-word phrases and partial matches
+# Persistent classification cache
 # ------------------------------------------------------------------ #
 
-def _word_in(token, text):
-    """Check if token appears as a whole word (or word-prefix) in text,
-    not as a substring of an unrelated word.
-    E.g. 'rice' should match 'rice price' but NOT 'price'."""
-    pattern = r'(?<!\w)' + re.escape(token)
-    return bool(re.search(pattern, text))
+def load_cache():
+    if not os.path.exists(CACHE_FILE):
+        return {}
+    try:
+        with open(CACHE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 
-def keyword_score(headline_norm, keywords):
-    """
-    Returns (hit_count, best_match_length).
-    Multi-word phrase match scores higher than single-word fragment.
-    """
-    hits = 0
-    best_len = 0
-    for kw in keywords:
-        kw_norm = normalize(kw)
-        # exact phrase match (substring is fine for full phrases)
-        if kw_norm in headline_norm:
-            hits += 1
-            best_len = max(best_len, len(kw_norm.split()))
-            continue
-        # partial: check if all tokens of the keyword appear as whole words
-        tokens = kw_norm.split()
-        if len(tokens) >= 2 and all(_word_in(tok, headline_norm) for tok in tokens):
-            hits += 1
-            best_len = max(best_len, len(tokens))
-    return hits, best_len
-
-# ------------------------------------------------------------------ #
-# Directional / action words — used to filter noise headlines
-# ------------------------------------------------------------------ #
-
-NEGATIVE = [
-    "drop", "fall", "decline", "slump", "plunge", "contract",
-    "weak", "slow", "shrink", "cut", "reduce", "loss", "lose",
-    "shortage", "crisis", "deficit", "down", "low", "worst",
-    "collapse", "halt", "freeze", "suspend", "close", "shut",
-    "damage", "destroy", "erode", "miss", "fail", "delay",
-    "hike", "surge", "spike", "soar", "rise", "jump",
-    "strike", "protest", "unrest", "block", "ban",
-    "impose", "restrict", "raise", "demand", "condition",
-    "short", "cancel", "crash", "wipe"
-]
-
-POSITIVE = [
-    "rise", "increase", "surge", "expand", "grow", "growth",
-    "improve", "gain", "boost", "recover", "rebound", "jump",
-    "high", "record", "strong",
-    # --- broadened: policy/neutral action words ---
-    "reform", "allow", "ease", "launch", "announce",
-    "approve", "enhance", "promote", "stable", "stabilize",
-    "strengthen", "support", "extend", "liberalize",
-    "restore", "revive", "attract", "develop",
-    "accelerate", "double", "triple", "widen",
-    "hit", "cross", "touch", "reach", "exceed",
-    "climb", "advance", "rally", "uptick"
-]
-
-# Note: some words (rise, surge, jump) appear in both lists because
-# their direction depends on context (price rise = tightening,
-# export rise = easing). The signal direction comes from the
-# signal definition, not the word polarity.
-
-def has_directional_word(headline_norm):
-    """Check if headline contains any action/direction word (substring match)."""
-    for w in NEGATIVE + POSITIVE:
-        if w in headline_norm:
-            return True
-    return False
-
-# ------------------------------------------------------------------ #
-# Bangladesh-relevance gate
-# ------------------------------------------------------------------ #
-
-# Foreign country / central bank names — if these appear WITHOUT a
-# Bangladesh marker, the headline is about another economy.
-FOREIGN_MARKERS = re.compile(
-    r'\b('
-    # Countries & regions
-    r'australia|india|pakistan|sri lanka|nepal|bhutan|myanmar|'
-    r'china|japan|south korea|north korea|taiwan|'
-    r'indonesia|thailand|philippines|vietnam|malaysia|singapore|cambodia|laos|'
-    r'usa|united states|america|canada|mexico|brazil|argentina|colombia|chile|'
-    r'uk|united kingdom|britain|england|france|germany|italy|spain|'
-    r'russia|ukraine|turkey|iran|iraq|saudi arabia|uae|qatar|kuwait|'
-    r'egypt|nigeria|south africa|kenya|ghana|ethiopia|'
-    r'europe|eurozone|eu\b|'
-    # Foreign central banks / institutions
-    r'federal reserve|fed rate|ecb|bank of england|boe|'
-    r'bank of japan|boj|pboc|rbi|reserve bank|'
-    r'bank of canada|bank of korea|'
-    # Foreign currencies (when clearly foreign context)
-    r'yen|euro|pound sterling|rupee|yuan|renminbi|'
-    r'australian dollar|canadian dollar|'
-    # Foreign stock indices
-    r'wall street|nasdaq|dow jones|s&p 500|nikkei|ftse|dax|sensex|nifty'
-    r')\b', re.IGNORECASE
-)
-
-BD_MARKERS = re.compile(
-    r'\b('
-    r'bangladesh|dhaka|chittagong|chattogram|bangla|bangladeshi|'
-    r'taka|bdt|'
-    r'bangladesh bank|bb governor|'
-    r'rmg|garment|readymade|'
-    r'bepza|beza|bida|bsec|dse|cse|'
-    r'padma bridge|rooppur|matarbari|payra|mongla|'
-    r'boro|aman|jute|hilsa'
-    r')\b', re.IGNORECASE
-)
-
-def is_bangladesh_relevant(text):
-    """
-    Returns True if the headline is plausibly about Bangladesh.
-    Logic:
-      - If it mentions a foreign country/institution AND does NOT
-        mention any Bangladesh marker → reject.
-      - Otherwise accept (BD RSS feeds are mostly BD-focused,
-        so absence of any country name is fine).
-    """
-    has_foreign = bool(FOREIGN_MARKERS.search(text))
-    if not has_foreign:
-        return True
-    has_bd = bool(BD_MARKERS.search(text))
-    return has_bd
+def save_cache(cache):
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
 
 
 # ------------------------------------------------------------------ #
-# Classification
+# LLM classification
 # ------------------------------------------------------------------ #
 
-def classify(headline):
-    """
-    Returns the best-matching signal key, or None.
-    Strategy: score each signal by keyword hits and match quality,
-    require at least one directional word, pick the best match.
-    """
-    raw = clean_html(headline)
-    h = normalize(raw)
-
-    # Gate 1: must be about Bangladesh (or at least not clearly foreign)
-    if not is_bangladesh_relevant(raw):
-        return None
-
-    if not has_directional_word(h):
-        return None
-
-    best_key = None
-    best_score = (0, 0)  # (hit_count, best_phrase_length)
-
-    for name, info in SIGNALS.items():
-        hits, phrase_len = keyword_score(h, info["keywords"])
-        if hits > 0:
-            score = (hits, phrase_len)
-            if score > best_score:
-                best_score = score
-                best_key = name
-
-    return best_key
-
-# ------------------------------------------------------------------ #
-# Load candidate headlines
-# ------------------------------------------------------------------ #
-
-CANDIDATES_FILE = "daily_candidates.json"
-
-if not os.path.exists(CANDIDATES_FILE):
-    print(f"No {CANDIDATES_FILE} found — nothing to process.")
-    exit()
-
-with open(CANDIDATES_FILE) as f:
-    headlines = json.load(f)
-
-print(f"Headlines loaded: {len(headlines)}")
-
-# ------------------------------------------------------------------ #
-# Build structured signals
-# ------------------------------------------------------------------ #
-
-signals_output = []
-seen_hashes = set()
-
-for item in headlines:
-
-    title = clean_html(item.get("title", "")).strip()
-    link  = item.get("link", "")
-    src   = item.get("source", "")
-    dt    = item.get("date", TODAY)
-
-    if not title:
-        continue
-
-    event_key = classify(title)
-    if not event_key:
-        continue
-
-    h = hash_text(title)
-    if h in seen_hashes:
-        continue
-    seen_hashes.add(h)
-
-    info = SIGNALS[event_key]
-
-    structured_signal = {
-        "id": f"{dt}_{event_key}_{h[:8]}",
-        "title": info["title"],
-        "date": dt,
-        "signal_type": info["signal_type"],
-        "channel": info["channel"],
-        "lead_indicator": info["lead_indicator"],
-        "time_horizon": info["time_horizon"],
-        "direction": info["direction"],
-        "confidence": confidence_level(title),
-        "economic_mechanism": info["economic_mechanism"],
-        "who_should_care": info["who_should_care"],
-        "expected_effects": info["expected_effects"],
-        "headline": title,
-        "source": src,
-        "sources": [link] if link else []
-    }
-
-    signals_output.append(structured_signal)
-
-# ------------------------------------------------------------------ #
-# Merge with existing signals (append, don't overwrite history)
-# ------------------------------------------------------------------ #
-
-SIGNALS_FILE = "data/signals.json"
-
-existing = []
-if os.path.exists(SIGNALS_FILE):
-    with open(SIGNALS_FILE) as f:
-        try:
-            existing = json.load(f)
-        except json.JSONDecodeError:
-            existing = []
-
-# Deduplicate by id
-existing_ids = {s["id"] for s in existing if "id" in s}
-new_signals  = [s for s in signals_output if s["id"] not in existing_ids]
-
-merged = existing + new_signals
-
-# ------------------------------------------------------------------ #
-# Write outputs
-# ------------------------------------------------------------------ #
-
-os.makedirs("data", exist_ok=True)
-os.makedirs("signals", exist_ok=True)
-
-with open(SIGNALS_FILE, "w", encoding="utf-8") as f:
-    json.dump(merged, f, indent=2, ensure_ascii=False)
-
-# Daily snapshot
-snapshot_file = f"signals/{TODAY}.json"
-with open(snapshot_file, "w", encoding="utf-8") as f:
-    json.dump(signals_output, f, indent=2, ensure_ascii=False)
-
-# Pipeline health metadata
-from datetime import datetime, timezone
-meta = {
-    "last_updated": datetime.now(timezone.utc).isoformat(),
-    "total_signals": len(merged),
-    "new_today": len(new_signals),
-    "candidates_processed": len(headlines),
-    "active_channels": len(set(s["channel"] for s in merged if "channel" in s))
+CHANNEL_DESCRIPTIONS = {
+    "Foreign Exchange":  "FX reserves, dollar-taka rate, BoP, LC financing, import payments",
+    "Exports":           "garment/RMG exports, shipments, export orders, apparel, leather, jute",
+    "Remittances":       "wage earner remittances, migrant workers, expatriate income, hundi",
+    "Energy":            "power, gas, fuel, electricity, load shedding, LNG, diesel",
+    "Logistics":         "ports (Chittagong/Chattogram), transport, shipping, freight, customs",
+    "Credit":            "bank lending, credit growth, loan disbursement, ADR, private sector credit",
+    "Banking":           "NPLs, bank capital, deposits, bank governance, liquidity stress",
+    "Monetary Policy":   "Bangladesh Bank policy rate, repo, treasury yields, MPS, money supply",
+    "Food Prices":       "rice/onion/staple prices, TCB, food inflation, CPI, cost of living",
+    "Agriculture":       "crops (boro, aman), floods, drought, fertilizer, fisheries, livestock",
+    "Fiscal":            "NBR revenue, budget deficit, government borrowing, treasury bills",
+    "Political Risk":    "governance, elections, caretaker government, hartals, institutional crisis",
+    "Trade Policy":      "tariffs, import bans, GSP, anti-dumping, duty changes",
+    "Labor Market":      "factory closures, layoffs, wages, garment workers, minimum wage",
+    "Geopolitical Risk": "Middle East conflicts, Gulf policy, India-BD relations, sanctions affecting BD",
+    "Capital Markets":   "DSE, stock market, FDI, bonds, portfolio flows, BSEC",
 }
-with open("data/meta.json", "w", encoding="utf-8") as f:
-    json.dump(meta, f, indent=2)
 
-print(f"New signals today:  {len(new_signals)}")
-print(f"Total signals:      {len(merged)}")
-print(f"Daily snapshot:     {snapshot_file}")
+
+SYSTEM_PROMPT = """You are classifying news headlines for a Bangladesh macroeconomic early warning system.
+
+Your job: for each headline, decide if it reports a concrete economic SIGNAL about the Bangladesh economy that shifts conditions in a discernible direction.
+
+For each headline, return:
+1. channel: one of the 16 channels below, or "NONE" if not a macro signal
+2. direction: "tightening" (conditions deteriorating) or "easing" (conditions improving), or "none"
+3. confidence: "high" (concrete numbers, completed actions), "medium" (qualitative but factual), or "low" (speculative, conditional, proposed), or "none"
+4. is_bangladesh: true only if the headline is substantively about the Bangladesh economy
+
+CHANNELS:
+""" + "\n".join(f"- {ch}: {desc}" for ch, desc in CHANNEL_DESCRIPTIONS.items()) + """
+
+DIRECTION GUIDANCE:
+- tightening = a constraint binds harder: reserves fall, exports drop, load shedding rises, NPLs increase, food prices rise, rates hiked, FDI exits, trade restrictions imposed
+- easing = a constraint relaxes: reserves rise, exports grow, load shedding eases, NPLs fall, food prices stabilize, rate cuts materialize, FDI arrives, tariffs reduced
+- A policy announcement causing tightening later is tightening today (e.g., "BB hikes policy rate" = Monetary Policy tightening)
+
+RETURN channel="NONE" IF:
+- Pure commentary, opinion, analytical think-piece (no new event)
+- Ministerial speeches, urgings, exhortations (unless announcing concrete action with numbers or dates)
+- Minor corporate news unrelated to macro conditions
+- About another country's economy (even if sourced from a BD outlet)
+- Descriptive headlines ("Numbers tell the story...", "Why X matters...")
+- Crime, sports, entertainment, foreign politics not affecting Bangladesh
+
+Respond with ONLY a JSON object, no other text, no markdown fences. Schema:
+{"channel": "...", "direction": "...", "confidence": "...", "is_bangladesh": true}"""
+
+
+def classify_with_llm(client, title, source):
+    """Call Claude Haiku to classify a single headline. Returns dict or None."""
+    user_msg = f"Headline: {title}\nSource: {source}"
+
+    for attempt in range(MAX_RETRIES):
+        try:
+            resp = client.messages.create(
+                model=MODEL,
+                max_tokens=MAX_TOKENS,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": user_msg}],
+            )
+            text = resp.content[0].text.strip()
+            # Strip possible markdown fences defensively
+            text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
+            return json.loads(text)
+        except (anthropic.RateLimitError, anthropic.APIConnectionError, anthropic.APIStatusError) as e:
+            if attempt < MAX_RETRIES - 1:
+                wait = RETRY_BACKOFF_SEC * (2 ** attempt)
+                print(f"  API error (retry {attempt + 1}/{MAX_RETRIES} in {wait}s): {e}")
+                time.sleep(wait)
+            else:
+                print(f"  API error (giving up): {e}")
+                return None
+        except (json.JSONDecodeError, IndexError, KeyError) as e:
+            print(f"  Parse error for '{title[:60]}': {e}")
+            return None
+    return None
+
+
+def validate_classification(c):
+    """Check that the classification has sensible fields."""
+    if not isinstance(c, dict):
+        return False
+    required = ["channel", "direction", "confidence", "is_bangladesh"]
+    if not all(k in c for k in required):
+        return False
+    # Valid rejection cases
+    if c["channel"] == "NONE":
+        return True
+    if not c.get("is_bangladesh"):
+        return True
+    # Positive classifications must have valid values
+    if c["channel"] not in CHANNELS:
+        return False
+    if c["direction"] not in ("tightening", "easing"):
+        return False
+    if c["confidence"] not in ("high", "medium", "low"):
+        return False
+    return True
+
+
+# ------------------------------------------------------------------ #
+# Main
+# ------------------------------------------------------------------ #
+
+def main():
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("ERROR: ANTHROPIC_API_KEY environment variable not set. Aborting.")
+        sys.exit(1)
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    if not os.path.exists(CANDIDATES_FILE):
+        print(f"No {CANDIDATES_FILE} found — nothing to process.")
+        return
+
+    with open(CANDIDATES_FILE, encoding="utf-8") as f:
+        candidates = json.load(f)
+    print(f"Candidates loaded: {len(candidates)}")
+
+    cache = load_cache()
+    print(f"Cache entries at start: {len(cache)}")
+
+    signals_output = []
+    seen_hashes = set()
+    cache_hits = 0
+    cache_misses = 0
+    rejected_non_bd = 0
+    rejected_none = 0
+    llm_errors = 0
+    invalid_outputs = 0
+
+    for i, item in enumerate(candidates):
+        title  = clean_html(item.get("title", "")).strip()
+        link   = item.get("link", "")
+        source = item.get("source", "")
+        dt     = item.get("date", TODAY)
+
+        if not title:
+            continue
+
+        h = hash_text(title)
+        if h in seen_hashes:
+            continue
+        seen_hashes.add(h)
+
+        # Check cache first
+        if h in cache:
+            classification = cache[h]
+            cache_hits += 1
+        else:
+            classification = classify_with_llm(client, title, source)
+            cache_misses += 1
+            if classification is None:
+                llm_errors += 1
+                continue
+            if not validate_classification(classification):
+                print(f"  Invalid classification for '{title[:60]}': {classification}")
+                invalid_outputs += 1
+                continue
+            cache[h] = classification
+            # Persist cache periodically to survive partial failures
+            if cache_misses % 25 == 0:
+                save_cache(cache)
+                print(f"  Progress: {cache_misses} LLM calls, cache saved")
+
+        # Apply filters
+        if not classification.get("is_bangladesh"):
+            rejected_non_bd += 1
+            continue
+        if classification["channel"] == "NONE":
+            rejected_none += 1
+            continue
+
+        channel = classification["channel"]
+        direction = classification["direction"]
+        metadata = CHANNELS.get(channel, {}).get(direction)
+        if not metadata:
+            print(f"  Missing metadata for {channel}/{direction}")
+            continue
+
+        signal = {
+            "id": f"{dt}_{channel.replace(' ', '_')}_{direction}_{h[:8]}",
+            "title": metadata["title"],
+            "date": dt,
+            "signal_type": metadata["signal_type"],
+            "channel": channel,
+            "lead_indicator": metadata["lead_indicator"],
+            "time_horizon": metadata["time_horizon"],
+            "direction": direction,
+            "confidence": classification["confidence"],
+            "economic_mechanism": metadata["economic_mechanism"],
+            "who_should_care": metadata["who_should_care"],
+            "expected_effects": metadata["expected_effects"],
+            "headline": title,
+            "source": source,
+            "sources": [link] if link else [],
+        }
+        signals_output.append(signal)
+
+    # Final cache save
+    save_cache(cache)
+
+    # Merge with existing signals
+    existing = []
+    if os.path.exists(SIGNALS_FILE):
+        with open(SIGNALS_FILE, encoding="utf-8") as f:
+            try:
+                existing = json.load(f)
+            except json.JSONDecodeError:
+                existing = []
+
+    existing_ids = {s["id"] for s in existing if "id" in s}
+    new_signals = [s for s in signals_output if s["id"] not in existing_ids]
+    merged = existing + new_signals
+
+    # Write outputs
+    os.makedirs("data", exist_ok=True)
+    os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+
+    with open(SIGNALS_FILE, "w", encoding="utf-8") as f:
+        json.dump(merged, f, indent=2, ensure_ascii=False)
+
+    snapshot_file = f"{SNAPSHOT_DIR}/{TODAY}.json"
+    with open(snapshot_file, "w", encoding="utf-8") as f:
+        json.dump(signals_output, f, indent=2, ensure_ascii=False)
+
+    # Meta
+    dir_counts = {}
+    for s in merged:
+        d = s.get("direction", "unknown")
+        dir_counts[d] = dir_counts.get(d, 0) + 1
+
+    meta = {
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "total_signals": len(merged),
+        "new_today": len(new_signals),
+        "candidates_processed": len(candidates),
+        "active_channels": len(set(s["channel"] for s in merged if "channel" in s)),
+        "direction_breakdown": dir_counts,
+        "cache_size": len(cache),
+    }
+    with open(META_FILE, "w", encoding="utf-8") as f:
+        json.dump(meta, f, indent=2)
+
+    print("\n=== Summary ===")
+    print(f"Candidates:         {len(candidates)}")
+    print(f"Cache hits:         {cache_hits}")
+    print(f"Cache misses (LLM calls): {cache_misses}")
+    print(f"LLM errors:         {llm_errors}")
+    print(f"Invalid outputs:    {invalid_outputs}")
+    print(f"Rejected non-BD:    {rejected_non_bd}")
+    print(f"Rejected NONE:      {rejected_none}")
+    print(f"New signals today:  {len(new_signals)}")
+    print(f"Total signals:      {len(merged)}")
+    print(f"Direction breakdown: {dir_counts}")
+
+
+if __name__ == "__main__":
+    main()
