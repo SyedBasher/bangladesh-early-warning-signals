@@ -75,6 +75,10 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Chart.js for the composite stress index chart -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
 <style>
   :root {
     --bg:          #ffffff;
@@ -193,6 +197,134 @@
     height: 3px;
     background: var(--navy);
     margin-bottom: 20px;
+  }
+
+  /* ---- COMPOSITE STRESS INDEX ---- */
+  .stress-container {
+    border: 2px solid var(--navy);
+    background: var(--surface);
+  }
+  .stress-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    border-bottom: 1.5px solid var(--border);
+  }
+  .stress-score-block {
+    padding: 28px 32px;
+    border-right: 1.5px solid var(--border);
+  }
+  .stress-score-number {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    color: var(--navy);
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+  .stress-score-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .stress-zone-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 2px;
+    background: var(--gray-bg);
+    color: var(--text-dim);
+  }
+  .stress-zone-label.green { background: var(--green-bg); color: var(--green); }
+  .stress-zone-label.amber { background: var(--amber-bg); color: var(--amber); }
+  .stress-zone-label.red   { background: var(--red-bg);   color: var(--red); }
+  .stress-score-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+  .stress-top-channels {
+    padding: 28px 32px;
+  }
+  .stress-channels-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+  }
+  .stress-top-channels ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: stress-rank;
+  }
+  .stress-top-channels ol li {
+    counter-increment: stress-rank;
+    padding: 5px 0;
+    font-size: 13.5px;
+    color: var(--text);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .stress-top-channels ol li::before {
+    content: counter(stress-rank);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-dim);
+    min-width: 14px;
+    flex-shrink: 0;
+  }
+  .stress-top-channels ol li strong {
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .stress-top-channels ol li .stress-channel-count {
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .stress-top-channels ol li .stress-channel-score {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--navy);
+    margin-left: auto;
+  }
+
+  .stress-chart-wrapper {
+    padding: 18px 32px 10px;
+    position: relative;
+    height: 260px;
+  }
+
+  .stress-footnote {
+    padding: 4px 32px 24px;
+    font-size: 12.5px;
+    color: var(--text-sec);
+    line-height: 1.65;
+    max-width: 780px;
+  }
+  .stress-footnote a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-dim);
+  }
+  .stress-footnote a:hover {
+    border-bottom-color: var(--accent);
+  }
+
+  .stress-empty {
+    padding: 32px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
   }
 
   /* ---- HEATMAP ---- */
@@ -401,6 +533,71 @@
   }
   .signal-source-link:hover { text-decoration: underline; }
 
+  /* ---- WEEKLY BRIEFS ---- */
+  .briefs-intro {
+    font-size: 14.5px;
+    color: var(--text-sec);
+    margin-bottom: 20px;
+    max-width: 640px;
+    line-height: 1.65;
+  }
+  .briefs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid var(--border);
+  }
+  .briefs-list li {
+    display: grid;
+    grid-template-columns: 150px 1fr auto;
+    gap: 24px;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .briefs-list li.briefs-empty {
+    display: block;
+    text-align: center;
+    padding: 32px 0;
+    color: var(--text-dim);
+    font-size: 13px;
+    font-style: italic;
+  }
+  .brief-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  .brief-title {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 15.5px;
+    color: var(--navy);
+    font-weight: 400;
+  }
+  .brief-download {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid var(--accent);
+    border-radius: 2px;
+    white-space: nowrap;
+    transition: background 0.12s;
+  }
+  .brief-download:hover {
+    background: var(--accent-dim);
+  }
+  .brief-size {
+    font-size: 9.5px;
+    opacity: 0.65;
+    margin-left: 6px;
+    font-weight: 400;
+  }
+
   /* ---- FOOTER ---- */
   .footer {
     background: var(--navy);
@@ -525,6 +722,24 @@
     .signal-card-head { flex-direction: column; }
     .footer-inner { flex-direction: column; gap: 24px; }
     .topbar-inner { flex-direction: column; gap: 4px; }
+    .stress-hero { grid-template-columns: 1fr; }
+    .stress-score-block {
+      border-right: none;
+      border-bottom: 1.5px solid var(--border);
+    }
+    .stress-score-number { font-size: 44px; }
+    .stress-chart-wrapper { padding: 14px 20px 8px; height: 220px; }
+    .stress-footnote { padding: 4px 20px 20px; }
+    .stress-score-block, .stress-top-channels { padding: 22px 24px; }
+    .briefs-list li {
+      grid-template-columns: 1fr;
+      gap: 6px;
+      padding: 14px 0;
+    }
+    .briefs-list li .brief-download {
+      justify-self: start;
+      margin-top: 4px;
+    }
   }
   @media (max-width: 480px) {
     .heatmap { grid-template-columns: 1fr; }
@@ -560,6 +775,38 @@
 <!-- MAIN CONTENT -->
 <div class="main">
 
+  <!-- COMPOSITE STRESS INDEX -->
+  <div class="section-label">Composite Stress Index</div>
+  <div class="section-rule"></div>
+  <div id="stress-container" class="stress-container">
+    <div class="stress-hero">
+      <div class="stress-score-block">
+        <div class="stress-score-number" id="stress-score-number">—</div>
+        <div class="stress-score-meta">
+          <span class="stress-zone-label" id="stress-zone-label">loading</span>
+          <span class="stress-score-date" id="stress-score-date"></span>
+        </div>
+      </div>
+      <div class="stress-top-channels">
+        <div class="stress-channels-label">Most Stressed Channels Today</div>
+        <ol id="stress-top-channels-list">
+          <li>—</li><li>—</li><li>—</li>
+        </ol>
+      </div>
+    </div>
+    <div class="stress-chart-wrapper">
+      <canvas id="stress-index-chart"></canvas>
+    </div>
+    <p class="stress-footnote">
+      Composite of 16 news-derived economic channels, scaled 0–100 and
+      percentile-ranked against the pipeline's own history. Higher values
+      indicate more macro stress. Green ≤ 35 · Amber 35–65 · Red ≥ 65.
+      See the
+      <a href="methodology/stress-index-methodology.pdf" target="_blank" rel="noopener">methodology note</a>
+      for construction, weights, and known limitations.
+    </p>
+  </div>
+
   <!-- STATUS HEATMAP -->
   <div class="section-label">Current Channel Status</div>
   <div class="section-rule"></div>
@@ -594,6 +841,17 @@
     <div class="loading">Loading…</div>
   </div>
 
+  <!-- WEEKLY BRIEFS -->
+  <div class="section-label">Weekly Briefs</div>
+  <div class="section-rule"></div>
+  <p class="briefs-intro">
+    A short, plain-language reading of each week's signals. Published Sundays.
+    Back catalogue below.
+  </p>
+  <ul id="briefs-list" class="briefs-list">
+    <li class="briefs-empty">Loading briefs…</li>
+  </ul>
+
   <!-- METHODOLOGY -->
   <div class="content-section" id="methodology">
     <div class="section-label">Methodology</div>
@@ -602,14 +860,18 @@
     <p>
       Macro Pulse scans Bangladesh's contemporaneous information environment daily — policy 
       announcements, news flows from major outlets, market signals, and institutional actions — 
-      and classifies them into structured economic signals using a keyword-based classifier 
+      and classifies them into structured economic signals using an LLM-based classifier
       mapped to 16 economic channels.
     </p>
     <p>
       Unlike retrospective macro data (which arrives with weeks or months of lag), these signals 
       capture constraint changes as they emerge in real time. Each signal is tagged with a 
       direction (tightening or easing), confidence level, time horizon, the underlying economic 
-      mechanism, who should care, and expected downstream effects.
+      mechanism, who should care, and expected downstream effects. The daily signals are then
+      aggregated into the Composite Stress Index — a single $0$–$100$ reading that summarises
+      macroeconomic stress across all channels. See the
+      <a href="methodology/stress-index-methodology.pdf" target="_blank" rel="noopener" style="color: var(--accent);">stress index methodology note</a>
+      for full construction details.
     </p>
     <p>
       The 16 monitored channels span the full macroeconomic landscape of Bangladesh:
@@ -682,7 +944,8 @@
       <div class="footer-col-title">Data Feeds</div>
       <p>
         <a href="data/signals.json">signals.json</a> ·
-        <a href="data/signals.csv">signals.csv</a>
+        <a href="data/signals.csv">signals.csv</a> ·
+        <a href="data/stress_index.json">stress_index.json</a>
         <br><span style="opacity:0.5; font-size:12px;">Public feed: last 10 days</span>
       </p>
     </div>
@@ -697,6 +960,7 @@
       <div class="footer-col-title">Navigate</div>
       <p>
         <a href="#methodology">Methodology</a><br>
+        <a href="methodology/stress-index-methodology.pdf" target="_blank">Stress index (PDF)</a><br>
         <a href="#about">About the Analyst</a>
       </p>
     </div>
@@ -707,6 +971,9 @@
 </div>
 
 <script>
+// =====================================================================
+// Block 1 — Pipeline health check + heatmap + signal feed (existing)
+// =====================================================================
 (function() {
 
   // ---- PIPELINE HEALTH CHECK ----
@@ -741,7 +1008,7 @@
       document.getElementById('pipeline-text').textContent = 'Pipeline status unavailable';
     });
 
-  // All 14 channels in display order
+  // All 16 channels in display order
   const ALL_CHANNELS = [
     "Foreign Exchange", "Exports", "Remittances", "Geopolitical Risk",
     "Energy", "Logistics", "Capital Markets", "Credit",
@@ -940,6 +1207,217 @@
       console.error('Signal load error:', err);
       document.getElementById('heatmap').innerHTML = '<div class="loading">Unable to load signals. Please try again later.</div>';
       document.getElementById('feed').innerHTML = '';
+    });
+
+})();
+
+
+// =====================================================================
+// Block 2 — Composite Stress Index chart
+// =====================================================================
+(function() {
+
+  // Inline Chart.js plugin to draw green/amber/red zone bands.
+  // Avoids an external annotation-plugin dependency.
+  const zoneBandsPlugin = {
+    id: 'zoneBands',
+    beforeDatasetsDraw(chart) {
+      const { ctx, chartArea: area, scales } = chart;
+      if (!area || !scales.y) return;
+      const y = scales.y;
+      const bands = [
+        { from: 0,  to: 35,  color: 'rgba(27,122,61,0.06)'  },   // green
+        { from: 35, to: 65,  color: 'rgba(212,131,10,0.06)' },   // amber
+        { from: 65, to: 100, color: 'rgba(192,57,43,0.06)'  }    // red
+      ];
+      bands.forEach(b => {
+        const yTop = y.getPixelForValue(b.to);
+        const yBot = y.getPixelForValue(b.from);
+        ctx.save();
+        ctx.fillStyle = b.color;
+        ctx.fillRect(area.left, yTop, area.right - area.left, yBot - yTop);
+        ctx.restore();
+      });
+    }
+  };
+
+  function showEmpty(message) {
+    const container = document.getElementById('stress-container');
+    if (container) {
+      container.innerHTML = '<div class="stress-empty">' + message + '</div>';
+    }
+  }
+
+  if (typeof Chart === 'undefined') {
+    showEmpty('Chart library failed to load. Please refresh.');
+    return;
+  }
+
+  fetch('data/stress_index.json', { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error('stress_index.json not found');
+      return r.json();
+    })
+    .then(data => {
+      const series = data.series || [];
+      if (series.length === 0) {
+        showEmpty('Stress index will appear after the next pipeline run.');
+        return;
+      }
+
+      const latest = series[series.length - 1];
+
+      // ---- HEADER: composite score + zone + date ----
+      document.getElementById('stress-score-number').textContent =
+        latest.composite.toFixed(1);
+
+      const zoneEl = document.getElementById('stress-zone-label');
+      zoneEl.textContent = latest.zone;
+      zoneEl.className = 'stress-zone-label ' + latest.zone;
+
+      const dateFmt = new Intl.DateTimeFormat('en-GB', {
+        day: 'numeric', month: 'short', year: 'numeric'
+      });
+      document.getElementById('stress-score-date').textContent =
+        'as of ' + dateFmt.format(new Date(latest.date + 'T00:00:00'));
+
+      // ---- TOP 3 MOST STRESSED CHANNELS ----
+      const top = Object.entries(latest.channels)
+        .map(([name, d]) => ({ name, ...d }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3);
+
+      document.getElementById('stress-top-channels-list').innerHTML = top.map(c =>
+        '<li>' +
+          '<strong>' + c.name + '</strong>' +
+          '<span class="stress-channel-count">· ' + c.n_recent + ' signals</span>' +
+          '<span class="stress-channel-score">' + c.score.toFixed(0) + '</span>' +
+        '</li>'
+      ).join('');
+
+      // ---- CHART ----
+      const css = getComputedStyle(document.documentElement);
+      const navy = css.getPropertyValue('--navy').trim() || '#051c2c';
+
+      const canvas = document.getElementById('stress-index-chart');
+      new Chart(canvas, {
+        type: 'line',
+        data: {
+          labels: series.map(r => r.date),
+          datasets: [{
+            label: 'Composite stress',
+            data: series.map(r => r.composite),
+            borderColor: navy,
+            backgroundColor: 'rgba(5,28,44,0.06)',
+            fill: true,
+            tension: 0.28,
+            pointRadius: 0,
+            pointHoverRadius: 4,
+            pointHoverBackgroundColor: navy,
+            pointHoverBorderColor: '#fff',
+            pointHoverBorderWidth: 2,
+            borderWidth: 2
+          }]
+        },
+        plugins: [zoneBandsPlugin],
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: navy,
+              titleFont: { family: 'JetBrains Mono', size: 11, weight: 500 },
+              bodyFont: { family: 'Inter', size: 12 },
+              padding: 10,
+              displayColors: false,
+              callbacks: {
+                title: (items) => {
+                  const row = series[items[0].dataIndex];
+                  return dateFmt.format(new Date(row.date + 'T00:00:00'));
+                },
+                label: (ctx) => {
+                  const row = series[ctx.dataIndex];
+                  return 'Stress ' + row.composite.toFixed(1) + ' · ' + row.zone;
+                }
+              }
+            }
+          },
+          scales: {
+            y: {
+              min: 0, max: 100,
+              ticks: {
+                stepSize: 25,
+                font: { family: 'JetBrains Mono', size: 10 },
+                color: '#919896'
+              },
+              grid: { color: 'rgba(0,0,0,0.04)' },
+              border: { display: false }
+            },
+            x: {
+              ticks: {
+                maxTicksLimit: 8,
+                font: { family: 'JetBrains Mono', size: 10 },
+                color: '#919896',
+                callback: function(value) {
+                  const lbl = this.getLabelForValue(value);
+                  // Strip year for cleaner axis: "2026-04-23" -> "04-23"
+                  return (typeof lbl === 'string') ? lbl.substring(5) : lbl;
+                }
+              },
+              grid: { display: false },
+              border: { display: false }
+            }
+          }
+        }
+      });
+    })
+    .catch(err => {
+      console.error('Stress index load error:', err);
+      showEmpty('Stress index will appear after the next pipeline run.');
+    });
+
+})();
+
+
+// =====================================================================
+// Block 3 — Weekly Briefs archive
+// =====================================================================
+(function() {
+
+  const list = document.getElementById('briefs-list');
+
+  fetch('data/briefs.json', { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error('briefs.json not found');
+      return r.json();
+    })
+    .then(payload => {
+      if (!payload.briefs || payload.briefs.length === 0) {
+        list.innerHTML = '<li class="briefs-empty">No briefs published yet.</li>';
+        return;
+      }
+
+      const fmt = new Intl.DateTimeFormat('en-GB', {
+        day: 'numeric', month: 'long', year: 'numeric'
+      });
+
+      list.innerHTML = payload.briefs.map(b => {
+        const d = fmt.format(new Date(b.date + 'T00:00:00'));
+        const title = b.title || 'Weekly Brief';
+        return `
+          <li>
+            <div class="brief-date">${d}</div>
+            <div class="brief-title">${title}</div>
+            <a class="brief-download" href="${b.path}" target="_blank" rel="noopener">
+              PDF<span class="brief-size">${b.size_kb} KB</span>
+            </a>
+          </li>`;
+      }).join('');
+    })
+    .catch(() => {
+      list.innerHTML = '<li class="briefs-empty">No briefs published yet.</li>';
     });
 
 })();
