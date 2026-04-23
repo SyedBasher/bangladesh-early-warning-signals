@@ -1,0 +1,4300 @@
+{
+  "last_updated": "2026-04-23T09:58:54.708891+00:00",
+  "methodology_version": "1.0",
+  "params": {
+    "half_life_days": 14,
+    "window_days": 60,
+    "confidence_weights": {
+      "high": 3,
+      "medium": 2,
+      "low": 1
+    },
+    "zone_thresholds": {
+      "green_max": 35,
+      "amber_max": 65
+    }
+  },
+  "channel_weights": {
+    "Foreign Exchange": 15,
+    "Exports": 12,
+    "Remittances": 10,
+    "Food Prices": 10,
+    "Credit": 8,
+    "Banking": 8,
+    "Energy": 8,
+    "Monetary Policy": 7,
+    "Fiscal": 6,
+    "Political Risk": 6,
+    "Agriculture": 4,
+    "Logistics": 3,
+    "Trade Policy": 1,
+    "Labor Market": 1,
+    "Geopolitical Risk": 1,
+    "Capital Markets": 0
+  },
+  "series": [
+    {
+      "date": "2026-03-06",
+      "composite": 49.51,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Exports": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Remittances": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Food Prices": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Energy": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Monetary Policy": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Fiscal": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 1.02,
+          "intensity": 10.0,
+          "n_recent": 4
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "composite": 32.8,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Exports": {
+          "score": 7.29,
+          "intensity": 2.0,
+          "n_recent": 1
+        },
+        "Remittances": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Food Prices": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 1.04,
+          "intensity": 2.0,
+          "n_recent": 1
+        },
+        "Energy": {
+          "score": 1.04,
+          "intensity": 3.0,
+          "n_recent": 1
+        },
+        "Monetary Policy": {
+          "score": 3.12,
+          "intensity": 2.0,
+          "n_recent": 1
+        },
+        "Fiscal": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 1.04,
+          "intensity": 3.0,
+          "n_recent": 1
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 3.06,
+          "intensity": 15.517,
+          "n_recent": 7
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-08",
+      "composite": 16.18,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 3.19,
+          "intensity": 4.0,
+          "n_recent": 2
+        },
+        "Exports": {
+          "score": 5.21,
+          "intensity": 1.903,
+          "n_recent": 1
+        },
+        "Remittances": {
+          "score": 3.19,
+          "intensity": 3.0,
+          "n_recent": 2
+        },
+        "Food Prices": {
+          "score": 1.06,
+          "intensity": 7.0,
+          "n_recent": 3
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 3.12,
+          "intensity": 3.903,
+          "n_recent": 2
+        },
+        "Energy": {
+          "score": 3.12,
+          "intensity": 11.855,
+          "n_recent": 4
+        },
+        "Monetary Policy": {
+          "score": 1.04,
+          "intensity": 1.903,
+          "n_recent": 1
+        },
+        "Fiscal": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 3.12,
+          "intensity": 4.855,
+          "n_recent": 2
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 5.1,
+          "intensity": 20.767,
+          "n_recent": 10
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "composite": 19.98,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 1.06,
+          "intensity": 3.807,
+          "n_recent": 2
+        },
+        "Exports": {
+          "score": 3.12,
+          "intensity": 1.811,
+          "n_recent": 1
+        },
+        "Remittances": {
+          "score": 1.06,
+          "intensity": 2.855,
+          "n_recent": 2
+        },
+        "Food Prices": {
+          "score": 5.32,
+          "intensity": 12.662,
+          "n_recent": 5
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 13.54,
+          "intensity": 5.715,
+          "n_recent": 3
+        },
+        "Energy": {
+          "score": 19.79,
+          "intensity": 71.282,
+          "n_recent": 24
+        },
+        "Monetary Policy": {
+          "score": 26.04,
+          "intensity": 3.811,
+          "n_recent": 2
+        },
+        "Fiscal": {
+          "score": 53.26,
+          "intensity": 2.0,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 5.21,
+          "intensity": 10.621,
+          "n_recent": 4
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 7.14,
+          "intensity": 35.764,
+          "n_recent": 18
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "composite": 21.86,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 5.32,
+          "intensity": 5.623,
+          "n_recent": 3
+        },
+        "Exports": {
+          "score": 1.04,
+          "intensity": 1.724,
+          "n_recent": 1
+        },
+        "Remittances": {
+          "score": 5.32,
+          "intensity": 4.717,
+          "n_recent": 3
+        },
+        "Food Prices": {
+          "score": 18.09,
+          "intensity": 15.05,
+          "n_recent": 6
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 9.38,
+          "intensity": 5.439,
+          "n_recent": 3
+        },
+        "Energy": {
+          "score": 26.04,
+          "intensity": 76.839,
+          "n_recent": 27
+        },
+        "Monetary Policy": {
+          "score": 21.88,
+          "intensity": 3.627,
+          "n_recent": 2
+        },
+        "Fiscal": {
+          "score": 51.09,
+          "intensity": 1.903,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 7.29,
+          "intensity": 14.108,
+          "n_recent": 6
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 9.18,
+          "intensity": 93.037,
+          "n_recent": 45
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "composite": 30.97,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 18.09,
+          "intensity": 7.351,
+          "n_recent": 4
+        },
+        "Exports": {
+          "score": 9.38,
+          "intensity": 5.641,
+          "n_recent": 3
+        },
+        "Remittances": {
+          "score": 7.45,
+          "intensity": 6.489,
+          "n_recent": 4
+        },
+        "Food Prices": {
+          "score": 13.83,
+          "intensity": 14.323,
+          "n_recent": 6
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 46.88,
+          "intensity": 9.176,
+          "n_recent": 5
+        },
+        "Energy": {
+          "score": 32.29,
+          "intensity": 79.127,
+          "n_recent": 29
+        },
+        "Monetary Policy": {
+          "score": 63.54,
+          "intensity": 5.452,
+          "n_recent": 3
+        },
+        "Fiscal": {
+          "score": 48.91,
+          "intensity": 1.811,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 9.38,
+          "intensity": 19.426,
+          "n_recent": 9
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 19.39,
+          "intensity": 107.543,
+          "n_recent": 53
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "composite": 29.7,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 11.7,
+          "intensity": 6.996,
+          "n_recent": 4
+        },
+        "Exports": {
+          "score": 13.54,
+          "intensity": 7.368,
+          "n_recent": 4
+        },
+        "Remittances": {
+          "score": 13.83,
+          "intensity": 8.176,
+          "n_recent": 5
+        },
+        "Food Prices": {
+          "score": 9.57,
+          "intensity": 13.631,
+          "n_recent": 6
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 40.62,
+          "intensity": 8.733,
+          "n_recent": 5
+        },
+        "Energy": {
+          "score": 23.96,
+          "intensity": 75.305,
+          "n_recent": 29
+        },
+        "Monetary Policy": {
+          "score": 57.29,
+          "intensity": 5.189,
+          "n_recent": 3
+        },
+        "Fiscal": {
+          "score": 46.74,
+          "intensity": 1.724,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 11.46,
+          "intensity": 30.488,
+          "n_recent": 15
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 88.78,
+          "intensity": 123.348,
+          "n_recent": 63
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "composite": 27.37,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 9.57,
+          "intensity": 6.658,
+          "n_recent": 4
+        },
+        "Exports": {
+          "score": 11.46,
+          "intensity": 7.012,
+          "n_recent": 4
+        },
+        "Remittances": {
+          "score": 11.7,
+          "intensity": 7.781,
+          "n_recent": 5
+        },
+        "Food Prices": {
+          "score": 7.45,
+          "intensity": 12.973,
+          "n_recent": 6
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 36.46,
+          "intensity": 8.311,
+          "n_recent": 5
+        },
+        "Energy": {
+          "score": 21.88,
+          "intensity": 74.668,
+          "n_recent": 30
+        },
+        "Monetary Policy": {
+          "score": 51.04,
+          "intensity": 4.938,
+          "n_recent": 3
+        },
+        "Fiscal": {
+          "score": 42.39,
+          "intensity": 1.641,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Trade Policy": {
+          "score": 13.54,
+          "intensity": 35.015,
+          "n_recent": 18
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 72.45,
+          "intensity": 117.389,
+          "n_recent": 63
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-14",
+      "composite": 25.08,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 7.45,
+          "intensity": 6.337,
+          "n_recent": 4
+        },
+        "Exports": {
+          "score": 17.71,
+          "intensity": 10.674,
+          "n_recent": 6
+        },
+        "Remittances": {
+          "score": 9.57,
+          "intensity": 7.405,
+          "n_recent": 5
+        },
+        "Food Prices": {
+          "score": 3.19,
+          "intensity": 12.346,
+          "n_recent": 6
+        },
+        "Credit": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Banking": {
+          "score": 32.29,
+          "intensity": 7.91,
+          "n_recent": 5
+        },
+        "Energy": {
+          "score": 17.71,
+          "intensity": 71.061,
+          "n_recent": 30
+        },
+        "Monetary Policy": {
+          "score": 44.79,
+          "intensity": 4.7,
+          "n_recent": 3
+        },
+        "Fiscal": {
+          "score": 38.04,
+          "intensity": 1.561,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 37.8,
+          "intensity": 3.0,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 15.62,
+          "intensity": 35.324,
+          "n_recent": 19
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 35.71,
+          "intensity": 111.719,
+          "n_recent": 63
+        },
+        "Capital Markets": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-15",
+      "composite": 25.39,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 13.83,
+          "intensity": 7.031,
+          "n_recent": 5
+        },
+        "Exports": {
+          "score": 15.62,
+          "intensity": 10.158,
+          "n_recent": 6
+        },
+        "Remittances": {
+          "score": 32.98,
+          "intensity": 11.047,
+          "n_recent": 7
+        },
+        "Food Prices": {
+          "score": 24.47,
+          "intensity": 15.75,
+          "n_recent": 8
+        },
+        "Credit": {
+          "score": 1.25,
+          "intensity": 10.0,
+          "n_recent": 5
+        },
+        "Banking": {
+          "score": 28.12,
+          "intensity": 7.527,
+          "n_recent": 5
+        },
+        "Energy": {
+          "score": 15.62,
+          "intensity": 67.628,
+          "n_recent": 30
+        },
+        "Monetary Policy": {
+          "score": 40.62,
+          "intensity": 4.473,
+          "n_recent": 3
+        },
+        "Fiscal": {
+          "score": 33.7,
+          "intensity": 1.486,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 32.93,
+          "intensity": 2.855,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 17.71,
+          "intensity": 35.617,
+          "n_recent": 20
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 56.12,
+          "intensity": 114.322,
+          "n_recent": 67
+        },
+        "Capital Markets": {
+          "score": 1.25,
+          "intensity": 2.0,
+          "n_recent": 1
+        }
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "composite": 27.84,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 26.6,
+          "intensity": 8.691,
+          "n_recent": 6
+        },
+        "Exports": {
+          "score": 21.88,
+          "intensity": 11.667,
+          "n_recent": 7
+        },
+        "Remittances": {
+          "score": 28.72,
+          "intensity": 10.514,
+          "n_recent": 7
+        },
+        "Food Prices": {
+          "score": 39.36,
+          "intensity": 16.989,
+          "n_recent": 9
+        },
+        "Credit": {
+          "score": 3.75,
+          "intensity": 11.517,
+          "n_recent": 6
+        },
+        "Banking": {
+          "score": 44.79,
+          "intensity": 9.164,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 11.46,
+          "intensity": 64.361,
+          "n_recent": 30
+        },
+        "Monetary Policy": {
+          "score": 34.38,
+          "intensity": 4.257,
+          "n_recent": 3
+        },
+        "Fiscal": {
+          "score": 31.52,
+          "intensity": 1.414,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 21.79,
+          "intensity": 1.0,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 30.49,
+          "intensity": 2.717,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 26.04,
+          "intensity": 40.897,
+          "n_recent": 23
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 33.67,
+          "intensity": 110.8,
+          "n_recent": 68
+        },
+        "Capital Markets": {
+          "score": 31.25,
+          "intensity": 10.903,
+          "n_recent": 5
+        }
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "composite": 33.3,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 45.74,
+          "intensity": 11.271,
+          "n_recent": 7
+        },
+        "Exports": {
+          "score": 19.79,
+          "intensity": 11.104,
+          "n_recent": 7
+        },
+        "Remittances": {
+          "score": 24.47,
+          "intensity": 10.006,
+          "n_recent": 7
+        },
+        "Food Prices": {
+          "score": 50.0,
+          "intensity": 18.168,
+          "n_recent": 10
+        },
+        "Credit": {
+          "score": 11.25,
+          "intensity": 14.961,
+          "n_recent": 8
+        },
+        "Banking": {
+          "score": 38.54,
+          "intensity": 8.721,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 9.38,
+          "intensity": 64.252,
+          "n_recent": 31
+        },
+        "Monetary Policy": {
+          "score": 73.96,
+          "intensity": 6.051,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 29.35,
+          "intensity": 1.346,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 19.23,
+          "intensity": 0.952,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 28.05,
+          "intensity": 2.586,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 21.88,
+          "intensity": 38.921,
+          "n_recent": 23
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 23.47,
+          "intensity": 108.448,
+          "n_recent": 70
+        },
+        "Capital Markets": {
+          "score": 48.75,
+          "intensity": 12.377,
+          "n_recent": 6
+        }
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "composite": 36.84,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 39.36,
+          "intensity": 10.727,
+          "n_recent": 7
+        },
+        "Exports": {
+          "score": 32.29,
+          "intensity": 14.567,
+          "n_recent": 9
+        },
+        "Remittances": {
+          "score": 30.85,
+          "intensity": 10.523,
+          "n_recent": 8
+        },
+        "Food Prices": {
+          "score": 41.49,
+          "intensity": 17.291,
+          "n_recent": 10
+        },
+        "Credit": {
+          "score": 66.25,
+          "intensity": 22.238,
+          "n_recent": 12
+        },
+        "Banking": {
+          "score": 34.38,
+          "intensity": 8.3,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 7.29,
+          "intensity": 64.149,
+          "n_recent": 32
+        },
+        "Monetary Policy": {
+          "score": 69.79,
+          "intensity": 5.759,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 27.17,
+          "intensity": 1.281,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 16.67,
+          "intensity": 0.906,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 25.61,
+          "intensity": 2.461,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 23.96,
+          "intensity": 39.041,
+          "n_recent": 24
+        },
+        "Labor Market": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Geopolitical Risk": {
+          "score": 17.35,
+          "intensity": 107.209,
+          "n_recent": 72
+        },
+        "Capital Markets": {
+          "score": 41.25,
+          "intensity": 11.779,
+          "n_recent": 6
+        }
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "composite": 36.2,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 43.62,
+          "intensity": 11.208,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 28.12,
+          "intensity": 13.864,
+          "n_recent": 9
+        },
+        "Remittances": {
+          "score": 26.6,
+          "intensity": 10.014,
+          "n_recent": 8
+        },
+        "Food Prices": {
+          "score": 32.98,
+          "intensity": 16.456,
+          "n_recent": 10
+        },
+        "Credit": {
+          "score": 83.75,
+          "intensity": 25.164,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 30.21,
+          "intensity": 7.899,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 5.21,
+          "intensity": 63.05,
+          "n_recent": 33
+        },
+        "Monetary Policy": {
+          "score": 65.62,
+          "intensity": 5.48,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 25.0,
+          "intensity": 1.219,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 14.1,
+          "intensity": 0.862,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 20.73,
+          "intensity": 2.342,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 19.79,
+          "intensity": 37.155,
+          "n_recent": 24
+        },
+        "Labor Market": {
+          "score": 34.72,
+          "intensity": 4.0,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 68.37,
+          "intensity": 117.031,
+          "n_recent": 79
+        },
+        "Capital Markets": {
+          "score": 36.25,
+          "intensity": 11.21,
+          "n_recent": 6
+        }
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "composite": 32.6,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 37.23,
+          "intensity": 10.667,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 26.04,
+          "intensity": 13.194,
+          "n_recent": 9
+        },
+        "Remittances": {
+          "score": 22.34,
+          "intensity": 9.53,
+          "n_recent": 8
+        },
+        "Food Prices": {
+          "score": 22.34,
+          "intensity": 15.661,
+          "n_recent": 10
+        },
+        "Credit": {
+          "score": 76.25,
+          "intensity": 23.948,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 26.04,
+          "intensity": 7.517,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 13.54,
+          "intensity": 65.004,
+          "n_recent": 35
+        },
+        "Monetary Policy": {
+          "score": 59.38,
+          "intensity": 5.216,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 22.83,
+          "intensity": 1.16,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 11.54,
+          "intensity": 0.82,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 18.29,
+          "intensity": 2.229,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 28.12,
+          "intensity": 41.361,
+          "n_recent": 27
+        },
+        "Labor Market": {
+          "score": 31.94,
+          "intensity": 3.807,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 78.57,
+          "intensity": 118.377,
+          "n_recent": 82
+        },
+        "Capital Markets": {
+          "score": 51.25,
+          "intensity": 12.668,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "composite": 30.94,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 35.11,
+          "intensity": 10.152,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 23.96,
+          "intensity": 12.557,
+          "n_recent": 9
+        },
+        "Remittances": {
+          "score": 20.21,
+          "intensity": 9.07,
+          "n_recent": 8
+        },
+        "Food Prices": {
+          "score": 15.96,
+          "intensity": 14.904,
+          "n_recent": 10
+        },
+        "Credit": {
+          "score": 71.25,
+          "intensity": 22.791,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 23.96,
+          "intensity": 7.154,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 28.12,
+          "intensity": 76.864,
+          "n_recent": 40
+        },
+        "Monetary Policy": {
+          "score": 53.12,
+          "intensity": 4.964,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 20.65,
+          "intensity": 1.104,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 8.97,
+          "intensity": 0.781,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 15.85,
+          "intensity": 2.121,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 30.21,
+          "intensity": 41.363,
+          "n_recent": 28
+        },
+        "Labor Market": {
+          "score": 29.17,
+          "intensity": 3.623,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 74.49,
+          "intensity": 117.659,
+          "n_recent": 84
+        },
+        "Capital Markets": {
+          "score": 46.25,
+          "intensity": 12.056,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "composite": 29.43,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 32.98,
+          "intensity": 9.661,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 30.21,
+          "intensity": 13.95,
+          "n_recent": 10
+        },
+        "Remittances": {
+          "score": 18.09,
+          "intensity": 8.632,
+          "n_recent": 8
+        },
+        "Food Prices": {
+          "score": 11.7,
+          "intensity": 14.184,
+          "n_recent": 10
+        },
+        "Credit": {
+          "score": 63.75,
+          "intensity": 21.69,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 21.88,
+          "intensity": 6.809,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 34.38,
+          "intensity": 81.151,
+          "n_recent": 43
+        },
+        "Monetary Policy": {
+          "score": 46.88,
+          "intensity": 4.724,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 18.48,
+          "intensity": 1.051,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 6.41,
+          "intensity": 0.743,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 13.41,
+          "intensity": 2.019,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 32.29,
+          "intensity": 41.365,
+          "n_recent": 29
+        },
+        "Labor Market": {
+          "score": 26.39,
+          "intensity": 3.448,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 52.04,
+          "intensity": 113.976,
+          "n_recent": 85
+        },
+        "Capital Markets": {
+          "score": 38.75,
+          "intensity": 11.474,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "composite": 34.01,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 30.85,
+          "intensity": 9.195,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 53.12,
+          "intensity": 19.276,
+          "n_recent": 13
+        },
+        "Remittances": {
+          "score": 15.96,
+          "intensity": 8.215,
+          "n_recent": 8
+        },
+        "Food Prices": {
+          "score": 54.26,
+          "intensity": 18.499,
+          "n_recent": 12
+        },
+        "Credit": {
+          "score": 56.25,
+          "intensity": 20.643,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 19.79,
+          "intensity": 6.48,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 30.21,
+          "intensity": 77.231,
+          "n_recent": 43
+        },
+        "Monetary Policy": {
+          "score": 42.71,
+          "intensity": 4.496,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 16.3,
+          "intensity": 1.0,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 3.85,
+          "intensity": 0.707,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 10.98,
+          "intensity": 1.921,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 34.38,
+          "intensity": 41.367,
+          "n_recent": 30
+        },
+        "Labor Market": {
+          "score": 23.61,
+          "intensity": 3.281,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 37.76,
+          "intensity": 112.47,
+          "n_recent": 87
+        },
+        "Capital Markets": {
+          "score": 33.75,
+          "intensity": 10.92,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "composite": 34.95,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 28.72,
+          "intensity": 8.751,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 48.96,
+          "intensity": 18.345,
+          "n_recent": 13
+        },
+        "Remittances": {
+          "score": 37.23,
+          "intensity": 14.818,
+          "n_recent": 11
+        },
+        "Food Prices": {
+          "score": 60.64,
+          "intensity": 19.605,
+          "n_recent": 13
+        },
+        "Credit": {
+          "score": 48.75,
+          "intensity": 19.646,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 17.71,
+          "intensity": 6.167,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 36.46,
+          "intensity": 92.501,
+          "n_recent": 50
+        },
+        "Monetary Policy": {
+          "score": 36.46,
+          "intensity": 4.279,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 14.13,
+          "intensity": 0.952,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 1.28,
+          "intensity": 0.673,
+          "n_recent": 1
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 8.54,
+          "intensity": 1.829,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 38.54,
+          "intensity": 46.368,
+          "n_recent": 33
+        },
+        "Labor Market": {
+          "score": 20.83,
+          "intensity": 3.123,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 41.84,
+          "intensity": 113.037,
+          "n_recent": 90
+        },
+        "Capital Markets": {
+          "score": 28.75,
+          "intensity": 10.392,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "composite": 37.25,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 24.47,
+          "intensity": 8.328,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 44.79,
+          "intensity": 17.459,
+          "n_recent": 13
+        },
+        "Remittances": {
+          "score": 41.49,
+          "intensity": 16.102,
+          "n_recent": 12
+        },
+        "Food Prices": {
+          "score": 71.28,
+          "intensity": 20.658,
+          "n_recent": 14
+        },
+        "Credit": {
+          "score": 41.25,
+          "intensity": 18.697,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 15.62,
+          "intensity": 5.869,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 38.54,
+          "intensity": 97.033,
+          "n_recent": 54
+        },
+        "Monetary Policy": {
+          "score": 30.21,
+          "intensity": 4.072,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 11.96,
+          "intensity": 0.906,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 52.56,
+          "intensity": 2.64,
+          "n_recent": 2
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 6.1,
+          "intensity": 1.74,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 36.46,
+          "intensity": 46.128,
+          "n_recent": 34
+        },
+        "Labor Market": {
+          "score": 18.06,
+          "intensity": 2.972,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 58.16,
+          "intensity": 114.577,
+          "n_recent": 94
+        },
+        "Capital Markets": {
+          "score": 26.25,
+          "intensity": 9.89,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "composite": 38.01,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 22.34,
+          "intensity": 7.926,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 51.04,
+          "intensity": 18.616,
+          "n_recent": 14
+        },
+        "Remittances": {
+          "score": 43.62,
+          "intensity": 16.325,
+          "n_recent": 13
+        },
+        "Food Prices": {
+          "score": 62.77,
+          "intensity": 19.661,
+          "n_recent": 14
+        },
+        "Credit": {
+          "score": 31.25,
+          "intensity": 17.793,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 11.46,
+          "intensity": 5.585,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 40.62,
+          "intensity": 97.345,
+          "n_recent": 56
+        },
+        "Monetary Policy": {
+          "score": 28.12,
+          "intensity": 3.875,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 9.78,
+          "intensity": 0.862,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 91.03,
+          "intensity": 4.513,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 3.66,
+          "intensity": 1.656,
+          "n_recent": 1
+        },
+        "Trade Policy": {
+          "score": 40.62,
+          "intensity": 46.9,
+          "n_recent": 35
+        },
+        "Labor Market": {
+          "score": 15.28,
+          "intensity": 2.828,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 54.08,
+          "intensity": 114.042,
+          "n_recent": 97
+        },
+        "Capital Markets": {
+          "score": 23.75,
+          "intensity": 9.413,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "composite": 36.89,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 20.21,
+          "intensity": 7.543,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 46.88,
+          "intensity": 17.716,
+          "n_recent": 14
+        },
+        "Remittances": {
+          "score": 45.74,
+          "intensity": 17.536,
+          "n_recent": 14
+        },
+        "Food Prices": {
+          "score": 58.51,
+          "intensity": 18.711,
+          "n_recent": 14
+        },
+        "Credit": {
+          "score": 21.25,
+          "intensity": 16.934,
+          "n_recent": 14
+        },
+        "Banking": {
+          "score": 7.29,
+          "intensity": 5.316,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 44.79,
+          "intensity": 110.643,
+          "n_recent": 62
+        },
+        "Monetary Policy": {
+          "score": 23.96,
+          "intensity": 3.688,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 7.61,
+          "intensity": 0.82,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 85.9,
+          "intensity": 4.295,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 50.0,
+          "intensity": 3.576,
+          "n_recent": 2
+        },
+        "Trade Policy": {
+          "score": 42.71,
+          "intensity": 52.635,
+          "n_recent": 38
+        },
+        "Labor Market": {
+          "score": 12.5,
+          "intensity": 2.692,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 60.2,
+          "intensity": 115.534,
+          "n_recent": 101
+        },
+        "Capital Markets": {
+          "score": 21.25,
+          "intensity": 8.958,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "composite": 34.83,
+      "zone": "green",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 15.96,
+          "intensity": 7.178,
+          "n_recent": 8
+        },
+        "Exports": {
+          "score": 40.62,
+          "intensity": 16.861,
+          "n_recent": 14
+        },
+        "Remittances": {
+          "score": 47.87,
+          "intensity": 17.689,
+          "n_recent": 15
+        },
+        "Food Prices": {
+          "score": 47.87,
+          "intensity": 17.807,
+          "n_recent": 14
+        },
+        "Credit": {
+          "score": 33.75,
+          "intensity": 18.116,
+          "n_recent": 15
+        },
+        "Banking": {
+          "score": 5.21,
+          "intensity": 5.059,
+          "n_recent": 6
+        },
+        "Energy": {
+          "score": 46.88,
+          "intensity": 111.299,
+          "n_recent": 64
+        },
+        "Monetary Policy": {
+          "score": 19.79,
+          "intensity": 3.51,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 5.43,
+          "intensity": 0.781,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 80.77,
+          "intensity": 4.087,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 45.12,
+          "intensity": 3.403,
+          "n_recent": 2
+        },
+        "Trade Policy": {
+          "score": 46.88,
+          "intensity": 55.092,
+          "n_recent": 40
+        },
+        "Labor Market": {
+          "score": 9.72,
+          "intensity": 2.562,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 64.29,
+          "intensity": 115.953,
+          "n_recent": 104
+        },
+        "Capital Markets": {
+          "score": 18.75,
+          "intensity": 8.525,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-29",
+      "composite": 39.38,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 41.49,
+          "intensity": 10.832,
+          "n_recent": 10
+        },
+        "Exports": {
+          "score": 42.71,
+          "intensity": 17.046,
+          "n_recent": 15
+        },
+        "Remittances": {
+          "score": 52.13,
+          "intensity": 24.834,
+          "n_recent": 19
+        },
+        "Food Prices": {
+          "score": 37.23,
+          "intensity": 16.947,
+          "n_recent": 14
+        },
+        "Credit": {
+          "score": 23.75,
+          "intensity": 17.241,
+          "n_recent": 15
+        },
+        "Banking": {
+          "score": 42.71,
+          "intensity": 8.814,
+          "n_recent": 8
+        },
+        "Energy": {
+          "score": 42.71,
+          "intensity": 105.922,
+          "n_recent": 64
+        },
+        "Monetary Policy": {
+          "score": 17.71,
+          "intensity": 3.34,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 3.26,
+          "intensity": 0.743,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 78.21,
+          "intensity": 3.89,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 42.68,
+          "intensity": 3.239,
+          "n_recent": 2
+        },
+        "Trade Policy": {
+          "score": 44.79,
+          "intensity": 54.431,
+          "n_recent": 41
+        },
+        "Labor Market": {
+          "score": 6.94,
+          "intensity": 2.438,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 43.88,
+          "intensity": 113.352,
+          "n_recent": 106
+        },
+        "Capital Markets": {
+          "score": 16.25,
+          "intensity": 8.113,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "composite": 42.22,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 50.0,
+          "intensity": 12.308,
+          "n_recent": 11
+        },
+        "Exports": {
+          "score": 36.46,
+          "intensity": 16.223,
+          "n_recent": 15
+        },
+        "Remittances": {
+          "score": 54.26,
+          "intensity": 27.635,
+          "n_recent": 21
+        },
+        "Food Prices": {
+          "score": 28.72,
+          "intensity": 16.128,
+          "n_recent": 14
+        },
+        "Credit": {
+          "score": 53.75,
+          "intensity": 20.408,
+          "n_recent": 17
+        },
+        "Banking": {
+          "score": 48.96,
+          "intensity": 10.389,
+          "n_recent": 9
+        },
+        "Energy": {
+          "score": 48.96,
+          "intensity": 121.806,
+          "n_recent": 71
+        },
+        "Monetary Policy": {
+          "score": 15.62,
+          "intensity": 3.179,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 1.09,
+          "intensity": 0.707,
+          "n_recent": 1
+        },
+        "Political Risk": {
+          "score": 75.64,
+          "intensity": 3.702,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 40.24,
+          "intensity": 3.083,
+          "n_recent": 2
+        },
+        "Trade Policy": {
+          "score": 48.96,
+          "intensity": 59.802,
+          "n_recent": 44
+        },
+        "Labor Market": {
+          "score": 4.17,
+          "intensity": 2.32,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 47.96,
+          "intensity": 113.876,
+          "n_recent": 109
+        },
+        "Capital Markets": {
+          "score": 13.75,
+          "intensity": 7.721,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "composite": 46.8,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 47.87,
+          "intensity": 11.714,
+          "n_recent": 11
+        },
+        "Exports": {
+          "score": 34.38,
+          "intensity": 15.439,
+          "n_recent": 15
+        },
+        "Remittances": {
+          "score": 58.51,
+          "intensity": 32.3,
+          "n_recent": 24
+        },
+        "Food Prices": {
+          "score": 52.13,
+          "intensity": 18.349,
+          "n_recent": 15
+        },
+        "Credit": {
+          "score": 46.25,
+          "intensity": 19.422,
+          "n_recent": 17
+        },
+        "Banking": {
+          "score": 51.04,
+          "intensity": 11.887,
+          "n_recent": 10
+        },
+        "Energy": {
+          "score": 53.12,
+          "intensity": 130.922,
+          "n_recent": 76
+        },
+        "Monetary Policy": {
+          "score": 13.54,
+          "intensity": 3.025,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 44.57,
+          "intensity": 1.673,
+          "n_recent": 2
+        },
+        "Political Risk": {
+          "score": 73.08,
+          "intensity": 3.523,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 35.37,
+          "intensity": 2.934,
+          "n_recent": 2
+        },
+        "Trade Policy": {
+          "score": 51.04,
+          "intensity": 68.913,
+          "n_recent": 49
+        },
+        "Labor Market": {
+          "score": 1.39,
+          "intensity": 2.208,
+          "n_recent": 2
+        },
+        "Geopolitical Risk": {
+          "score": 80.61,
+          "intensity": 119.375,
+          "n_recent": 114
+        },
+        "Capital Markets": {
+          "score": 11.25,
+          "intensity": 7.348,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "composite": 47.96,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 52.13,
+          "intensity": 13.148,
+          "n_recent": 12
+        },
+        "Exports": {
+          "score": 38.54,
+          "intensity": 16.693,
+          "n_recent": 16
+        },
+        "Remittances": {
+          "score": 62.77,
+          "intensity": 38.74,
+          "n_recent": 27
+        },
+        "Food Prices": {
+          "score": 43.62,
+          "intensity": 17.463,
+          "n_recent": 15
+        },
+        "Credit": {
+          "score": 38.75,
+          "intensity": 18.484,
+          "n_recent": 17
+        },
+        "Banking": {
+          "score": 57.29,
+          "intensity": 13.313,
+          "n_recent": 11
+        },
+        "Energy": {
+          "score": 51.04,
+          "intensity": 130.598,
+          "n_recent": 78
+        },
+        "Monetary Policy": {
+          "score": 11.46,
+          "intensity": 2.879,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 40.22,
+          "intensity": 1.592,
+          "n_recent": 2
+        },
+        "Political Risk": {
+          "score": 67.95,
+          "intensity": 3.353,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 71.95,
+          "intensity": 4.792,
+          "n_recent": 3
+        },
+        "Trade Policy": {
+          "score": 82.29,
+          "intensity": 85.584,
+          "n_recent": 58
+        },
+        "Labor Market": {
+          "score": 37.5,
+          "intensity": 4.102,
+          "n_recent": 3
+        },
+        "Geopolitical Risk": {
+          "score": 45.92,
+          "intensity": 113.609,
+          "n_recent": 114
+        },
+        "Capital Markets": {
+          "score": 8.75,
+          "intensity": 6.994,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "composite": 49.89,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 54.26,
+          "intensity": 14.513,
+          "n_recent": 13
+        },
+        "Exports": {
+          "score": 55.21,
+          "intensity": 27.887,
+          "n_recent": 22
+        },
+        "Remittances": {
+          "score": 79.79,
+          "intensity": 45.868,
+          "n_recent": 31
+        },
+        "Food Prices": {
+          "score": 35.11,
+          "intensity": 16.619,
+          "n_recent": 15
+        },
+        "Credit": {
+          "score": 28.75,
+          "intensity": 17.591,
+          "n_recent": 17
+        },
+        "Banking": {
+          "score": 55.21,
+          "intensity": 12.67,
+          "n_recent": 11
+        },
+        "Energy": {
+          "score": 55.21,
+          "intensity": 133.289,
+          "n_recent": 81
+        },
+        "Monetary Policy": {
+          "score": 9.38,
+          "intensity": 2.74,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 35.87,
+          "intensity": 1.515,
+          "n_recent": 2
+        },
+        "Political Risk": {
+          "score": 62.82,
+          "intensity": 3.191,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 64.63,
+          "intensity": 4.56,
+          "n_recent": 3
+        },
+        "Trade Policy": {
+          "score": 88.54,
+          "intensity": 90.45,
+          "n_recent": 62
+        },
+        "Labor Market": {
+          "score": 40.28,
+          "intensity": 5.903,
+          "n_recent": 4
+        },
+        "Geopolitical Risk": {
+          "score": 70.41,
+          "intensity": 117.121,
+          "n_recent": 118
+        },
+        "Capital Markets": {
+          "score": 6.25,
+          "intensity": 6.656,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "composite": 53.78,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 62.77,
+          "intensity": 17.812,
+          "n_recent": 15
+        },
+        "Exports": {
+          "score": 57.29,
+          "intensity": 28.54,
+          "n_recent": 23
+        },
+        "Remittances": {
+          "score": 84.04,
+          "intensity": 46.653,
+          "n_recent": 32
+        },
+        "Food Prices": {
+          "score": 26.6,
+          "intensity": 15.816,
+          "n_recent": 15
+        },
+        "Credit": {
+          "score": 18.75,
+          "intensity": 16.741,
+          "n_recent": 17
+        },
+        "Banking": {
+          "score": 53.12,
+          "intensity": 12.058,
+          "n_recent": 11
+        },
+        "Energy": {
+          "score": 67.71,
+          "intensity": 155.851,
+          "n_recent": 91
+        },
+        "Monetary Policy": {
+          "score": 7.29,
+          "intensity": 2.608,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 64.13,
+          "intensity": 5.442,
+          "n_recent": 4
+        },
+        "Political Risk": {
+          "score": 60.26,
+          "intensity": 3.037,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 98.78,
+          "intensity": 6.34,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 84.38,
+          "intensity": 86.081,
+          "n_recent": 62
+        },
+        "Labor Market": {
+          "score": 65.28,
+          "intensity": 9.618,
+          "n_recent": 6
+        },
+        "Geopolitical Risk": {
+          "score": 82.65,
+          "intensity": 119.464,
+          "n_recent": 121
+        },
+        "Capital Markets": {
+          "score": 3.75,
+          "intensity": 6.334,
+          "n_recent": 7
+        }
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "composite": 53.95,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 58.51,
+          "intensity": 16.951,
+          "n_recent": 15
+        },
+        "Exports": {
+          "score": 65.62,
+          "intensity": 37.161,
+          "n_recent": 28
+        },
+        "Remittances": {
+          "score": 92.55,
+          "intensity": 51.399,
+          "n_recent": 35
+        },
+        "Food Prices": {
+          "score": 20.21,
+          "intensity": 15.052,
+          "n_recent": 15
+        },
+        "Credit": {
+          "score": 13.75,
+          "intensity": 15.933,
+          "n_recent": 17
+        },
+        "Banking": {
+          "score": 59.38,
+          "intensity": 13.475,
+          "n_recent": 12
+        },
+        "Energy": {
+          "score": 69.79,
+          "intensity": 159.322,
+          "n_recent": 95
+        },
+        "Monetary Policy": {
+          "score": 5.21,
+          "intensity": 2.482,
+          "n_recent": 4
+        },
+        "Fiscal": {
+          "score": 59.78,
+          "intensity": 5.179,
+          "n_recent": 4
+        },
+        "Political Risk": {
+          "score": 57.69,
+          "intensity": 2.89,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 96.34,
+          "intensity": 6.034,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 76.04,
+          "intensity": 83.923,
+          "n_recent": 63
+        },
+        "Labor Market": {
+          "score": 90.28,
+          "intensity": 11.154,
+          "n_recent": 7
+        },
+        "Geopolitical Risk": {
+          "score": 62.24,
+          "intensity": 115.693,
+          "n_recent": 122
+        },
+        "Capital Markets": {
+          "score": 43.75,
+          "intensity": 12.028,
+          "n_recent": 10
+        }
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "composite": 62.8,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 56.38,
+          "intensity": 16.133,
+          "n_recent": 15
+        },
+        "Exports": {
+          "score": 69.79,
+          "intensity": 39.366,
+          "n_recent": 30
+        },
+        "Remittances": {
+          "score": 98.94,
+          "intensity": 52.916,
+          "n_recent": 37
+        },
+        "Food Prices": {
+          "score": 30.85,
+          "intensity": 16.325,
+          "n_recent": 16
+        },
+        "Credit": {
+          "score": 58.75,
+          "intensity": 21.163,
+          "n_recent": 20
+        },
+        "Banking": {
+          "score": 67.71,
+          "intensity": 14.824,
+          "n_recent": 13
+        },
+        "Energy": {
+          "score": 63.54,
+          "intensity": 154.626,
+          "n_recent": 96
+        },
+        "Monetary Policy": {
+          "score": 38.54,
+          "intensity": 4.362,
+          "n_recent": 5
+        },
+        "Fiscal": {
+          "score": 79.35,
+          "intensity": 6.929,
+          "n_recent": 5
+        },
+        "Political Risk": {
+          "score": 55.13,
+          "intensity": 2.751,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 93.9,
+          "intensity": 5.742,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 71.88,
+          "intensity": 79.869,
+          "n_recent": 63
+        },
+        "Labor Market": {
+          "score": 81.94,
+          "intensity": 10.615,
+          "n_recent": 7
+        },
+        "Geopolitical Risk": {
+          "score": 66.33,
+          "intensity": 116.104,
+          "n_recent": 125
+        },
+        "Capital Markets": {
+          "score": 53.75,
+          "intensity": 13.447,
+          "n_recent": 11
+        }
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "composite": 68.4,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 60.64,
+          "intensity": 17.353,
+          "n_recent": 16
+        },
+        "Exports": {
+          "score": 76.04,
+          "intensity": 43.465,
+          "n_recent": 33
+        },
+        "Remittances": {
+          "score": 96.81,
+          "intensity": 52.36,
+          "n_recent": 38
+        },
+        "Food Prices": {
+          "score": 45.74,
+          "intensity": 17.537,
+          "n_recent": 17
+        },
+        "Credit": {
+          "score": 81.25,
+          "intensity": 25.141,
+          "n_recent": 22
+        },
+        "Banking": {
+          "score": 98.96,
+          "intensity": 28.108,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 61.46,
+          "intensity": 153.157,
+          "n_recent": 98
+        },
+        "Monetary Policy": {
+          "score": 32.29,
+          "intensity": 4.151,
+          "n_recent": 5
+        },
+        "Fiscal": {
+          "score": 75.0,
+          "intensity": 6.594,
+          "n_recent": 5
+        },
+        "Political Risk": {
+          "score": 50.0,
+          "intensity": 2.618,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 91.46,
+          "intensity": 5.465,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 69.79,
+          "intensity": 78.011,
+          "n_recent": 64
+        },
+        "Labor Market": {
+          "score": 98.61,
+          "intensity": 12.102,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 39.8,
+          "intensity": 112.496,
+          "n_recent": 126
+        },
+        "Capital Markets": {
+          "score": 58.75,
+          "intensity": 17.798,
+          "n_recent": 14
+        }
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "composite": 75.13,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 64.89,
+          "intensity": 20.515,
+          "n_recent": 18
+        },
+        "Exports": {
+          "score": 82.29,
+          "intensity": 45.365,
+          "n_recent": 35
+        },
+        "Remittances": {
+          "score": 94.68,
+          "intensity": 51.831,
+          "n_recent": 39
+        },
+        "Food Prices": {
+          "score": 56.38,
+          "intensity": 18.69,
+          "n_recent": 18
+        },
+        "Credit": {
+          "score": 93.75,
+          "intensity": 28.926,
+          "n_recent": 24
+        },
+        "Banking": {
+          "score": 96.88,
+          "intensity": 26.75,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 59.38,
+          "intensity": 151.759,
+          "n_recent": 101
+        },
+        "Monetary Policy": {
+          "score": 71.88,
+          "intensity": 5.951,
+          "n_recent": 6
+        },
+        "Fiscal": {
+          "score": 94.57,
+          "intensity": 9.276,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 47.44,
+          "intensity": 2.491,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 84.15,
+          "intensity": 5.201,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 61.46,
+          "intensity": 76.243,
+          "n_recent": 65
+        },
+        "Labor Market": {
+          "score": 95.83,
+          "intensity": 11.518,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 76.53,
+          "intensity": 118.062,
+          "n_recent": 132
+        },
+        "Capital Markets": {
+          "score": 56.25,
+          "intensity": 16.938,
+          "n_recent": 14
+        }
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "composite": 77.58,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 77.66,
+          "intensity": 25.524,
+          "n_recent": 21
+        },
+        "Exports": {
+          "score": 90.62,
+          "intensity": 50.174,
+          "n_recent": 38
+        },
+        "Remittances": {
+          "score": 90.43,
+          "intensity": 51.327,
+          "n_recent": 40
+        },
+        "Food Prices": {
+          "score": 64.89,
+          "intensity": 19.787,
+          "n_recent": 19
+        },
+        "Credit": {
+          "score": 96.25,
+          "intensity": 29.529,
+          "n_recent": 25
+        },
+        "Banking": {
+          "score": 94.79,
+          "intensity": 25.458,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 57.29,
+          "intensity": 151.428,
+          "n_recent": 104
+        },
+        "Monetary Policy": {
+          "score": 67.71,
+          "intensity": 5.663,
+          "n_recent": 6
+        },
+        "Fiscal": {
+          "score": 92.39,
+          "intensity": 8.828,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 44.87,
+          "intensity": 2.371,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 76.83,
+          "intensity": 4.95,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 57.29,
+          "intensity": 75.56,
+          "n_recent": 67
+        },
+        "Labor Market": {
+          "score": 87.5,
+          "intensity": 10.961,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 92.86,
+          "intensity": 126.359,
+          "n_recent": 140
+        },
+        "Capital Markets": {
+          "score": 76.25,
+          "intensity": 24.12,
+          "n_recent": 18
+        }
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "composite": 83.95,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 96.81,
+          "intensity": 28.291,
+          "n_recent": 23
+        },
+        "Exports": {
+          "score": 98.96,
+          "intensity": 55.75,
+          "n_recent": 42
+        },
+        "Remittances": {
+          "score": 88.3,
+          "intensity": 50.848,
+          "n_recent": 41
+        },
+        "Food Prices": {
+          "score": 79.79,
+          "intensity": 21.831,
+          "n_recent": 21
+        },
+        "Credit": {
+          "score": 98.75,
+          "intensity": 30.103,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 92.71,
+          "intensity": 24.228,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 84.38,
+          "intensity": 166.114,
+          "n_recent": 112
+        },
+        "Monetary Policy": {
+          "score": 61.46,
+          "intensity": 5.39,
+          "n_recent": 6
+        },
+        "Fiscal": {
+          "score": 90.22,
+          "intensity": 8.401,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 42.31,
+          "intensity": 2.256,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 69.51,
+          "intensity": 4.711,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 67.71,
+          "intensity": 77.91,
+          "n_recent": 70
+        },
+        "Labor Market": {
+          "score": 79.17,
+          "intensity": 10.432,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 86.73,
+          "intensity": 122.255,
+          "n_recent": 142
+        },
+        "Capital Markets": {
+          "score": 68.75,
+          "intensity": 22.955,
+          "n_recent": 18
+        }
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "composite": 80.49,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 86.17,
+          "intensity": 26.925,
+          "n_recent": 23
+        },
+        "Exports": {
+          "score": 96.88,
+          "intensity": 55.057,
+          "n_recent": 43
+        },
+        "Remittances": {
+          "score": 86.17,
+          "intensity": 48.392,
+          "n_recent": 41
+        },
+        "Food Prices": {
+          "score": 88.3,
+          "intensity": 23.777,
+          "n_recent": 22
+        },
+        "Credit": {
+          "score": 91.25,
+          "intensity": 28.649,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 90.62,
+          "intensity": 23.058,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 78.12,
+          "intensity": 164.089,
+          "n_recent": 114
+        },
+        "Monetary Policy": {
+          "score": 55.21,
+          "intensity": 5.129,
+          "n_recent": 6
+        },
+        "Fiscal": {
+          "score": 88.04,
+          "intensity": 7.995,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 39.74,
+          "intensity": 2.147,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 62.2,
+          "intensity": 4.483,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 59.38,
+          "intensity": 76.146,
+          "n_recent": 71
+        },
+        "Labor Market": {
+          "score": 73.61,
+          "intensity": 9.928,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 96.94,
+          "intensity": 129.35,
+          "n_recent": 149
+        },
+        "Capital Markets": {
+          "score": 73.75,
+          "intensity": 23.846,
+          "n_recent": 19
+        }
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "composite": 78.23,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 79.79,
+          "intensity": 25.624,
+          "n_recent": 23
+        },
+        "Exports": {
+          "score": 94.79,
+          "intensity": 52.398,
+          "n_recent": 43
+        },
+        "Remittances": {
+          "score": 81.91,
+          "intensity": 46.054,
+          "n_recent": 41
+        },
+        "Food Prices": {
+          "score": 98.94,
+          "intensity": 29.628,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 88.75,
+          "intensity": 27.265,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 88.54,
+          "intensity": 21.944,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 73.96,
+          "intensity": 162.163,
+          "n_recent": 116
+        },
+        "Monetary Policy": {
+          "score": 48.96,
+          "intensity": 4.882,
+          "n_recent": 6
+        },
+        "Fiscal": {
+          "score": 83.7,
+          "intensity": 7.609,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 37.18,
+          "intensity": 2.044,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 59.76,
+          "intensity": 4.267,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 65.62,
+          "intensity": 76.468,
+          "n_recent": 73
+        },
+        "Labor Market": {
+          "score": 62.5,
+          "intensity": 9.448,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 94.9,
+          "intensity": 127.102,
+          "n_recent": 151
+        },
+        "Capital Markets": {
+          "score": 78.75,
+          "intensity": 24.694,
+          "n_recent": 20
+        }
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "composite": 77.94,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 73.4,
+          "intensity": 24.386,
+          "n_recent": 23
+        },
+        "Exports": {
+          "score": 92.71,
+          "intensity": 51.866,
+          "n_recent": 44
+        },
+        "Remittances": {
+          "score": 77.66,
+          "intensity": 45.83,
+          "n_recent": 42
+        },
+        "Food Prices": {
+          "score": 96.81,
+          "intensity": 28.197,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 86.25,
+          "intensity": 25.948,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 84.38,
+          "intensity": 20.884,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 82.29,
+          "intensity": 165.33,
+          "n_recent": 121
+        },
+        "Monetary Policy": {
+          "score": 76.04,
+          "intensity": 6.646,
+          "n_recent": 7
+        },
+        "Fiscal": {
+          "score": 81.52,
+          "intensity": 7.242,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 34.62,
+          "intensity": 1.945,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 57.32,
+          "intensity": 4.061,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 55.21,
+          "intensity": 74.774,
+          "n_recent": 74
+        },
+        "Labor Market": {
+          "score": 56.94,
+          "intensity": 8.992,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 98.98,
+          "intensity": 129.962,
+          "n_recent": 155
+        },
+        "Capital Markets": {
+          "score": 86.25,
+          "intensity": 25.501,
+          "n_recent": 21
+        }
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "composite": 78.44,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 90.43,
+          "intensity": 27.208,
+          "n_recent": 25
+        },
+        "Exports": {
+          "score": 88.54,
+          "intensity": 49.361,
+          "n_recent": 44
+        },
+        "Remittances": {
+          "score": 75.53,
+          "intensity": 45.616,
+          "n_recent": 43
+        },
+        "Food Prices": {
+          "score": 94.68,
+          "intensity": 26.835,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 78.75,
+          "intensity": 24.694,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 80.21,
+          "intensity": 19.875,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 71.88,
+          "intensity": 160.344,
+          "n_recent": 122
+        },
+        "Monetary Policy": {
+          "score": 90.62,
+          "intensity": 8.325,
+          "n_recent": 8
+        },
+        "Fiscal": {
+          "score": 77.17,
+          "intensity": 6.892,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 32.05,
+          "intensity": 1.851,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 54.88,
+          "intensity": 3.864,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 80.21,
+          "intensity": 84.162,
+          "n_recent": 80
+        },
+        "Labor Market": {
+          "score": 51.39,
+          "intensity": 8.557,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 90.82,
+          "intensity": 123.684,
+          "n_recent": 155
+        },
+        "Capital Markets": {
+          "score": 93.75,
+          "intensity": 26.269,
+          "n_recent": 22
+        }
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "composite": 74.51,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 81.91,
+          "intensity": 25.894,
+          "n_recent": 25
+        },
+        "Exports": {
+          "score": 86.46,
+          "intensity": 46.977,
+          "n_recent": 44
+        },
+        "Remittances": {
+          "score": 73.4,
+          "intensity": 43.412,
+          "n_recent": 43
+        },
+        "Food Prices": {
+          "score": 92.55,
+          "intensity": 25.539,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 73.75,
+          "intensity": 23.501,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 78.12,
+          "intensity": 18.915,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 65.62,
+          "intensity": 155.598,
+          "n_recent": 123
+        },
+        "Monetary Policy": {
+          "score": 86.46,
+          "intensity": 7.923,
+          "n_recent": 8
+        },
+        "Fiscal": {
+          "score": 72.83,
+          "intensity": 6.559,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 29.49,
+          "intensity": 1.762,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 52.44,
+          "intensity": 3.678,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 78.12,
+          "intensity": 84.097,
+          "n_recent": 82
+        },
+        "Labor Market": {
+          "score": 45.83,
+          "intensity": 8.144,
+          "n_recent": 8
+        },
+        "Geopolitical Risk": {
+          "score": 84.69,
+          "intensity": 119.71,
+          "n_recent": 156
+        },
+        "Capital Markets": {
+          "score": 83.75,
+          "intensity": 25.0,
+          "n_recent": 22
+        }
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "composite": 77.15,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 98.94,
+          "intensity": 28.643,
+          "n_recent": 27
+        },
+        "Exports": {
+          "score": 84.38,
+          "intensity": 46.708,
+          "n_recent": 45
+        },
+        "Remittances": {
+          "score": 71.28,
+          "intensity": 43.315,
+          "n_recent": 44
+        },
+        "Food Prices": {
+          "score": 90.43,
+          "intensity": 24.305,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 68.75,
+          "intensity": 22.366,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 76.04,
+          "intensity": 18.002,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 76.04,
+          "intensity": 163.082,
+          "n_recent": 128
+        },
+        "Monetary Policy": {
+          "score": 98.96,
+          "intensity": 9.54,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 70.65,
+          "intensity": 6.242,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 26.92,
+          "intensity": 1.677,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 47.56,
+          "intensity": 3.5,
+          "n_recent": 4
+        },
+        "Trade Policy": {
+          "score": 92.71,
+          "intensity": 92.035,
+          "n_recent": 88
+        },
+        "Labor Market": {
+          "score": 70.83,
+          "intensity": 9.751,
+          "n_recent": 9
+        },
+        "Geopolitical Risk": {
+          "score": 50.0,
+          "intensity": 113.927,
+          "n_recent": 156
+        },
+        "Capital Markets": {
+          "score": 88.75,
+          "intensity": 25.793,
+          "n_recent": 23
+        }
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "composite": 75.39,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 92.55,
+          "intensity": 27.26,
+          "n_recent": 27
+        },
+        "Exports": {
+          "score": 80.21,
+          "intensity": 44.451,
+          "n_recent": 45
+        },
+        "Remittances": {
+          "score": 69.15,
+          "intensity": 43.223,
+          "n_recent": 45
+        },
+        "Food Prices": {
+          "score": 86.17,
+          "intensity": 23.131,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 61.25,
+          "intensity": 21.286,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 73.96,
+          "intensity": 17.132,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 80.21,
+          "intensity": 165.204,
+          "n_recent": 132
+        },
+        "Monetary Policy": {
+          "score": 96.88,
+          "intensity": 9.079,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 68.48,
+          "intensity": 5.941,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 24.36,
+          "intensity": 1.596,
+          "n_recent": 3
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 89.02,
+          "intensity": 5.331,
+          "n_recent": 5
+        },
+        "Trade Policy": {
+          "score": 86.46,
+          "intensity": 89.589,
+          "n_recent": 89
+        },
+        "Labor Market": {
+          "score": 93.06,
+          "intensity": 11.28,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 29.59,
+          "intensity": 110.424,
+          "n_recent": 157
+        },
+        "Capital Markets": {
+          "score": 96.25,
+          "intensity": 26.547,
+          "n_recent": 24
+        }
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "composite": 75.39,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 84.04,
+          "intensity": 25.943,
+          "n_recent": 27
+        },
+        "Exports": {
+          "score": 78.12,
+          "intensity": 44.304,
+          "n_recent": 46
+        },
+        "Remittances": {
+          "score": 67.02,
+          "intensity": 41.135,
+          "n_recent": 45
+        },
+        "Food Prices": {
+          "score": 84.04,
+          "intensity": 22.014,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 51.25,
+          "intensity": 20.258,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 71.88,
+          "intensity": 16.305,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 88.54,
+          "intensity": 181.224,
+          "n_recent": 140
+        },
+        "Monetary Policy": {
+          "score": 94.79,
+          "intensity": 8.641,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 66.3,
+          "intensity": 5.654,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 70.51,
+          "intensity": 3.518,
+          "n_recent": 4
+        },
+        "Agriculture": {
+          "score": 50.0,
+          "intensity": 0.0,
+          "n_recent": 0
+        },
+        "Logistics": {
+          "score": 81.71,
+          "intensity": 5.073,
+          "n_recent": 5
+        },
+        "Trade Policy": {
+          "score": 96.88,
+          "intensity": 93.261,
+          "n_recent": 93
+        },
+        "Labor Market": {
+          "score": 84.72,
+          "intensity": 10.735,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 25.51,
+          "intensity": 109.09,
+          "n_recent": 159
+        },
+        "Capital Markets": {
+          "score": 98.75,
+          "intensity": 27.264,
+          "n_recent": 25
+        }
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "composite": 71.52,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 75.53,
+          "intensity": 24.69,
+          "n_recent": 27
+        },
+        "Exports": {
+          "score": 73.96,
+          "intensity": 42.164,
+          "n_recent": 46
+        },
+        "Remittances": {
+          "score": 64.89,
+          "intensity": 39.148,
+          "n_recent": 45
+        },
+        "Food Prices": {
+          "score": 77.66,
+          "intensity": 20.95,
+          "n_recent": 25
+        },
+        "Credit": {
+          "score": 43.75,
+          "intensity": 19.279,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 69.79,
+          "intensity": 15.517,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 86.46,
+          "intensity": 177.47,
+          "n_recent": 142
+        },
+        "Monetary Policy": {
+          "score": 88.54,
+          "intensity": 8.223,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 61.96,
+          "intensity": 5.381,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 65.38,
+          "intensity": 3.349,
+          "n_recent": 4
+        },
+        "Agriculture": {
+          "score": 75.0,
+          "intensity": 2.0,
+          "n_recent": 1
+        },
+        "Logistics": {
+          "score": 74.39,
+          "intensity": 4.828,
+          "n_recent": 5
+        },
+        "Trade Policy": {
+          "score": 94.79,
+          "intensity": 92.756,
+          "n_recent": 95
+        },
+        "Labor Market": {
+          "score": 76.39,
+          "intensity": 10.216,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 27.55,
+          "intensity": 109.82,
+          "n_recent": 162
+        },
+        "Capital Markets": {
+          "score": 91.25,
+          "intensity": 25.947,
+          "n_recent": 25
+        }
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "composite": 74.43,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 94.68,
+          "intensity": 27.497,
+          "n_recent": 29
+        },
+        "Exports": {
+          "score": 71.88,
+          "intensity": 40.127,
+          "n_recent": 46
+        },
+        "Remittances": {
+          "score": 60.64,
+          "intensity": 33.257,
+          "n_recent": 48
+        },
+        "Food Prices": {
+          "score": 81.91,
+          "intensity": 21.938,
+          "n_recent": 26
+        },
+        "Credit": {
+          "score": 36.25,
+          "intensity": 18.348,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 65.62,
+          "intensity": 14.767,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 94.79,
+          "intensity": 198.898,
+          "n_recent": 156
+        },
+        "Monetary Policy": {
+          "score": 84.38,
+          "intensity": 7.826,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 57.61,
+          "intensity": 5.121,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 98.72,
+          "intensity": 5.187,
+          "n_recent": 5
+        },
+        "Agriculture": {
+          "score": 58.33,
+          "intensity": 1.903,
+          "n_recent": 1
+        },
+        "Logistics": {
+          "score": 67.07,
+          "intensity": 4.595,
+          "n_recent": 5
+        },
+        "Trade Policy": {
+          "score": 98.96,
+          "intensity": 96.276,
+          "n_recent": 99
+        },
+        "Labor Market": {
+          "score": 68.06,
+          "intensity": 9.723,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 31.63,
+          "intensity": 110.515,
+          "n_recent": 165
+        },
+        "Capital Markets": {
+          "score": 81.25,
+          "intensity": 24.694,
+          "n_recent": 25
+        }
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "composite": 64.53,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 67.02,
+          "intensity": 21.169,
+          "n_recent": 33
+        },
+        "Exports": {
+          "score": 67.71,
+          "intensity": 38.189,
+          "n_recent": 46
+        },
+        "Remittances": {
+          "score": 56.38,
+          "intensity": 28.651,
+          "n_recent": 49
+        },
+        "Food Prices": {
+          "score": 73.4,
+          "intensity": 20.878,
+          "n_recent": 26
+        },
+        "Credit": {
+          "score": 26.25,
+          "intensity": 17.462,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 61.46,
+          "intensity": 14.054,
+          "n_recent": 20
+        },
+        "Energy": {
+          "score": 92.71,
+          "intensity": 197.29,
+          "n_recent": 163
+        },
+        "Monetary Policy": {
+          "score": 82.29,
+          "intensity": 7.448,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 55.43,
+          "intensity": 4.873,
+          "n_recent": 6
+        },
+        "Political Risk": {
+          "score": 96.15,
+          "intensity": 4.936,
+          "n_recent": 5
+        },
+        "Agriculture": {
+          "score": 41.67,
+          "intensity": 1.811,
+          "n_recent": 1
+        },
+        "Logistics": {
+          "score": 23.17,
+          "intensity": 2.373,
+          "n_recent": 6
+        },
+        "Trade Policy": {
+          "score": 90.62,
+          "intensity": 91.625,
+          "n_recent": 102
+        },
+        "Labor Market": {
+          "score": 59.72,
+          "intensity": 9.253,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 21.43,
+          "intensity": 108.177,
+          "n_recent": 167
+        },
+        "Capital Markets": {
+          "score": 71.25,
+          "intensity": 23.501,
+          "n_recent": 25
+        }
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "composite": 64.56,
+      "zone": "amber",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 88.3,
+          "intensity": 27.146,
+          "n_recent": 37
+        },
+        "Exports": {
+          "score": 59.38,
+          "intensity": 36.344,
+          "n_recent": 46
+        },
+        "Remittances": {
+          "score": 50.0,
+          "intensity": 24.267,
+          "n_recent": 50
+        },
+        "Food Prices": {
+          "score": 67.02,
+          "intensity": 19.87,
+          "n_recent": 26
+        },
+        "Credit": {
+          "score": 16.25,
+          "intensity": 16.618,
+          "n_recent": 26
+        },
+        "Banking": {
+          "score": 63.54,
+          "intensity": 14.375,
+          "n_recent": 24
+        },
+        "Energy": {
+          "score": 90.62,
+          "intensity": 193.76,
+          "n_recent": 176
+        },
+        "Monetary Policy": {
+          "score": 80.21,
+          "intensity": 7.088,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 85.87,
+          "intensity": 7.638,
+          "n_recent": 7
+        },
+        "Political Risk": {
+          "score": 93.59,
+          "intensity": 4.698,
+          "n_recent": 5
+        },
+        "Agriculture": {
+          "score": 25.0,
+          "intensity": 1.724,
+          "n_recent": 1
+        },
+        "Logistics": {
+          "score": 1.22,
+          "intensity": 0.259,
+          "n_recent": 7
+        },
+        "Trade Policy": {
+          "score": 73.96,
+          "intensity": 80.199,
+          "n_recent": 108
+        },
+        "Labor Market": {
+          "score": 54.17,
+          "intensity": 8.806,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 15.31,
+          "intensity": 102.951,
+          "n_recent": 167
+        },
+        "Capital Markets": {
+          "score": 66.25,
+          "intensity": 20.366,
+          "n_recent": 26
+        }
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "composite": 65.99,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 71.28,
+          "intensity": 23.835,
+          "n_recent": 40
+        },
+        "Exports": {
+          "score": 61.46,
+          "intensity": 36.589,
+          "n_recent": 47
+        },
+        "Remittances": {
+          "score": 39.36,
+          "intensity": 15.094,
+          "n_recent": 54
+        },
+        "Food Prices": {
+          "score": 75.53,
+          "intensity": 20.91,
+          "n_recent": 29
+        },
+        "Credit": {
+          "score": 8.75,
+          "intensity": 12.815,
+          "n_recent": 27
+        },
+        "Banking": {
+          "score": 86.46,
+          "intensity": 21.681,
+          "n_recent": 27
+        },
+        "Energy": {
+          "score": 98.96,
+          "intensity": 205.4,
+          "n_recent": 191
+        },
+        "Monetary Policy": {
+          "score": 78.12,
+          "intensity": 6.746,
+          "n_recent": 9
+        },
+        "Fiscal": {
+          "score": 98.91,
+          "intensity": 10.269,
+          "n_recent": 8
+        },
+        "Political Risk": {
+          "score": 88.46,
+          "intensity": 4.471,
+          "n_recent": 5
+        },
+        "Agriculture": {
+          "score": 8.33,
+          "intensity": 1.641,
+          "n_recent": 1
+        },
+        "Logistics": {
+          "score": 86.59,
+          "intensity": 5.246,
+          "n_recent": 9
+        },
+        "Trade Policy": {
+          "score": 63.54,
+          "intensity": 76.325,
+          "n_recent": 110
+        },
+        "Labor Market": {
+          "score": 48.61,
+          "intensity": 8.381,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 13.27,
+          "intensity": 99.978,
+          "n_recent": 168
+        },
+        "Capital Markets": {
+          "score": 63.75,
+          "intensity": 19.382,
+          "n_recent": 26
+        }
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "composite": 67.67,
+      "zone": "red",
+      "channels": {
+        "Foreign Exchange": {
+          "score": 69.15,
+          "intensity": 22.684,
+          "n_recent": 40
+        },
+        "Exports": {
+          "score": 63.54,
+          "intensity": 36.821,
+          "n_recent": 48
+        },
+        "Remittances": {
+          "score": 35.11,
+          "intensity": 13.365,
+          "n_recent": 55
+        },
+        "Food Prices": {
+          "score": 69.15,
+          "intensity": 19.9,
+          "n_recent": 29
+        },
+        "Credit": {
+          "score": 6.25,
+          "intensity": 12.196,
+          "n_recent": 27
+        },
+        "Banking": {
+          "score": 82.29,
+          "intensity": 20.634,
+          "n_recent": 27
+        },
+        "Energy": {
+          "score": 96.88,
+          "intensity": 201.478,
+          "n_recent": 195
+        },
+        "Monetary Policy": {
+          "score": 92.71,
+          "intensity": 8.42,
+          "n_recent": 10
+        },
+        "Fiscal": {
+          "score": 96.74,
+          "intensity": 9.773,
+          "n_recent": 8
+        },
+        "Political Risk": {
+          "score": 83.33,
+          "intensity": 4.255,
+          "n_recent": 5
+        },
+        "Agriculture": {
+          "score": 91.67,
+          "intensity": 4.561,
+          "n_recent": 2
+        },
+        "Logistics": {
+          "score": 79.27,
+          "intensity": 4.993,
+          "n_recent": 11
+        },
+        "Trade Policy": {
+          "score": 53.12,
+          "intensity": 72.638,
+          "n_recent": 110
+        },
+        "Labor Market": {
+          "score": 43.06,
+          "intensity": 7.976,
+          "n_recent": 10
+        },
+        "Geopolitical Risk": {
+          "score": 11.22,
+          "intensity": 97.149,
+          "n_recent": 169
+        },
+        "Capital Markets": {
+          "score": 61.25,
+          "intensity": 18.446,
+          "n_recent": 26
+        }
+      }
+    }
+  ]
+}
