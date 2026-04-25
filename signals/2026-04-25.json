@@ -23,7 +23,7 @@
     "headline": "FY27 Bangladesh inflation to be above central bank target at 8.6%: BMI",
     "source": "Fibre2Fashion",
     "sources": [
-      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLUZwSnFZQmJOZEJZdHZaV291NXNSQkJJZzYwX05sQlpvNG1YaGt5SFJKTDdtNkRYYTZDMEJJWlZZb0JnZzlRcmFONXBfVDJXc0I4Wm56WVV6SXZTY2xSYUoxekdXMVdkdkhHRFl2NmV3enl1cGcxZUdlYVVqTWJWSlZOYU9FYk1jSkFLeFpoU0REVTZ3QmFyZTVoenVLZTNJVjZORExIaTFGNGpGb01Sc2M3NERtcXlLZVFRWVJnTTQyOFVjSjRQbWptTTJBbFpWTzRPSW4xd1dOU1pvMWF3Si1yNExFb2s?oc=5"
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTkJvcUZZakM5OUhHTU5oZ3BMdmZqa2Y4amoxV0hKWTBPMEExWkF4ZEZDUnFfMUFCQXJtUnhZX1dLbGttZXJzT0toNy1sbThSVVUzZ2tfUl9KbWFUdTFzTUNLVTFFcDJrT18ybzdnUm4xMGs4WDNpTF84SWs4eGVvWVZVU2ZrTE8wQ19fejZ6eG9HNHBEM2lteXBMTlhDMjFyX19vbUR0dnA0ZUJSUnBhWXlCTUV5a0NnNERMbkhpRVdFRHN6R04tRml0blBGQjRqYktDRXJB?oc=5"
     ]
   },
   {
@@ -54,36 +54,9 @@
     ]
   },
   {
-    "id": "2026-04-24_Energy_tightening_d6637e0c",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-24",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "low",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Fuel Running Low: A Looming Threat to Bangladesh’s Connectivity and Economy - daily-sun.com",
-    "source": "daily-sun.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdDFHYVFFdE14S3gzekppQVloWTVDaDZOb1paczlIV0ZUa05tMVR0UFR3UjZtdzV6YkpaclZBcHo4R3UxajdQcFA5aktCRmJfSTlaSjUzcWhnNWFXOHJPOTBBclNQOWlmMnVrTWlyV1Y3Mk01WmhuMVU1czAzQU8wcmgwQkhXTTdaLUlkOTM1Tk9CWTVvVTgtVC0tang4RlRFWVIwcUZodzVpckI5OHRZbHAxN0w?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Food_Prices_tightening_d5c62300",
+    "id": "2026-04-25_Food_Prices_tightening_d5c62300",
     "title": "Food Price Pressure",
-    "date": "2026-04-24",
+    "date": "2026-04-25",
     "signal_type": "price_signal",
     "channel": "Food Prices",
     "lead_indicator": "staple_price_acceleration",
@@ -108,30 +81,30 @@
     ]
   },
   {
-    "id": "2026-04-24_Remittances_easing_5377fa01",
-    "title": "Remittance Flow Strengthening",
-    "date": "2026-04-24",
-    "signal_type": "balance_of_payments",
-    "channel": "Remittances",
-    "lead_indicator": "remittance_growth_acceleration",
-    "time_horizon": "1–3 months",
-    "direction": "easing",
-    "confidence": "low",
-    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "id": "2026-04-25_Energy_tightening_9418e33f",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
     "who_should_care": [
-      "rural economy analysts",
-      "consumer sector",
-      "central bank"
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
     ],
     "expected_effects": [
-      "rural consumption boost",
-      "FX supply expansion",
-      "formal channel share rising"
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
     ],
-    "headline": "Rising remittance inflow boost Bangladesh’s economic stability",
+    "headline": "Foreign buyers warn of energy crisis, RMG orders on decline: BCI president",
     "source": "The Business Standard",
     "sources": [
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcDhneUI3SDItTXNMOTlHQ093S1VuVzVLcWo4aE9rQVBkcHdteHZWZ05lT0dXZTlCMUg0Wmw0RFZPVUVpRzdjMDhtZ29YMGN0ajFOSmctZW5Ub3RHMnNfVTA5bUFGZXNkLXlVME91YV9RLUJ0QWlUbG1tM0Ywa3pRS0RZOVkyYnhvTVRHbk92RVpSbEZoTkY3LW1JNVpneDlkSjBwSFF3ZHV5S2daWHfSAbMBQVVfeXFMTkFySE5iNjZWQndCNGVGdUwxbkY0SG1sZWYxZU5Ca3lxaVpUNGp0dnJvOGp4Y0FmUlEzU21ZNzFOR1BKYnE3S2JlQWxnU1FxZmhYYS13UGRzVldtRm9UX3NyaFloaEZ0d1BXeVBBZFBveENqQWdEb25Cdk5JbW9TUF85aFY2QXlPZzBodF9BM21HdU0xYVZWNk90RnVOdnlNTDRTbjVfV0M5emx6Q3BZT2xNMTg?oc=5"
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUtOOEtsVTR1azROaFp6MHhDenRfektBbzN1ZzY5MjB5emtQcXNBX3h1dVpyZmVYdndFMkxsZ05EWk9FRXVka0k2cnBwc1BxdWVnWEFBTU9tdFZSaDhKRUpxX1Via1BvVTJBbXRWS0FyX2M2OTUwQ1VVYW9SZng3eGFLcmdWTnk3QjZ2d1JwVzdtTjRUWTFaUmRFZGhrWkctREJTUUpqc0k3MEVwWXFpa0FGN3nSAboBQVVfeXFMTlZaTktUQWRnam1UVW9uZzE5dGxRSGtlSVN1Q3RvWGdPamVrVlUwQm04OWc0NnZQdnJlZFJraGhWWWd2ZGhjcVhZWVFKR2FGWkJ5VkQ1TDhNY0VMZmNfYURuMFNJcmxnNTMyMVh2Vy1KeXFRWmN2VmtLVnNuSDBfV1NhaVR3MVBLSlpCWjZVYlZMYldocmVPSGR1SWs1ak5aM2pXRGhPM1o4WGhJX1VvOGFIN0xXdlRSRDR3?oc=5"
     ]
   },
   {
@@ -159,6 +132,60 @@
     "source": "The Daily Star",
     "sources": [
       "https://news.google.com/rss/articles/CBMilAFBVV95cUxOODNNajlMSjJ5U1hLVHhfYVVMRWIxVTF0ZXJsa3Z6WjhsT0kyOFZ0U09PR2FSVTdsLWkzZnlUQTNsSThzZGFSWlV2T2ljNXBHbjB1cFpYMU1EdDZvakVRMHpNOEpGMlFOb1g4VVdPa0JfSGNUem9zcEpOb2pwZWJtYkp5VTJWQXBlV0Iwc2l6OEVLLTA3?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-24_Foreign_Exchange_easing_9c2b4cbb",
+    "title": "External Liquidity Improvement",
+    "date": "2026-04-24",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Forex reserves stand at $35.12b - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MeUJLazkyTVVNSk51Zm9TM2xwcWlhN1QzVUp0dHpmZVJ5OFdXSzY1RmRNSDc1SmJlRUplY1ZXS096VkRPZldVV2c5LXdMVlQyVGtJ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-24_Remittances_easing_5377fa01",
+    "title": "Remittance Flow Strengthening",
+    "date": "2026-04-24",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_acceleration",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption boost",
+      "FX supply expansion",
+      "formal channel share rising"
+    ],
+    "headline": "Rising remittance inflow boost Bangladesh’s economic stability",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcDhneUI3SDItTXNMOTlHQ093S1VuVzVLcWo4aE9rQVBkcHdteHZWZ05lT0dXZTlCMUg0Wmw0RFZPVUVpRzdjMDhtZ29YMGN0ajFOSmctZW5Ub3RHMnNfVTA5bUFGZXNkLXlVME91YV9RLUJ0QWlUbG1tM0Ywa3pRS0RZOVkyYnhvTVRHbk92RVpSbEZoTkY3LW1JNVpneDlkSjBwSFF3ZHV5S2daWHfSAbMBQVVfeXFMTkFySE5iNjZWQndCNGVGdUwxbkY0SG1sZWYxZU5Ca3lxaVpUNGp0dnJvOGp4Y0FmUlEzU21ZNzFOR1BKYnE3S2JlQWxnU1FxZmhYYS13UGRzVldtRm9UX3NyaFloaEZ0d1BXeVBBZFBveENqQWdEb25Cdk5JbW9TUF85aFY2QXlPZzBodF9BM21HdU0xYVZWNk90RnVOdnlNTDRTbjVfV0M5emx6Q3BZT2xNMTg?oc=5"
     ]
   },
   {
@@ -243,60 +270,6 @@
     ]
   },
   {
-    "id": "2026-04-23_Energy_tightening_9418e33f",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-23",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Foreign buyers warn of energy crisis, RMG orders on decline: BCI president",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUtOOEtsVTR1azROaFp6MHhDenRfektBbzN1ZzY5MjB5emtQcXNBX3h1dVpyZmVYdndFMkxsZ05EWk9FRXVka0k2cnBwc1BxdWVnWEFBTU9tdFZSaDhKRUpxX1Via1BvVTJBbXRWS0FyX2M2OTUwQ1VVYW9SZng3eGFLcmdWTnk3QjZ2d1JwVzdtTjRUWTFaUmRFZGhrWkctREJTUUpqc0k3MEVwWXFpa0FGN3nSAboBQVVfeXFMTlZaTktUQWRnam1UVW9uZzE5dGxRSGtlSVN1Q3RvWGdPamVrVlUwQm04OWc0NnZQdnJlZFJraGhWWWd2ZGhjcVhZWVFKR2FGWkJ5VkQ1TDhNY0VMZmNfYURuMFNJcmxnNTMyMVh2Vy1KeXFRWmN2VmtLVnNuSDBfV1NhaVR3MVBLSlpCWjZVYlZMYldocmVPSGR1SWs1ak5aM2pXRGhPM1o4WGhJX1VvOGFIN0xXdlRSRDR3?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Political_Risk_tightening_44f93564",
-    "title": "Political Risk Escalation",
-    "date": "2026-04-24",
-    "signal_type": "institutional",
-    "channel": "Political Risk",
-    "lead_indicator": "governance_disruption",
-    "time_horizon": "1–12 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Political instability, policy reversals, or governance failures undermine investor confidence and raise country risk premia.",
-    "who_should_care": [
-      "foreign investors",
-      "rating agencies",
-      "multilateral lenders"
-    ],
-    "expected_effects": [
-      "FDI slowdown",
-      "sovereign spread widening",
-      "policy uncertainty premium"
-    ],
-    "headline": "Economy under pressure amid political uncertainty, says ADB report - en.bd-pratidin.com",
-    "source": "en.bd-pratidin.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XLTZYS0lXbHlDRXBIZFF4MVBQeUNuT3R5WE5iVk1WeGhxVF8tTEdRVTUwSDlNM0lSdFlHVmNLQ2Rtdk5FdERtR3Rhd0xWQm1Sd3J4V01CNzMtblBrVkpaSA?oc=5"
-    ]
-  },
-  {
     "id": "2026-04-22_Foreign_Exchange_easing_2aea1f57",
     "title": "External Liquidity Improvement",
     "date": "2026-04-22",
@@ -351,30 +324,30 @@
     ]
   },
   {
-    "id": "2026-04-24_Foreign_Exchange_tightening_36fd5b38",
-    "title": "External Liquidity Stress",
+    "id": "2026-04-24_Political_Risk_tightening_44f93564",
+    "title": "Political Risk Escalation",
     "date": "2026-04-24",
-    "signal_type": "balance_of_payments",
-    "channel": "Foreign Exchange",
-    "lead_indicator": "fx_reserves_pressure",
-    "time_horizon": "1–3 months",
+    "signal_type": "institutional",
+    "channel": "Political Risk",
+    "lead_indicator": "governance_disruption",
+    "time_horizon": "1–12 months",
     "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
+    "confidence": "medium",
+    "economic_mechanism": "Political instability, policy reversals, or governance failures undermine investor confidence and raise country risk premia.",
     "who_should_care": [
-      "trade finance banks",
-      "importers",
-      "currency desks"
+      "foreign investors",
+      "rating agencies",
+      "multilateral lenders"
     ],
     "expected_effects": [
-      "import compression",
-      "industrial input shortage",
-      "informal FX premium widening"
+      "FDI slowdown",
+      "sovereign spread widening",
+      "policy uncertainty premium"
     ],
-    "headline": "Bangladesh trade deficit with India hits $7.86 billion: Minister",
-    "source": "The Business Standard",
+    "headline": "Economy under pressure amid political uncertainty, says ADB report - en.bd-pratidin.com",
+    "source": "en.bd-pratidin.com",
     "sources": [
-      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDVZM2YzS3lRdHowMER4T1Bha0RRNXNFMGtqUlBfYlk4ejh2OFl6T3IwME5vNUhyWTRnV0Zla3VlbHJmQzNKaFdwczRnM2s5Qk14WWFqY05xZ1VwaTJjcDRrX3ZLaWZwdVdfZHhySjdoMTZmalkwWlpOR1Q1ZGs1RVdiaUNKNFdOamVJSGhsRVdLcWIxZ1JObUpic3bSAaIBQVVfeXFMTkxBeDlRcUM4a2lHek9qa19hdzhtYWJBTGNhQWIxM0VjZFRXVkhvTVU2TmRHTl9lTVQwU044SGQzUXZKZUNaMkRBXzdzekt1ZThKT3VRbHhEWmZOZVRTMWdUd3NfZUprSmRkTmFfR0tJdUQ0R3VkQXg2UG4yUWpoT0VQdGc2cXJwc2h3ay1kdWVOUkliY3NmWVNGLTNRSFVaZXd3?oc=5"
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XLTZYS0lXbHlDRXBIZFF4MVBQeUNuT3R5WE5iVk1WeGhxVF8tTEdRVTUwSDlNM0lSdFlHVmNLQ2Rtdk5FdERtR3Rhd0xWQm1Sd3J4V01CNzMtblBrVkpaSA?oc=5"
     ]
   },
   {
@@ -405,6 +378,33 @@
     ]
   },
   {
+    "id": "2026-04-25_Trade_Policy_easing_a7e387e7",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-04-25",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "BCCCI and Alibaba sign strategic MoU to boost Bangladesh–China digital trade",
+    "source": "Textile Today",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM2RTR1hReHpOYnlNc3JmTWpyVXVlRjRtb3BHNXV6c1VOTGIyaGVVWklXR0d0N2FmdHRXQUNzeHRZX01JRlZKYVR5RjE1dXpaak9aUXlURzZiSVpmSnpKVEUzT0tTenliWVpTeXhPY01ZNjhHRFkybk9BSXVwSUtBbnVSY3dvbjFxUVNySjBpblZ2STFkOFg1ZGY2N1BxaU1taU9mSm4tYTYxT0Ju?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-24_Food_Prices_easing_7234865b",
     "title": "Food Price Relief",
     "date": "2026-04-24",
@@ -429,33 +429,6 @@
     "source": "Asia News Network",
     "sources": [
       "https://news.google.com/rss/articles/CBMickFVX3lxTE1USkFINDhBUzlBYTRJaUd5dVdHWjhfM0JyNWJuQ25xRUQ2NEE5R1VMYkQ3NlNyakRlZUJLdzI0N3pQeS1SY3dyYVZpTXJwSV9pbFZPalY1SmliQTFTNUZpa21BYTg2MWF6b2ZHdUNCeC1YQQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Credit_easing_b44566a1",
-    "title": "Credit Allocation Loosening",
-    "date": "2026-04-24",
-    "signal_type": "financial_conditions",
-    "channel": "Credit",
-    "lead_indicator": "credit_growth_acceleration",
-    "time_horizon": "3–6 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
-    "who_should_care": [
-      "commercial banks",
-      "corporate borrowers",
-      "investment desks"
-    ],
-    "expected_effects": [
-      "investment pickup",
-      "working capital expansion",
-      "GDP growth support"
-    ],
-    "headline": "Relaunched pre-shipment credit to boost export trade: Experts - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fcUEtSHNUOEZfVU0wdlB3NkRtcUNkX2hYcDJocGk3SUUxa1BTdlpiQlQzRU04dVFFUGV3R0xnanRSVlhwT1NCWktWSFRiX0RxdUY4?oc=5"
     ]
   },
   {
@@ -486,30 +459,30 @@
     ]
   },
   {
-    "id": "2026-04-22_Trade_Policy_tightening_256138f0",
-    "title": "Trade Policy Restriction",
-    "date": "2026-04-22",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_tightening",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "low",
-    "economic_mechanism": "Import bans, tariff hikes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "id": "2026-04-24_Credit_easing_b44566a1",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-04-24",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
     "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
     ],
     "expected_effects": [
-      "supply chain disruption",
-      "input cost increase",
-      "trade diversion"
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
     ],
-    "headline": "EuroCham warns of 'unfair playing field' in Bangladesh trade",
-    "source": "The Business Standard",
+    "headline": "Relaunched pre-shipment credit to boost export trade: Experts - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWI3TzJYQXlFam5odlRzd1pzVVRmTTdYdFlFZFNDdnlrd1J0Rlk4UE1scjY3RHJTcWFjVmRaenV0bmtTbWp1UGllVGxHa3pjY2I3ZEFwN1JPdjQ4YUh4dXdReXh4VThvbW9zYklzUnc0dWxDN3Y4eWVscmJEcHRHNlJsU0VncjdQWW1NSXRiWWpCTFVMUG5B0gGcAUFVX3lxTFBPdTNwd2l5MDd2aE14b2I0VU9KNGNrcUQ2SjVBaEZjWDBldDcyb1BZamhCM3NoRkNRd1VRSTNSWFcyNTdEVGVFUW5rYXczeVJ6Mk03dk5ueV9pVm44YmVwdEtHR3Y4UGxUUHlwSmJ6dGFyQjE4cTk4WURRLTM2dU9DQWpFY3NFbjJBamxQZE9qTDBraEVPMjdLN1pHMg?oc=5"
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fcUEtSHNUOEZfVU0wdlB3NkRtcUNkX2hYcDJocGk3SUUxa1BTdlpiQlQzRU04dVFFUGV3R0xnanRSVlhwT1NCWktWSFRiX0RxdUY4?oc=5"
     ]
   },
   {
@@ -540,111 +513,30 @@
     ]
   },
   {
-    "id": "2026-04-24_Logistics_easing_11a878f6",
-    "title": "Logistics Improvement",
-    "date": "2026-04-24",
-    "signal_type": "production_constraint",
-    "channel": "Logistics",
-    "lead_indicator": "transport_capacity_expansion",
-    "time_horizon": "immediate–1 month",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
-    "who_should_care": [
-      "exporters",
-      "importers",
-      "logistics firms"
-    ],
-    "expected_effects": [
-      "supply chain acceleration",
-      "lower transport costs",
-      "export throughput gains"
-    ],
-    "headline": "Record-breaking performance highlights 139 years of Chattogram Port",
-    "source": "Bangladesh Post",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObTlFWlBENDhjV3NSYkFBUng3Z0hncl8zVmRQYzdMT2pkeE9VT2djMkc1RmlYeldrcjl4VHN2SU9UcjZEOHJTcjJnN0Rnb3hDLTdib0NBZFZDTW5IeW1NTldnXzJTb3d4LWtWWGZieDFGeWhkSGVJRHZBMXQ5bE5uOC1vR3RZREQ3NkU5MUt5T0ZhdWpMV1lpSmRhTTRaTmVNbWdnbHVwNmNCV0U?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Energy_easing_afb0cdc8",
-    "title": "Energy Supply Improvement",
-    "date": "2026-04-24",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
-    "time_horizon": "immediate",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
-    ],
-    "headline": "Bangladesh floats tender for third LNG terminal as gas import disruption fuels power cuts",
-    "source": "The Financial Express",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNanZZMUZLZ2JNb0VDNjlicmlOZHJpNzJ6Z2o0T3ZySnJDbXR3b3J4QWhtWVcxd3RDdDliNGtxQW54VVpmOEV2NThWYktSS1N6bno3aTdMZDZoQVF2QzJsUjdrNDlzcjhVTjFrMjVQcF9pMUxSZ3NVSWxPZFBKRkEyMGlKY3JFR3YxQVF5T1puZ01GWFFWYWc?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-22_Energy_tightening_17a7d221",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-22",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "‘Your country won’t have electricity in 2-3 months’: Power crisis fears cloud Bangladesh RMG orders, says BCI chief",
-    "source": "bdnews24.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12c1FVUzBmcjFjZXpuQXJwUWtocTFhNWpqRjZfSWxZVXR4VE1iWnlESHRfMER5Z2k4OU5sQ25ST1ZLZkJFYkVBa3hETVQ4b3RZN1lweQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-23_Food_Prices_easing_6f087ed7",
-    "title": "Food Price Relief",
+    "id": "2026-04-23_Trade_Policy_easing_680591e7",
+    "title": "Trade Policy Liberalization",
     "date": "2026-04-23",
-    "signal_type": "price_signal",
-    "channel": "Food Prices",
-    "lead_indicator": "staple_price_deceleration",
-    "time_horizon": "immediate–3 months",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
     "direction": "easing",
-    "confidence": "high",
-    "economic_mechanism": "Stabilizing or falling staple prices restore real incomes of the poor, ease wage pressure, and moderate inflation expectations.",
+    "confidence": "low",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
     "who_should_care": [
-      "consumer sector",
-      "food importers",
-      "social protection agencies"
+      "importers",
+      "exporters",
+      "trade policy analysts"
     ],
     "expected_effects": [
-      "real income recovery for the poor",
-      "wage pressure easing",
-      "headline inflation moderation"
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
     ],
-    "headline": "Bangladesh to import 13mn litres of palm oil from US firm for TCB sales",
-    "source": "bdnews24.com",
+    "headline": "Bangladesh and Senegal agree to form joint trade commission",
+    "source": "businessinbangladesh.com.bd",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLV3pheFJmOGR3VGxvQ25pRWVIU2RhMEhsOUZGak0tM0Q5M0RDVDU5Und5ZWdQUkFDZXNrZ0dQbC0wNWlvOF9LTHZUZ3lQcHJQMUZWQw?oc=5"
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOVRfUFBvRldOMENBOEdwSXU4R1JYakExMTQ5RTVxSUhwNmJLRUJnVXFEamdqOGZodXJxR2stTk1taDBvOVIyUEFJVGc0Tm95dGdKTkphOEMzbnU3Y05iak9RbHR0bUFwelJLSTdXQ0g4b3lJb2NobHdMTnMzUXoydVNobm1CaDlIX1hGZzdlMURkWXlVT2xuOE9PU3I?oc=5"
     ]
   },
   {
@@ -675,30 +567,57 @@
     ]
   },
   {
-    "id": "2026-04-24_Capital_Markets_easing_a1be7969",
-    "title": "Capital Markets Recovery",
-    "date": "2026-04-24",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
+    "id": "2026-04-25_Foreign_Exchange_easing_461b1725",
+    "title": "External Liquidity Improvement",
+    "date": "2026-04-25",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
     "direction": "easing",
     "confidence": "high",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
     "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
+      "trade finance banks",
+      "importers",
+      "currency desks"
     ],
     "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
     ],
-    "headline": "ADB approves $250m loan to strengthen Bangladesh’s social protection system",
-    "source": "Dhaka Tribune",
+    "headline": "ADB approves $250m loan to Bangladesh",
+    "source": "Jagonews24.com",
     "sources": [
-      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ3B1Sk1oYmlJV1RiRlNHbExRZHk2VkpKS0w5YUhNVkRNNWI0RlNsNzhoRlh3N3NqRmF5Qk1Hbmt4b0dZcmRzOS1DZ1hTQWFoVmNLVkFIVGhnV0ZyNG90YXpyTFh0VV9JME1Jekhkcy1kUy1JZ3VXVXUxSldLZ3dPcVp0dFF0UWxsd1RYNWdZMDVSTU5OMWFzVzBvR3NDaVlGTngxbVc0d3d6MXQxNnAycFhUSk5hMFhXOE1DNWFBWdIBxAFBVV95cUxOLU1pSVRWNVo2eVNiVHhYTWFTX0p3VEdjRzFheDBxa0ptZWxuQmlheWxLOHIzMnljRWNLMTJGaTBhVGEtLV9weGFsMjB3NkJsOFJRY0c1ak1ZdzdCcDhIejM0dHplemlCVXJGQW41SmtMOWktdHd1LTRrUU5UM29MQmtYZ2p4UnkwTVJEbWl6VGFoQlY2WTY2ZjRvdEplNXY5ajlhNjYwamQyM0EzdjZ6YzhPNHZvQW5HY3kya3padE0ycjY5?oc=5"
+      "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pdEdLckFMbGw1NEpOcW40Wl9sLXE1SnlGTkF4RWhPRjc2VHRRdUE5MnJZNUhGODdOVWNlQlRfWnBRSFZ3Qi04c1BWWE01S3A4ejViZ0tKS3Y3UENJT0HSAVBBVV95cUxPNFBoLUdybWdZeDZERmlXOG5FbEVjcUNFVU13VWFMVEEzeVlVaDQwOXNqckJjVFZfSF8tbzFyMjI4d2lVT0RGLUtFT2hDcG9JZA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-23_Banking_tightening_42d08e7a",
+    "title": "Banking Sector Fragility",
+    "date": "2026-04-23",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "No scope for money launderers to return to bank boards: Bangladesh Bank",
+    "source": "United News of Bangladesh",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbjJsaGYzTkxVVlQ3cWF1XzMtUVpFSXc4bWFDR191VGxLYWdpYUk4OVpzN0xFT2IzaXJ5N0p1YlMxeWNQRUV5Ym9QQ1haLTFtTEVLaUlIUGdJQUlHay0xb0NpSDBjdFZiRFd2Z1QtNWFWTFRFckVYd3dTWUhNN1RBN1FlVkhvS21vdFpwczhJQWc1UU9kNDBjUExqRnFqLUVxdWYzX2dpOVYyMlZrSElpSXJxVU4?oc=5"
     ]
   },
   {
@@ -729,30 +648,30 @@
     ]
   },
   {
-    "id": "2026-04-23_Banking_tightening_42d08e7a",
-    "title": "Banking Sector Fragility",
-    "date": "2026-04-23",
+    "id": "2026-04-24_Capital_Markets_easing_a1be7969",
+    "title": "Capital Markets Recovery",
+    "date": "2026-04-24",
     "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_deterioration",
-    "time_horizon": "3–12 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
     "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
     ],
     "expected_effects": [
-      "credit rationing",
-      "deposit flight risk",
-      "fiscal contingent liability"
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
     ],
-    "headline": "No scope for money launderers to return to bank boards: Bangladesh Bank",
-    "source": "United News of Bangladesh",
+    "headline": "ADB approves $250m loan to strengthen Bangladesh’s social protection system",
+    "source": "Dhaka Tribune",
     "sources": [
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbjJsaGYzTkxVVlQ3cWF1XzMtUVpFSXc4bWFDR191VGxLYWdpYUk4OVpzN0xFT2IzaXJ5N0p1YlMxeWNQRUV5Ym9QQ1haLTFtTEVLaUlIUGdJQUlHay0xb0NpSDBjdFZiRFd2Z1QtNWFWTFRFckVYd3dTWUhNN1RBN1FlVkhvS21vdFpwczhJQWc1UU9kNDBjUExqRnFqLUVxdWYzX2dpOVYyMlZrSElpSXJxVU4?oc=5"
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ3B1Sk1oYmlJV1RiRlNHbExRZHk2VkpKS0w5YUhNVkRNNWI0RlNsNzhoRlh3N3NqRmF5Qk1Hbmt4b0dZcmRzOS1DZ1hTQWFoVmNLVkFIVGhnV0ZyNG90YXpyTFh0VV9JME1Jekhkcy1kUy1JZ3VXVXUxSldLZ3dPcVp0dFF0UWxsd1RYNWdZMDVSTU5OMWFzVzBvR3NDaVlGTngxbVc0d3d6MXQxNnAycFhUSk5hMFhXOE1DNWFBWdIBxAFBVV95cUxOLU1pSVRWNVo2eVNiVHhYTWFTX0p3VEdjRzFheDBxa0ptZWxuQmlheWxLOHIzMnljRWNLMTJGaTBhVGEtLV9weGFsMjB3NkJsOFJRY0c1ak1ZdzdCcDhIejM0dHplemlCVXJGQW41SmtMOWktdHd1LTRrUU5UM29MQmtYZ2p4UnkwTVJEbWl6VGFoQlY2WTY2ZjRvdEplNXY5ajlhNjYwamQyM0EzdjZ6YzhPNHZvQW5HY3kya3padE0ycjY5?oc=5"
     ]
   },
   {
@@ -810,6 +729,33 @@
     ]
   },
   {
+    "id": "2026-04-22_Geopolitical_Risk_tightening_07edf194",
+    "title": "Geopolitical Risk Escalation",
+    "date": "2026-04-22",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_rise",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "low",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Iran War deals devastating collateral damage to Bangladesh",
+    "source": "In Defence of Marxism",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVXhDNTVuUThReFNMb2tRbmZoeV9iRldSZy02b0pUeXRGRkdDUmc5N0dPcmVjODgtTGxMeDFxNHVwZHhlZU13TUNwd01VNUIzVjNua0xKU0d6RVVZMm9falBYa003dWU3VzltMjdVbjdoaEtKNmJiRVpnYm9hQXhTR2ZRdWtzSXo4X2c?oc=5"
+    ]
+  },
+  {
     "id": "2026-04-24_Energy_tightening_effbca64",
     "title": "Energy Supply Constraint",
     "date": "2026-04-24",
@@ -837,30 +783,57 @@
     ]
   },
   {
-    "id": "2026-04-22_Geopolitical_Risk_tightening_07edf194",
-    "title": "Geopolitical Risk Escalation",
-    "date": "2026-04-22",
-    "signal_type": "external_shock",
-    "channel": "Geopolitical Risk",
-    "lead_indicator": "geopolitical_tension_rise",
-    "time_horizon": "1–6 months",
+    "id": "2026-04-25_Energy_tightening_c5cc0f3e",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
     "direction": "tightening",
-    "confidence": "low",
-    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
     "who_should_care": [
-      "exporters",
-      "remittance-dependent sectors",
-      "energy importers"
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
     ],
     "expected_effects": [
-      "remittance channel disruption",
-      "trade route uncertainty",
-      "energy price volatility"
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
     ],
-    "headline": "Iran War deals devastating collateral damage to Bangladesh",
-    "source": "In Defence of Marxism",
+    "headline": "Bangladesh Power Crisis 2026 | Power cuts worsen amid searing heat",
+    "source": "The Daily Star",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVXhDNTVuUThReFNMb2tRbmZoeV9iRldSZy02b0pUeXRGRkdDUmc5N0dPcmVjODgtTGxMeDFxNHVwZHhlZU13TUNwd01VNUIzVjNua0xKU0d6RVVZMm9falBYa003dWU3VzltMjdVbjdoaEtKNmJiRVpnYm9hQXhTR2ZRdWtzSXo4X2c?oc=5"
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOai0zb0xjSmhUVlNYbmhEcHgyUDE4Z1VMN0h3XzZQOERQQzhhc29rT0hwUTBJM2xwZ19yYU0xZndCdUQzdG9meW1RdGJrdXdxRVJDaEtQdEFMNmZLRFo0M0J2eVlpWWJjMHBUZm52YXc2MnoxWGFUX2ZKN2o0YzJNYV8wVTlhcVhhYWFFYTVDWi16bWY2NjI2YmgwNlQ2TDRndmdpdmJncXgyRlVmVEhqcWNPRWJ6MHBDNENF?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-24_Energy_tightening_68a03ff4",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-24",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Bangladesh Govt Plan To Increase Electricity Prices | Govt mulls hike in power price as subsidy mounts",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ001X2M0OUhRcndraEJoYjNfTnZiWUVZLWVtRzJ1bXFReGFJLVdHZDY5d2o0WDlhWjhQTE1jVXRUMkRIMkt2NGt4QjI0bThXckNob2NsTVl0MUF6ZDdiUFJfS1NzTFJKMG1FbHR1MUs2bUE2Sk5INmlncm5EQ0lacUV5TEJkaVlGYkJCU2U5ZmtHSXhpLTFVU2Q3Y1ZQWlJsWmc?oc=5"
     ]
   },
   {
@@ -918,9 +891,36 @@
     ]
   },
   {
-    "id": "2026-04-24_Energy_tightening_ae04a6ea",
+    "id": "2026-04-25_Energy_easing_46dc3c1a",
+    "title": "Energy Supply Improvement",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Power generation resumes at Barapukuria Thermal Power Plant - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1DeEt6SGQ3QnVCMllkaTdaRW41dDRsaUJWYkEwd180SVUyNUFVYkZnMVpHNmh2bnQ5OVZlc193VkExQzI5aURuMUw5TQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-25_Energy_tightening_893c5a55",
     "title": "Energy Supply Constraint",
-    "date": "2026-04-24",
+    "date": "2026-04-25",
     "signal_type": "production_constraint",
     "channel": "Energy",
     "lead_indicator": "load_shedding_intensity",
@@ -938,10 +938,10 @@
       "production cost increase",
       "cost-push inflation"
     ],
-    "headline": "Bangladesh sweats as Middle East fuel shortages force power cuts",
-    "source": "The Straits Times",
+    "headline": "Loadshedding Crisis In Bangladesh 2026 | Fuel scarcity, unequal cuts deepen power crisis",
+    "source": "The Daily Star",
     "sources": [
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOanIxTGJiX0VZb05LRjlNNlRUNkNFdkRyM3pMZXZZQlFURi1YdkFseGFkaHl4cU52ZlRzc3V3N180ck5JZE1yRkludFhMeHJQWnZrSmZvNFpXb1EyMzQxUXRuV05PdXpDbUhLM3EzRUs2MHN4NGN6QjNuMWcyU0t5V1pQUG5HWnp0QzVOQ0hyeVloelFhVWEzNTFMdzJQZjBhM2d3MkVoTl9tcXRvdEE?oc=5"
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdEFMT21Od2NXSTVYOVIxcEJaVGliSEhESWx2MGpGdGxic2JkTVZxTDg1ei13TzVaRjhnd1d2V0JJRUVZNXBPbU10YnIzZmp6bVVxeDFSNmg0ZnJGcjlTV3J2bDN3d1Ntcm5FVkFFWjZEWGdNS1dHRDBTYVhWODdDVFJHeTVndTY4ZjdTN2RjTEhZd1ZLMHZfV09BZTQ0V2RtNXNMNmNOOXMtQQ?oc=5"
     ]
   },
   {
@@ -972,7 +972,61 @@
     ]
   },
   {
-    "id": "2026-04-24_Energy_tightening_41587b84",
+    "id": "2026-04-25_Energy_tightening_78ac6f0a",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "10 of 28 power plants shut in Chittagong, worsening loadshedding",
+    "source": "Dhaka Tribune",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGV6aHhaaGZLOEdBT01URG5KdHloLUhidTdwcHE5QVNnemx5QmpVU3poUGFUcXhIUTh1enpFTG43R1BvYkNSSm5zblRaTm16U2dCcUwxT0VNNFRzaWxCOG5SaFVJZTNfTlA2bXJsT1VHZVpyVjlhUGU0LXB1YTRudHVGSTctZmFQQldXQ3NDM0x2aEctb3BERGxHaUlwTVBGb3fSAacBQVVfeXFMUFlEZXR0eUpqd3I1ZFhzQ0FZeVZ2MWMyV1N3N0VYcDRkYzVuOS1YNHRzOXl3Nm9GcUhwTV9uX1JRZ3RUd2NMdms5R2wwWUpCdFQzcW1sZGFqNVY5N05aUnhHTVZMdEFDUFdQOHFJM3puX2dkUExUNm5DeEtMUE5RN19WZElnell1V3ZPRkhlUV9DdEtoVkxteXdZRVdXWTFuU3hZQ2llbjg?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-25_Energy_tightening_13eb3759",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Load-shedding rises as three major power plants operate below capacity",
+    "source": "Daily Bonik Barta",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xTUZHeDUwOFlUMjVlN04xa1JBSk1RSzJmeTZtdTJTWXh4ZUNQZXpuLW1sVVhnLWtKSkk5ejB1cTdCVFN6TTJRMDNETHlqcjU2ZlFLU1FTVDVPYnVhclN0bE5BQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-24_Energy_tightening_ae04a6ea",
     "title": "Energy Supply Constraint",
     "date": "2026-04-24",
     "signal_type": "production_constraint",
@@ -992,64 +1046,10 @@
       "production cost increase",
       "cost-push inflation"
     ],
-    "headline": "Power cuts worsen amid searing heat",
-    "source": "The Daily Star",
+    "headline": "Bangladesh sweats as Middle East fuel shortages force power cuts",
+    "source": "The Straits Times",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOai0zb0xjSmhUVlNYbmhEcHgyUDE4Z1VMN0h3XzZQOERQQzhhc29rT0hwUTBJM2xwZ19yYU0xZndCdUQzdG9meW1RdGJrdXdxRVJDaEtQdEFMNmZLRFo0M0J2eVlpWWJjMHBUZm52YXc2MnoxWGFUX2ZKN2o0YzJNYV8wVTlhcVhhYWFFYTVDWi16bWY2NjI2YmgwNlQ2TDRndmdpdmJncXgyRlVmVEhqcWNPRWJ6MHBDNENF?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Energy_tightening_624a0047",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-24",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Bangladesh sweats as Mideast fuel shortages force power cuts",
-    "source": "The Peninsula Qatar",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNkM0Q0s0OG4zSERldmtvMzVOa251OHNJU2o5VEFDdzdGTnAxbF83NVhyeDBaN0EtWGVZcDVIWW55TU9SR0FoaGdBMUxrWV9YeTBGNTkzVDNuVzBVNHcybUNNRGtncExWNE03Y2I1R01ETE10aXZidVdxUE83bzRSa25OLWlSaWRwYXQwdEd6Y00wX1lUcl9xbGVNeDFNc1pJcTN0RFVCeWJyUzlyRmc?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Energy_easing_917f7bc0",
-    "title": "Energy Supply Improvement",
-    "date": "2026-04-24",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
-    "time_horizon": "immediate",
-    "direction": "easing",
-    "confidence": "low",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
-    ],
-    "headline": "Uzbekneftegaz Explores Energy Cooperation with Bangladesh",
-    "source": "UzDaily",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYTNCRTlhM3Y5TkVfemEzTFNLaTM5Q2tQUlRKNnhsb2RuM2dudHQtQVVOQUhxNkYteG5ycm9HVXZqTFU0ZmJhTWhBaVhoX3laTVZoQkR6VURyRktxN1ZCVzk5Sl9KZ1VIdUZMeVpxbl93UHE1WVZHNUZYYy1MOGhvcDZ5bzhmZjl5eWRkdw?oc=5"
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOanIxTGJiX0VZb05LRjlNNlRUNkNFdkRyM3pMZXZZQlFURi1YdkFseGFkaHl4cU52ZlRzc3V3N180ck5JZE1yRkludFhMeHJQWnZrSmZvNFpXb1EyMzQxUXRuV05PdXpDbUhLM3EzRUs2MHN4NGN6QjNuMWcyU0t5V1pQUG5HWnp0QzVOQ0hyeVloelFhVWEzNTFMdzJQZjBhM2d3MkVoTl9tcXRvdEE?oc=5"
     ]
   },
   {
@@ -1080,33 +1080,6 @@
     ]
   },
   {
-    "id": "2026-04-22_Energy_tightening_9a594db8",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-22",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "2,500MW POWER SHORTFALL BATTERS RURAL AREAS - daily-sun.com",
-    "source": "daily-sun.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PYmkwS2JoU0IxTmxQNzVkR1lTQlY1UXh1cFlXTWltSGFreUswem1fQUZTLXp4T2dEWEVpVUhzRWhHYnNxQTkxV1Ytd1o3aEdoQ21WN0xB?oc=5"
-    ]
-  },
-  {
     "id": "2026-04-23_Energy_tightening_825557d6",
     "title": "Energy Supply Constraint",
     "date": "2026-04-23",
@@ -1131,6 +1104,33 @@
     "source": "Prothom Alo English",
     "sources": [
       "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RaldLRHU3cUZjYUtFdGI0SDJDU0ZxZ0I5WUY2WUFVV2txdHB4UW5sc0RnMWdDYWdfMnZ3WTRNQm5hSkZDYmtJVVk2OW5GMmRuZkttQ1F1Mi1hZ3UwVjRVaXlkeHB5MkswREHSAXdBVV95cUxObnJiRF8xUV95N2lyYjJ4U05UOGtxSkxyTzhhZ25GbFV6WUhJMk1JV3Q0OE1NQktzMUZKU0t0SzdZMmFacGZEQnhzNnhJa3RPMENYUDBXRC1jQjFuSGZNZFZwbkdqZXdFYmJ4TFhMRHRQR0JpLVZZUQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-22_Energy_tightening_9a594db8",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-22",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "2,500MW POWER SHORTFALL BATTERS RURAL AREAS - daily-sun.com",
+    "source": "daily-sun.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PYmkwS2JoU0IxTmxQNzVkR1lTQlY1UXh1cFlXTWltSGFreUswem1fQUZTLXp4T2dEWEVpVUhzRWhHYnNxQTkxV1Ytd1o3aEdoQ21WN0xB?oc=5"
     ]
   },
   {
@@ -1188,30 +1188,30 @@
     ]
   },
   {
-    "id": "2026-04-23_Energy_easing_d961059e",
-    "title": "Energy Supply Improvement",
-    "date": "2026-04-23",
+    "id": "2026-04-24_Energy_tightening_624a0047",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-24",
     "signal_type": "production_constraint",
     "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
+    "lead_indicator": "load_shedding_intensity",
     "time_horizon": "immediate",
-    "direction": "easing",
+    "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
     "who_should_care": [
       "industrial producers",
       "manufacturers",
       "energy traders"
     ],
     "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
     ],
-    "headline": "Power shortage may ease as Adani unit to resume operation by April 26: Power Division",
-    "source": "The Daily Star",
+    "headline": "Bangladesh sweats as Mideast fuel shortages force power cuts",
+    "source": "The Peninsula Qatar",
     "sources": [
-      "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPR05OaW5vM3o1MTJyZjNkZ2RJNnFoTzhXVXRaTHlTNVRNTDZQVXRtRk55ei1DMWRVQk13bUNoN1JQbmMtZGc3NF9mMzNNV1JvT2xsMmd5RlNLc0JJdGt1Smo0LU9pVG1GaXc0aWhaX1R6WklRbGtfWGFSU1I1aHUzVXJkbGxlZkctUGJxeDkzakttbjFUU3lNdnBoWHd2MEI5WnROOUdfSDJQRElwdlRNeGdoNk1Ubld3VkxNLTh0RUcteEtudFBaeTZWc0NmY0ljbzVPX0JZQUozTWFpZkZiRzhFOUV6WDFhZjR0c19YaFg?oc=5"
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNkM0Q0s0OG4zSERldmtvMzVOa251OHNJU2o5VEFDdzdGTnAxbF83NVhyeDBaN0EtWGVZcDVIWW55TU9SR0FoaGdBMUxrWV9YeTBGNTkzVDNuVzBVNHcybUNNRGtncExWNE03Y2I1R01ETE10aXZidVdxUE83bzRSa25OLWlSaWRwYXQwdEd6Y00wX1lUcl9xbGVNeDFNc1pJcTN0RFVCeWJyUzlyRmc?oc=5"
     ]
   },
   {
@@ -1269,61 +1269,7 @@
     ]
   },
   {
-    "id": "2026-04-22_Energy_tightening_89b0d3de",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-22",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Adani power supply halves, load-shedding set to worsen",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVWEwaEIwQjMtRTU4cUhPWlBscERmNGpkb0lPSHA3OEZibVdCU2gyektkalNfUk9GZ0RYWXJGWDV6SnpaakpCYndUbFZ6cFJ1X2t2QW9oTl9pYTY2UUFuWFZPWlRwRkFvMTJHNW53S29jTXBJUG8yelBYMmJoSGh0NjRVdnBmX1dzLVhUR2RId3BrTkhvQ3N5LVRRYmgyeXJ6N3JN0gGoAUFVX3lxTE83QnF1NDFFaFdCczNjZmUySEFZMGk3TWM0S1VPcG0wVUpVdjBpX3U2bHoyVTNTM09iOG1yWkxiellvcVBkN0FSRWZfdS1OU1ViWUxLYWI5TGZCMXF3X0htVWRhZlU1MDlOTmpxR2pCaGxTZk9CelRKa18xSlFnbF9Oc253OVcySUFVeGdyTGZTNVpiOWo0endRdzRqYU9ZNWR2ZlpNUzBQSQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-23_Energy_tightening_893c5a55",
-    "title": "Energy Supply Constraint",
-    "date": "2026-04-23",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Loadshedding Crisis In Bangladesh 2026 | Fuel scarcity, unequal cuts deepen power crisis",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdEFMT21Od2NXSTVYOVIxcEJaVGliSEhESWx2MGpGdGxic2JkTVZxTDg1ei13TzVaRjhnd1d2V0JJRUVZNXBPbU10YnIzZmp6bVVxeDFSNmg0ZnJGcjlTV3J2bDN3d1Ntcm5FVkFFWjZEWGdNS1dHRDBTYVhWODdDVFJHeTVndTY4ZjdTN2RjTEhZd1ZLMHZfV09BZTQ0V2RtNXNMNmNOOXMtQQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-04-24_Energy_easing_b0836bab",
+    "id": "2026-04-24_Energy_easing_917f7bc0",
     "title": "Energy Supply Improvement",
     "date": "2026-04-24",
     "signal_type": "production_constraint",
@@ -1331,7 +1277,7 @@
     "lead_indicator": "load_shedding_reduction",
     "time_horizon": "immediate",
     "direction": "easing",
-    "confidence": "high",
+    "confidence": "low",
     "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
     "who_should_care": [
       "industrial producers",
@@ -1343,37 +1289,37 @@
       "production cost relief",
       "inflation pressure easing"
     ],
-    "headline": "Bangladesh eyes nuclear era as Rooppur plant set for first uranium loading on Apr 28",
-    "source": "The Financial Express",
+    "headline": "Uzbekneftegaz Explores Energy Cooperation with Bangladesh",
+    "source": "UzDaily",
     "sources": [
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLVlNaHczak9CT2RGWE1mWGVGVk1tRzJKZC1UVkV4N2NnTmhpXzNfNERmT29jeXpTOThQTTBlZU10SjV2elVfVmVJVTVnZkhVcXJEXzUxY0p2aWhXVU5JZGowcUxtR2hMT0hFSnRWdmxtRmRzcVc4S1ZyZ3JNcWNJMThzbklEUGVYRndGdDg4X2ZhTG9UV0tPdUlPTEp4MUdDUzdDdTRMY3VBbDZ5d0luQkZDZzlCT0NjeVJHX3hVUnZHNW84SFFz?oc=5"
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYTNCRTlhM3Y5TkVfemEzTFNLaTM5Q2tQUlRKNnhsb2RuM2dudHQtQVVOQUhxNkYteG5ycm9HVXZqTFU0ZmJhTWhBaVhoX3laTVZoQkR6VURyRktxN1ZCVzk5Sl9KZ1VIdUZMeVpxbl93UHE1WVZHNUZYYy1MOGhvcDZ5bzhmZjl5eWRkdw?oc=5"
     ]
   },
   {
-    "id": "2026-04-22_Energy_easing_6da4784c",
-    "title": "Energy Supply Improvement",
-    "date": "2026-04-22",
+    "id": "2026-04-25_Energy_tightening_46bc31b5",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
     "signal_type": "production_constraint",
     "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
+    "lead_indicator": "load_shedding_intensity",
     "time_horizon": "immediate",
-    "direction": "easing",
+    "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
     "who_should_care": [
       "industrial producers",
       "manufacturers",
       "energy traders"
     ],
     "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
     ],
-    "headline": "EU boosts renewable energy in Bangladesh - businessinbangladesh.com.bd",
-    "source": "businessinbangladesh.com.bd",
+    "headline": "Restaurant kitchens struggle to absorb double LPG shock",
+    "source": "The Daily Star",
     "sources": [
-      "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSE56dHZWbGh6NUI4OWgtME56N0hseW9RZS1nQnd6VHZNTTE4blo3VjB4dWMzeHhOa2haeE9pTHhaTkVyNkZEc2U2SHFTY2ItNUNIdTFaR21kemQtakZXNlNXbGFOcnVudHdaaTBmdmFrNVpvN3ZEWTdXVlIzWThVZkU5SQ?oc=5"
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa3QyTTI4MVdNTUxMTnZZSzlGbjc5ZG40UGpzUkF6RFNFOGxybnZhcjd3WGlJaGFRdUxQLWdWWE5DUk5mU0tyWFZ2TEhmU2tJa1N3MGRpcXlRZjd6UmJIWjE1SGNuTjR6aEEwU3d6eHhXNWkycHVWa2lJTnc3VXB2R1hEYVY1YXZrSVBQbWxoQnVoSlNxaFBZX1Q1a05XOFJnRUppdlVLeDdfMndDLVhfVw?oc=5"
     ]
   },
   {
@@ -1401,6 +1347,60 @@
     "source": "The Daily Star",
     "sources": [
       "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQczA3VFZTODhzQlFxNkxaZUI2amMyWWdtWHhTZ2RMb003dzZZRllsRHpBUlF2dWsycGc0bWZLM3gxZ1NSYUoybmVVRWxhYjc2SkNRODkwTXFrUVlHaTMzbWNMc291NmYxaG1Yd0dvNTlPaGxMMUdSVWFYUVhrT0FOUHhFYlo2T3luSDJ6cVFRWmhaNWkzd29ObHYwbkxTLWJRLW9zWDdKZ3pJZw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-04-25_Energy_tightening_6b4a93b8",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "How the fuel crisis is disrupting production and squeezing businesses",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/industry/how-fuel-crisis-disrupting-production-and-squeezing-businesses-1420821"
+    ]
+  },
+  {
+    "id": "2026-04-25_Energy_tightening_1d153d87",
+    "title": "Energy Supply Constraint",
+    "date": "2026-04-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Fuel crisis turns goods delivery into a nightmare for businesses",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/industry/fuel-crisis-turns-goods-delivery-nightmare-businesses-1420611"
     ]
   },
   {
