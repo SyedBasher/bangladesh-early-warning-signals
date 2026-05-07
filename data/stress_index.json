@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T03:43:55.797786+00:00",
+  "last_updated": "2026-05-07T14:31:59.843751+00:00",
   "methodology_version": "1.0",
   "params": {
     "half_life_days": 14,
@@ -5168,7 +5168,7 @@
     },
     {
       "date": "2026-05-04",
-      "composite": 35.9,
+      "composite": 36.27,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5182,7 +5182,7 @@
           "n_recent": 68
         },
         "Remittances": {
-          "score": 2.46,
+          "score": 4.1,
           "intensity": -24.081,
           "n_recent": 70
         },
@@ -5222,7 +5222,7 @@
           "n_recent": 7
         },
         "Agriculture": {
-          "score": 82.5,
+          "score": 87.5,
           "intensity": 17.262,
           "n_recent": 14
         },
@@ -5342,7 +5342,7 @@
     },
     {
       "date": "2026-05-06",
-      "composite": 46.32,
+      "composite": 46.66,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5351,22 +5351,22 @@
           "n_recent": 51
         },
         "Exports": {
-          "score": 0.81,
+          "score": 2.42,
           "intensity": -16.483,
           "n_recent": 73
         },
         "Remittances": {
-          "score": 4.1,
+          "score": 5.74,
           "intensity": -23.714,
           "n_recent": 71
         },
         "Food Prices": {
-          "score": 99.18,
+          "score": 97.54,
           "intensity": 31.387,
           "n_recent": 53
         },
         "Credit": {
-          "score": 0.93,
+          "score": 2.78,
           "intensity": -28.292,
           "n_recent": 48
         },
@@ -5429,7 +5429,7 @@
     },
     {
       "date": "2026-05-07",
-      "composite": 42.56,
+      "composite": 41.85,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5438,24 +5438,24 @@
           "n_recent": 52
         },
         "Exports": {
-          "score": 2.42,
-          "intensity": -15.784,
-          "n_recent": 72
+          "score": 0.81,
+          "intensity": -18.784,
+          "n_recent": 73
         },
         "Remittances": {
-          "score": 5.74,
-          "intensity": -22.569,
-          "n_recent": 71
+          "score": 2.46,
+          "intensity": -24.569,
+          "n_recent": 72
         },
         "Food Prices": {
-          "score": 97.54,
-          "intensity": 29.871,
-          "n_recent": 53
+          "score": 99.18,
+          "intensity": 32.871,
+          "n_recent": 54
         },
         "Credit": {
-          "score": 2.78,
-          "intensity": -26.925,
-          "n_recent": 48
+          "score": 0.93,
+          "intensity": -28.925,
+          "n_recent": 49
         },
         "Banking": {
           "score": 99.19,
@@ -5464,8 +5464,8 @@
         },
         "Energy": {
           "score": 7.26,
-          "intensity": 19.654,
-          "n_recent": 373
+          "intensity": 21.654,
+          "n_recent": 381
         },
         "Monetary Policy": {
           "score": 92.74,
@@ -5474,8 +5474,8 @@
         },
         "Fiscal": {
           "score": 80.83,
-          "intensity": 11.108,
-          "n_recent": 24
+          "intensity": 14.108,
+          "n_recent": 25
         },
         "Political Risk": {
           "score": 61.32,
@@ -5483,9 +5483,9 @@
           "n_recent": 7
         },
         "Agriculture": {
-          "score": 87.5,
-          "intensity": 17.597,
-          "n_recent": 16
+          "score": 82.5,
+          "intensity": 16.597,
+          "n_recent": 17
         },
         "Logistics": {
           "score": 13.64,
@@ -5494,8 +5494,8 @@
         },
         "Trade Policy": {
           "score": 8.87,
-          "intensity": 25.047,
-          "n_recent": 142
+          "intensity": 26.047,
+          "n_recent": 143
         },
         "Labor Market": {
           "score": 79.0,
@@ -5504,13 +5504,13 @@
         },
         "Geopolitical Risk": {
           "score": 7.14,
-          "intensity": 51.468,
-          "n_recent": 166
+          "intensity": 53.468,
+          "n_recent": 167
         },
         "Capital Markets": {
           "score": 8.33,
           "intensity": 7.271,
-          "n_recent": 42
+          "n_recent": 44
         }
       }
     }
