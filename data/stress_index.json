@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T04:00:33.781329+00:00",
+  "last_updated": "2026-05-15T14:22:24.509470+00:00",
   "methodology_version": "1.0",
   "params": {
     "half_life_days": 14,
@@ -209,7 +209,7 @@
     },
     {
       "date": "2026-03-08",
-      "composite": 21.46,
+      "composite": 21.57,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
@@ -243,7 +243,7 @@
           "n_recent": 2
         },
         "Energy": {
-          "score": 3.57,
+          "score": 5.0,
           "intensity": 11.855,
           "n_recent": 4
         },
@@ -5255,7 +5255,7 @@
     },
     {
       "date": "2026-05-05",
-      "composite": 35.56,
+      "composite": 35.68,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5289,7 +5289,7 @@
           "n_recent": 55
         },
         "Energy": {
-          "score": 2.14,
+          "score": 3.57,
           "intensity": 7.204,
           "n_recent": 355
         },
@@ -5429,7 +5429,7 @@
     },
     {
       "date": "2026-05-07",
-      "composite": 47.7,
+      "composite": 47.52,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5438,7 +5438,7 @@
           "n_recent": 53
         },
         "Exports": {
-          "score": 6.43,
+          "score": 7.86,
           "intensity": -20.784,
           "n_recent": 74
         },
@@ -5458,7 +5458,7 @@
           "n_recent": 51
         },
         "Banking": {
-          "score": 97.86,
+          "score": 93.57,
           "intensity": 35.962,
           "n_recent": 58
         },
@@ -5503,7 +5503,7 @@
           "n_recent": 17
         },
         "Geopolitical Risk": {
-          "score": 17.61,
+          "score": 16.2,
           "intensity": 53.468,
           "n_recent": 167
         },
@@ -5516,7 +5516,7 @@
     },
     {
       "date": "2026-05-08",
-      "composite": 43.82,
+      "composite": 44.09,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5525,7 +5525,7 @@
           "n_recent": 51
         },
         "Exports": {
-          "score": 3.57,
+          "score": 5.0,
           "intensity": -21.78,
           "n_recent": 75
         },
@@ -5550,7 +5550,7 @@
           "n_recent": 57
         },
         "Energy": {
-          "score": 5.0,
+          "score": 6.43,
           "intensity": 14.456,
           "n_recent": 393
         },
@@ -5590,7 +5590,7 @@
           "n_recent": 17
         },
         "Geopolitical Risk": {
-          "score": 14.79,
+          "score": 13.38,
           "intensity": 50.592,
           "n_recent": 164
         },
@@ -5603,7 +5603,7 @@
     },
     {
       "date": "2026-05-09",
-      "composite": 48.35,
+      "composite": 48.52,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5612,7 +5612,7 @@
           "n_recent": 53
         },
         "Exports": {
-          "score": 7.86,
+          "score": 9.29,
           "intensity": -20.728,
           "n_recent": 75
         },
@@ -5951,7 +5951,7 @@
     },
     {
       "date": "2026-05-13",
-      "composite": 37.0,
+      "composite": 37.1,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5980,9 +5980,9 @@
           "n_recent": 80
         },
         "Banking": {
-          "score": 93.57,
-          "intensity": 35.276,
-          "n_recent": 74
+          "score": 95.0,
+          "intensity": 37.276,
+          "n_recent": 75
         },
         "Energy": {
           "score": 13.57,
@@ -6025,7 +6025,7 @@
           "n_recent": 17
         },
         "Geopolitical Risk": {
-          "score": 13.38,
+          "score": 11.97,
           "intensity": 50.537,
           "n_recent": 119
         },
@@ -6038,8 +6038,8 @@
     },
     {
       "date": "2026-05-14",
-      "composite": 34.75,
-      "zone": "green",
+      "composite": 35.02,
+      "zone": "amber",
       "channels": {
         "Foreign Exchange": {
           "score": 0.72,
@@ -6047,7 +6047,7 @@
           "n_recent": 67
         },
         "Exports": {
-          "score": 5.0,
+          "score": 6.43,
           "intensity": -21.042,
           "n_recent": 91
         },
@@ -6063,13 +6063,13 @@
         },
         "Credit": {
           "score": 0.81,
-          "intensity": -102.89,
-          "n_recent": 88
+          "intensity": -105.89,
+          "n_recent": 89
         },
         "Banking": {
-          "score": 95.0,
-          "intensity": 35.572,
-          "n_recent": 79
+          "score": 96.43,
+          "intensity": 37.475,
+          "n_recent": 80
         },
         "Energy": {
           "score": 10.71,
@@ -6112,7 +6112,7 @@
           "n_recent": 17
         },
         "Geopolitical Risk": {
-          "score": 16.2,
+          "score": 14.79,
           "intensity": 52.096,
           "n_recent": 121
         },
@@ -6125,8 +6125,8 @@
     },
     {
       "date": "2026-05-15",
-      "composite": 35.27,
-      "zone": "amber",
+      "composite": 34.41,
+      "zone": "green",
       "channels": {
         "Foreign Exchange": {
           "score": 2.17,
@@ -6134,9 +6134,9 @@
           "n_recent": 66
         },
         "Exports": {
-          "score": 9.29,
-          "intensity": -20.026,
-          "n_recent": 91
+          "score": 3.57,
+          "intensity": -23.026,
+          "n_recent": 93
         },
         "Remittances": {
           "score": 2.17,
@@ -6150,18 +6150,18 @@
         },
         "Credit": {
           "score": 2.42,
-          "intensity": -98.408,
-          "n_recent": 83
+          "intensity": -101.263,
+          "n_recent": 84
         },
         "Banking": {
-          "score": 96.43,
-          "intensity": 35.853,
-          "n_recent": 80
+          "score": 97.86,
+          "intensity": 41.665,
+          "n_recent": 83
         },
         "Energy": {
-          "score": 6.43,
-          "intensity": 14.607,
-          "n_recent": 418
+          "score": 2.14,
+          "intensity": 5.607,
+          "n_recent": 426
         },
         "Monetary Policy": {
           "score": 57.86,
@@ -6199,9 +6199,9 @@
           "n_recent": 17
         },
         "Geopolitical Risk": {
-          "score": 11.97,
-          "intensity": 49.189,
-          "n_recent": 117
+          "score": 17.61,
+          "intensity": 54.189,
+          "n_recent": 119
         },
         "Capital Markets": {
           "score": 2.42,
