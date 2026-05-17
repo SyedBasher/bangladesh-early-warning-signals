@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T04:01:07.223515+00:00",
+  "last_updated": "2026-05-17T13:45:12.644466+00:00",
   "methodology_version": "1.0",
   "params": {
     "half_life_days": 14,
@@ -122,8 +122,8 @@
     },
     {
       "date": "2026-03-07",
-      "composite": 35.2,
-      "zone": "amber",
+      "composite": 34.98,
+      "zone": "green",
       "channels": {
         "Foreign Exchange": {
           "score": 50.0,
@@ -156,7 +156,7 @@
           "n_recent": 1
         },
         "Energy": {
-          "score": 4.86,
+          "score": 2.08,
           "intensity": 3.0,
           "n_recent": 1
         },
@@ -470,7 +470,7 @@
     },
     {
       "date": "2026-03-11",
-      "composite": 34.68,
+      "composite": 34.69,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
@@ -534,7 +534,7 @@
           "n_recent": 0
         },
         "Trade Policy": {
-          "score": 6.25,
+          "score": 7.64,
           "intensity": 19.426,
           "n_recent": 9
         },
@@ -2819,7 +2819,7 @@
     },
     {
       "date": "2026-04-07",
-      "composite": 71.87,
+      "composite": 71.78,
       "zone": "red",
       "channels": {
         "Foreign Exchange": {
@@ -2863,7 +2863,7 @@
           "n_recent": 6
         },
         "Fiscal": {
-          "score": 69.29,
+          "score": 67.86,
           "intensity": 9.276,
           "n_recent": 6
         },
@@ -4211,7 +4211,7 @@
     },
     {
       "date": "2026-04-23",
-      "composite": 68.81,
+      "composite": 68.73,
       "zone": "red",
       "channels": {
         "Foreign Exchange": {
@@ -4255,7 +4255,7 @@
           "n_recent": 12
         },
         "Fiscal": {
-          "score": 76.43,
+          "score": 75.0,
           "intensity": 9.773,
           "n_recent": 8
         },
@@ -5516,7 +5516,7 @@
     },
     {
       "date": "2026-05-08",
-      "composite": 44.92,
+      "composite": 45.09,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5525,7 +5525,7 @@
           "n_recent": 51
         },
         "Exports": {
-          "score": 6.25,
+          "score": 7.64,
           "intensity": -21.78,
           "n_recent": 75
         },
@@ -5777,7 +5777,7 @@
     },
     {
       "date": "2026-05-11",
-      "composite": 42.46,
+      "composite": 42.37,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5821,7 +5821,7 @@
           "n_recent": 21
         },
         "Fiscal": {
-          "score": 73.57,
+          "score": 72.14,
           "intensity": 9.673,
           "n_recent": 25
         },
@@ -5864,7 +5864,7 @@
     },
     {
       "date": "2026-05-12",
-      "composite": 38.11,
+      "composite": 38.02,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5908,7 +5908,7 @@
           "n_recent": 21
         },
         "Fiscal": {
-          "score": 67.86,
+          "score": 66.43,
           "intensity": 9.206,
           "n_recent": 25
         },
@@ -5951,7 +5951,7 @@
     },
     {
       "date": "2026-05-13",
-      "composite": 37.62,
+      "composite": 37.53,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5995,7 +5995,7 @@
           "n_recent": 22
         },
         "Fiscal": {
-          "score": 75.0,
+          "score": 73.57,
           "intensity": 9.761,
           "n_recent": 28
         },
@@ -6038,7 +6038,7 @@
     },
     {
       "date": "2026-05-14",
-      "composite": 35.22,
+      "composite": 35.3,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -6047,7 +6047,7 @@
           "n_recent": 67
         },
         "Exports": {
-          "score": 7.64,
+          "score": 9.03,
           "intensity": -21.042,
           "n_recent": 91
         },
@@ -6082,7 +6082,7 @@
           "n_recent": 22
         },
         "Fiscal": {
-          "score": 70.71,
+          "score": 69.29,
           "intensity": 9.29,
           "n_recent": 28
         },
@@ -6212,7 +6212,7 @@
     },
     {
       "date": "2026-05-16",
-      "composite": 34.05,
+      "composite": 34.13,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
@@ -6221,7 +6221,7 @@
           "n_recent": 66
         },
         "Exports": {
-          "score": 4.86,
+          "score": 6.25,
           "intensity": -22.011,
           "n_recent": 92
         },
@@ -6247,8 +6247,8 @@
         },
         "Energy": {
           "score": 3.47,
-          "intensity": 2.53,
-          "n_recent": 442
+          "intensity": 5.53,
+          "n_recent": 443
         },
         "Monetary Policy": {
           "score": 21.53,
@@ -6256,7 +6256,7 @@
           "n_recent": 23
         },
         "Fiscal": {
-          "score": 72.14,
+          "score": 70.71,
           "intensity": 9.414,
           "n_recent": 32
         },
@@ -6299,7 +6299,7 @@
     },
     {
       "date": "2026-05-17",
-      "composite": 33.16,
+      "composite": 33.47,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
@@ -6308,9 +6308,9 @@
           "n_recent": 65
         },
         "Exports": {
-          "score": 9.03,
-          "intensity": -20.948,
-          "n_recent": 92
+          "score": 4.86,
+          "intensity": -22.948,
+          "n_recent": 93
         },
         "Remittances": {
           "score": 4.93,
@@ -6329,13 +6329,13 @@
         },
         "Banking": {
           "score": 99.31,
-          "intensity": 41.99,
-          "n_recent": 90
+          "intensity": 49.99,
+          "n_recent": 94
         },
         "Energy": {
-          "score": 2.08,
-          "intensity": 2.261,
-          "n_recent": 441
+          "score": 4.86,
+          "intensity": 6.116,
+          "n_recent": 444
         },
         "Monetary Policy": {
           "score": 17.36,
@@ -6343,9 +6343,9 @@
           "n_recent": 22
         },
         "Fiscal": {
-          "score": 66.43,
-          "intensity": 8.959,
-          "n_recent": 32
+          "score": 76.43,
+          "intensity": 9.959,
+          "n_recent": 34
         },
         "Political Risk": {
           "score": 73.81,
@@ -6363,9 +6363,9 @@
           "n_recent": 34
         },
         "Trade Policy": {
-          "score": 7.64,
-          "intensity": 22.059,
-          "n_recent": 131
+          "score": 6.25,
+          "intensity": 17.059,
+          "n_recent": 133
         },
         "Labor Market": {
           "score": 30.83,
@@ -6374,8 +6374,8 @@
         },
         "Geopolitical Risk": {
           "score": 23.97,
-          "intensity": 64.56,
-          "n_recent": 123
+          "intensity": 66.56,
+          "n_recent": 124
         },
         "Capital Markets": {
           "score": 5.47,
