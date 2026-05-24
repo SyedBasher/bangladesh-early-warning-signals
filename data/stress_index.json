@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T04:11:35.250382+00:00",
+  "last_updated": "2026-05-24T13:49:21.261505+00:00",
   "methodology_version": "1.0",
   "params": {
     "half_life_days": 14,
@@ -5777,7 +5777,7 @@
     },
     {
       "date": "2026-05-11",
-      "composite": 45.04,
+      "composite": 45.17,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5791,7 +5791,7 @@
           "n_recent": 85
         },
         "Remittances": {
-          "score": 12.18,
+          "score": 13.46,
           "intensity": -30.182,
           "n_recent": 72
         },
@@ -5864,7 +5864,7 @@
     },
     {
       "date": "2026-05-12",
-      "composite": 40.96,
+      "composite": 41.09,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5878,7 +5878,7 @@
           "n_recent": 85
         },
         "Remittances": {
-          "score": 14.74,
+          "score": 16.03,
           "intensity": -28.821,
           "n_recent": 71
         },
@@ -5951,7 +5951,7 @@
     },
     {
       "date": "2026-05-13",
-      "composite": 39.81,
+      "composite": 39.93,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -5965,7 +5965,7 @@
           "n_recent": 90
         },
         "Remittances": {
-          "score": 10.9,
+          "score": 12.18,
           "intensity": -30.429,
           "n_recent": 74
         },
@@ -6299,7 +6299,7 @@
     },
     {
       "date": "2026-05-17",
-      "composite": 36.56,
+      "composite": 36.89,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -6323,12 +6323,12 @@
           "n_recent": 52
         },
         "Credit": {
-          "score": 6.34,
+          "score": 9.15,
           "intensity": -95.811,
           "n_recent": 84
         },
         "Banking": {
-          "score": 91.77,
+          "score": 93.04,
           "intensity": 53.99,
           "n_recent": 96
         },
@@ -6386,7 +6386,7 @@
     },
     {
       "date": "2026-05-18",
-      "composite": 31.85,
+      "composite": 31.95,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
@@ -6415,7 +6415,7 @@
           "n_recent": 84
         },
         "Banking": {
-          "score": 90.51,
+          "score": 91.77,
           "intensity": 53.382,
           "n_recent": 101
         },
@@ -6473,7 +6473,7 @@
     },
     {
       "date": "2026-05-19",
-      "composite": 33.52,
+      "composite": 33.64,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
@@ -6497,7 +6497,7 @@
           "n_recent": 53
         },
         "Credit": {
-          "score": 9.15,
+          "score": 10.56,
           "intensity": -93.055,
           "n_recent": 82
         },
@@ -6734,7 +6734,7 @@
     },
     {
       "date": "2026-05-22",
-      "composite": 36.45,
+      "composite": 36.48,
       "zone": "amber",
       "channels": {
         "Foreign Exchange": {
@@ -6748,7 +6748,7 @@
           "n_recent": 93
         },
         "Remittances": {
-          "score": 13.46,
+          "score": 14.74,
           "intensity": -30.164,
           "n_recent": 76
         },
@@ -6763,7 +6763,7 @@
           "n_recent": 89
         },
         "Banking": {
-          "score": 95.57,
+          "score": 94.3,
           "intensity": 57.525,
           "n_recent": 113
         },
@@ -6821,11 +6821,11 @@
     },
     {
       "date": "2026-05-23",
-      "composite": 34.04,
+      "composite": 34.46,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
-          "score": 0.64,
+          "score": 1.92,
           "intensity": -22.471,
           "n_recent": 73
         },
@@ -6835,7 +6835,7 @@
           "n_recent": 91
         },
         "Remittances": {
-          "score": 16.03,
+          "score": 17.31,
           "intensity": -28.707,
           "n_recent": 76
         },
@@ -6846,13 +6846,13 @@
         },
         "Credit": {
           "score": 7.75,
-          "intensity": -93.254,
-          "n_recent": 97
+          "intensity": -96.254,
+          "n_recent": 98
         },
         "Banking": {
-          "score": 94.3,
-          "intensity": 56.746,
-          "n_recent": 115
+          "score": 95.57,
+          "intensity": 59.746,
+          "n_recent": 116
         },
         "Energy": {
           "score": 6.96,
@@ -6908,23 +6908,23 @@
     },
     {
       "date": "2026-05-24",
-      "composite": 34.43,
+      "composite": 33.06,
       "zone": "green",
       "channels": {
         "Foreign Exchange": {
-          "score": 1.92,
-          "intensity": -21.385,
-          "n_recent": 73
+          "score": 0.64,
+          "intensity": -25.385,
+          "n_recent": 76
         },
         "Exports": {
           "score": 22.15,
-          "intensity": -12.168,
-          "n_recent": 92
+          "intensity": -14.168,
+          "n_recent": 94
         },
         "Remittances": {
-          "score": 17.31,
-          "intensity": -27.662,
-          "n_recent": 73
+          "score": 10.9,
+          "intensity": -30.662,
+          "n_recent": 74
         },
         "Food Prices": {
           "score": 77.56,
@@ -6932,29 +6932,29 @@
           "n_recent": 53
         },
         "Credit": {
-          "score": 10.56,
-          "intensity": -91.75,
-          "n_recent": 98
+          "score": 6.34,
+          "intensity": -96.605,
+          "n_recent": 100
         },
         "Banking": {
-          "score": 93.04,
-          "intensity": 54.005,
-          "n_recent": 115
+          "score": 90.51,
+          "intensity": 52.86,
+          "n_recent": 119
         },
         "Energy": {
           "score": 5.7,
-          "intensity": -11.445,
-          "n_recent": 528
+          "intensity": -14.445,
+          "n_recent": 536
         },
         "Monetary Policy": {
           "score": 0.63,
-          "intensity": -15.494,
-          "n_recent": 34
+          "intensity": -14.494,
+          "n_recent": 36
         },
         "Fiscal": {
           "score": 99.35,
-          "intensity": 33.848,
-          "n_recent": 55
+          "intensity": 36.848,
+          "n_recent": 58
         },
         "Political Risk": {
           "score": 96.43,
