@@ -1,29 +1,29 @@
 [
   {
-    "id": "2026-05-26_Foreign_Exchange_easing_ca5c9789",
-    "title": "External Liquidity Improvement",
+    "id": "2026-05-26_Fiscal_tightening_b2c798aa",
+    "title": "Fiscal Revenue Stress",
     "date": "2026-05-26",
-    "signal_type": "balance_of_payments",
-    "channel": "Foreign Exchange",
-    "lead_indicator": "fx_reserves_recovery",
-    "time_horizon": "1–3 months",
-    "direction": "easing",
+    "signal_type": "fiscal",
+    "channel": "Fiscal",
+    "lead_indicator": "revenue_collection_shortfall",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
     "confidence": "high",
-    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
     "who_should_care": [
-      "trade finance banks",
-      "importers",
-      "currency desks"
+      "bond market",
+      "development agencies",
+      "government contractors"
     ],
     "expected_effects": [
-      "import normalization",
-      "informal FX premium narrowing",
-      "reserve buffer strengthening"
+      "development spending cut",
+      "domestic borrowing increase",
+      "treasury yield pressure"
     ],
-    "headline": "ADB Unveils $5 Billion Support Package as Bangladesh Seeks Economic Stability and Growth",
-    "source": "Devdiscourse",
+    "headline": "ADB warns of rising fiscal pressure as Bangladesh’s public debt hits 41% of GDP ahead of LDC graduation",
+    "source": "Qatar Tribune",
     "sources": [
-      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNODJzeks1UzJTLUNObzNyaV9mdnUyYkFNMm01RHpDdUJSWVAxUHU4QWxwWkdjSmg4cE5WSW1jUkVwNmQzTUJaaGswUDdJUEFCMERldVlwYzZRbGwxWnFybWlmVnljNWVnUDFYS2hvdThQMV9WR0p0dkhTempCTGhLSTg0WWo2eExEN1ZXMzM3TUhKRzhETk9uRzFONDdGNnJXMFpSSFZQUTFLbVBlUzhZRWRya0pUZG1KcXc1V3dEcGU2SkFHNk1aV1RKMU5Pc1V1a3hSYUZJemjSAd4BQVVfeXFMTlBGaWprZERoWkZsUVF1MEE2WnVDOE9PUDJENzZJT2RhZlRYa3BBSHVHUjZjOXNsWGJFVXVCaC1fSFNVUUJVVUtFb3NmRWxlLV9xMlJiVDJ0aHpDRURjaWZwUFZHZUhrM051RF9PbUw1ZmtLZE14OHc1V1VBZnJlU3hWRHNhaWtkSDhhMkpZaXBVTWVmTWU0SjZ0bjFaanozR3BPcy1RbV95ODVpMjFSQ21WZVdJM3Rsek5yZ0dHdTNENUVyTkxsdGNXSXl4SUNzSHl6M2RIUXVnQXFlaG1n?oc=5"
+      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVk00c1ZOMVl0dWliS2ZTem5sZWVfVDhiV1RRdEJRdGNjUVVSaUZCS3V5SzNhalZ2dUdqOUhrb1hpR0lRNzh6ZE1Ec1U1V1ZDVllIQWQ3M0RSbE50dmgybmRFdHFkdUU2dkJNTnZZOVRjT0RGSFNHc3M1cVdHMjRoNzBVTzZSU2gwcmlINDNxWC11Q09LVlRtZ01MVzNWYThIWWVmTTlpVVVNV2x4ZFIzVUk3d2Fnak13VUtwd2FzREZXV2xaZDVGUjEybXJOMWtsRDFhWmlaWU51VG4wQ1dWZ3duZ3J3V2pGSmNJ0gHwAUFVX3lxTE1ULUt1SF90cWRVNjJrUndIbENDT0xjWllnTTRUQkk1cGZWdmNYSWFGTHB1VmZrRE5MaFRwT1lCaWYtenFBZUgzR0s0d0cyanBmUjEzZTdTUVVxVVBaYzYyRV9PY3ZMY1VVeXZCT3N3MTB5OUdqU3ZTY2NYejZkc1NqVklmUmhuOEpLX1BUUWxCZ1o2bTQ5VG5XVDdUS1gwQkJCZ2tOSzlHWEdHNldNYnJKT1AyYS1sVmhRWHhnLTZ6OEp3RldzQ0xnYnlGZ2wtR2Nabm1lOHBWeGlhN09IOWxhN1k4cWYwNnJCaTJCcVRzVA?oc=5"
     ]
   },
   {
@@ -54,60 +54,6 @@
     ]
   },
   {
-    "id": "2026-05-26_Fiscal_tightening_b2c798aa",
-    "title": "Fiscal Revenue Stress",
-    "date": "2026-05-26",
-    "signal_type": "fiscal",
-    "channel": "Fiscal",
-    "lead_indicator": "revenue_collection_shortfall",
-    "time_horizon": "3–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
-    "who_should_care": [
-      "bond market",
-      "development agencies",
-      "government contractors"
-    ],
-    "expected_effects": [
-      "development spending cut",
-      "domestic borrowing increase",
-      "treasury yield pressure"
-    ],
-    "headline": "ADB warns of rising fiscal pressure as Bangladesh’s public debt hits 41% of GDP ahead of LDC graduation",
-    "source": "Qatar Tribune",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVk00c1ZOMVl0dWliS2ZTem5sZWVfVDhiV1RRdEJRdGNjUVVSaUZCS3V5SzNhalZ2dUdqOUhrb1hpR0lRNzh6ZE1Ec1U1V1ZDVllIQWQ3M0RSbE50dmgybmRFdHFkdUU2dkJNTnZZOVRjT0RGSFNHc3M1cVdHMjRoNzBVTzZSU2gwcmlINDNxWC11Q09LVlRtZ01MVzNWYThIWWVmTTlpVVVNV2x4ZFIzVUk3d2Fnak13VUtwd2FzREZXV2xaZDVGUjEybXJOMWtsRDFhWmlaWU51VG4wQ1dWZ3duZ3J3V2pGSmNJ0gHwAUFVX3lxTE1ULUt1SF90cWRVNjJrUndIbENDT0xjWllnTTRUQkk1cGZWdmNYSWFGTHB1VmZrRE5MaFRwT1lCaWYtenFBZUgzR0s0d0cyanBmUjEzZTdTUVVxVVBaYzYyRV9PY3ZMY1VVeXZCT3N3MTB5OUdqU3ZTY2NYejZkc1NqVklmUmhuOEpLX1BUUWxCZ1o2bTQ5VG5XVDdUS1gwQkJCZ2tOSzlHWEdHNldNYnJKT1AyYS1sVmhRWHhnLTZ6OEp3RldzQ0xnYnlGZ2wtR2Nabm1lOHBWeGlhN09IOWxhN1k4cWYwNnJCaTJCcVRzVA?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-26_Capital_Markets_easing_fb1f919c",
-    "title": "Capital Markets Recovery",
-    "date": "2026-05-26",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
-    ],
-    "headline": "Germany's AMANN Group plans factory expansion in Bangladesh",
-    "source": "Fibre2Fashion",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiygFBVV95cUxPR2FpaXE4alQ3SHdpNmE2Sm9DRXhQSHNocXo3VTBOYS04RU03VmVBd1lfNVR5eXJmWDhpbFM1MTNBMldiVmh3NjllOW1EV2YySmg1OVpBUkgtSlhoSEFESmY5UXF4VGY0Y01yWmZaTS1LNFdpT3Jhb0pUbTBhUFIyaWItUGNlcVpnSlRyMmN0Yl9Fb2ZIVlZ5bXRLam1sZFNqY2ZkOEpJMnhCdWdTSVNBR2Q3RFByd3NFcTFKaHdkTFhPUWNZaUNSbDR3?oc=5"
-    ]
-  },
-  {
     "id": "2026-05-26_Exports_tightening_b0b446b1",
     "title": "Export Demand Contraction",
     "date": "2026-05-26",
@@ -135,9 +81,9 @@
     ]
   },
   {
-    "id": "2026-05-28_Trade_Policy_tightening_d544152e",
+    "id": "2026-05-29_Trade_Policy_tightening_d544152e",
     "title": "Trade Policy Restriction",
-    "date": "2026-05-28",
+    "date": "2026-05-29",
     "signal_type": "policy_shock",
     "channel": "Trade Policy",
     "lead_indicator": "trade_regime_tightening",
@@ -189,87 +135,6 @@
     ]
   },
   {
-    "id": "2026-05-28_Labor_Market_tightening_cc2d8b81",
-    "title": "Labor Market Stress",
-    "date": "2026-05-28",
-    "signal_type": "real_economy",
-    "channel": "Labor Market",
-    "lead_indicator": "employment_disruption",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
-    "who_should_care": [
-      "garment sector",
-      "labor unions",
-      "consumer sector analysts"
-    ],
-    "expected_effects": [
-      "consumption contraction",
-      "social tension",
-      "urban poverty increase"
-    ],
-    "headline": "Garment Workers Eid Bonus Delay In Bangladesh | Why must workers wait for Eid dues every year?",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1NUdkpTdUZ6OGpqd2VjWXplbTN1R21qcDZmYVlLYktnSkpTdHpLQ1NKNzJwdS1PSjJnSElLYTBtQ016b3lLMnRZZGhHUUVzblgwb0xHaW9CUXdEZW1ybHFkZFhEWlhQWkdXa1VBWktRcHpUTE5jbVZQZ0pRc1VzNmtaaTZISGJnX2ltUW1MYm9BYllqU1N1MVVHVEVCc0I5LV9jaVNTZVdIZw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-27_Trade_Policy_tightening_59f4076a",
-    "title": "Trade Policy Restriction",
-    "date": "2026-05-27",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_tightening",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Import bans, tariff hikes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain disruption",
-      "input cost increase",
-      "trade diversion"
-    ],
-    "headline": "Bangladesh among 40 nations hit by Saudi Arabia poultry, egg import ban",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY1hBOUExQWxRSUNoV3kwYzlraHRlMmdwQ1BhalZhbFIzTzN0QXVRb1lkWGlKdGlaS0FrR1pCekt4YXdxLTcweDdoU0U2SG5MQjFYcHRiX0xiUVRYakUycUU4RDI4YkJwcTI3NjlVSDVTTHhNU0ZnVW1qakJOQ2t0dklIUnFFWXNQU2NTZTdLZHhKZ2pPYU9vTlNDdDFDLWU4blFZc1NFUmhydXQycW56Vm16UjB6V2NvdDZLUGJWTTk0T1U?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-26_Energy_tightening_fdb57d10",
-    "title": "Energy Supply Constraint",
-    "date": "2026-05-26",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Rising utility costs reshape textile factory profitability",
-    "source": "Textile Today",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcm1jTVZMZk1Tal9VS2VOaWJfbTAyVVllWlpLZXhmNF9rNTZYc0ctR3p2MW4ya2UybDhlY3lZVmJEQlJ3aXU3MlY2T3dyOU1oOWhuXzV5YTNqakZob09jMHZBYkQ0a2FndzRGdmJ1RkVYdTdqTndSbllRdEVTYjdlY0R1dUJYRHdzZ2ZCazJ5RVZ3MWx6?oc=5"
-    ]
-  },
-  {
     "id": "2026-05-27_Labor_Market_easing_cd5a6625",
     "title": "Labor Market Improvement",
     "date": "2026-05-27",
@@ -297,30 +162,30 @@
     ]
   },
   {
-    "id": "2026-05-26_Agriculture_easing_171112c2",
-    "title": "Agricultural Output Gain",
-    "date": "2026-05-26",
-    "signal_type": "supply_shock",
-    "channel": "Agriculture",
-    "lead_indicator": "crop_yield_increase",
-    "time_horizon": "1–6 months",
+    "id": "2026-05-29_Banking_easing_ccb1bcba",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-05-29",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
     "direction": "easing",
     "confidence": "medium",
-    "economic_mechanism": "Favorable weather, strong harvests, or input availability raise agricultural output, ease food prices, and lift rural incomes.",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
     "who_should_care": [
-      "agricultural sector",
-      "food security analysts",
-      "consumer sector"
+      "depositors",
+      "bank regulators",
+      "financial analysts"
     ],
     "expected_effects": [
-      "crop output gain",
-      "food price moderation",
-      "rural income support"
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
     ],
-    "headline": "Bangladesh to import over 5 lakh tonnes of MOP fertiliser from Russia in FY27",
-    "source": "United News of Bangladesh",
+    "headline": "Most default loans are wilful, strong laws can recover 60%",
+    "source": "The Daily Star",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY0xaVkpLbl9KT3M3cENJYk1kTXBpNU9WUjM4ZTNHM0w5aXZQOGtnOU1VRW44bmlLVEVxbldtUHd0V3BuOXN1MHZqdVA0LTd0c0JWUzVXNHRkS3JtX1VQSU9YeVdSdTRoS1VqT2s5TmlaaFlSWEVhQjgxOXNVV2VFUF9Sb3J5dEN6c0huV2d6TXdzUnZwZDNScmQyMS1oZ1NsdzRXa0FJMWVVc0dGalZRZmdLRjVqc0dkZUt1eEtvb2Y?oc=5"
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMlpJdTRyWmRPc0Z0THk5TzRUOWdYcmItZUwxeWcxQlB4MEVVampjN2hXQS1DZW9oRnhDOTdzaFJ2b3MyMjhuMUo5ZWQ4cFE4RHB5NGlyOVVPMlhwV0QwNjhpVXNBMHJLZUl6amVXX2FfNTl1akNQMXpfVTRKa3pSTUtsYURGSGZyNGZpV2dWOThfTlhFeGlQQ2laTzUwN0JsRkJETjJmcWJKOTJ0alFDeUw5anVsR0JRMjN4UDlzTEszWEZ0X29DWDhvVGIxQQ?oc=5"
     ]
   },
   {
@@ -348,87 +213,6 @@
     "source": "The Daily Star",
     "sources": [
       "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHluY3ZheDV2VDBNbDBNTzFaZ0UySFYzRm9KZGdTRmlVVmdIVktYMHR3WEV2aVJxLUVScExKVTFUMFZfT1VNSFkwWnY3ZnlJY24yVUFRY0c1Q0R2NFZzQnhWdnZ0QTVyOTZtTm1qY0hJUS0zenNsQ0lKdTZvWTJweVE1VE4zcUczcFY4cGZ2YzBvcWdkYjdURnR0dw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-28_Credit_easing_23c6dc4c",
-    "title": "Credit Allocation Loosening",
-    "date": "2026-05-28",
-    "signal_type": "financial_conditions",
-    "channel": "Credit",
-    "lead_indicator": "credit_growth_acceleration",
-    "time_horizon": "3–6 months",
-    "direction": "easing",
-    "confidence": "high",
-    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
-    "who_should_care": [
-      "commercial banks",
-      "corporate borrowers",
-      "investment desks"
-    ],
-    "expected_effects": [
-      "investment pickup",
-      "working capital expansion",
-      "GDP growth support"
-    ],
-    "headline": "BB announces Tk 60,000 crore stimulus package for private sector",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVm1oMkNZMGtnZXFHd3dMX3ZUdFQwdUMxWWg3MHcyMkVPSHA5UEh2RGVIcHNXSi1SQzRzNEFCalpVaXkzckxKR1I0dGNZc0FmUTd2aU03S3lEZGhRNU50OEJ2aDJiZmQxT1lPRmpXM1dDLWs2RHhWSUJiZnluUFM5Q1d0SERaLVdBXzJRaEtmUVdVRTN4MURuSVZMUjFoYmQ2T3E5T1dyOWpnZm8zeVVB?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-27_Banking_easing_ccb1bcba",
-    "title": "Banking Sector Strengthening",
-    "date": "2026-05-27",
-    "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_improvement",
-    "time_horizon": "3–12 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
-    "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
-    ],
-    "expected_effects": [
-      "credit expansion capacity",
-      "deposit confidence",
-      "contingent liability easing"
-    ],
-    "headline": "Most default loans are wilful, strong laws can recover 60%",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMlpJdTRyWmRPc0Z0THk5TzRUOWdYcmItZUwxeWcxQlB4MEVVampjN2hXQS1DZW9oRnhDOTdzaFJ2b3MyMjhuMUo5ZWQ4cFE4RHB5NGlyOVVPMlhwV0QwNjhpVXNBMHJLZUl6amVXX2FfNTl1akNQMXpfVTRKa3pSTUtsYURGSGZyNGZpV2dWOThfTlhFeGlQQ2laTzUwN0JsRkJETjJmcWJKOTJ0alFDeUw5anVsR0JRMjN4UDlzTEszWEZ0X29DWDhvVGIxQQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-28_Credit_easing_07471415",
-    "title": "Credit Allocation Loosening",
-    "date": "2026-05-28",
-    "signal_type": "financial_conditions",
-    "channel": "Credit",
-    "lead_indicator": "credit_growth_acceleration",
-    "time_horizon": "3–6 months",
-    "direction": "easing",
-    "confidence": "high",
-    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
-    "who_should_care": [
-      "commercial banks",
-      "corporate borrowers",
-      "investment desks"
-    ],
-    "expected_effects": [
-      "investment pickup",
-      "working capital expansion",
-      "GDP growth support"
-    ],
-    "headline": "Tk 60,000cr stimulus for private sector",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUk16a0tGZ3EyVTZibS1YbUxNTjgyUzBULU03SmVyRm9OQjljdVRYV3hpYlVVbnRRTGltc19YZHB2UDVjbzlRSVR0UWZWV29OTG82UlI1bmF0eWJBM2NraGhWYWtkcGQzNFBiSmlBb1lsd01wS0Fybm92SUdTZHZnQ3dmSHI5ZTVzZmlya1N6c05iZWZfVVJR?oc=5"
     ]
   },
   {
@@ -486,30 +270,30 @@
     ]
   },
   {
-    "id": "2026-05-27_Energy_easing_7b12fd93",
-    "title": "Energy Supply Improvement",
-    "date": "2026-05-27",
+    "id": "2026-05-28_Logistics_tightening_de37fb53",
+    "title": "Logistics Disruption",
+    "date": "2026-05-28",
     "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
-    "time_horizon": "immediate",
-    "direction": "easing",
+    "channel": "Logistics",
+    "lead_indicator": "transport_bottleneck",
+    "time_horizon": "immediate–1 month",
+    "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "economic_mechanism": "Port congestion, transport disruption, or infrastructure failure raises delivery times and costs across supply chains.",
     "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
+      "exporters",
+      "importers",
+      "logistics firms"
     ],
     "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
+      "supply chain delays",
+      "higher transport costs",
+      "export shipment bottleneck"
     ],
-    "headline": "Bangladesh eyes greater energy security with Tk 3,600cr investment plan",
-    "source": "United News of Bangladesh",
+    "headline": "Fire in ship at Ctg port brought under control - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
-      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclppR0FkQkR0c2x4c1pJR29UWU4ycTRYV1lNclBvOFdLaWFYNkdHa0RYSElqVUh6ZTFNVlpIbDg2UFZpNmlXMktEaDloUGZYdWQyNDNGLU8wakdkc2t5OVA3YktYbkpEQUcxaDJHZndybkhRTXV3dlhVcXJqZFl1LUN2aGZIUkY5anUyU1g1VkpfS19uZWdUby1kNnMxc0hNd2NZc1BnS3A5SmJYcTNMd2U0LXRMdjQ?oc=5"
+      "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBsRjFrdXJ4QWVHM0JXRkdGTERjSVdSWkpQdjNJaHVsRTlucU9XbVpoeGZwaGZQZUlVZEVSUk4zQS1Ycnh0UjREa2dLYm9zdw?oc=5"
     ]
   },
   {
@@ -537,33 +321,6 @@
     "source": "en.bd-pratidin.com",
     "sources": [
       "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12dGhiM0VBMUZIN1o2VkxQMWRIX2xQQ083XzQ4WTRIY3BVaGlnN1MxejN4VWtjc0JvNGhzWDMxSC1nWDFRcjg1b2UzVTVzZ2o3NXdwVGpPak5LVk5GLTc5cGh3?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-28_Fiscal_tightening_857b5a64",
-    "title": "Fiscal Revenue Stress",
-    "date": "2026-05-28",
-    "signal_type": "fiscal",
-    "channel": "Fiscal",
-    "lead_indicator": "revenue_collection_shortfall",
-    "time_horizon": "3–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
-    "who_should_care": [
-      "bond market",
-      "development agencies",
-      "government contractors"
-    ],
-    "expected_effects": [
-      "development spending cut",
-      "domestic borrowing increase",
-      "treasury yield pressure"
-    ],
-    "headline": "Bangladesh Budget 2026-27 Investment Concerns | High taxes and interest rates stifle investment",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWTJDbHFxcTEtZjNDU0l6UU5fbVdsX1UzNFFwTFBrVHhuY3FJNDZlR1U5d0hKcThLZkZvcFd5Sjl4VzJ1MWpiSk1MNlQ1WUF0UUFZNFc5T2dDeGFYVTB1a2plU2E0VFotNEJDVG5FdUJhT1VIUk1GSHpuekZ5SE1XVXBZUnhadXdPeWR0TUV0REZpRjZLanlpdUxoNGt6Qjh6MDAwZXVGZFkzQnVZUUFXTUhxRng5d3VMYXA0a2xUTGRoZw?oc=5"
     ]
   },
   {
