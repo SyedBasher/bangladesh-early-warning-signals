@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-05-31_Foreign_Exchange_easing_d5326ec4",
+    "title": "External Liquidity Improvement",
+    "date": "2026-05-31",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Bangladesh Foreign Exchange Reserves Target FY27 | Govt eyes $51b reserves in FY27",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSndkQVpsd0U3TmxLcjlHYTduYko0ZlJmWDRuQU84NzdKbzFTM1ZxaWNESXFTWm9VTjFDNXpwZEdlX1NCQkZfWHUxS25YeHVscGZjbnV1WVdnYVROQVBHdVpXaUJSTDdzRlptcXNtMjFTWlVRX05uaGsxS0xYSm5qVE15Y3M3TWFVUGRnZHMtWQ?oc=5"
+    ]
+  },
+  {
     "id": "2026-05-30_Food_Prices_tightening_3c473624",
     "title": "Food Price Pressure",
     "date": "2026-05-30",
@@ -54,63 +81,9 @@
     ]
   },
   {
-    "id": "2026-05-28_Exports_tightening_43a7b7e3",
-    "title": "Export Demand Contraction",
-    "date": "2026-05-28",
-    "signal_type": "balance_of_payments",
-    "channel": "Exports",
-    "lead_indicator": "export_orders_decline",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
-    "who_should_care": [
-      "exporters",
-      "garment sector",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "lower manufacturing output",
-      "urban income slowdown",
-      "FX earnings pressure"
-    ],
-    "headline": "RMG exports to US fall 2.54% in July-March",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmR3ZzROa0NuVmpUR1VPMHlzN1M5d1ktelBqUzRVWDJSOTB1LWZjbjhkSHZidkpRTTZUamg1c2hoeTVkZ25nSEZ4S3NrRjVTZlJEbnJYcE5VQW5PV1Z3aDltTFhxUFhEOUhMS191SEtZemRCMHBmWE1xYlVCbGNqYXJ3c2tSYTR1RmN1V0pB?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-30_Labor_Market_tightening_cc2d8b81",
-    "title": "Labor Market Stress",
-    "date": "2026-05-30",
-    "signal_type": "real_economy",
-    "channel": "Labor Market",
-    "lead_indicator": "employment_disruption",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
-    "who_should_care": [
-      "garment sector",
-      "labor unions",
-      "consumer sector analysts"
-    ],
-    "expected_effects": [
-      "consumption contraction",
-      "social tension",
-      "urban poverty increase"
-    ],
-    "headline": "Garment Workers Eid Bonus Delay In Bangladesh | Why must workers wait for Eid dues every year?",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1NUdkpTdUZ6OGpqd2VjWXplbTN1R21qcDZmYVlLYktnSkpTdHpLQ1NKNzJwdS1PSjJnSElLYTBtQ016b3lLMnRZZGhHUUVzblgwb0xHaW9CUXdEZW1ybHFkZFhEWlhQWkdXa1VBWktRcHpUTE5jbVZQZ0pRc1VzNmtaaTZISGJnX2ltUW1MYm9BYllqU1N1MVVHVEVCc0I5LV9jaVNTZVdIZw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-05-30_Fiscal_tightening_b7095407",
+    "id": "2026-05-31_Fiscal_tightening_b7095407",
     "title": "Fiscal Revenue Stress",
-    "date": "2026-05-30",
+    "date": "2026-05-31",
     "signal_type": "fiscal",
     "channel": "Fiscal",
     "lead_indicator": "revenue_collection_shortfall",
