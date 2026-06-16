@@ -70117,5 +70117,464 @@
     "sources": [
       "https://www.tbsnews.net/economy/banking/islami-bank-receives-another-tk2500cr-liquidity-support-cenbank-1463566"
     ]
+  },
+  {
+    "id": "2026-06-16_Geopolitical_Risk_tightening_b52b2cce",
+    "title": "Geopolitical Risk Escalation",
+    "date": "2026-06-16",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_rise",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Fitch Ratings revises Bangladesh economic outlook to ‘Negative’ citing rising risks linked to Middle East conflict",
+    "source": "Newsonair",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbElxbWJQbzNwLWp1SEN1UDZVa0Rfc3V0Q19GelQtQjZtTlBRaUVFc2F4QW4za3prRlVRbWRzanN0NFMxMGZUcHNzeVlaV0RmbHRYTVpZTmlRRzBDTGtES0dDV2t2dGMtU25XYUNGU0NROWNCUk1NcXk0aHZhcmhJQThrNjVFdFVJOWVUd0szLW56WnNqRkxNYnk0eFVlRkVXOEd6aVJ5UXI0Y0hMUW9WNTZNUjIzUUh5cU9UYVJnRmtVQVhNcnVJUnp0M1BvRG1DWEprSw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Capital_Markets_easing_acaa290f",
+    "title": "Capital Markets Recovery",
+    "date": "2026-06-16",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Orange Economy Summit sees $100m investment prospect for Bangladesh",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSF9jc3piRzBLZjFNc3VHSWpSM1VqZXVqVFhWcEFEWGNKSnpIRWNkcWhWS0x2d3ByQlRHTGhwVkNTUDlxNWJVaWljZDF0VzYzMHgwTlVCQ18wZzl5c1pmV1dzMWxDNkhRNEtFdTFCQzV5WE51b3Y2UmNVMmczWHI3djgydDFLbG5FTUpTbGp3Y0NjTElkdUFHN05UTE56X2VKTWpZczRoNUwtdF9LZzFBV1hscGRYNjBiS1E?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Foreign_Exchange_easing_14447aa7",
+    "title": "External Liquidity Improvement",
+    "date": "2026-06-16",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Bangladesh’s Foreign Exchange Reserves Increase Further",
+    "source": "Bd24live",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLTRsNkZSVVBPeUFFTE9fYVJEcEFsbmZYMXIzaWZDcHBVSksxMlowYkdzbFJ1aXVDSWYySXpYTEdERlI4LTd5R0xoYWNLd2lIUkRiTEMzZlZMclJuR1pmbllwYjFwa05hajQzdnBtVTNhWXNuNFlLV0phSlhlQjVvTHlVR3k3SFHSAYwBQVVfeXFMT3FpUF8yRkNjdzRyaHhpN1BMRllabjJrVERKNU1UTVpKWHl6a0syQW5zSXNYd0pxOTFvc2I4bl9FUHVIam9hS1Bud3F2UmNQWlRacVEyTGwzOUNsWFNoTVkxOVZKTDUxTUVSM1hDN0ROUUhQSE0tSUtoMDJWRFBGY083N2JMRDlOR1JwMm0?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Logistics_easing_81096e57",
+    "title": "Logistics Improvement",
+    "date": "2026-06-16",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "News Bangladesh removes foreign ownership cap on ICDs to attract investment",
+    "source": "The Loadstar",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUl81S3RGTVVXTUtRV3ZSdEtzVHBrTVZhQlloVjVQcnl6VFBxUHRWY21jMjkwUm9aLUtDY3pmT3BNRE9qYWd1aW5RYkxPd2E4SEdGQjFjTlVENlloOUtxQ1lka3A4ZTFja2F1d2RDVWVIcXZmMG5mRmJ2VjNIQWpuRWZ1RFJoRW44RGZsT09YZG9zbHo5NjdDTXhYZw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-15_Exports_tightening_43a7b7e3",
+    "title": "Export Demand Contraction",
+    "date": "2026-06-15",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_decline",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "lower manufacturing output",
+      "urban income slowdown",
+      "FX earnings pressure"
+    ],
+    "headline": "RMG exports to US fall 2.54% in July-March",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmR3ZzROa0NuVmpUR1VPMHlzN1M5d1ktelBqUzRVWDJSOTB1LWZjbjhkSHZidkpRTTZUamg1c2hoeTVkZ25nSEZ4S3NrRjVTZlJEbnJYcE5VQW5PV1Z3aDltTFhxUFhEOUhMS191SEtZemRCMHBmWE1xYlVCbGNqYXJ3c2tSYTR1RmN1V0pB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Foreign_Exchange_easing_ec045018",
+    "title": "External Liquidity Improvement",
+    "date": "2026-06-16",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "April Imports hit 3.5-year high, raising economic optimism",
+    "source": "Bangladesh Post",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUl1Y2ZZZVBMSlQ4b3QyMDVpaEpjOWp1ZEwzcnhHbHBQMVFsdDdoWklDTHJFMjFIbGRnclNFU0xuRUVLelowSzBVQzlUa2FBXzROVWpETnlueVdscVlndTUxTWpNU3M1UkF3NUl1ZjBEVEZoZFR6RGpINWlCZ0JhOWdSUjd3RjIxclFBUW5WRU5jWUtZcDhla21COFAzQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Banking_tightening_49f7e885",
+    "title": "Banking Sector Fragility",
+    "date": "2026-06-16",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Distress assets hit Tk 11 lakh crore in Bangladesh banking sector",
+    "source": "New Age BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZKR0haLURMeDRmT3NYcTBMQmxvanZTWGVjWjVVbnhUNDdrekswSDYtZFN1MDZSX2dBdzdLcDRLSFNIYV9oZHlCRUQwUU1aZjJJNDN2OEZUTVlsWXVZRmd0bTRGRndwdlJyVzBQczhyZTVMQmJhdnREeFl1aC1RUDF5S3ZUMFhERDFHOVh6TDBfOWg2WUpSMG56ajhjMk1WRllLWlFQTkNFeHZ5MUs0?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Banking_tightening_a002c33b",
+    "title": "Banking Sector Fragility",
+    "date": "2026-06-16",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Bangladesh bets $3.2bn to avert a banking crisis but reforms elusive",
+    "source": "Nikkei Asia",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0M5Wm1yMXlPQnJjWS1GTkVNTndGSU5WcFRYazB6UjB3ckcyR2pCQjZJMVQtOFZCV1BBY1piTVl4ZUM0MHE3V0FuWGtzMUNpU204RTlETmwxblpteWtMNmcwRkoxMXoyWUFlVTJJQ2c1eldDNUZUdEEzajNVVkxra050b2N2NzFNTHNRZDJLblA2M0pQWmdCcTJQTjgyWGoxaTY0TjhrVnI3T1JG?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Banking_tightening_57c62f0b",
+    "title": "Banking Sector Fragility",
+    "date": "2026-06-16",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Bangladesh Bank dissolves Islami Bank board, including chairman",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN2Qzc2M2eWE5bXhvQnpkRmxhMTl2T25qaG5IbEVDYkxpNmxxQzNVYU9mcEZta3V0WXVIS1NNOGRBeEJrZ1E3QmJYREYyMmpmZkwzNDJiZ0FRUG54MHhBNEtJX2NqeE9hVUd3QjhQdGc3emd1SXdORzZYRGFjUEwyVldtTUxuQXMzUTRnSWhiX2JRUVowQmliTDd0RkJmMUI5NWl1Z2hfMlczSnRPSDJZ0gG0AUFVX3lxTE5mZVlMRTNzZmRiTTFRdUE3Z1NFRkZnVkE1VFZCeElKeE95dHc3dEFNWlNERmZMRV8xRl94QVJGSnJidjMzaUpxUWxfc2tfSGtkUjNkNkUwUmgtLUFjR2NBYkhDNjBiSTVCZERseUlkem1xMVl6RkV4TnVycUlpTVVudkdSVkR6ZnVCMXFhdGdOTi1xTGNzLUJBS2xid2tuMnlnaFh0MDB0UVNIeldkSlJfSmZxQw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-14_Banking_tightening_c9424042",
+    "title": "Banking Sector Fragility",
+    "date": "2026-06-14",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Bangladesh Bank dissolves Islami Bank board of directors, appoints administrator",
+    "source": "businessinbangladesh.com.bd",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZUhIaTAtMWRpUTRmSUg5bF9RQmZ3NzQ1V3ZTRm5KdUZESy15T0VQVTRYX2NMYlpMcVNidjVYUFlOTDN4Z1NXV3Q0S2RZaWI1WnJ3bVZWbG93Z0VqYmJBeVVnNndxWGFHS090elU3b3BIQ1FQdGxoeGhDbVFDSkxtMTY0Tld1MFJJdjVka2RKeG5fZ1g3dHRtNEZ1VmNQRkZzbEhmNTlvcnFENXMxckJEQ0NBVkZHanc?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Fiscal_tightening_2e2fa65c",
+    "title": "Fiscal Revenue Stress",
+    "date": "2026-06-16",
+    "signal_type": "fiscal",
+    "channel": "Fiscal",
+    "lead_indicator": "revenue_collection_shortfall",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
+    "who_should_care": [
+      "bond market",
+      "development agencies",
+      "government contractors"
+    ],
+    "expected_effects": [
+      "development spending cut",
+      "domestic borrowing increase",
+      "treasury yield pressure"
+    ],
+    "headline": "Stock Dividend Tax Hike Bangladesh | NBR seeks to raise taxes on dividend income",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQVZJVmxxQmY1SmJoYUxGUGE5SDRsaV8yTE1BVUIzNDQ0NzFxb3JndEpOSWE2ekU2RXcxOUlGSHp1czFpNDcwQkFQZ3MwaFFtTXcwWFlIYlpkOW5RVlc2ZmJveHROeFF3ekJWNnJxYjNHekFJNDJqT1RSZkR4dy1IMHJXRHRoWGZmSElUdUdFX3RwNm0tRVRya2VBRzlySmY0QWxJazlJbE1XbDVoc3I0YVFmTW4?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Fiscal_tightening_9ddf1780",
+    "title": "Fiscal Revenue Stress",
+    "date": "2026-06-16",
+    "signal_type": "fiscal",
+    "channel": "Fiscal",
+    "lead_indicator": "revenue_collection_shortfall",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
+    "who_should_care": [
+      "bond market",
+      "development agencies",
+      "government contractors"
+    ],
+    "expected_effects": [
+      "development spending cut",
+      "domestic borrowing increase",
+      "treasury yield pressure"
+    ],
+    "headline": "Capital gains tax on gold, digital currencies from next year",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZDlOU2c5R0M4aVlXNWxjQmQ5VWRBMldkZWZuNHJHdTY2M2ZyUm9NOURuOEdieHFzYkFfaUNwMVJHSnV6QkpaQURLMlpzSzFFd1ZxUDdsZ0cwd0ZrZzQ5dTZ1NlRMSmdldkZCdWxvenBmVWFqTlpPVzdpNnBmMlRYbjYwaElwbDBsbl93ZnJQUGx1N1VHVUhhV1dPY2x4OFNYaGhqbg?oc=5"
+    ]
+  },
+  {
+    "id": "2026-06-16_Foreign_Exchange_easing_0b96695e",
+    "title": "External Liquidity Improvement",
+    "date": "2026-06-16",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Bangladesh to receive $100 million climate boost ahead of LDC graduation",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/bangladesh-receive-100-million-climate-boost-ahead-ldc-graduation-1464846"
+    ]
+  },
+  {
+    "id": "2026-06-16_Fiscal_tightening_7f3528a5",
+    "title": "Fiscal Revenue Stress",
+    "date": "2026-06-16",
+    "signal_type": "fiscal",
+    "channel": "Fiscal",
+    "lead_indicator": "revenue_collection_shortfall",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
+    "who_should_care": [
+      "bond market",
+      "development agencies",
+      "government contractors"
+    ],
+    "expected_effects": [
+      "development spending cut",
+      "domestic borrowing increase",
+      "treasury yield pressure"
+    ],
+    "headline": "Bangladesh's new budget revenue targets face execution risks: Fitch Ratings",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/bangladeshs-new-budget-revenue-targets-face-execution-risks-fitch-ratings-1464741"
+    ]
+  },
+  {
+    "id": "2026-06-16_Capital_Markets_easing_ea6f548d",
+    "title": "Capital Markets Recovery",
+    "date": "2026-06-16",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Ecnec okays Tk4,189cr Chinese economic, industrial zone ahead of PM's China visit",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/bangladesh/ecnec-clears-5-development-projects-worth-tk7003-crore-1464556"
+    ]
+  },
+  {
+    "id": "2026-06-16_Food_Prices_easing_2404d5a6",
+    "title": "Food Price Relief",
+    "date": "2026-06-16",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_deceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Stabilizing or falling staple prices restore real incomes of the poor, ease wage pressure, and moderate inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income recovery for the poor",
+      "wage pressure easing",
+      "headline inflation moderation"
+    ],
+    "headline": "Prices of ginger, garlic and onion fall; state minister orders displaying price list in markets",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/bazaar/prices-ginger-garlic-and-onion-prices-fall-state-minister-orders-displaying-price"
+    ]
+  },
+  {
+    "id": "2026-06-16_Capital_Markets_easing_75180372",
+    "title": "Capital Markets Recovery",
+    "date": "2026-06-16",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Govt approves Tk4,189 crore Chinese Economic Zone project",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/govt-approves-tk4189-crore-chinese-economic-zone-project-1464436"
+    ]
   }
 ]
