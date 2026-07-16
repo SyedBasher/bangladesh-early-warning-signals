@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-07-16_Energy_easing_84719d11",
+    "title": "Energy Supply Improvement",
+    "date": "2026-07-16",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Govt plans to expand strategic fuel reserves to 90-day capacity - daily-sun.com",
+    "source": "daily-sun.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZXd4QXp6aG4tMTNIclRDQU5BcEs2VlJsM3V4OV9meFNnQVlmQWRIeThVVU92cGpqOV9ZSThvQmZKN1ZvdGpDMHlmNHlJMU9LN2w4U2l3WEJYVU1KVFRLOWxudHNuNmdjZWo2YUw5bHo4bnU3QlZSeG1LRXNxdHMyRm5qajJZRlE5RHM0bzllTVVfZWtPNlFKUzdmRXBEZ1dlX2wzanNxOFV2Tnc?oc=5"
+    ]
+  },
+  {
     "id": "2026-07-15_Capital_Markets_easing_8c5efd2d",
     "title": "Capital Markets Recovery",
     "date": "2026-07-15",
@@ -24,60 +51,6 @@
     "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
       "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuU0lQRm1aZWxKMGVCcDFMdnVhNTEyZGFBRDBxZW53bXNHaDg4NWNjRTk0dVMtb1AxSjlwYUpGZjY3dFRrUWJkRGJjNXlIRXh5SWk0?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Remittances_easing_88e1fd14",
-    "title": "Remittance Flow Strengthening",
-    "date": "2026-07-14",
-    "signal_type": "balance_of_payments",
-    "channel": "Remittances",
-    "lead_indicator": "remittance_growth_acceleration",
-    "time_horizon": "1–3 months",
-    "direction": "easing",
-    "confidence": "high",
-    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
-    "who_should_care": [
-      "rural economy analysts",
-      "consumer sector",
-      "central bank"
-    ],
-    "expected_effects": [
-      "rural consumption boost",
-      "FX supply expansion",
-      "formal channel share rising"
-    ],
-    "headline": "Brac Bank becomes Bangladesh's third-largest remittance bank with $2.97bn inflows",
-    "source": "Dhaka Tribune",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0xwREdxdFRhT19LMUpIV0UzSFNrODZrT3VvYW9PbTZOdnY1R3dUWWRLOWM2Yi1xMWo4aGU1OFFHOWZRdDJqbzRSekk1VjhVS190RGtnVmxsTGtUbnRlT09sdUZsVDloZEdXWXFxMy1OalF3TURpMk5Da1pfQWxtVzBxRWtBSjBQTVFvbDJ6b1VCeWF5RlpPWkpDRdIBoAFBVV95cUxOZHRyRzBnTXNBbEhVZmk4YkNmWXUtRkhPTDYyQVhfNlZwcXBCbnBOUk9kYlVDYUZMbDlwNjg0T1hOdVlVdEpxZnhDNGhzck4zZG5mZFppYi1LeTVvbHdaWG9hYkRsNGlNY2R5S1RlM1FqMWZ4NlE3ZW83cExnVFc3YjU0Ri1jVldpRnBMQk84WXlZRHlqb3lmMFAxS1dMblc4?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Foreign_Exchange_tightening_e511cda4",
-    "title": "External Liquidity Stress",
-    "date": "2026-07-14",
-    "signal_type": "balance_of_payments",
-    "channel": "Foreign Exchange",
-    "lead_indicator": "fx_reserves_pressure",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
-    "who_should_care": [
-      "trade finance banks",
-      "importers",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "import compression",
-      "industrial input shortage",
-      "informal FX premium widening"
-    ],
-    "headline": "IMF reviews Bangladesh's external debt risks, slow loan disbursements",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQi1VRWsyX0RhbnU4M2wzeUVnaHZmVkhJSWhVOXNTSENBZmRWaW91ZmpSUFNMVW9xeFhGc04wcnpSMjdJWmhQRUc0R3phNnE1QWpOU1NSNnF5bnFabU0ybGMyeGJpcUNrOWRIdVlXOVlQRDdpUVFHLUs2YTVVT3cxVy1Rb3dITVd1S015YTdubkMyd1NFQzJjMkJ5dTdvUU5QNGsyekliQVZOa03SAbABQVVfeXFMTWFGUUI0MmNmSEUxNE5NR21LMjlHVzMtME12eUZxS21Ha2VkN3dadVRBMVFFeW5rMktxR1FuOVBxWGxGaFg2UTcwSjlDY1RfM1lNTjJWZ3Zpd2N3eWM4ZzJZNUxtSFJfVmwtLTE1OE9kVVRXYUY0ZzBwdXpQcjBpSHdEdE9VdVR4WXF4UnBMT1FIWjRqUDRjeUo0VEhKYi1hM1Q2WUpqeloxVlNVdUh6Vk0?oc=5"
     ]
   },
   {
@@ -108,30 +81,57 @@
     ]
   },
   {
-    "id": "2026-07-13_Foreign_Exchange_easing_a2afd6c2",
-    "title": "External Liquidity Improvement",
-    "date": "2026-07-13",
+    "id": "2026-07-14_Foreign_Exchange_tightening_e511cda4",
+    "title": "External Liquidity Stress",
+    "date": "2026-07-14",
     "signal_type": "balance_of_payments",
     "channel": "Foreign Exchange",
-    "lead_indicator": "fx_reserves_recovery",
+    "lead_indicator": "fx_reserves_pressure",
     "time_horizon": "1–3 months",
-    "direction": "easing",
-    "confidence": "high",
-    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Foreign exchange shortages constrain import financing, widen the informal premium, and force rationing of dollar-denominated obligations.",
     "who_should_care": [
       "trade finance banks",
       "importers",
       "currency desks"
     ],
     "expected_effects": [
-      "import normalization",
-      "informal FX premium narrowing",
-      "reserve buffer strengthening"
+      "import compression",
+      "industrial input shortage",
+      "informal FX premium widening"
     ],
-    "headline": "Bangladesh's gross forex reserves rise to $36.55bn - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "headline": "IMF reviews Bangladesh's external debt risks, slow loan disbursements",
+    "source": "The Business Standard",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWcnNrb1NQQ0ZTaWdvUmVkcklVV1pHWHJhX19UMllYLUNaYUFwUVNjcXRVNVhWMjZ5eFdUNlJpaXhCNGo4X0o1ZDdEN2tBQzVB?oc=5"
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQi1VRWsyX0RhbnU4M2wzeUVnaHZmVkhJSWhVOXNTSENBZmRWaW91ZmpSUFNMVW9xeFhGc04wcnpSMjdJWmhQRUc0R3phNnE1QWpOU1NSNnF5bnFabU0ybGMyeGJpcUNrOWRIdVlXOVlQRDdpUVFHLUs2YTVVT3cxVy1Rb3dITVd1S015YTdubkMyd1NFQzJjMkJ5dTdvUU5QNGsyekliQVZOa03SAbABQVVfeXFMTWFGUUI0MmNmSEUxNE5NR21LMjlHVzMtME12eUZxS21Ha2VkN3dadVRBMVFFeW5rMktxR1FuOVBxWGxGaFg2UTcwSjlDY1RfM1lNTjJWZ3Zpd2N3eWM4ZzJZNUxtSFJfVmwtLTE1OE9kVVRXYUY0ZzBwdXpQcjBpSHdEdE9VdVR4WXF4UnBMT1FIWjRqUDRjeUo0VEhKYi1hM1Q2WUpqeloxVlNVdUh6Vk0?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-14_Remittances_easing_88e1fd14",
+    "title": "Remittance Flow Strengthening",
+    "date": "2026-07-14",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_acceleration",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption boost",
+      "FX supply expansion",
+      "formal channel share rising"
+    ],
+    "headline": "Brac Bank becomes Bangladesh's third-largest remittance bank with $2.97bn inflows",
+    "source": "Dhaka Tribune",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0xwREdxdFRhT19LMUpIV0UzSFNrODZrT3VvYW9PbTZOdnY1R3dUWWRLOWM2Yi1xMWo4aGU1OFFHOWZRdDJqbzRSekk1VjhVS190RGtnVmxsTGtUbnRlT09sdUZsVDloZEdXWXFxMy1OalF3TURpMk5Da1pfQWxtVzBxRWtBSjBQTVFvbDJ6b1VCeWF5RlpPWkpDRdIBoAFBVV95cUxOZHRyRzBnTXNBbEhVZmk4YkNmWXUtRkhPTDYyQVhfNlZwcXBCbnBOUk9kYlVDYUZMbDlwNjg0T1hOdVlVdEpxZnhDNGhzck4zZG5mZFppYi1LeTVvbHdaWG9hYkRsNGlNY2R5S1RlM1FqMWZ4NlE3ZW83cExnVFc3YjU0Ri1jVldpRnBMQk84WXlZRHlqb3lmMFAxS1dMblc4?oc=5"
     ]
   },
   {
@@ -162,6 +162,33 @@
     ]
   },
   {
+    "id": "2026-07-16_Trade_Policy_easing_b20136fb",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-07-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "| BKMEA-TEXPROCIL MoU resets India-Bangladesh textile trade",
+    "source": "Fibre2Fashion",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVWxLcUJPbnhlSzhPVnV5TlpuVEF3M0JPekJpa2JXQ2xOS2pDRVcwUmtOSlMzZVVWaWxFcEo5NUlFaUpGaWhoQVZzTllvOTNYZ0J2NnVxd1FpbVdaSENwMkZuWm8ySURZQXZ4bUhZZlRGVkdoZnBXVEJpeUJ0aFlJaHl5aWExM2Y4TVhfSXlmWGNES0xzNmVuZk9FOXBNbDdCYjVvTGJZMFdJTXNpd1U1X2l0azNROEc2Y0N3SlBhRmpFdHZKNGo4?oc=5"
+    ]
+  },
+  {
     "id": "2026-07-13_Labor_Market_tightening_8aaf784f",
     "title": "Labor Market Stress",
     "date": "2026-07-13",
@@ -186,6 +213,87 @@
     "source": "Modaes",
     "sources": [
       "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOWgwOTF5ZWpTMXhHUGRKX1EwMU42OWJrTHBKcTJqd08xZFZEVk1KY1AzVm94aFZiTjZ2OFRLOHU3cGZJdEJ4VDl0a1VabmdFdjdWUmMyOGNDWTFreXlQSkxiNTZ3Q3pLdlRxVm1STHozTlluaW90ZFBKaUxKaktFaHBGa1AwMmgyc1BJaFVvYW5zRi1ydDM3Ql9Ba0dHZ2ZJVDNUMXFISFpoMXlTWElHcTR1Y1VwRTVNLWZ3?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Exports_easing_b3fe5002",
+    "title": "Export Demand Expansion",
+    "date": "2026-07-16",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "Bangladesh Cement exports rise over 5% in FY26",
+    "source": "cemnet.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxON0Z2SExNTzRGRmdadGhNMlhSWDlacWFtMVNQeUNFek9FRjFMQUo1anNzOHFQZ0h6V3FsYTRxMnZCY2o1bURvcWFTYnpVblZQdkpzSGJWSnJUanlGV0VuZDNCSTQ4RG9uUFpjQlZnSzhydDBZSFc3d2d2MVNXY3JoRG9Wck4yalc5U1h5OUlqU0ExR3JyZXc?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Logistics_tightening_85d68b4a",
+    "title": "Logistics Disruption",
+    "date": "2026-07-16",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_bottleneck",
+    "time_horizon": "immediate–1 month",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Port congestion, transport disruption, or infrastructure failure raises delivery times and costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain delays",
+      "higher transport costs",
+      "export shipment bottleneck"
+    ],
+    "headline": "News Exporters demand compensation after floods disrupt Chittagong port",
+    "source": "The Loadstar",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWNrb19WNkRfV2pXSWMtMlgtOEVCWkFZQzV1eFNuR3QyOFhHVXF3Q0hyNF9ZUjVnZkRRUjVDZC1MNkVhZnRVUlltbDZ2c2s3QkJ5eGFEMTJmQnN1SV9jRjhPemVHVjNLX0FoRnE2bUV5UTJVM2lzT3hHSzJHRVF0WGc3ZWxVdF9ET3A0Vmdjd25oYi0xT2c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Labor_Market_tightening_bdc509a4",
+    "title": "Labor Market Stress",
+    "date": "2026-07-16",
+    "signal_type": "real_economy",
+    "channel": "Labor Market",
+    "lead_indicator": "employment_disruption",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
+    "who_should_care": [
+      "garment sector",
+      "labor unions",
+      "consumer sector analysts"
+    ],
+    "expected_effects": [
+      "consumption contraction",
+      "social tension",
+      "urban poverty increase"
+    ],
+    "headline": "AI puts 1.22 million Bangladesh garment jobs at risk",
+    "source": "Daily Observer",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBTRy1lUnJnZ2EzTER4RzRVUGhwanFpenlqUjE0YzNLLWxVMlMyZVVYSU5WVUkxckd5cFBwNFBDQ01TVnNkVGdoTTlB?oc=5"
     ]
   },
   {
@@ -216,6 +324,87 @@
     ]
   },
   {
+    "id": "2026-07-16_Trade_Policy_easing_c3a815d6",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-07-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "BB unveils framework to facilitate FTZ import trade - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE54ZFlOLXlJOVVNVlpaLWgxQzN0ZzFqUlljcWZfYXVvZVZReXI0ZEIyVS0yVVdzTW95V29Gai1YenZ6cENsUWlJRUk1ZXRRN2do?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Trade_Policy_easing_2e39ea01",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-07-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh-India textile trade gets boost as BKMEA, TEXPROCIL sign MoU",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUE5ejIyQ1JyZFR5VzFwSEV2TG5yZEctR1dsTzdUNGF4aUU1b3lFU0VER1dQQ3psdE1qSTYtejNrTnVfSUNOZkFBQUp1eVdLeEVoTUM3c0NDbUdEbTNsVHpWYW5jVUVoTjRONEVqTkFwWkdLUnVJbmQ1YmpqdENndHdUOXN3OGduXzhJZkR1aGNYT1FKaDdscHdsQXVFT1l5OVdPaVJMRGtlci1SXzZ30gG0AUFVX3lxTE5WVjVyOHpFOTI2RGk5VV9GcGp6UThUQnlxbVFIbHRNN0swRXhvdjNqYWMwdmNuam5ZejZORmVYenpRRkNNZk5kMEU5ckJleEFOWjl6aGhNNmZrSy1jbXJLSVFCYVEtZ1FhaWM3OFFvdGxYaV9sUFU4UDZ3eEx0MFZlMmJ4bm85OW5GbjRWVmNkT0t4Qi02Q2d6dXltYnVDM3V2ZmtfWmxYS3l6UzRhT2lkbEVzSw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Trade_Policy_easing_e69b2fe2",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-07-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh Bank issues framework for import trade in Free Trade Zones",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZy05bTRwVUxnZUxRbUNKeDgyTDA4QWVoc0thVC1XSWxiTU5ydklHMU1LUk5QOHl0amVlOEZmcVVvbnJhc05vX3A0MHY3SWdnN0doc0REUlZFTjlGX0U4ZUlsWmZKYjZzX0xuNGtUa1g3N0pJYzU0ME9ITnMzejk2anZVNTNTcERsTzdCbXZqQ0txUm5yYTdEODNhLUpsSDZUdVBqb3h6a3JDdlRTV2h30gG0AUFVX3lxTE9PSWNfTHcydG9QQ0N6dHM2Ym5RNlFhTlJMRUMyZF85VVV0RXBvcFM5ckFYdENLREJZNzhYYkRNdkNpZGhWMTAxVFJSUFVIS3dFRGNfN3hGekZFYVVUUjVyYUJFaWtJMFU3eEdZMHBpSVJ2ZlQ4cWtCWEFsUHliaGJwVUVKUVJGTjdZRXhlN2dfSmJoZmk4YS1DY0dYZzV3RU9kS0R6b19yTlc0V1Y3ZXpmS25aTA?oc=5"
+    ]
+  },
+  {
     "id": "2026-07-13_Exports_easing_1bc47aa4",
     "title": "Export Demand Expansion",
     "date": "2026-07-13",
@@ -239,34 +428,7 @@
     "headline": "HSBC, BGMEA join hands to boost Bangladesh RMG sector's global reach",
     "source": "Fibre2Fashion",
     "sources": [
-      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQWFDUEtYNlpoTGlFN0lyOFNPMUJFOGVoWTMyV2xFWnNUWFJuTC1WV0duY2NLclBOaTMwV1NKQWo3cE5seC1IeWdCZU40WVZIVEJCSmdmbDczRk95S2xkc1M0VHRsZDlic1VvdWt1MWxoRTU1NW9VZFl4UVNwbGlJYU9qRWIwZjVOQWpBa3dFTG5TcUJmUG5GWllnYTVUN1VVeW1FTWFuck5CaXZKZHFUNVI0eDBIV3hhcXRycVNuWmh0bzJObW9rT0d0TXZBdEdwYWhwTmd6b0h1MVRiYmRrLUhNWlpsdw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Exports_easing_859f1eb5",
-    "title": "Export Demand Expansion",
-    "date": "2026-07-14",
-    "signal_type": "balance_of_payments",
-    "channel": "Exports",
-    "lead_indicator": "export_orders_increase",
-    "time_horizon": "1–3 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
-    "who_should_care": [
-      "exporters",
-      "garment sector",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "higher manufacturing output",
-      "urban employment gains",
-      "FX earnings boost"
-    ],
-    "headline": "Bangladesh targets Nepal for late-season mango exports",
-    "source": "FreshPlaza",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTJpdE5RQ3RaT1RReUd3ZUJYMElBU2FFTlBQR05rQkd3NUFfVkJaTktYbUQ3UWN5OGZIaFh4WkZBdWo1M2dDaFliUVNCMW91d2VmdUZPMW5mdDM1ZDhPQXhjV2lUSjduVmVNZWNwQW9fcExwT2RpLTVfYmp2ekNndldsbHpyT0NJMndRRmlfLTl6MXkwbkhrelVRaHAyUnduWXE5SE1B?oc=5"
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZnRxaGtSbW9yU09rOG1ZMmRsSVJEcEN1RGFkV2ZYelAyY0o5X3A3dEtNalVXdHBvY2RrcTljOFNhblItaHU0T0hMN25NY3JlZ3ZvbWVHeEVaQnh4aFlabWZMVkx3RkxQcms4S1BJcnhrME0yT2FZd3VSdGQwNHhPM0YzUFJVRVFuNjVTOHctTWstdEdvclVBNkhNWFJJd2RCTGZYZnZQUDF6QWx6aklCdHVXM3VsRldETzc2WW5BOFNnY1lad09NTW1HM003TmN5UnFUcw?oc=5"
     ]
   },
   {
@@ -297,6 +459,33 @@
     ]
   },
   {
+    "id": "2026-07-16_Trade_Policy_easing_d3ddfc90",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-07-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh Bank unveils import trade framework ahead of free trade zone launch",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYnJ3dVNDbjUtX01yYWt3emhxT1g3MUlFRlV3cjFhcDVGcV9zOHNCRlRidk9PZ3ZBSnJpNk9PMGVKRHZVVkdTR3FuYS02a3lmZzJzWGk5Vkk3YW1PX2tfQ2NZOVNiTkRtNUlYSE1qVklreE12RmJQcTRXMFpmNnAzeXgySTdacEF1bmItU192Z25tRXFveHRtZEV3NWZ0c1VmVzd5NVp4Y0REOWJoSkV0UUVjUXJvR3lLbG9Yb0JfWFJ2NmI2?oc=5"
+    ]
+  },
+  {
     "id": "2026-07-14_Labor_Market_tightening_c044adcd",
     "title": "Labor Market Stress",
     "date": "2026-07-14",
@@ -321,6 +510,33 @@
     "source": "MSN",
     "sources": [
       "https://news.google.com/rss/articles/CBMitgJBVV95cUxPZ1l4NXBBWlpQQWdVVy1hX0NIU0tROU5nMHNsZnN1bDNIdGhOZDNGM21ncEY0aEZEemdhZWVOWGxQOVFoS1BuN1VzeVc4UGhmX2NPazN1QVV1UmhHZUlKOEZTT3JLYk91ZTBmRV9qLVBlamZheGQ5dzFzZ1Q5U3NUVzJDVnFOTW8zeG0wSTlHU1h2WTU3c3JXdjlRcFVMVFdJUVZpcWxMclF2TFAwQ2JFb0UzTWRHRS1oWU0wYlJZX2Zoc29Tb2RaaFlES1VBdnNVU1F3eGRZZm9SeDlEQUhsSWVHMnhzdnRfWGgzaHljU0NmbVlkdVVpTlhpVWxtSS1TbWdwSDBSQkxjVVk3NWVFNHBqNGN2cWpEcmdjM3FqRkFTc0pFY1AwS0hGZUM1TDdKUi1wcHFn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Trade_Policy_easing_1f4cc943",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-07-16",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh Bank unveils new framework for import trade in FTZs",
+    "source": "United News of Bangladesh",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS2NITTVQWjlnV2U3ME5oWmlNS0JMOTZONmF0VmZ3a3JpRHpVdjFzc0w5c196MlpzN1k1MVV3cU56Y3hhdzFQcDMxazBCSll0UGphRVBwTUF2aWtUbGJmWlNCY2E1bmNjVnpTTk15dUxib1VVQWlVa3ItWURnSjFrc2tFLWVlS3RjWVhaUW9pM0tqdExnOUNDbVh4SFpzblk1dXBKRlZrOGpidw?oc=5"
     ]
   },
   {
@@ -351,60 +567,6 @@
     ]
   },
   {
-    "id": "2026-07-15_Exports_tightening_41475d4a",
-    "title": "Export Demand Contraction",
-    "date": "2026-07-15",
-    "signal_type": "balance_of_payments",
-    "channel": "Exports",
-    "lead_indicator": "export_orders_decline",
-    "time_horizon": "1–3 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
-    "who_should_care": [
-      "exporters",
-      "garment sector",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "lower manufacturing output",
-      "urban income slowdown",
-      "FX earnings pressure"
-    ],
-    "headline": "Bangladesh apparel exports under pressure",
-    "source": "Banglanews24",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zc0JGSlB0bVNCTlpTdnZMak50Nl9UVHp4dVE3VjRVYW1rVWhSNGlxaWpwU21PNVhMOWVwUFlnTWhBQkJJazNJSzd6OUc1WmhPajcwWEptanBmdE9ZNzEtOUZxdTdXa1lnRGREeWIxVzNoNnRZZUFhaQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Trade_Policy_easing_6194c187",
-    "title": "Trade Policy Liberalization",
-    "date": "2026-07-14",
-    "signal_type": "policy_shock",
-    "channel": "Trade Policy",
-    "lead_indicator": "trade_regime_opening",
-    "time_horizon": "1–6 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
-    "who_should_care": [
-      "importers",
-      "exporters",
-      "trade policy analysts"
-    ],
-    "expected_effects": [
-      "supply chain diversification",
-      "input cost reduction",
-      "export market expansion"
-    ],
-    "headline": "US shifting from aid to trade with Bangladesh",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDZGT3BQTGZGWmVNQlktSjljUEYyaGtVVXVZbkczajFFWGpaWVZBTk5Zc1EtcnZHdER4dlhhNHpIWDNkS1k3UnRhMC1acDhXQ0doMW9ieDlxdjJPY2pkTXRDUGhBOF9zVDFycTJNR3ljaURWTnhUT2czdjg0ZlhYcFVDU0EzVk95a3BKWjg5eWFxUXItNm9abG5VQ3o1anM?oc=5"
-    ]
-  },
-  {
     "id": "2026-07-14_Exports_tightening_89f1e3ef",
     "title": "Export Demand Contraction",
     "date": "2026-07-14",
@@ -432,30 +594,57 @@
     ]
   },
   {
-    "id": "2026-07-14_Exports_easing_77faedbf",
-    "title": "Export Demand Expansion",
-    "date": "2026-07-14",
+    "id": "2026-07-16_Energy_tightening_e109ac12",
+    "title": "Energy Supply Constraint",
+    "date": "2026-07-16",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "The FE - Bangladesh faces fresh LNG supply setback",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc010WVBEMmcybkpXWWlBQ2xwZmZkWlFkQ3FQUG13cHlXMkJZVXQtNmdJUldZNVVlR3pKT25JZFh4T1F0X0cwZEpOTllRaWtmc1RBZTk5RUMtTG9oTUt0a3dvZ0VpNENvN2tDODNTNWdNSG1LM0diaXJacmZhYVoweTE1bktkczNSck1yUEpfbFZTUFhs?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-15_Exports_tightening_41475d4a",
+    "title": "Export Demand Contraction",
+    "date": "2026-07-15",
     "signal_type": "balance_of_payments",
     "channel": "Exports",
-    "lead_indicator": "export_orders_increase",
+    "lead_indicator": "export_orders_decline",
     "time_horizon": "1–3 months",
-    "direction": "easing",
+    "direction": "tightening",
     "confidence": "medium",
-    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
     "who_should_care": [
       "exporters",
       "garment sector",
       "currency desks"
     ],
     "expected_effects": [
-      "higher manufacturing output",
-      "urban employment gains",
-      "FX earnings boost"
+      "lower manufacturing output",
+      "urban income slowdown",
+      "FX earnings pressure"
     ],
-    "headline": "The FE - Bangladesh adds four more LEED-certified RMG factories",
-    "source": "The Financial Express",
+    "headline": "Bangladesh apparel exports under pressure",
+    "source": "Banglanews24",
     "sources": [
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFM4dkdkd1c0NEpwWEk2WEpILVpNTERQNXQwdVZsTUgtYVg3ODRLeGdaSWlrc0J3ZERSbkM3a2VlSEVabXR5cmZNWEpldjlmSmVYa2c5RWhTYmZxcFpJT1dXT09qZHkxc0syYWUxVi1kaldDd2YxSGdkakgyOGo4SEc5SUlGbkNVYTFBQ0JVVWJaRFFCcmlz?oc=5"
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zc0JGSlB0bVNCTlpTdnZMak50Nl9UVHp4dVE3VjRVYW1rVWhSNGlxaWpwU21PNVhMOWVwUFlnTWhBQkJJazNJSzd6OUc1WmhPajcwWEptanBmdE9ZNzEtOUZxdTdXa1lnRGREeWIxVzNoNnRZZUFhaQ?oc=5"
     ]
   },
   {
@@ -486,6 +675,87 @@
     ]
   },
   {
+    "id": "2026-07-16_Credit_tightening_d6bea7ce",
+    "title": "Credit Allocation Tightening",
+    "date": "2026-07-16",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_slowdown",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "low",
+    "economic_mechanism": "Bank lending constraints reduce investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment slowdown",
+      "working capital shortages",
+      "lower GDP growth"
+    ],
+    "headline": "Private firms to recover defaulted loans under proposed new law",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MNXJyQ1RiVzhndXYwd2MyRllLY0R1OXloQWIzNi1rcU1kMzdmdUIwRnJOQzBJWERWWmtfaERrZlVCTTNCVEtUekZqMklqTG1RWWhSeXdhdm1mTE5uRHJLSdIBbkFVX3lxTE1YLUY0RVVBYzI1NHdkTDZxeGgwS3FrLWU4alFVTlY1bUR3YVJYWE5rZzFYdGl2Sy1UM2k2WXhGb2R2akF1bTBFLU9yelp1akhWN0J5TFAyNWtFeGRUamJlVmNpSWxYN3NER1lVeFRn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Banking_tightening_05aba373",
+    "title": "Banking Sector Fragility",
+    "date": "2026-07-16",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Bangladesh Bank Bad Loan Exit & BFIU Freezes Tk 760B - businesstimes-bd.com",
+    "source": "businesstimes-bd.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYRmYtc0M1R1RnbjhEVWd1MUZ6VERQc1ZBYV9fUDVpMVZ4aEhEak5rZjZ1S1RWNzR5Z2JfbkROeklIWkx3ZzZrYmk4UGxieDBYYjd2REZXLVEwdEdYbGt1V0RMdEQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Labor_Market_tightening_4f2f8c0f",
+    "title": "Labor Market Stress",
+    "date": "2026-07-16",
+    "signal_type": "real_economy",
+    "channel": "Labor Market",
+    "lead_indicator": "employment_disruption",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
+    "who_should_care": [
+      "garment sector",
+      "labor unions",
+      "consumer sector analysts"
+    ],
+    "expected_effects": [
+      "consumption contraction",
+      "social tension",
+      "urban poverty increase"
+    ],
+    "headline": "Cenbank seeks explanation from HSBC over layoffs of 257",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGVEcVlIUENvNTlDUFpoQlA5SHJJMERrdThhbV9fUDhubUdHVjVrMENYRG1lem0waVY3Z216NUxQM21ob1dsOG81dEo4Z1E5QjhlQWdKcDBXVUxkRWhsbmNhYWNDWVNtazdQNzl6Z0phNzh5Y3VHTFF4amdlX1d3RzJxVjE4dXF1X2ZqUEFQUWdNSV9DMjRnclB0VdIBoAFBVV95cUxQekMyODJrdXBjcW1iZmpmUk11RnlyWEQ3NWtreG80R29heDM2SnpmdDhBLUdIRl9wVV9ueWIyVTI4dktRNDlzUjdYUko1NXdlTjJhS3FMNGNnUEFKdUI3cEN4ckZpNWxNWDUtWFlHWTdxdHdqbUEzcFJpV0Exa1VMWG11MEI2YzkzNC1WclowZ3ZOQzBPX3BuSjU5YzBaWGN5?oc=5"
+    ]
+  },
+  {
     "id": "2026-07-15_Foreign_Exchange_easing_4e00128a",
     "title": "External Liquidity Improvement",
     "date": "2026-07-15",
@@ -510,87 +780,6 @@
     "source": "The Business Standard",
     "sources": [
       "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMm0zSXVYc3hOQ3dQYTNzVk5DdnIxMDhta0YtMV9zTnRKVnFVeTdQLUlKcE54TVFTVVJ5S2EtbVE5NG5QM1RyckFnNDlQMXppLVR0aDhjd1plcldHVllIek84dmhoVVY1UU42MnQ1akhXRFhQM054aWp3ZzNoeW0zSDNpZTlOMmNZNmJncUpIWjZ2cGthS1l6cFVqaVJibWZjTHREU1R2Z2TSAa4BQVVfeXFMT2F4VV94a3g1dTdBWHVNalZjZFIwRi0takIxNzdkRWJKUHBUc1FST0ZiSFNWbDdFaHVKY2lxNWtubWU2WlU1aWpKYzAxUjVnSUhTUXROUm5zX0pEc3Nud3JLWXV2QWViVnFZTDFoYnozRUFoUjlZWlZYZEhxVlZ2U3VMODUzajF0WlhnZjdqaW5TMnNja2YyV24zbzBzU093bW5JelE1VHBJZjd5RjRB?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-15_Foreign_Exchange_easing_62bf51e0",
-    "title": "External Liquidity Improvement",
-    "date": "2026-07-15",
-    "signal_type": "balance_of_payments",
-    "channel": "Foreign Exchange",
-    "lead_indicator": "fx_reserves_recovery",
-    "time_horizon": "1–3 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
-    "who_should_care": [
-      "trade finance banks",
-      "importers",
-      "currency desks"
-    ],
-    "expected_effects": [
-      "import normalization",
-      "informal FX premium narrowing",
-      "reserve buffer strengthening"
-    ],
-    "headline": "Bangladesh Bank eases foreign borrowing rules for wholly foreign-owned companies to boost investment",
-    "source": "bdnews24.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPbHc0YWlDR2QxeXpZMjlBbl9wQ0dyQ0VySTZuaDN6MVp1ck4yMWhhUEMwUHYtUGlmWXpHb0FMLWgwLU1OZFU5cFJSQ1BaVDN4cTljbQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Banking_tightening_9050bb8e",
-    "title": "Banking Sector Fragility",
-    "date": "2026-07-14",
-    "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_deterioration",
-    "time_horizon": "3–12 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
-    "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
-    ],
-    "expected_effects": [
-      "credit rationing",
-      "deposit flight risk",
-      "fiscal contingent liability"
-    ],
-    "headline": "IMF Loan Package Bangladesh | IMF reviews bad loans, bank reforms | Non-Performing Loans Bangladesh",
-    "source": "The Daily Star",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWVDN2FxanNsLVo1V1hmWVZBNGJXMThubGdVNUxDRl9MZThWYXVQT3JvVFlFVDUtTFQxTnJPMUdTRlo1dWMxQkNZeHQ1cWp5NnZYWkxBZVV4MkF4XzViY0xoLWdJeW91Wmo3N01ZTlJ3WTBBZFJlRnluYl8xTHdLZHlaSDVTdmdTZ2dVc3NZdXRaQlhxa2xncg?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Banking_tightening_d864cb49",
-    "title": "Banking Sector Fragility",
-    "date": "2026-07-14",
-    "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_deterioration",
-    "time_horizon": "3–12 months",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
-    "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
-    ],
-    "expected_effects": [
-      "credit rationing",
-      "deposit flight risk",
-      "fiscal contingent liability"
-    ],
-    "headline": "Five merged banks under special forensic audit; finance minister vows action against those responsible",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbE8yZXZYaU5wcVQyOWlBdm5qempmY1QtOHZyWHNUN2YxMjVkcldKSUpYRE5JeW53NkpsZ1VqcFNyUEphYXE0cm1taWNTRXpidGhrM0NhSXpsT2NHWUhCTEQ4ZlRmT2g2YXp4SFFwTlZ6R2hhdVZDZk95dG1YRUkzMi1ObGpQcUV0UHc4aVpRb2JfLVdfa0t6RUFOWW5Tb0F0bUZUZzRLR1BHYzFCV3lwd0dQNnlpNU40TGlEaVVXM27SAcYBQVVfeXFMUDVSeF9ReDctdmVjenpDLUhfQWZfUXVvVXNGQXY5cHhGTXZpLTlmRkdCRGFlRTMyRGpldHFxUl9IWmNLT2QzdGZhUjc2MjZsSlcwWV9xVGJXUW1VY09jY2VuUTM2UXdUZWJaaW52dkhGUDZmcjJRQThLdGlOX3RlTC1YeFg4YWtUS01NUnRyRHRyVkpILW9rSllJa3ZFMk1ZZFBsNk94VldRcFd5NWVzMTR1ajM1cG41MTBPSzRnMV85ZUUwRFVR?oc=5"
     ]
   },
   {
@@ -621,30 +810,30 @@
     ]
   },
   {
-    "id": "2026-07-14_Labor_Market_tightening_4f2f8c0f",
-    "title": "Labor Market Stress",
-    "date": "2026-07-14",
-    "signal_type": "real_economy",
-    "channel": "Labor Market",
-    "lead_indicator": "employment_disruption",
-    "time_horizon": "1–6 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
+    "id": "2026-07-15_Foreign_Exchange_easing_62bf51e0",
+    "title": "External Liquidity Improvement",
+    "date": "2026-07-15",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
     "who_should_care": [
-      "garment sector",
-      "labor unions",
-      "consumer sector analysts"
+      "trade finance banks",
+      "importers",
+      "currency desks"
     ],
     "expected_effects": [
-      "consumption contraction",
-      "social tension",
-      "urban poverty increase"
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
     ],
-    "headline": "Cenbank seeks explanation from HSBC over layoffs of 257",
-    "source": "The Business Standard",
+    "headline": "Bangladesh Bank eases foreign borrowing rules for wholly foreign-owned companies to boost investment",
+    "source": "bdnews24.com",
     "sources": [
-      "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGVEcVlIUENvNTlDUFpoQlA5SHJJMERrdThhbV9fUDhubUdHVjVrMENYRG1lem0waVY3Z216NUxQM21ob1dsOG81dEo4Z1E5QjhlQWdKcDBXVUxkRWhsbmNhYWNDWVNtazdQNzl6Z0phNzh5Y3VHTFF4amdlX1d3RzJxVjE4dXF1X2ZqUEFQUWdNSV9DMjRnclB0VdIBoAFBVV95cUxQekMyODJrdXBjcW1iZmpmUk11RnlyWEQ3NWtreG80R29heDM2SnpmdDhBLUdIRl9wVV9ueWIyVTI4dktRNDlzUjdYUko1NXdlTjJhS3FMNGNnUEFKdUI3cEN4ckZpNWxNWDUtWFlHWTdxdHdqbUEzcFJpV0Exa1VMWG11MEI2YzkzNC1WclowZ3ZOQzBPX3BuSjU5YzBaWGN5?oc=5"
+      "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPbHc0YWlDR2QxeXpZMjlBbl9wQ0dyQ0VySTZuaDN6MVp1ck4yMWhhUEMwUHYtUGlmWXpHb0FMLWgwLU1OZFU5cFJSQ1BaVDN4cTljbQ?oc=5"
     ]
   },
   {
@@ -675,7 +864,61 @@
     ]
   },
   {
-    "id": "2026-07-15_Logistics_easing_0b88e9bc",
+    "id": "2026-07-15_Energy_easing_b7cfdb24",
+    "title": "Energy Supply Improvement",
+    "date": "2026-07-15",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Bangladesh works on waste-to-energy project to power thousands of homes",
+    "source": "Muslim Network TV",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcnBzWExmOEFkWkJxcEY5aHhJSDNUX3RXMld2VURyZnJoQkJaRUx6WEJZWkdlQ1pSUUx1WnFxbUhGR1VMWWpjZms4eWFycVlnczIyQkFrS21TanNtRUN0eUlfNGlHMDlzQmZmQjNjcFJyNDdtZ1F1eFdKRU1HUHh3YmwwbXA0eVdON20tb2MtUVUwOG8tQzRmQldIb21XS2YzZzY4?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-16_Logistics_easing_27095201",
+    "title": "Logistics Improvement",
+    "date": "2026-07-16",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "Saudi Port developer plans up to $1bn investment in Bangladesh logistics",
+    "source": "India Shipping News",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxObEN0RXYzV0EyNEs3dWo0bXRxWWhFRFJkWDM0cTVVQTE0R2ducHYzTHR5QzFUd194NV9QMTg0aTNOT3g4aEhMQkxPVUxGdm02dENfaVZvalZsRG1VUDgydHJmNm1OVDRKVzNrQ1VVZWh3OUd2OG5RZGpFRUFsdTNJQ3NVQS13d3Y2RXhGLTJvRlViQjRlV2hIaVZXbmh1SnFWMFBmY2xFQXJsUEVuVlo2MUs4Zmk2OURGTGNwTXF3?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-15_Logistics_easing_84334bab",
     "title": "Logistics Improvement",
     "date": "2026-07-15",
     "signal_type": "production_constraint",
@@ -695,22 +938,22 @@
       "lower transport costs",
       "export throughput gains"
     ],
-    "headline": "Saudi port developer plans up to $1bn investment in Bangladesh logistics",
-    "source": "Arab News PK",
+    "headline": "KSA keen to invest in Bangladesh’s transport, logistics",
+    "source": "New Age BD",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFM05OQU9qRDZndEdaNmFXbUE3YzczYUhqdEppQVlFcFRoa29Pc1IzNnZuVmYwUzNmZ0FDSl9RSEJBWWdmTnU0MGE5TjJ6ZVMweGVnMg?oc=5"
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT051enVTMTZaS2w3WUpjVXJGYkJuNjNUNEpOVEY1MmlvejBjRmNFVEhNSVVPcnZRazZiWW9MRGRmaVlxVE9SdzhhX0Y4TlFvQ0JmaC1BUDNmTENKbHVmS2J3bmkxSXBwOHRQNk1TZlBZLXBMdFB4Y1h1R1Z2N3hhN29tQnVwS19FME5rQVZkdnRIU290c0IwUFZn?oc=5"
     ]
   },
   {
-    "id": "2026-07-15_Energy_easing_24624061",
+    "id": "2026-07-16_Energy_easing_bcd7d611",
     "title": "Energy Supply Improvement",
-    "date": "2026-07-15",
+    "date": "2026-07-16",
     "signal_type": "production_constraint",
     "channel": "Energy",
     "lead_indicator": "load_shedding_reduction",
     "time_horizon": "immediate",
     "direction": "easing",
-    "confidence": "medium",
+    "confidence": "high",
     "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
     "who_should_care": [
       "industrial producers",
@@ -722,10 +965,10 @@
       "production cost relief",
       "inflation pressure easing"
     ],
-    "headline": "5-MW of rooftop solar power to be added national grid by Sept - Bangladesh Sangbad Sangstha (BSS)",
-    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "headline": "Bangladesh’s first nuclear plant starts fuel loading, power generation nears",
+    "source": "News On AIR",
     "sources": [
-      "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhb2otNDZ0cUstdXZhZ1JPMjdIN1k4b0NrYnlKUFQtVFRoSkktOXdwckNrM3JyVWk3bDJkOFBfVkZHcWtXcHBNS3hqMnB2TUp0aXFseVlKdFdUUQ?oc=5"
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUGNnbnZ6T2IwTjZKNDFOREpEZGtzdGJKYjJlWVVYYThnYndMSFc0V01IZDcxVnhpaFFJQU92QlV2dDZ2cVBoeEF3M0ZRV1I5ZnczNlI3LTJSeUpzSXM4TGk2RVlTdGFqdkp2LURQNFliWmVRN2lmY1g0a25tb0dENkF0cU1qTlZiTjJ3bF9BaUJ3THBwZjVaNUpROVFCUWRvbVE?oc=5"
     ]
   },
   {
@@ -756,33 +999,6 @@
     ]
   },
   {
-    "id": "2026-07-15_Energy_easing_bcd7d611",
-    "title": "Energy Supply Improvement",
-    "date": "2026-07-15",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
-    "time_horizon": "immediate",
-    "direction": "easing",
-    "confidence": "high",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
-    ],
-    "headline": "Bangladesh’s first nuclear plant starts fuel loading, power generation nears",
-    "source": "News On AIR",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUGNnbnZ6T2IwTjZKNDFOREpEZGtzdGJKYjJlWVVYYThnYndMSFc0V01IZDcxVnhpaFFJQU92QlV2dDZ2cVBoeEF3M0ZRV1I5ZnczNlI3LTJSeUpzSXM4TGk2RVlTdGFqdkp2LURQNFliWmVRN2lmY1g0a25tb0dENkF0cU1qTlZiTjJ3bF9BaUJ3THBwZjVaNUpROVFCUWRvbVE?oc=5"
-    ]
-  },
-  {
     "id": "2026-07-16_Energy_tightening_4a6daf7e",
     "title": "Energy Supply Constraint",
     "date": "2026-07-16",
@@ -810,111 +1026,30 @@
     ]
   },
   {
-    "id": "2026-07-15_Capital_Markets_easing_b4065b7b",
-    "title": "Capital Markets Recovery",
-    "date": "2026-07-15",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
-    "direction": "easing",
-    "confidence": "low",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
-    ],
-    "headline": "Saudi Arabia eyes USD 1 billion investment in Bangladesh's connectivity, port management",
-    "source": "The Bangladesh Monitor",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnk5ZHdsdVYtTWYyYVp6enNZSUltNkdWUjBHRlNWU0kwZ2U0T2F0LTZwTjRrNkZ3OWRfMnVEMEo2dUZmS3pPVW1zOS1tVmVBWG5VVFlLQW9TakxvZDdQdmxXNHVha0JYRExDandoZ3NuU1g4NTdGcWdSLTlxRW9lWVBoczBNcHczU0ptWXY2RzVOTmNHbWpzdkNnUnRqaDdDdjBka0ZNeW5FWTc2ZkJtQWVuWUY5Zw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-15_Capital_Markets_easing_efd56929",
-    "title": "Capital Markets Recovery",
-    "date": "2026-07-15",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
-    "direction": "easing",
-    "confidence": "low",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
-    ],
-    "headline": "Saudi company expresses interest in billion-dollar investment in Bangladesh",
-    "source": "ANI News",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZUFPaGtQb092a1BBejVXazZOY2Z0YmVPcGxvbE90MzFhVmlyaXpRWndVVGVHRnVhV2xXY2tYTlRJSTZhRWV0X3lTOFpPQ0VUbjFzMzBDZEpTMzFsbTR4eGFtcjVubS1mWHVkRzBsOE1lSWFqelFVZHhsV3FiYXFzbXNwbWs1dmxmU1JhNlY2Yk5FOFltRHBGVDB4ci11RjlxTGZMR3BQQlVRSXBWUy16YUxvOTEtWnlMVDVYb2NDRUlXYy1oX0c0?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-15_Logistics_easing_a3478c79",
-    "title": "Logistics Improvement",
+    "id": "2026-07-15_Energy_easing_24624061",
+    "title": "Energy Supply Improvement",
     "date": "2026-07-15",
     "signal_type": "production_constraint",
-    "channel": "Logistics",
-    "lead_indicator": "transport_capacity_expansion",
-    "time_horizon": "immediate–1 month",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
     "direction": "easing",
-    "confidence": "low",
-    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
     "who_should_care": [
-      "exporters",
-      "importers",
-      "logistics firms"
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
     ],
     "expected_effects": [
-      "supply chain acceleration",
-      "lower transport costs",
-      "export throughput gains"
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
     ],
-    "headline": "Bangladesh’s port projects attract Saudi interest",
-    "source": "Borneo Bulletin",
+    "headline": "5-MW of rooftop solar power to be added national grid by Sept - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
-      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaXNaSEc3QVNTaEZXeWR6dTZvMzg4RUltSjh0RV9WTXhuaXpWTzdFb2VnWUx0YWY0S1R4aEN2V3BIbDF3T1AyRmxpTm1PVVZsRzBETXhFSW5hNGlwMTZmMEJBbW13cWlGcHZuQmx2YWVVX2VWRVE2dFVNMzhhamloZE9IVjUzQQ?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-15_Capital_Markets_easing_1c06706b",
-    "title": "Capital Markets Recovery",
-    "date": "2026-07-15",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
-    "direction": "easing",
-    "confidence": "low",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
-    ],
-    "headline": "Saudi delegation meets PM, expresses interest in $1bn port investm",
-    "source": "Views Bangladesh",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM09McnFZSndTVHB0SzFKb0hwbEpyU0NyR1dLb2tGMmVuMzVoY0pXOGNuQWVWX0hJTnU1S3JjQ0VpeUUycXE3XzE1OGNHb2daWXhFZi1HWjQxWTZFVmJncnVLcmRXX2otNi1YR1dYdUJrWFhzMnRUVzNGMWtuYmxtVk9LeXlrTE01X1U4TDI5ZWJkZjh3Uy1ZSGpJYzE?oc=5"
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhb2otNDZ0cUstdXZhZ1JPMjdIN1k4b0NrYnlKUFQtVFRoSkktOXdwckNrM3JyVWk3bDJkOFBfVkZHcWtXcHBNS3hqMnB2TUp0aXFseVlKdFdUUQ?oc=5"
     ]
   },
   {
@@ -945,57 +1080,30 @@
     ]
   },
   {
-    "id": "2026-07-15_Energy_easing_a3e3f322",
-    "title": "Energy Supply Improvement",
+    "id": "2026-07-15_Capital_Markets_easing_efd56929",
+    "title": "Capital Markets Recovery",
     "date": "2026-07-15",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_reduction",
-    "time_horizon": "immediate",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
     "direction": "easing",
     "confidence": "low",
-    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
     "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
     ],
     "expected_effects": [
-      "output normalization",
-      "production cost relief",
-      "inflation pressure easing"
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
     ],
-    "headline": "Bangladesh’s Solar Power Incentives: A Ray of Hope Amidst Energy Crisis",
-    "source": "Devdiscourse",
+    "headline": "Saudi company expresses interest in billion-dollar investment in Bangladesh",
+    "source": "ANI News",
     "sources": [
-      "https://news.google.com/rss/articles/CBMizwFBVV95cUxNb25yR2pibHY3MHBzUk10VFFrSTZiM1hfSjhHS0pLVFBXMDI0UXJ4MFJmT0oxaW5NU0o5Y24zNkg0YWhsSWpqR05PdHUyaFQtR0Q3cnA1c1A1R0hqSjlEa0c1N2NJaHhVQTZ5YzJ2WUR5TUJROHlyUmNJdzZlSXpQWGZZT2tSRzJKcW16ZWpwNjZIQ1VXeFNtMHA5cFlSb2g4S1Y0Qm05T0I3MTVQYmFyWUQ3c01uTHlJdDRELTE2NWNBV093X2hWcS02NnFocTDSAdQBQVVfeXFMT3Q1Y2hpUnNEN3U2OTVYY1h5OWZXWlBvXzZjNFgyYWJVSVpnTFppVFVfQWNibkZZa3cyeHRQMFdfSFZScU1lbF9wcWNMbEUxMGgteVFTaTJIVFlNU0l4bjRVZGt0ekxqTmZVb24tbEYwV2M3amtUcGJPeUJVZEpEemY4M0JJUi0yMllUWDhoTDVDc1FrdnBwQ3k0SWZIdWhNNzR6VFBvblNjZ2hWU004MDkyd0NoTUNiYmJEZ25oY1VIYklBbVp5ZjZXd1Y0eWRrbjd3Q0k?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Energy_tightening_ac1e8cf7",
-    "title": "Energy Supply Constraint",
-    "date": "2026-07-14",
-    "signal_type": "production_constraint",
-    "channel": "Energy",
-    "lead_indicator": "load_shedding_intensity",
-    "time_horizon": "immediate",
-    "direction": "tightening",
-    "confidence": "medium",
-    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
-    "who_should_care": [
-      "industrial producers",
-      "manufacturers",
-      "energy traders"
-    ],
-    "expected_effects": [
-      "output loss",
-      "production cost increase",
-      "cost-push inflation"
-    ],
-    "headline": "Power reliability, low returns hold back EV charging network",
-    "source": "The Business Standard",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVHhnelJGQ0RJemlSU29WakhsTlpzbXpZaFFWZGszY3o1Nmc3WWFhYTdrYWRZcjA2MVNNNG5QZWhIMHlNM1I0emhjLWJBTm1qNzdlRjlyZU01eUpqSmUyaGdvUERBUEZKT1I5bWdhUFVWQ0ktOWNaNzg0ZUd1SVp1cUs3TzRMMjE5Mm52RVBFLWpKMEVxR3RaU0wzS2lXcGxmV0o3bHMzMHFqOUVydXpXNVpB0gG3AUFVX3lxTFAtbHdIWktQRk96NUNZazRHanFHbDVTNzJpWmd4Q2p3ZXFVZE1ieTNtVGJicDN0el9aSGVqQ1RMUklSZ2I4NE91UTFOMzl5cF92SUhqa1BWRFgtS1lsYVpkQW5jMFI0Y3l3WE80Mzk0Y2dhT2tWd19VX2VWNTJib080N2hRamlvLURYUVVvM1pWTlJ2SW9UekZmZ0dqYlZEckZPY1JQd3BoeHlKZ216TkZLai0xMDE1cw?oc=5"
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZUFPaGtQb092a1BBejVXazZOY2Z0YmVPcGxvbE90MzFhVmlyaXpRWndVVGVHRnVhV2xXY2tYTlRJSTZhRWV0X3lTOFpPQ0VUbjFzMzBDZEpTMzFsbTR4eGFtcjVubS1mWHVkRzBsOE1lSWFqelFVZHhsV3FiYXFzbXNwbWs1dmxmU1JhNlY2Yk5FOFltRHBGVDB4ci11RjlxTGZMR3BQQlVRSXBWUy16YUxvOTEtWnlMVDVYb2NDRUlXYy1oX0c0?oc=5"
     ]
   },
   {
@@ -1050,6 +1158,60 @@
     "source": "Bangladesh Sangbad Sangstha (BSS)",
     "sources": [
       "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tczVfSlQ4TnZKRkdnbGJHUnZ2Wldyb3h4ZlUwQWN0TlIyMFZSTUZuaV9Vc3l0WGFORE9kYmxsUS10NkJmMXVhbXhVdFBmSXNyS24yUFVyTTV5QQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-15_Logistics_easing_a3478c79",
+    "title": "Logistics Improvement",
+    "date": "2026-07-15",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "Bangladesh’s port projects attract Saudi interest",
+    "source": "Borneo Bulletin",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaXNaSEc3QVNTaEZXeWR6dTZvMzg4RUltSjh0RV9WTXhuaXpWTzdFb2VnWUx0YWY0S1R4aEN2V3BIbDF3T1AyRmxpTm1PVVZsRzBETXhFSW5hNGlwMTZmMEJBbW13cWlGcHZuQmx2YWVVX2VWRVE2dFVNMzhhamloZE9IVjUzQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-07-15_Capital_Markets_easing_1c06706b",
+    "title": "Capital Markets Recovery",
+    "date": "2026-07-15",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Saudi delegation meets PM, expresses interest in $1bn port investm",
+    "source": "Views Bangladesh",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM09McnFZSndTVHB0SzFKb0hwbEpyU0NyR1dLb2tGMmVuMzVoY0pXOGNuQWVWX0hJTnU1S3JjQ0VpeUUycXE3XzE1OGNHb2daWXhFZi1HWjQxWTZFVmJncnVLcmRXX2otNi1YR1dYdUJrWFhzMnRUVzNGMWtuYmxtVk9LeXlrTE01X1U4TDI5ZWJkZjh3Uy1ZSGpJYzE?oc=5"
     ]
   },
   {
@@ -1134,6 +1296,33 @@
     ]
   },
   {
+    "id": "2026-07-16_Capital_Markets_easing_098d7a41",
+    "title": "Capital Markets Recovery",
+    "date": "2026-07-16",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "The FE - BSEC holds talks to simplify IPO rules, expand direct listing",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUUxaTDBYbXVQWUhwR19TSUJWTUxrNnVEZGYySHQtYzVzVUV4TWN6UDVHaXlQdUZPbEdodDhxMmZEVWJPQVlBNjNfeXRMeUU3M1dVTndkVFRGUy0zb0lDTDc4VFhLSG5aMWxvbUgwNVI5VGRzc3Nyc09HX1FCVDJURHUyeGQ2aGhNQTMzSE5WdTBrTW9EaVM3SC00UFVEYjFuMDh6RjR1Qk13RS1tNWo3ZG9R?oc=5"
+    ]
+  },
+  {
     "id": "2026-07-15_Capital_Markets_easing_b35c3cbc",
     "title": "Capital Markets Recovery",
     "date": "2026-07-15",
@@ -1161,33 +1350,6 @@
     ]
   },
   {
-    "id": "2026-07-13_Capital_Markets_easing_06cc1ce1",
-    "title": "Capital Markets Recovery",
-    "date": "2026-07-13",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
-    ],
-    "headline": "Stock market extends gains as DSE, CSE indices rise - en.bd-pratidin.com",
-    "source": "en.bd-pratidin.com",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GN0h2bFRJXzBPSVdmRGFwN2VkOEtSTWktMWZMQ2xiUVlIM0xnVHdrclZkMDI5d0p3ZGpIV0VKQld4U1poejBJYmFVN241Rm92eHB3SHZ6cVNfclhoNG5fMg?oc=5"
-    ]
-  },
-  {
     "id": "2026-07-13_Capital_Markets_tightening_b7b15c3d",
     "title": "Capital Markets Stress",
     "date": "2026-07-13",
@@ -1212,60 +1374,6 @@
     "source": "The Daily Star",
     "sources": [
       "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQWNhaWV4UW5iXzhqRTg0bjBETlg3R2F0V0ZXTjU4M0pabkUxcW9NdnI2Tll5ejJTR2ZWQUdmdEdhN0FLMl9nU1M5SHowUUNUQWlYMG1lMHlmQk5kUkZGSWFITlJFdWs5NkZxeUNQRGd4Y01FZE9qcUVZSzBFRlFUeFBPUWdIMGRuQkZHLU5ZM0dmT2k2U3RwTHY4c2VIWVp1XzRURWtOYjRkSkRDVWc?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-15_Capital_Markets_easing_c3934e43",
-    "title": "Capital Markets Recovery",
-    "date": "2026-07-15",
-    "signal_type": "financial_conditions",
-    "channel": "Capital Markets",
-    "lead_indicator": "equity_market_rally",
-    "time_horizon": "immediate–3 months",
-    "direction": "easing",
-    "confidence": "medium",
-    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
-    "who_should_care": [
-      "equity investors",
-      "portfolio managers",
-      "foreign investors"
-    ],
-    "expected_effects": [
-      "equity valuation gain",
-      "FDI recovery",
-      "market liquidity expansion"
-    ],
-    "headline": "The FE - BSEC greenlights intra-day trading, cautions bourses on risks",
-    "source": "The Financial Express",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSTdCUWY5c29QSEp5a0w1NjZGTHhiWkpQQUwtekhPaElLMlE0Vkp5Z3NkS2U3eV9HRHFiazRiUzFOSVJpWFFlU0FzSmhhWkRDalAxMVJqR3FxeXplS3VzUC1QeHhoZG50Z3d5bTk2OW9ENVoxYWhqb2U4UGRZWmVMRXU3WnN3WU04ajNJdjN3aWRKMTVUUXZaWGtJR3RWSHhkNEg2YlIzTjAzdw?oc=5"
-    ]
-  },
-  {
-    "id": "2026-07-14_Banking_tightening_128f13fa",
-    "title": "Banking Sector Fragility",
-    "date": "2026-07-14",
-    "signal_type": "financial_conditions",
-    "channel": "Banking",
-    "lead_indicator": "npl_ratio_deterioration",
-    "time_horizon": "3–12 months",
-    "direction": "tightening",
-    "confidence": "high",
-    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
-    "who_should_care": [
-      "depositors",
-      "bank regulators",
-      "financial analysts"
-    ],
-    "expected_effects": [
-      "credit rationing",
-      "deposit flight risk",
-      "fiscal contingent liability"
-    ],
-    "headline": "The FE - 6 merchant banks face licence cancellation over capital deficiency, inactivity",
-    "source": "The Financial Express",
-    "sources": [
-      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONXFGRkhrWEdYcDFacllCZWlVeTNJRjFLMzNKenBad05IWlhac2dMRlUxb3RET0g2RVBpTjJ5Q2hrS0Z1RVJGMzlRZDdsTjduRWx3d0tVV1hwY05Na2ZnaTh1X29EX1RrYU0xMi1sZG9ZZzI3eVFFVHIwRXVMSmJHVC1LUDRuRU1OUkZTcXVLazhzSm5ISEFxN3ZSNmlRV3JFdjFzalAwbmoyUjA3SVlhakxzcTk3ZTE4ZWttQjA4RnA?oc=5"
     ]
   },
   {
@@ -1320,6 +1428,33 @@
     "source": "The Business Standard — Economy",
     "sources": [
       "https://www.tbsnews.net/economy/chinese-firms-drive-two-thirds-epz-investments-fy26-1488641"
+    ]
+  },
+  {
+    "id": "2026-07-14_Energy_tightening_ac1e8cf7",
+    "title": "Energy Supply Constraint",
+    "date": "2026-07-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Power reliability, low returns hold back EV charging network",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/bangladesh/transport/power-reliability-low-returns-hold-back-ev-charging-network-1487776"
     ]
   },
   {
