@@ -108322,5 +108322,86 @@
     "sources": [
       "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pOFgwVHFhVVdjMDlkVWNCQm9ZTGgwU3ZEeVR1UVdCQmdkVGxPUkVzb3NxRFFrNzdkcWctRG1US2dCVjBFaUQzb1Y0VkVENVBYbU8xU2FaZmc3cXlFYUIwMXdNSQ?oc=5"
     ]
+  },
+  {
+    "id": "2026-07-26_Capital_Markets_easing_16d57433",
+    "title": "Capital Markets Recovery",
+    "date": "2026-07-26",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Chinese economic zone to break ground in Ctg tomorrow",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/industry/chinese-economic-zone-break-ground-ctg-tomorrow-1497946"
+    ]
+  },
+  {
+    "id": "2026-07-25_Banking_tightening_f0f650cc",
+    "title": "Banking Sector Fragility",
+    "date": "2026-07-25",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Bank Asia’s profit falls 16% in H1 2026",
+    "source": "The Business Standard — Banking",
+    "sources": [
+      "https://www.tbsnews.net/economy/banking/bank-asias-profit-falls-16-h1-2026-1497841"
+    ]
+  },
+  {
+    "id": "2026-07-25_Exports_tightening_a5c880cf",
+    "title": "Export Demand Contraction",
+    "date": "2026-07-25",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_decline",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Weak external demand reduces factory utilization, compresses labor income, and lowers FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "lower manufacturing output",
+      "urban income slowdown",
+      "FX earnings pressure"
+    ],
+    "headline": "Bangladesh loses second spot to Vietnam in global garment exports: Ex-BGMEA president",
+    "source": "The Business Standard — Industry",
+    "sources": [
+      "https://www.tbsnews.net/economy/industry/bangladesh-loses-second-spot-vietnam-global-garment-exports-ex-bgmea-president"
+    ]
   }
 ]
