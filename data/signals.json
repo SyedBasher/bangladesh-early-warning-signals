@@ -166183,5 +166183,1328 @@
     "sources": [
       "https://www.tbsnews.net/economy/industry/textile-millers-hail-withdrawal-duty-free-bonded-import-facility-10-30-count-yarn"
     ]
+  },
+  {
+    "id": "2026-09-09_Foreign_Exchange_easing_82d56407",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "An economic buffer: Bangladesh’s gross forex reserves reach $36 billion",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2dEUkczRGhJY05jOXRhaHNYNklHUWw0dTlNQm1jYmpMU2lWS21fUUJoTXRPM2hhUXluQ2VEY004U19mdG8xSUVxcHNuTTJzZGJ6SE9hUTRuSGVXeHItcmpIa1RQWFZONEJUVUZaOXFzeS1GUExERGc0bDFTU1loM2RIN21POWE0TklSdmNidEtGVE1vNjh4ZEEzeURmTWFaZFhKaEx5YmFjVVdDMVQ2S0I2dUdMZ3VvQW5EeGJEUFZEUQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Remittances_easing_3af2268c",
+    "title": "Remittance Flow Strengthening",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_acceleration",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption boost",
+      "FX supply expansion",
+      "formal channel share rising"
+    ],
+    "headline": "Bangladesh remittances hit $35.59 billion in FY2025-26 as Saudi, UK inflows surge: Minister",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMkpvbFNIWTNTOE9mZEphZ295VzZndlhjd0RvTmplYklBd3V6S09GNktvbnF0dDlFSUl0T1cwWk90bktPeTlIZmhrMUZtbWszY0pBcDY3MzZtQWFqaXh2bW9fOWVWSU1SY0tUOUxjdTVQRWxtVnZZYzdIMGUwaWJvSGU0eDJ2RGpGMW1WXzdhZjhHNE1rS21rc21lMzIwcHd4cjZsTUFCSTdDd1JpNTg4dmVKeTJDZVRHQ3A2RmszQUp4R1hmVFdoZDVPRzFjTTFSNUlXblpZSQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Energy_easing_91f4d1a5",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "150 wells, new LNG terminals in govt plan to tackle gas shortages: PM tells parliament",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOU9nZDdZQTVFN19pS2JZOHRHLUpLektvNy1XbkVxWTdXN1RjUWpvM3M5U2lZNDF1RHg2eXJJdTZieEpEaUZLd1NNZ0U2NXgwdkJyUTNqUUlJRlhsUFhKdTZScmktc2R6S1JrdzR4d1VuUTlxZVNjNXE2YU1wOW9IcGNlc2ZXclFsdjliZlNyQmFoQUoxX3F1X1lqTzNDYlBOWTlWQ05adTlTelJaRU1pdEN4Qk9aN2FCcXFqMFkydVJ3eXRWckJhOVVQZnBTMG1OQV81MTUwbUtZdw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Trade_Policy_easing_0f9f1c5a",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-09",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh makes final push to defer LDC graduation",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDZQTXVDbE41QlhycFRsRGVFVWRsdTYyY1FTOFpwS2t0dl96anJMeUlLRkZaVDBka0FrZFRwejJKOGlvdFMwS2dZWFdPbGhMYzZWWms4aF9rQmdXR3pYekV0VV80ajZteF9XeDBHczlMRWJRNTNoRkFmMmlZb3VoeE5uRnZpQkFOM0dzeS1yQXNsZDJsUlpicHlnV29xRjVk?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-08_Foreign_Exchange_easing_a484a394",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-08",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Forex reserves surge 46.6pc in 2 years",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tTkIzNW5MTUxqQ21nT3MxRWZWYU05SFVJWnpra0dOaW8zaHQzN1JlZWxBVFVhYk5rWXQtRm9uM2NlYmNBTnFYdmtDR3lwLTZK?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-08_Food_Prices_easing_b3e1913b",
+    "title": "Food Price Relief",
+    "date": "2026-09-08",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_deceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Stabilizing or falling staple prices restore real incomes of the poor, ease wage pressure, and moderate inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income recovery for the poor",
+      "wage pressure easing",
+      "headline inflation moderation"
+    ],
+    "headline": "Bangladesh Inflation August 2026 | August inflation eases to 8.26%",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXFvcVhBcVJLcVk4RHZRTWwzSWhWbkJzVXR6dE9UQUt4dTB3MGJ2MkpaZVBabWVyNE53SFhYYnZmOUN6M09PcE5EeGpvRFVUcDVQZFA0TEltN3BLUnJpajVYODVCQW9yWEdFb2djQk1aUmpQSGU3dS1RekhnN2JlUlh1WQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_273326d2",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "Bangladesh's exports to India rise 7.67% in July-August",
+    "source": "Fibre2Fashion",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2VCYUdMOHVtaGltOW9pazZLRWFRdVNDOC1OUnYxbjNZVWEtWEc5ZzJSRnNkdWhrY1R2bjE0b0I5cHJpOHhhM0VndTlDejFqSy1JaUQ2MVl4TXRROV9CTkQ4VlBMMlNiaGt1NnlRZE5nV1JKMTEzRGYwek1pdHBOVW9BWE1kcVF4V3VqQ2pKeF9iU1VNMjlvdHVyWEZmazRSTTBLYk9FZV9GeldfNEREbUhIcUpSZERueHdub2xNOU9WUmM?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Capital_Markets_easing_5c00cbfe",
+    "title": "Capital Markets Recovery",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Bangladesh and Hong Kong sign deal to promote and protect investment",
+    "source": "New Age BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMTNaNHFNQ0lZYzlBZG9RVUQ3a1EwQWRNWExtNF9kZWpYQzc0d0FxNDJTLTN6ZUxzak9EUDJvZXU0eEluSTM1Y2lDdEU2R0pUMl9wOE01N05EZTlMRXp3YkI5czZ6eV8zNnpBdnZHMXhXY21TdE5TcHljMXd2bjJOV1MxV19hREdISGdFRTNCd0RvUzQwVjhIUUgwSU5TdnpCU0o1bXNidnJ3Rm9Lb2JMaW9vQ3IyeWZVYjM3Tw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Trade_Policy_easing_d46f2496",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-09",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh ready to pursue CEPA with Indonesia: Humaiun",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XUU9fT19PRkFvWmRKeEJKeVh0VmJwTm1CdFFvSS1qbDUwbzUtdUx5d3puWC1qbDhRTnZtb2N4V3ZXM0V0dElxd05kYVlFNzY3N2JZ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Trade_Policy_tightening_64594acc",
+    "title": "Trade Policy Restriction",
+    "date": "2026-09-09",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_tightening",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Import bans, tariff hikes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost increase",
+      "trade diversion"
+    ],
+    "headline": "EU circularity rules put Bangladesh apparel supply chains to the test",
+    "source": "Textile Today",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNlZHM1BaQmNFblFDM3FfTTJ0amEwSHBpRFRpRHRpSFNNbjVHbll2V1prMXpUMnJLcHRxN1VFNU5wSVpDZzFWb05qVnFOcm9EUE90YzB3c1hWU3NwRl9mdDlBM0llMnJhX3lZSDVEYzhhZGpma25VLU5FYkNaQWhPOGVMa0tWNEtBTklxaTEzZXNuVm4tWThucHh4ZFpPYWZGLUFz?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Trade_Policy_easing_bd3b3574",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-09",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh briefs EU about progress in addressing non-tariff barriers",
+    "source": "Fibre2Fashion",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORTUwMkxhclEzSUVoVFctV1NaYXJWaUdydURiUXRnVDlTakJ3blltd2NXMFdwTTdQalcxZjFQS0ZKUnZCNmZXbFhuTlA5bHJqcjBKc1ZlY0xpcWtmeDM2Mkp5ODlKTTUzVWFUZlRFXzRSV2EtUHpWdHA1TzRyUTJidkpSblc0Z2xwMjQ0amlHeEptZ3VWcjNQYlVCWWpieXh5WlUtUlZDNWx5N0hFaGlrT2FBOVRjMHFzclExdGVXS2haM20zbnpWTkdWNnBBZl81dUhyOWNISQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Energy_easing_f4c7cc24",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "CCEA gives in-principle nod to import 18 LNG cargoes",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xd3gwOWsxT1RmaFNQZGRpdU1uZ2dXc2pDSTBjWlQwZEtEYVJESnZTV25WbHd5RGxLeC1PZWNXWEM4RzFhd3g3dTQ1Yw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_707d8b54",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "Bangladesh's RMG exports up 8.8% to $39.3 bn in FY25",
+    "source": "Fibre2Fashion",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWURCZFJMcFFVX2tyX25pLXlkZGdWRTZxZEtRNUUwdlAwdGtZOXhhVTljclZ5Ul9CVi1rVzhGcnNQR2FDWHNMNXZ3b1lJUE93Zy04eDNFdExoNlkwVUZ6bEJtcVVGREtWcmxZbndQQm1fRnE0TklTbENja3pSV0dRLTBJSnJHbUlPaHU0Rm90cFROR1dMSE1FU1FaWElLYzBacG52YjA2UkRCOF9ENGpfdmVWVUFxLVF2LVk4Ung0M1NUbFYzcDVuMGdZMnoyeHh0?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Trade_Policy_easing_3635f418",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-09",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Humaiun Kobir: Bangladesh ready to elevate trade ties with Indonesia to CEPA",
+    "source": "Dhaka Tribune",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2VHakE2aGllenRGVWt2TWpNdFliYndramdsSjYwWEtGdmZfNm1ZOUhXUTVRVUZtSXhUc3NfNzFCVVRXZEJoYWdZZzFBWHdfZ3lNTThGTTNfcENUaWVnT296Njl5eERZSFViZktjWkh6b20wXzhBMFI1d2NOdHV1Y1AwTzZyOHA2RG5aVTR4WnFvTXY2Vm9FYVBhWnRGSUFQSkV3eWRFTUpKWnFKWTRFNDJ5SDnSAbQBQVVfeXFMTzdlR2pBNmhpZXp0RlVrdk1qTXRZYmJ3a2pnbEo2MFhLRnZmXzZtWTlIV1E1UVVGbUl4VHNzXzcxQlVUV2RCaGFnWWcxQVh3X2d5TU04Rk0zX3BDVGllZ09vejY5eXhEWUhVYmZLY1pIem9tMF84QTBSNXdjTnR1dWNQME82cjhwNkRuWlU0eFpxb012NlZvRWFQYVp0RklBUEpFd3lkRU1KSlpxSlk0RTQyeUg5?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-08_Trade_Policy_easing_efb5b153",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-08",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Millers hail withdrawal of zero duty on yarn",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWjFpMWFFVU5fbkFPNmdNYkJVcmd2RVRoN3o3a1FWODlFXzFjNkJWZGt4Q2R1SExCR3I3LVMxN2dKMTZuclVnanZVRGNSazhmMGFuMDFWeHFjSjJ1OUd3X0VCSUEyVHc1TWQtNnk0MFBWN3VQOWhCa3RMS1NUSXhoM1hVc1VLb2dhSmU0NWdhYzhBMzUyNXdnMjZBOFA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Capital_Markets_easing_4377cfb7",
+    "title": "Capital Markets Recovery",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Swisscontact to help RMG firms raise capital market financing",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUjkzWk1JdzA0LUpQUXZxbGdMT1NldndOSEY5bGd0SjNkN045M1BucHBlWVlVMjBxMmgxVFdOeHlMN1RjeDFrd19hUjFlTzJOZ0hZc2xBdktVOUtLYXBzX2RDQUdxTlJqSVNMRVpIcU56SDBfS0REa3ZtMnduYnNOY3JlUjJCUHB4ZGhPZ09Fd0lBMlJHWVo0ek5UTUMwODBNb19CMVB2T0rSAa4BQVVfeXFMUFNYbmNIblFwYjNmU2t4ejgxZHk3bk1DaG1sMXFCNzBudEluTXYtLTJ5VDkwSjBPV0lzbWFiT1JiNEtkUEdQdXN2N0RjRnJhWE9zMnpyd2ZCYlJMNURBS3E0Q3piQ3QtOUNZa2pKeFpab3Uxb25naHBPdkhyTXpudGZ6Mjg3SjFjWGRWWVFjbXJKZHdwS3dkYWRqdmhBZlNrUzVBYkRHTGdiNDZUMHZB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_6327faad",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "BEPZA Economic Zone-2 starts exports with $50,000 Indonesia shipment",
+    "source": "en.bonikbarta.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXWmJNUG13X1lxTzBCS3ZEM0Z3Z1VManV6bHFiTi1lelMtVHhIN2Y1LVloNUNQUF9sUmVVUUF0ZHd5b3ZPMGxkZ05iRTMzNGF1YXZMeGxDUlU5Znl6eVFMaQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_687cc855",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "Export operations begin at BEPZA Economic Zone-2",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81dURUSlpxQUtJakhlUDhzSm9zVldXcWlfOV9VcjdCV09pQ1MxU01ITWNlNUJQTmlqT3gxcndRYVhwZUk4MnJmWlBSVTl2Y3Vt?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_7bdaaffa",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "India requests Hilsa import from Bangladesh",
+    "source": "observerbd.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBfU0VXanA3V3FMYzJxYUVuQ295UHFONTZhTVhzRWtYT0d5RURwTmNpZ19tVDdIVVNhcGh5LTBLLXhWQnFCZlR4aFJn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Geopolitical_Risk_tightening_734bec92",
+    "title": "Geopolitical Risk Escalation",
+    "date": "2026-09-09",
+    "signal_type": "external_shock",
+    "channel": "Geopolitical Risk",
+    "lead_indicator": "geopolitical_tension_rise",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Regional conflicts, trade sanctions, or Gulf state policy shifts disrupt migrant labor markets, trade routes, and energy supply chains affecting Bangladesh.",
+    "who_should_care": [
+      "exporters",
+      "remittance-dependent sectors",
+      "energy importers"
+    ],
+    "expected_effects": [
+      "remittance channel disruption",
+      "trade route uncertainty",
+      "energy price volatility"
+    ],
+    "headline": "Iran, US trade blows as Hormuz impasse deepens",
+    "source": "Bangladesh Post",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQnFjNV9kS2Q5c0w1cWZkSmxkVjNxZ2VKS3JHUF9JTlUxbWJaUnh3UEhob3JHTnFudzBuOWk0ejFxdEtEd3FoUF9vb3hsUFpxaE8zbjYteWlBeUZhazRwQTdoQU9MRGRVRmtZUnptQXI2QS1OUmdtc0ZwcW4xTzFFaEF4T0tJcDc2anJMTTBR?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_2ba4244f",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "Meghna Bank signs agreement with Bangladesh Bank on Working Capital Refinance for CMSME",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSG1rRlM0N0xOeWwxYTB6eEFfdnFyS1o2X0E5QXpvc21qQzNGTFY3N2Z4cnRxa25zTEVMX1FFcy1CS1NqNFpQa2RRd2dlZTlSSjVZVWZTNkF2UmRXTGljY3didWNhUGd4d0x0MXFHWGVDLWVXaEJDWWZmaHpYaTdNU3BwVXQ5YktLLVBtZGgtWUpRRDItVW5fU2Y3c0daTEVMMnlBUGVYODZEa3pld0JxaVhaOS1IZ2oxNXZrdGR5REVod0VBQ2hr?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Trade_Policy_tightening_ff57f1d5",
+    "title": "Trade Policy Restriction",
+    "date": "2026-09-09",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_tightening",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Import bans, tariff hikes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost increase",
+      "trade diversion"
+    ],
+    "headline": "Govt withdraws zero-duty yarn import facility to protect local textile mills",
+    "source": "Textile Today",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxONEgwMlhVRFJJMjBTckNfa0I4MWRoMlFfU0RmdjVvb1pfcVR6ekxPY0tQLWtmTm10aWtwd2hxZDczWHJPZ2ltbkJDbllVRERhWWZpcHlrYnJ4TmRMWkdhb1dwOURvaVVjczQzZzJUS3NxU1pnN0Z0Zy1kTXotMEFaQ0FyRzZmSmMwUGxHMTU3WTM1NlJWMk1iOXFUZGYtZkJTWXFCSWQ0cnNIa3Bw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_eda60cb7",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "RMG exports rise 5.12% to $7.5bn in July-August - en.bd-pratidin.com",
+    "source": "en.bd-pratidin.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GTC1MdkJJb0ZPd3RlQnVzd0d0M2lBSTZpR1FReHJkbUxfTmdOa1NZZUZLbkZyUjhyNkR5RHNWejFvN2hkaEx6bmNxRXhmZFQybW9oNUlhdVZQSGM4dGlpUw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Logistics_easing_1544aedc",
+    "title": "Logistics Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "Hili land port resumes import-export activities after six-day halt",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ3NKaS12X0o1OElfb05YX0Z1VWstazNIRUpib2c4NWprSE5VLUFkVzdUa2lld2hMNFlzT1RvWTJhWlNQaHJFOHU4ajBiN21XNzdaSWtNT0c5cjJPWW5IUWpodVduR3ludXNwaUJVbmZnNGtEX2JRZnppTWdBMURzWG1rUjJQVUZ2aWllX2h0NjJFU2lEQllhQ3VZejB4Z19ERzRub1ZVMVh5WHd2eFlIeE5neGpxRG5nak45VW44S2QzSXM?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Banking_tightening_a13076bc",
+    "title": "Banking Sector Fragility",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Bangladesh sustainable loan rescheduling jumps 80pc as recoveries fall",
+    "source": "The Climate Watch",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbzlGeWM4U3ItMGdVQlJ3QlFmWFBJZjZ0Q0xERGZPUzBLMUtjUC1WTWNmT1BmSGpMZ1RlYzlyc3pvdjRUS0IwNC03eEF4Y2pxbWhSZFRCYXNiZWdWdlBBWHJIRDcwLWItX1ZBNFV3VGs3NFVxSlp4ajBxdGZhSFRwdEpBTmREanRFUExHMElITTBDMGtwV2NSSkVtQ3JYa2th?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Banking_tightening_964e8957",
+    "title": "Banking Sector Fragility",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Illegal loan apps: BB to block payment services",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT2s0MFBWdmppTjZmNHFPd1MzWUhmckc0OUdqb1lLT185MmdVeHBVVFQ2WU0zVGlSdVBXUzhRdnVtalJGTTVqazR6UUg5SXQ4V2ZfN19nUTNzVmw2dVl3Qnd2eGc2MlpXZ3FpVEJjWEpDRFhGSWZOQ2xrbi03STEzYTVMNzFaa3ZGM2NDTi0tOHo?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_3a1bc3ee",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "NRB Bank, BB to offer working capital financing at 9% interest for CMSMEs",
+    "source": "Dhaka Tribune",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR3pxWUI2RG1kYVNnQWRvV2MybkJld0J3Y0tuemFFay1ybFUyT2VITXBmV09WdkFsWlp1M0RjRndDOW1ZRGp5TXBWRlM2SmdSbTl1UHpXWHYyMGdOOVlwLUwxQkI0cXFPWnZ4V1FhYkRmaHQyZm5uSUlxZGJ4NGJLSzZ4RmtfdVV5eFlkYmp0Um51WmNfcG8xS3FYREQ3MjFaUEHSAacBQVVfeXFMT3NsQzhfNzM5R05FN1A0aTFwTU1oRnRncmdKZnBONUpPX1RpZWNnbGNDeVYtUjVYN1hveklXazRWY1FVU3JUUS1QcWR6VENLVExDaWREdDBsZ3JObUFWU3Znd2R1Rk45R25DajAtWHRrNXV0eFA1QlZ0QndIZDV0Y0MzVF9xSVU3WU1WUG5KM1VNV2VTTjhqZFdDVkc1dWVHdjVweFRlZzA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Banking_easing_4740b123",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
+    ],
+    "headline": "BB enlists 131 collateral valuation firms to curb loan fraud",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY2FqTkVDdUxNb2xVTW12eUZBM3djejYyUEpMeGl0RFZCZzFLQl8tZE1QTVBGMFp6MHI4OEk0cWRIRUp4dVRrWS1CVmhPWksyU0tBNnZ1T3BiWFVSbU1TcE9SZXdheVJvbklZS2RaZWY5djdzT0pib0VoZG1STTJoekpfeE9NRHhlTXhTTlA4YW9BNkpndml2LTdLUW4taGk2LVA0cVc4aDg1UGZRNmJTRmhvOXVuTEU?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Banking_easing_34419680",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
+    ],
+    "headline": "Sub-branches of banks expand to 5,033 as financial inclusion gains momentum",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rWG1WaE1FSkoxYjR2UzVRRXlOZkNPbmdQbjNlcndINm5SVmNfZkI0Sjl4VHJFU0c4dkZWa2JURDBxVF83bUFKOXF2TmRxbE54?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_0463d64e",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "Citizens Bank signs participation agreement with Bangladesh Bank under BDT 5,000 Crore CMSME Refinance Fund",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbHp4NGt0X0RsQjNSZUF3OUY3YndvZ0RiVzdQYV83UkQtaFRtX1Y5VTByRmptcDExUFZNaEVHejdYTnBmYlNacng5aE5pWXpGV3R1eHhrT2FjTGUzNDIwcWhtXzBlWjlKcDQzUTNoTE1PaXF2RUVHaTlaQ2d6eG84bGg2NEg4ZHBwZ2JTckRKeWM1M3dTb3lLMHZqRmRtVUpyWnpITzYtUXowcG5MX0gzbTRLOWJjYWNhbFZjd1FodDhjaXAtYk5hdTUxdDNjSkxSX1dNQ2NoWlN1dFVDSDFiMA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Banking_tightening_a880b301",
+    "title": "Banking Sector Fragility",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Tk4cr embezzled from Bangladesh Commerce Bank as 'hospitality expenses', action ordered against 13 officials",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMzkzVHRDMUY1RUcwWUF3b3dFdWJZNnJ0NGtMMkVNZ3hua2trc3E4azBTa05tTy1fdVQwbWtJU3lzZFd6T2tUblEyT1EyNzlrbTRXMG1VSzFFVm5FQV93X1NWYnZzWmtHUFhNR3lad2ZMSEc5Qmt1QUMwOExYWF9jSzJXdk1vS25TZzF0WF80em5UdVR0bDV6TjVsX3cyQXVkQWRqTlQ5X01qcUFPTXpFWTl6d0lScFg30gG-AUFVX3lxTFBOOTg1MlNucDBiaVFMQnNJQW54eFdFTFl5S1lNejlkUWNMb3dqOEI4TUpYcF9Kb2ZvMEtwMTI5QXNRRV9vekZKczNwSDBpdl9YRVMwZDg2Z1VUUEtwckhaUG44Ui1FTXktc3NMbkh5OFF4ZzY4SF8zNHIzTWptTHpydk14eTBwdjdDaEw5N1dRWmp0R2lkeV9nMDZIcEFOX2p0OC0xNlotd29mRUpCaEM0LTVJdXB0bC1rUU1tc0E?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_0dddd20d",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "Community Bank signs agreement with Bangladesh Bank under Tk 50 billion CMSME refinance scheme",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV3Z3dk9uOWJ1TzdzX01YcDloTkRuNXhSTjZnVG9sZk1LRmU4OXZkY0pkTlBycmE4TkZBXzF0S2didVUzTGpZV1k5a1JDN0VaemxacVFOSTNLVDY1enhZMGszVWF4b1BKbGNSYnpjNjhsZGkwTk5VQzVMekg1MmdpdlpzTU9QcHRUYVNTTU5KREtkOUNja1pTVS1ETWlTeWM4Ym1fcXV3dFpfaXJxeGpzdUVYUUxxTy1hYll4VDluNm5zTE8wcjI3Zy1tTDR0VFo2?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_2f56bacd",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "Bangladesh Commerce Bank joins Tk5,000cr CMSME refinance scheme",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSS1wYllvR1IzR3VlclBvaC05REJZY3hFY1RMNVhKY2xzUk5VSzJQdzE4Y3BnSTItYWxWX1Ewd0hULVZvUkZGaFRhNEtWMi1jeElmNlhJREpKYnc1YkgxeUJ2V3dyTlZuOGc2S1pmWTNIOWhuYTZEV1ZZT3JFZk14cjFzcnl3Tmg1VnFuamQwTl9EY1dmVnljODhDQXZvUXVzTWgxSnNVOENqMU1hMkwwTDNWRdIBuAFBVV95cUxNYjBYVnhIUUZOOEZ1RUVOWmI4UjNjVjB5bC02dFpTNF9ualpSdEVsTi1Fd0x0QVdnMjdBT1dTME9hNl9HYXFnMkt0Y2xRLUNNQnA2SncyR1kxOGV1bUtic29iei1XN2Y2TTRDMy04M2FaS2thMFljVFk5ZVFmc042SXotQ194VW50LW9LQUhPa3l0cU9ha3NDNXF6MjNCQ3ZPd3lOYVJncDFIeHlVWFpDcUxhc3ZaR2hi?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_3c5b1257",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "SBAC Bank joins BB’s refinance scheme for CMSME working capital",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM0M3U2t3cDdzWDFXejNuQ3Y0bjBaYjJpUkVJWlBfVzduTG1yRmN2clg2bmROTHdFUXB4cUZOSlBzYVhDY3N6YW0zUlo2Sl9wRHllVmJRX0xHOHZYb295aWlUazVzemwwQmg5eTVSUDQxaklSYkxpMlhRQkVjcDBvd2o1UQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_bfd0ddef",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "RMG exports grow 5.12pc to $7.5b in July-August",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUk9XWURrNTVpOWh3Vm9KZTRpNGNSN2NYdDV1X0ZpUU5QdUlPQ2ZVWkZMNUhXb01HTXVrQnRtSnA0UWtyZV92bGh4d3lVZ2ZPeU8ybk5lRWZuZjhjRU55MVBHZWs0Y0JXWmRRQzYwb25VVEVwaU5qVS1Bd0MzR25seEV1d3YxbVJIZ1JVbTlB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-07_Banking_easing_288a8484",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-09-07",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
+    ],
+    "headline": "BB lists 131 eligible collateral valuation firms for banks",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yQjJzbmx2Yko0Nk5jQS0zUG1GSF9kYlg2a3NSOHB4cjNnb2pZM0xFQVctWXBkRVNzMndCY0ZnQUV1VTg4cEpQNHZwWXozamo2?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_6a080314",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "Meghna Bank signs deal for Tk5,000cr CMSME refinance fund",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzkyS2FZdHBnalFITmNqcG5WOGpXYmV6VTcwTURsaWlnNmFFUFRoQlZTT18xaUJOTWNhU1c3MjBwSzZQTE5EcU10am5qbzhYR2hZdDRXWV9JYi1USEdKUEdCaWdxNDBJd3lYYXVuaXhjLTdCVmNuLTlCc19ySGZWa3p6MTB0Y0UyeEQ2OVNFazFOc2ExVmVld2swNmtoYVRHZG9uRHdB0gGrAUFVX3lxTE9HWHNOb21Cam1Qc3pUT09qTWFnWGlBaUl2NzQzXzdsNURuYWh5ZmRGLUh0U2pOWXFMOWxzNjJCRkxqTDJBbS1PcE8zUDdhd29NQ294cWJKVUtnSmE5anU0MXBuanJQbEVEbU5laldVLXpKTkpuQlZ4TTNmekhXM2ptUzR4alZjcl9ZSmg5NDNITGdYanRFQ3doRV9TTkhWZ2hIcW1sMm9oOEJ4bw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Credit_easing_65c10f95",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "AB Bank joins hands with BB to refinance CMSME working capital",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU3FUN2phb3lwNlBJWFIwRkFXdzNpWDBLWEJXdXF3QW8zTzQwOUdCaF83RmhkSkVhNnpPeC04TGVHREp5eERFZmRMbkNhbG1hTkhSamRXLTNLQ1VHUGtsT21wRUxJQm5waC1XTHZpbTB1ZFh3Szlha09zOEhzSzh4RjFpSE9YNHk5bWFnTjlDdEMxSWVZU3VxaUs1cTZxM2hZZGxWTUVR?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Energy_easing_57652b3a",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Bangladesh approves 18 LNG cargoes amid energy security concerns",
+    "source": "Dhaka Tribune",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTB6MlM1ODFaWi1QZEdyU2Zfa2lSNnIxemtGamZPSlVsd05Oc1Nlb1hCV09TSXpUMWFCZlZNcjQ3S0FXN2lXdXVqeEd5dldvQnRWNnNxN2tRZnI1Mll4RVRVRFJXUWNWaXdpSXZ1YkYxdHRVamoyQXdKT3N2YXB4WU9KeExHZEloVS1KU1lDU0dsTjRCek9TT19jWS12TlZtVjdLNEFKNW81d9IBrwFBVV95cUxOdGZlcTA0b0g4MDA2bTRWdHVIMHpkYkU2Nlp6NWZLUHRfejZCZDR1bFJMLURXOFlsa3d2dURGV3RiVWY3NW9WaUZqV0lWN21lUHEwcDZSM2JzRHlZLUNkWl8xR1B5dlR4RmxvOXk2SURwWE8zbkJKTGdFNEs5dzFKLUpOMzlJQVJqSkRRYWhLUVlGZVBlWVdyLU1OZ3cxVDhwQlBhOGJyZGEwV1ZhRUsw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Energy_easing_10eac200",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "92 illegal gas connections disconnected in Narsingdi",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjaXdIYnJ0WGZCaDBoSGtfWGJOOFdKLVNkMlNHN3hENDB1NmhOMTZwRkxPZlVRTldyMzR2c2JsSHc0N2tlYXpnMUEyRWphcGs0?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Energy_easing_1f7e71e7",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Singapore-based Trafigura, Vitol offer to supply fuel oil to Bangladesh in Sept-Dec",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWUhSWjBMWXRCa2dVY3FEb1dLSWM1M1JOY2FQeENaa0hqNGMyM1R6UkZlX2RfSkhSeEw2WEtpa1ZwWG11TkFxS3ViYzJZS0xlZ3luNjVMU3YyM1VQUEstakhjaWVhUTNueTl2OE5iQXlwM0EyVlhqRnZMWjJFaF8wUTVGVmdvRElTbU11dGVKdE1SMDd5UU1FOGg2SzBJMUEwdWZ0djV2Y3NPQ3FBYVMzRExtMkXSAboBQVVfeXFMT3dpUTdOZXItNGNFSktSV2VUcVNPUFNJOGttdGlQckU1UkZINTlRWTZkdzgzOXZGWnNNdWxCZjRlTVkzb2laSUg3VDNudmFVcjVYZ0JRcTRrRjEzeUVFUTctYVZVYzMyeUtFR0ZhOFhqbmQ5Q0pMNG5oTDFnc3YzOHFtNjJkaDllWFhLQzJVZGFzb3l4TUlNRUFLR0xOWnZhcGc1QTV1MEZHRTZZQjJ1bTAtaG43Mk13TkV3?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-08_Energy_tightening_d118a0d5",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-08",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Gas crisis ripples across economy",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcElBZUVSSEoyejVQXzNhSkZkcThoX3FIbDhVQWtReWMxQ2c4RDNhaDFGOWR1dE9uQTZXVGpRZjZ2S3NJeHNfQXo1VEk5YjJPVGdmd2o4RUkwZFY4cTltNC03YW9qbWtHV0FTVExyNk5Vdk16OW5XdHBjcGZzc0p0WS0tNmtNZnFFc1pNTjY4ZWlxdmR4Z2c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Energy_easing_5650837a",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Govt. targets 10,000MW of solar power generation: Faqir Mahbub",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43MnN1a2V0M240dS00ZVRnTDVCclhwS1d3bnFnSWhOanAyc0ZLZGkyUWN2NVR2UTAtemFWaHJmUTBhRHdoOGVUYTNvWQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-07_Energy_easing_d041d59c",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-07",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Gas supply to become normal within days: Dr Titumir",
+    "source": "bssnews.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBScVNfYlJZRE1laTZWcGdOQzN2TlUtakpObjEycXhlbVlubjdaMDN0NWxHMWh4V01rOFFoWGVLbTVickFwRDZOVDRFVVRlTmtPTDVz?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Capital_Markets_tightening_18c4efee",
+    "title": "Capital Markets Stress",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_decline",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Equity market declines, FDI withdrawals, or portfolio outflows signal deteriorating investor confidence and tighter financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation decline",
+      "FDI slowdown",
+      "market liquidity tightening"
+    ],
+    "headline": "Bangladesh Stock Market Fall September 2026 | Stocks plunge over 100 points as sell-off spreads",
+    "source": "thedailystar.net",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbTFUVlYwTzZmbHNmRjRFbGYyVkkyV2FVU1ZSYnQya1dUMm5WWkZfbHJIc2NwS3RIR0VGNDFCYkVEdm55SXZUMEFOalpjQ25nNlhBV1haMEZyeTBGd09FeGw3M3lfMER0X3dBWmdUNmpmNmNZV28zel9DaW1TQkk0aWhYTDhkNFVJdkxONnNSNEN2SkxNNlhGVFlJdVRfQm4zWmZv?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-09_Logistics_easing_6b1a240e",
+    "title": "Logistics Improvement",
+    "date": "2026-09-09",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "Feasibility study, design completed for Chattogram-Dhaka electric train: PM",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/bangladesh/transport/feasibility-study-design-completed-chattogram-dhaka-electric-train-pm-1537911"
+    ]
+  },
+  {
+    "id": "2026-09-09_Capital_Markets_easing_2430891f",
+    "title": "Capital Markets Recovery",
+    "date": "2026-09-09",
+    "signal_type": "financial_conditions",
+    "channel": "Capital Markets",
+    "lead_indicator": "equity_market_rally",
+    "time_horizon": "immediate–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Equity market gains, FDI inflows, or portfolio inflows signal improving investor confidence and easier financing conditions.",
+    "who_should_care": [
+      "equity investors",
+      "portfolio managers",
+      "foreign investors"
+    ],
+    "expected_effects": [
+      "equity valuation gain",
+      "FDI recovery",
+      "market liquidity expansion"
+    ],
+    "headline": "Bangladesh, Hong Kong sign investment protection agreement",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/bangladesh-hong-kong-sign-investment-protection-agreement-1537791"
+    ]
+  },
+  {
+    "id": "2026-09-09_Labor_Market_tightening_2016aacb",
+    "title": "Labor Market Stress",
+    "date": "2026-09-09",
+    "signal_type": "real_economy",
+    "channel": "Labor Market",
+    "lead_indicator": "employment_disruption",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Factory closures, layoffs, or wage arrears signal real-economy deterioration and reduce aggregate demand through income channels.",
+    "who_should_care": [
+      "garment sector",
+      "labor unions",
+      "consumer sector analysts"
+    ],
+    "expected_effects": [
+      "consumption contraction",
+      "social tension",
+      "urban poverty increase"
+    ],
+    "headline": "Keya Group lays off 613 workers at four Gazipur factories",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/rmg/keya-group-lays-613-workers-four-gazipur-factories-1537506"
+    ]
+  },
+  {
+    "id": "2026-09-09_Exports_easing_34c94e1f",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-09",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "BEPZA Economic Zone-2 makes export debut with $50,000 machinery shipment",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/bepza-economic-zone-2-makes-export-debut-50000-machinery-shipment-1537311"
+    ]
   }
 ]
