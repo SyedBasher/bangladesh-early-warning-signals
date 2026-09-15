@@ -174472,5 +174472,545 @@
     "sources": [
       "https://www.tbsnews.net/economy/energy/adani-unit-resumes-power-supply-recovery-offset-rampal-generation-halves-1542176"
     ]
+  },
+  {
+    "id": "2026-09-14_Foreign_Exchange_easing_e86ff5cb",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-14",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Reserves on rise despite fuel, fertiliser shock",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWDFVcE1qb0hrQ1FoaWd6c2VqVTlXNkFrdmxhcDJPd3FtSVB6X0ctY1FXNVlWVEYzeE1vOVJzaHpzN1NhQUh0WXBJMnk2aC1yUzlFUlBQOWx6d3dzeUJBbDBZcGdfdUFkbTNPdWVpbFpVYVJYdXYxRE5sUnV6TEZYR195ZE50YmtXVUg5UjlPaHFabmp0V3BOY3dKa2F0MGJmWjdn?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Exports_easing_1578e9ac",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-14",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "BGBA Leadership Meets Shama Obaed to Expand Apparel Exports and Streamline Global Sourcing",
+    "source": "RTV News",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xTG1wQWxGUEItTXY5MVMyZW44cGRpVTk4aHJJalN3VHVIMkRYbVdySktSRFVaNWxPalBYTVIwclhrM2R0eXNEWkVyUXRzc3k4cE5zajhnMEhFTTg?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-15_Trade_Policy_easing_8885f81a",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-15",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Efforts are underway to sign as many trade agreements as possible before LDC graduation",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0QUdNVThhZm13Ulk4Q084ay1wemVvaUVCaHFiVmk3Mm5XcmRkQ015bml3LWV4czFhSTh6cXc3UTBSVkRJbGlLdktRV3h2clR2WDA5WHNJN2FrcjlPNjE2Skt3ZmzSAXJBVV95cUxNUzRLNENDSmNnVUc2T1h0dWZuQ1FIYUE5bHVFN0pZVGR2THhwdFI3QVo2dDNCWFViTE12OHlDZjVGZS16YURJbzh1LVhic3k3ck1EVzhEeTNsQmcxc0JLWGFBOWhDMkhSZmtmczF4d0M4TFE?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Trade_Policy_easing_544f906c",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-14",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Trade flow reverses: India exports 500 tonnes of Hilsa to Bangladesh",
+    "source": "MillenniumPost",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYVZvdUNCWG9WLVVUMjNDVm9OTm5qSnd4VW9iZHVsVER1VEdaOTJlZ2FhNnVTdTJXNnQ2R2RpMDBoNWVVTkF3UmRCNGl3ZE1LaXZpNTNHQVR1ZnF4OWVUNTd3YUdiMDJibHdrb055YTNrYWNRblNIVlAzLXRqYUxWdUIwajZPTXFZS25SZVhnV3BWQXpZRWt2UENhaS1XRmo0TU15WlhvdlExdGllM3E5QtIBtgFBVV95cUxNM0htcjVUcmtHV1djaW13Z1JaeGo1Q3pkYkZLMy10OXc3T1QwcklCVFRHRVl1dXRxVk1LM0VIeU1jUThPeU1HNldqanB3cmszVXBteFNIMzV0aGQ0Q0FuaUIzZ2tYajloUjhvY05QMEVTR2pjMDZTSUlTUXdsTHhOdjluZ0o0QnlTY0lGZ3pES2Q3eFc1elhRQmtfbkVVVFFpMGxXaF9QNjlRRmxjRUNHeTk0RFdxdw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-13_Trade_Policy_easing_9feaf104",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-13",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Withdraw import ban on used EVs: BARVIDA",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWnVBdEJTMmc5VFVwbVVnLXQtRnVTZVlqT0xrR0U0VGZxdGdPa0szRUVYelJrOUFHX1MyLVBxeUhDU0RTcEdrajNPSG5ia2hzNWxVelU2bHBUN1VSWkVYMVNNbFllV0REb3pnQld0eDZ6OU9HS0tEREVrVUZZZ19Rc2k1ekVObGVZNUQtcGd4b0pRX3dab3BGX00tRQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Banking_tightening_0374ba09",
+    "title": "Banking Sector Fragility",
+    "date": "2026-09-14",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Ten banks account for 72% of total bad loans",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNUEwOUpEZDdXbm1qZ3VIRkVzQWwtVGpWNW5XNUFPck1rWm1UZk1IQnZNZlFLQWdTdlJLcFAwNk5BSFQyTkNMb2VUVnRVbUZPa0NWWWNCQ0tadDIyMTFHYXhJMHI2cFYwdUtTS3Y0RjVmcTRrVk1OM3UzVWlSUm0tTVhKc19CVnBDa2w0X0ZBMm9OcUVXTS1CNUtRbw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Banking_tightening_a7b66449",
+    "title": "Banking Sector Fragility",
+    "date": "2026-09-14",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "Capital shortfall in 21 banks hits nearly Tk3 lakh crore",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdVlsQVUxb0J0UWdnRk5kN0FCQUN4NXVsY2dDb284dUI4cW5QV3p6ektmQVVaYTI4ZzN6VmlaR3k0Q3BVTmpCeEw1Q1Z5Y3M3c0tRSUYxLTVDRXQwbG1DWE1RRTZYdldWWW1MM3pwcE03UkdFbzhucUliU1pXWk9zME9ydXZhaWdjSXU0NUhHN1VlQlRMVEt6WW1RN1NDOWFya0hv?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-15_Credit_easing_e6a91a9c",
+    "title": "Credit Allocation Loosening",
+    "date": "2026-09-15",
+    "signal_type": "financial_conditions",
+    "channel": "Credit",
+    "lead_indicator": "credit_growth_acceleration",
+    "time_horizon": "3–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Expanded bank lending improves investment and working capital availability across the real economy.",
+    "who_should_care": [
+      "commercial banks",
+      "corporate borrowers",
+      "investment desks"
+    ],
+    "expected_effects": [
+      "investment pickup",
+      "working capital expansion",
+      "GDP growth support"
+    ],
+    "headline": "Bangladesh Bank to give Tk20 lakh without collateral to young entrepreneurs",
+    "source": "Daily Observer",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5OckJnYW11R0JzdzBaX01CaDkzS3VPTEVEeXRrWEdBbkV6N1prR2Z5QS0wTzBtSGtwUTdjazhIbTQyWkE5bTNhWWRB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Foreign_Exchange_easing_29cae814",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-14",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "BB allows commodity hedging without case-by-case approval",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM3VwQmVYZXhRbXNsS2lneWtWREd3QTY2b1NVR0VsSG1OUjk1ZXUzbEpqaEJkbTVFcHBlS244R05lZFduclRjSmVUczdUTUFaT01oU01wR1ZXX25qcGhEOEkyVTk4M1UyTFF6czNMU3ZuNTVyVE5qc1RfbDlfUFk3MG56UldtaVlIX3B1bUVwNU1UdkhWVVJpUWFWR0ZDWWlTNkllUjJkOXRPRE5ieGxZY1ItOA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-15_Energy_tightening_09b02038",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-15",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Bangladesh spot LNG nears US$30, three times pre-war rates",
+    "source": "Asia News Network",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaU9YakVnX2JoN00yNzV6MFUwT1FhQ0dad2EtY2IwaDRnaXpJTmtDTW5HWlVfblZBc2hzMjBsRGd6OE9zS3R5U3cwYVFWNDFtUzR4OHRsWndNeDdOR1VxNXR4enFxZFNjTnFrbDMyQjBTZDdCcDNnNE1vbEtCNmRvNGtmck1NYWlaRXc?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_tightening_bcea5870",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Bangladesh Faces LNG Price Surge to $26 per mmBtu",
+    "source": "energynews.pro",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFS253Z1UyOXh3MjlvdF9xV2N4U0w5OFczQzRHdThjdTk3UW9Kb3VrTDlBRlpETEw3bHFsaVA3aUJ5bXp2SWpYd0F3bGZYZWFsNzZBQjVJODM1enZjTDNsTTkzenRUOWZuOU5maXRrck1zUGZTMy1RVURhUm5tbnM?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_easing_644eaaa0",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Bangladesh explores LNG imports from Algeria",
+    "source": "New Age BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa1FEMFRTVWIxa0c0Q005WV8tMnVHMS1DQUdDeEdKME5xaXRpSC1ZeXdkRGItOF94X1hLYjAwMmUwRU1yM2hJeUMxTE0wSmZjQUU3cmI4OW10MWM1ck05eVdNdWFYWkRkYU5jTVpDZUZETlBaZW1uRFRNeXIzVGpXdFdmaEViMzh5SDBFMGZRT0FvbVU?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_easing_0c0ad3d1",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Industrial gas supply to rebound to 1.5-month ago level tomorrow: PM",
+    "source": "Just News BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ESTZiZE9TNXl5cUoyX2IwNEQ0V2E4T1A2Sm8zS2hZODY2Y1RHNEVraEFmU2JRTEJKQjNfQ3hUVjVaUFlsV1NaQlh0WF9lTHBBbnNPNHowZ2FTX09PRG9IRQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-15_Energy_easing_e50af753",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-15",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Bangladesh looks to diversify its way out of an energy crunch",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS0htQ3YwSXVlNDBkd0NlYkpZa2NRbnBmMmQxQ2NKejNOT0ljN242c3hTUzFJWXVHVXdiM1BpQy1fVFNTZTJVSWJ0T0VreUQtdjBIWUJ1Yk5tUXB0SHo5Y0JTaEE2c3hteG1tU3hQN291NUMyTlQzTjczTldKNkFuN09VWVROdkw4d2NUclNJSTRIS0U1MEVEZk1UOA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_easing_4b902c59",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Gas supply will return to pre-crisis level by tonight - daily-sun.com",
+    "source": "daily-sun.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfWURXMWp5ZHJLTnJ5TVpCOVVYLVN5YjdCUzVqZXk2Qk1sbmNndnRibzhPcDM2RFRiei1xY0FacEJqdXJiUkpORktZVElJTG5qY28weF9n?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-13_Energy_tightening_d118a0d5",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-13",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Gas crisis ripples across economy",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcElBZUVSSEoyejVQXzNhSkZkcThoX3FIbDhVQWtReWMxQ2c4RDNhaDFGOWR1dE9uQTZXVGpRZjZ2S3NJeHNfQXo1VEk5YjJPVGdmd2o4RUkwZFY4cTltNC03YW9qbWtHV0FTVExyNk5Vdk16OW5XdHBjcGZzc0p0WS0tNmtNZnFFc1pNTjY4ZWlxdmR4Z2c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_easing_359d6af5",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Improved gas, power supply from this evening",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMENBOGVjX3ZMSWo3cUZNbmQtbEVGUG1uR29tUk05VVhYaXp0cVMyOEVnd1Y0alpUbWlnVEtJc01tbXVyQXdqZVdUUWhBZ0ZxVF9LRG1ydERVeU12bnY3RVRWaUxhSElOM0tQZVdFV0ZVS1d1MUVSQjJaZ2NIazJ2OTRNaGFpZ3UyZHpEb1ZIM3ptYk5sV1E?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_easing_d2daae73",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "150 wells to be drilled to overcome gas-power crisis: PM’s Adviser",
+    "source": "Views Bangladesh",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNTNoYzY3eXJ2SWJneE92ZWZ2U2dPN2xyMWJoU29QbUVXZVFKTzJJZURDUUp6NThLX1VkLUpNUXFsek1Ib203SzhYUGZ1T2dfa1JRQTYwYnN6TmVaVHZlbGxQOVI1Ukp5RFZxNm5tOGFHWmg5aDFHbnBNaFBTQi1KM0tULW4zMjdTTFRfY0R0WkhEWnNFYk5z?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-14_Energy_easing_54671773",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-14",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Adani’s 800MW Godda Unit-2 resumes power supply to Bangladesh",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV1c3Ml9wLXBDejV1RU5yeGlZY2J0Tmh4UTVRUHBEZ1BoMDBHMGFHTThOaGZhTEE5VUR0dDVQS2xpeEVfNndZX3AwNklGTEJsOWF1NjE4NlpuU0FNOGphNnl6dHZjbDQwMlZjRzAxUUxTMWhKODJHTVBwcERwajVkQjNoTTk4M3Q5VG8xaGx5bkctaDdELVBHV2twLUZCZnJCX1pUOHF1U0dIZmQ3R0ZOSEUzQm1HcS10MXhrbzRB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-15_Banking_easing_7ff6d693",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-09-15",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
+    ],
+    "headline": "Accounts holding over Tk1cr rise by 5,077, deposits up Tk16,000cr",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/banking/accounts-holding-over-tk1cr-rise-5077-deposits-tk16000cr-1542831"
+    ]
   }
 ]
