@@ -188404,5 +188404,599 @@
     "sources": [
       "https://www.tbsnews.net/economy/banking/cv-boxes-no-exams-no-circulars-fresh-probe-exposes-s-alam-era-islami-bank-hiring"
     ]
+  },
+  {
+    "id": "2026-09-23_Food_Prices_tightening_b1d54541",
+    "title": "Food Price Pressure",
+    "date": "2026-09-23",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Inflation poised to return to 9%",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWVg4ZGxNSnNXazZEWkJycF9lcDlFSVppT3VzTWpobzcwR3plWjEwbzRWdnRWTzJLbEdRdTZ6WWFFZDZQUWhpLXBtWGdJV3JrY3UtcjBDUENIWUlEUklOVmxOLVpCYUgxSTJGQ1BFNG1zWENkbTZPX0VyYWc5SkFVei0wOVZWTW5fM0hj?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Remittances_easing_55df7a4e",
+    "title": "Remittance Flow Strengthening",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_acceleration",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption boost",
+      "FX supply expansion",
+      "formal channel share rising"
+    ],
+    "headline": "Remittance inflow to Bangladesh expected to remain resilient: ADB - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSdlB0cWV2Ymt3REFXRG1BS2lvM2JXT1BHMlItLXZHcElMcXEyZjh3elFWM2t1UGRjNXJTc0RqTTVKTU44cUppbU95WHdhN1Iy?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Fiscal_tightening_52c4f42c",
+    "title": "Fiscal Revenue Stress",
+    "date": "2026-09-23",
+    "signal_type": "fiscal",
+    "channel": "Fiscal",
+    "lead_indicator": "revenue_collection_shortfall",
+    "time_horizon": "3–6 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Tax revenue shortfalls force expenditure compression or borrowing, crowding out development spending and raising domestic debt costs.",
+    "who_should_care": [
+      "bond market",
+      "development agencies",
+      "government contractors"
+    ],
+    "expected_effects": [
+      "development spending cut",
+      "domestic borrowing increase",
+      "treasury yield pressure"
+    ],
+    "headline": "Tax-to-GDP ratio falling since FY12",
+    "source": "New Age BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNG01WlZKODBMTXhvcGtObmVLZWpPUjVLTWZNS3Z0UlpxX3VNTnpyanF2WnlkT3VHX01KWHpXbEt1bGZoUDJ1R2VJdk1XU0xhdHdaSjZuaWZTRktmM0RWTjMzR0NrQjZWU1BfZ0lOWHA5RzdrTTNSaXdhcFRVbEhJU1QwOUVCTUU?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Labor_Market_easing_c64d2f89",
+    "title": "Labor Market Improvement",
+    "date": "2026-09-23",
+    "signal_type": "real_economy",
+    "channel": "Labor Market",
+    "lead_indicator": "employment_expansion",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "New hiring, wage gains, or overseas employment growth lift household incomes and support aggregate demand.",
+    "who_should_care": [
+      "garment sector",
+      "labor unions",
+      "consumer sector analysts"
+    ],
+    "expected_effects": [
+      "consumption support",
+      "social stability",
+      "poverty reduction"
+    ],
+    "headline": "Rural wages surpass food inflation, lifting purchasing capacity - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DRG1YVFBvemdmWlVYZnMweXRFMWliT0FGVHF6WVowNjVtY2VfUnlsenJ1SzFrUkpwU2EzUUtEeDRSaXg1dEJXTDZ4YXZxQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Trade_Policy_tightening_d219176b",
+    "title": "Trade Policy Restriction",
+    "date": "2026-09-23",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_tightening",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "low",
+    "economic_mechanism": "Import bans, tariff hikes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost increase",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh under US pressure over trade",
+    "source": "New Age BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSVFZVmtmNm1nMGlxTW1vX1pVNGg1VE5PNGpGRm5zZV9Ma3lXVHJlYWNrcnozTVQzWXRvRmFMOW1GazNrejlGWG1nbFFfbjByY1pjRjU4QXNWeWdBdTZ2eW5ZUU8yR2dMZFRWZFFVdFcwa21zbkRMTjVTc0ZWdER3TUo4aWI4TXE5cTlSQ3BBN0dIUG1Hc1A4?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-24_Foreign_Exchange_easing_33f50134",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-24",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "Bangladesh Bank allows cross-border trade settlement in Taka",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1prbG1qTVFyZ251T0NEX194TmtWVWNxMmFyaU9idXVyOC14WGRyRUVTVERGaHJ6Zmtqd2hrYTFnaldtSkMwWkM4VU9zVVJZZ3VnNXBWbS01Sl90US1ZWnZPbXJwamRhME9MNlBucUdOeDAxVU95STRVWk1pbTh4Q2NGaGg2aTFEUUpOYmxobXZ1OGlINVo1VF9iN2pEdHNOMEpZb0VMbXBkekRE?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Exports_easing_e90bb306",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "BGMEA launches Japan Desk to boost apparel exports",
+    "source": "New Age BD",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3IwcUNIa2FkemtRanZsR3Bmc0ZRbkJSc1lTbWpJSjBsUW5vVUdJcW1zOE5EZXJrQ0FyLVFIRDcwSHFFV0xsbkFLNmZXTnVuNkFtVnMzOWlQNW5ndE1kcFVEaTJfemZwWm82QmpUNF83bTlGb2FUbXFWb21tbzJzYmNxSnpFeldHTFpWOUFvVWdMMHdib19kcFc5dw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Trade_Policy_tightening_7af47d2d",
+    "title": "Trade Policy Restriction",
+    "date": "2026-09-23",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_tightening",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Import bans, tariff hikes, or trade partner restrictions alter relative prices and disrupt established supply chains.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain disruption",
+      "input cost increase",
+      "trade diversion"
+    ],
+    "headline": "Bangladesh cancels import permits for hilsa from India",
+    "source": "The Times of India",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb0FWXy1XcmZWQkc4X1hzODNXYWZYX2Uxb1BraXRsZEJMTTVSMmpPa0FLT3NuWUkzRzZQaHNIVkpLV294MDE2NkJVUk5aUzM5dF9JbG5KTExkX1M3dE9XTm9nMTZxRVlGYVh4Rk0yVDh6Uk9QR2VVRnIwTlI4b3hEeGFyYWNid0pjcGxybGFlR090WnpzU1JDZVpzVzBQSEl6cFFKX1JIT282dmxwOEpnMnZlU3ZjSkZjWXpLaklOZHNwaUtjdi1KVdIBzgFBVV95cUxPUmRySXZfZmRiTk9tbTlWdG5XUWFNX0lSaEFXaFJOWHZFTzlpSUVIQkpMMkRlLTd1V1RrWThvWWhNSVJqcXlSS2xTcDRyOXBfNzdDNVIwdUhJcC1vN08waWNWckdFdTVLc04zUncxY0EwQ3duVGlCTFg0RkhUdDJZOWNweUZCR3FFZ2NYZUNEbkZ6bTJ5VU56dW9vOGhQdUpjTUJkVmM0MThSMm4yQTl1SEwyeVJuQ1ppYl9ZUW1xUWpndXB6QjU5cnpsXzV2dw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-22_Exports_easing_b942357f",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-22",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "Pearl Global expands Bangladesh operations, adds 7 million-piece annual capacity",
+    "source": "ET Manufacturing",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZkJVaFBSbFI4V05WNUtKcW5jV1hnTUZwRWdZUUZyWUlwcUI5U3ZNVnNvMFN5b0hXc3lpNjl1ZU5Za2RDeWVjY0ViVHZ0UVZmSzZQTndGT2ZjQ1dtQ3BWS1NiVE9QWU5KTlZ4TXBfdlR4NTRLS2RSZlE2RkV5MXByLUV0N1Q3RjdKUE5XU1FuT1dDdzBFN0NOSEhuSU91MlIwSE9LaUJubXQwS0gwOGlEcVQwb1J2Q3E0NTNDRWtuT0UzY3RSakdxczZ3TXduLXFzWkRObkpHRm1UbC14dThQOVBLUmdCVy1LWmfSAe8BQVVfeXFMUDBDeFNMSTdUUDNDcVRJOXJNb3pKUXZYSHphYkN4WTlFZk1sazlLWUVOcHJ5bUxSVHViV3VENkp1bUYtdFkzeDB0d216Z1VoTFU3Z0hlY3hCQzY0WmhrOFdaZ1ktUU5Yem4ySzd5UjZnOVRkcjdCLWZrU0djTkR1Z2Q3N3M5dzFmb0p0UEVVQlloOVA0QkR0bEh6S083MW9nMHdONjBSTWJsWTI3ZzdhZmlDeVUxODJsaDRPYkJLOTF1ZHRxcVN4ek1aU1lETHVZaFBkYlY4QU96V0hMeWVpNG9NUDNUZjBXNmlzdjNyc28?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-22_Exports_easing_306143a6",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-22",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "Pearl Global commissions new garment manufacturing unit in Bangladesh",
+    "source": "Fibre2Fashion",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR3R3MUJ0dXhEdFZWZUpEQ2RIMXJLdG84N1IxSjU4RzQxNllWODItQ1pQcmlYd0ZEMmRHc2lEdkNsSkdjcVBGN3luX2M4SmpSQVhXQ2tTY1RyTThoQWF4Tnl2RW5vaTM0b3BHYkZ6WW41TWpoVVJ1ZGZoSnotak11T2NrNW10SG5LeWhNNnpPcHBibWI3OTlta2lSblZEMjhkNGhpQVNzanZzOWlUMXBJcm1Md3FDR1pfc0xJRDBGbkV4S0hHMWRVVmFBLW4wQ2FMUTFodVRJZG9mVF84ZjNB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Exports_easing_67be1c0e",
+    "title": "Export Demand Expansion",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Exports",
+    "lead_indicator": "export_orders_increase",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising external demand lifts factory utilization, expands labor income, and strengthens FX earnings.",
+    "who_should_care": [
+      "exporters",
+      "garment sector",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "higher manufacturing output",
+      "urban employment gains",
+      "FX earnings boost"
+    ],
+    "headline": "BGMEA opens dedicated desk for Japan to boost exports",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxORW96UEdyR0x2LVI0YVhheEtEN2w0Szc2bnRMSUJzYktpcnJWX1N5b3BoeDhGSWdWWUJLWjRWMGNuM1kyVFJoV080UGVnQkNESTlmUU9HdWNrNVdOdWZPTUtNcWdXU1pFcDVfU0VyTUpFeEZRd25ZZDZVR1NITFUxaHlBMmZ5SkQwOWJtUHd1S1NTc1p5SHU3Y1RpeFd0RGFtcDFfX2VnZUhCSWlGeXBldXJyakZSQQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Energy_tightening_4a2ba87a",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-23",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Fuel price hike starts hitting logistics sector",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxObHFxZC14LVFNZXk2SmIyTzJGRlFfUWRLbDh0dXlqYlExTXJGT0p2VVBQRlhBdnZnMEZFYURONEpMQTZQeW5kY1B1a3NXQ1ZGUVNxTjlPNkljY3kxb0t2M1dWVVg4a1h5M0t2cEFUWFNZbWtDYmNMSlM5enlCc0FreFlQQ3ExdUNNaE5YbDJtU01WdXhtUDdSYWNVZXZrT2c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Foreign_Exchange_easing_f3d6f414",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "BB opens new avenue for cross-border trade settlement in Taka through vostro accounts - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91Mk94MUZDd1drcV9INDZWYVlkalRuRUVIZHQ0WFZ0N3hQMlBSQkZiVC1CYU5RTmNwdmk2aU9kVlF6Slc5N3V0bGFIbVEybDg4?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Remittances_easing_775202e1",
+    "title": "Remittance Flow Strengthening",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_acceleration",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption boost",
+      "FX supply expansion",
+      "formal channel share rising"
+    ],
+    "headline": "Bangladesh keen to send manpower for development work in Saudi Arabia: Moyeen - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9YME00SjRmVEFhSGhqTHVFSy0yY3dMMGpObW9SaWhZVWtrR1BhQWhYUURHZGxQVVBvdUJIT0hJQTVYTmpXYU1kcmJHaw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Trade_Policy_easing_b623e494",
+    "title": "Trade Policy Liberalization",
+    "date": "2026-09-23",
+    "signal_type": "policy_shock",
+    "channel": "Trade Policy",
+    "lead_indicator": "trade_regime_opening",
+    "time_horizon": "1–6 months",
+    "direction": "easing",
+    "confidence": "low",
+    "economic_mechanism": "Tariff reductions, liberalization measures, or preferential access agreements lower input costs and open new market access.",
+    "who_should_care": [
+      "importers",
+      "exporters",
+      "trade policy analysts"
+    ],
+    "expected_effects": [
+      "supply chain diversification",
+      "input cost reduction",
+      "export market expansion"
+    ],
+    "headline": "Bangladesh hopeful of signing FTA with Malaysia by 2027",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oVmdmZzRSa21VUlFRTlFGU0hfbW1rejIyR1Boa2o3SE5OcnNsYWthUEZwQTZ6Q1pKRndReWRFdmM4bW4ySk0xbzBtcGhSTnVvUDA1Qk9BN202cnlydlNyNdIBbkFVX3lxTE50aGc0cFZDMEo0bnRfVUxsNjg2bk9hdGlpa0JPZWlPTkhuenptdm1YMTJOT2pySUh0OUEwM19uMEF0RWxrdVFZaHVsR2VodTllVEVhMFlyUGs0OWJwMmNoTEhyc2poMkZHWjlaS053?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Energy_easing_bbf37978",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-23",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "ADB approves $200m loan to modernize Bangladesh’s power network - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6OWNqbkJMVXd4LWYtQ1ZOUDY2c3pwZlB0UDhvVU5Ld2wtVmkxQjBRSlpRUHZyQjlVU3pBMGxULUF0dFlERm1yOEFNMjItUV9u?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-24_Monetary_Policy_tightening_e0e141bb",
+    "title": "Monetary Policy Tightening",
+    "date": "2026-09-24",
+    "signal_type": "financial_conditions",
+    "channel": "Monetary Policy",
+    "lead_indicator": "policy_rate_hike",
+    "time_horizon": "1–6 months",
+    "direction": "tightening",
+    "confidence": "high",
+    "economic_mechanism": "Central bank tightening raises borrowing costs, slows credit expansion, and signals concern about inflation or external balance.",
+    "who_should_care": [
+      "banks",
+      "bond market",
+      "corporate treasurers"
+    ],
+    "expected_effects": [
+      "higher borrowing costs",
+      "bond yield rise",
+      "investment dampening"
+    ],
+    "headline": "New $4.0b IMF credit programme for Bangladesh: Mounting power-energy subsidies cited as big barriers",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdThfUElkNDBIUlNhbGluYlFUTzJKYlhBLTQzeHhuUnl5VnQ2M2dCdVY1a0RLM2pBbzM4dVV2N0dBOTlEcTl1M3Vyd3hmdjczdERMdGtUaWh6a0tlTE5zTTZZcGFOT2tSaFhMNDBCeW56TXoyTjZPandzQzkzaG0tRU5fNGpGY2lUbm83UXFWc0cwdWpLT1Y5N05vSkplQ2RYTjdDVjRzcUNydV92VnRjR2hJNFFLUk9VWEUzag?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Logistics_easing_6612dac1",
+    "title": "Logistics Improvement",
+    "date": "2026-09-23",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "Ctg Port authority takes six initiatives to digitize port services - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OVFl2d1hjNmtOSjE5OVRtZlNEMlE3cDk1UkI1US1KeTVVR3NtVk5mekRVMXEzQUwyc21UTW56RU5EVjNXb244ajI0QnBiZk1y?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Energy_easing_9ebf4eee",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-23",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "ADB approves $200m loan to modernise BD's power network",
+    "source": "The Financial Express",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX2k2RzNFX0ZpZkpyR3F1dlo1WjFmLTVDcmJSWWswYWdNVkZzOXAtOHdzLW5RTjlNcEZBcjVQTUNJeC02SVpiZXhXMmJKU0VORjFlNklpbWZDSjA4bTVaQVY5SzNEeExqNWZjSWIxVzRud3NpeURvQXprTlAtWVN5UVpYckpYV0RoeEpPOFpKempJSkM3NWJ2emFibTBwc0I2dVByRndJN0pEX19HSFozSXBVa1U5d9IBwgFBVV95cUxNaU1ucWk2WjJEZ2c1ang0Wjc4TVBTaTBmYWhLRC03MFF5X2g4NDBhMU9GQVlZT0luNHJfdlRnbXk5T2hCTjNHT011YVhqQ3ktdEFXNW1UZXhvOEVoMEJyVF9ZQmNqa0V6YUlCUEx1VW5BUzlOSG5BOUJzdFE5X3FLNTcwb3JSTUkwUklnbnl1MUlyeUxEVXJsdUN1b240MEIwdjRha1RPcHdpSFp1XzdIWTJHdlJTSEhla25ub2VTazZCZw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Logistics_easing_41866a38",
+    "title": "Logistics Improvement",
+    "date": "2026-09-23",
+    "signal_type": "production_constraint",
+    "channel": "Logistics",
+    "lead_indicator": "transport_capacity_expansion",
+    "time_horizon": "immediate–1 month",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Port throughput gains, transport improvements, or new infrastructure cut delivery times and lower costs across supply chains.",
+    "who_should_care": [
+      "exporters",
+      "importers",
+      "logistics firms"
+    ],
+    "expected_effects": [
+      "supply chain acceleration",
+      "lower transport costs",
+      "export throughput gains"
+    ],
+    "headline": "Mongla Port earns record Tk 387.95cr revenue in FY26 - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pZFh6X29KNk55eVJEM05uVnFmZXhOczF5SHVnZktOZU9NeXNYVUZ4TXVJWG1TVFdQdmVtQlZvVWNHS3hLeTZ3RkdWdw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-24_Remittances_tightening_f53cad5e",
+    "title": "Remittance Flow Disruption",
+    "date": "2026-09-24",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_decline",
+    "time_horizon": "1–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Remittance slowdown reduces rural household income, weakens consumption demand, and tightens FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption slowdown",
+      "FX supply reduction",
+      "hundi channel widening"
+    ],
+    "headline": "Saudi skill test gets costlier, but low-paid Bangladeshi workers see no wage gain",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHlTeUhxdWo5Ynoza3JmSWwtYkxCMVdtZUtkaDAzMDBfV2lmc1NzbTBQVWR0R0dIellHbjBIcDBDMkZvaEpmWXVtS2xGVlU5YV9RbXMwSUxpdWFHMkVrUjNnZXZOSUFHWlA5MzZ6S2Y2U0ZZZnJaNHJETFg0ZEIxcUVtZml6UHNJUVRPSGZJSmJOYTY0U0pFblVYUVY2N1VTSzFLR0QzTjdJX3FtTjFMUXNySnFCbnd2TnoyRjFR?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Remittances_easing_77912ab9",
+    "title": "Remittance Flow Strengthening",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Remittances",
+    "lead_indicator": "remittance_growth_acceleration",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising remittances lift rural household income, strengthen consumption demand, and expand formal FX supply.",
+    "who_should_care": [
+      "rural economy analysts",
+      "consumer sector",
+      "central bank"
+    ],
+    "expected_effects": [
+      "rural consumption boost",
+      "FX supply expansion",
+      "formal channel share rising"
+    ],
+    "headline": "BB allows wage earners’ remittances through exchange houses - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hWUw1SWRxZEpwWkhSWllmd1ZlN2Y0OVBSWFlrV2lJLTJ6UGwxaDVqandNT0stYlEtZFBVTTA3TnpxVDBxb0pyR1kwZG9kR0I5?oc=5"
+    ]
   }
 ]
