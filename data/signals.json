@@ -190834,5 +190834,356 @@
     "sources": [
       "https://www.tbsnews.net/economy/energy/gas-supply-starts-recovering-lng-transfer-resumes-petrobangla-1553466"
     ]
+  },
+  {
+    "id": "2026-09-24_Energy_tightening_187efb9d",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-24",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Diesel price hike: Farmers dealt another blow",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNDNhTmNNdDNNS0NKZE9lVHBQVmFuendjRFRrM1NGN2lWZTl1ZlVTZndlUkNlREtmd3ZrUUtXbU9rc3FjZHBHc1J5MW1xdDhGT2hNZThkUlJubHNXRjZfNElpNjU0MVdfOS1vOF8wN0ROS3d6UnExcEE2VUVCMmFlVFBNd1dBOU1XeTJHTnFobUJ6Z0hSQWFPb0pUd0FTWmZnNHA4eA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-23_Foreign_Exchange_easing_c20e2fb5",
+    "title": "External Liquidity Improvement",
+    "date": "2026-09-23",
+    "signal_type": "balance_of_payments",
+    "channel": "Foreign Exchange",
+    "lead_indicator": "fx_reserves_recovery",
+    "time_horizon": "1–3 months",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Rising reserves and improved BoP position ease import financing constraints, narrow the informal FX premium, and restore normal trade settlement.",
+    "who_should_care": [
+      "trade finance banks",
+      "importers",
+      "currency desks"
+    ],
+    "expected_effects": [
+      "import normalization",
+      "informal FX premium narrowing",
+      "reserve buffer strengthening"
+    ],
+    "headline": "BB allows cross-border trade settlement in taka",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWFBhb2tDMzhvcmU2SDctaHhxQzM5WmJCSUVEWEgyNnhSRllQRWtyeGFvNEJqRldxVUgtTWF6Q2lmSU5LcElpU2d1MFh0akw3RUxFSHZWdkVVdUpwR1R0em1EUGJnTENOd3V6NWJZeENzTk93YS1oVklxTV9RN1lDazVrcDRJX2s3U05QUUR1M1B3T29qcTd5MUlibmFwem9nU3VqSmxB?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-26_Banking_tightening_b5d97079",
+    "title": "Banking Sector Fragility",
+    "date": "2026-09-26",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_deterioration",
+    "time_horizon": "3–12 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising non-performing loans, governance failures, or liquidity stress in banks constrain credit intermediation and erode depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit rationing",
+      "deposit flight risk",
+      "fiscal contingent liability"
+    ],
+    "headline": "BB directs KPI framework for bank CEOs, spurs regulatory overreach concerns",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSzF5NDViMUt4S1hHT1JkYXRXOUtWQUlJaU1iREs4RFF5dkl2bTVZOGVkTDRnWDl2RElPYWpZaXFtNVFwaXozN3Rkandya3YtQVhSNDNYMXZTOXhXckJuNFN4cEZ3VEJiaE1Uc2NuSm5pNFA4VjZ3WTFpVDZxVzJfOXl4MlR6TEd1cWxnMFRLZE9ZeUZMRzhMVjNCUzB0SGdqV0dILTFtQVh0S1I1V2QwTnFOcDcwX09WcWc?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-26_Banking_easing_681182c1",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-09-26",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
+    ],
+    "headline": "Five digital banks receive approval in principle",
+    "source": "Daily Bonik Barta",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBieXNKd3ZTYnpvNmRTS3ZWN285cHQxaVJtRlZ3RjJWT1hrdjBJSHFiT2lPSk5TRGZoczNXa2QzQ1hSTUdSQmRBdnVaSGJvUDZ3NW1ScXExZzZobC1VZnU5MA?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-25_Banking_easing_d4addb53",
+    "title": "Banking Sector Strengthening",
+    "date": "2026-09-25",
+    "signal_type": "financial_conditions",
+    "channel": "Banking",
+    "lead_indicator": "npl_ratio_improvement",
+    "time_horizon": "3–12 months",
+    "direction": "easing",
+    "confidence": "high",
+    "economic_mechanism": "Declining NPLs, stronger governance, or improved liquidity conditions restore credit intermediation capacity and depositor confidence.",
+    "who_should_care": [
+      "depositors",
+      "bank regulators",
+      "financial analysts"
+    ],
+    "expected_effects": [
+      "credit expansion capacity",
+      "deposit confidence",
+      "contingent liability easing"
+    ],
+    "headline": "5 digital banks, including bKash and Robi-backed ventures, get BB approval",
+    "source": "The Business Standard",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbXVQYUc3VGEtVHRVLTlOdnFfZHNXS1VPRkxDLUVKbEdWOUJYQ1JQVnpiMmNnb2xaSHJlREFQbmpOYUQxbU1US2EyYUxYR0RqcHhQQ3NhRUtESFl3MkRqcUs2cjJtZFZIWjd3YmdCQ1B1dTU4b214UUxIN3hlenR5el9LNHZ2RkRyZ1BCSnNNTVlCNFZLa3ItRk1ON1A2UVZiMkViT2xONFVOUm5UeFhVS0ZPckx3TEVVWElTaQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-26_Energy_tightening_4a2ba87a",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-26",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Fuel price hike starts hitting logistics sector",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxObHFxZC14LVFNZXk2SmIyTzJGRlFfUWRLbDh0dXlqYlExTXJGT0p2VVBQRlhBdnZnMEZFYURONEpMQTZQeW5kY1B1a3NXQ1ZGUVNxTjlPNkljY3kxb0t2M1dWVVg4a1h5M0t2cEFUWFNZbWtDYmNMSlM5enlCc0FreFlQQ3ExdUNNaE5YbDJtU01WdXhtUDdSYWNVZXZrT2c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-25_Energy_tightening_d118a0d5",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "Gas crisis ripples across economy",
+    "source": "The Daily Star",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcElBZUVSSEoyejVQXzNhSkZkcThoX3FIbDhVQWtReWMxQ2c4RDNhaDFGOWR1dE9uQTZXVGpRZjZ2S3NJeHNfQXo1VEk5YjJPVGdmd2o4RUkwZFY4cTltNC03YW9qbWtHV0FTVExyNk5Vdk16OW5XdHBjcGZzc0p0WS0tNmtNZnFFc1pNTjY4ZWlxdmR4Z2c?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-25_Energy_easing_077f8211",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Gas supply to national grid returns to normal - Bangladesh Sangbad Sangstha (BSS)",
+    "source": "Bangladesh Sangbad Sangstha (BSS)",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfSmF1bDdzSFRvZzN2Zno0UTFMZGlzZFgzRm9wTUFCUjJfaURCWU1HVzBPMlAtVHdic1BQblhIdmdNR3lDbno0NFFyaw?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-26_Energy_tightening_baacbfda",
+    "title": "Energy Supply Constraint",
+    "date": "2026-09-26",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_intensity",
+    "time_horizon": "immediate",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Energy shortages restrict industrial operating hours, raise unit costs, and force firms to rely on expensive captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output loss",
+      "production cost increase",
+      "cost-push inflation"
+    ],
+    "headline": "LPG 'crunch' leaves Dhaka consumers scrambling",
+    "source": "dailyasianage.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOUFVSXBoWmJnSWhfelB4VzA2MVNRSF9pZ2lHaDNjdkUtYUdxQTF6bzI5b1hSWXItOFJhZExuQmZna3M4TzhBcmVUa1Z0VFpIQlRJVjBaQVlfNmk3UEVSV0tyQmRSakx0OXVtVVNPeldzYURYQ0pLWEh5SkJQRmpIX183Z2dmQk9Ncnc?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-25_Energy_easing_3c1075fd",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Gas supply begins to rise, says Petrobangla",
+    "source": "Prothom Alo English",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MLVcyaVR3aktuUWpBTVYtcEdTY2xOamtFcXFoeGYtVVlFRmxzZ203N2RiUTNNanVaNGw2RV9uemt1b3hlcms2ZDBFQWNXb2lKdF9RUllpT2ZTeEnSAWhBVV95cUxPVmRoRERqTlJ0VUNhMUtyaDJWYm9FazNONkYwYWtCdVNoTmNUMlJGN2hkV0JNWW0yNXoyZWdVX2xRVHZZeTNWUXRSb0tZV2RLY2kwc1JNLWNzNGx5VGlheTRVTTFBOTQyOQ?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-25_Energy_easing_5bd42fa4",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-25",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "Gas supply situation starts returning to normal - en.bd-pratidin.com",
+    "source": "en.bd-pratidin.com",
+    "sources": [
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGcWhkVks5S01Hb2FrTnFpNXBRNmZzUUp1TXpocENFVkEzWnhGUkdvZ2p2VnQ3eEp0RDl5QmljZW1HS0paZWRYSm9OMHYzdEFIcGVGMUhxUnNXbUR5N0FWQ1VR?oc=5"
+    ]
+  },
+  {
+    "id": "2026-09-26_Food_Prices_tightening_80e45340",
+    "title": "Food Price Pressure",
+    "date": "2026-09-26",
+    "signal_type": "price_signal",
+    "channel": "Food Prices",
+    "lead_indicator": "staple_price_acceleration",
+    "time_horizon": "immediate–3 months",
+    "direction": "tightening",
+    "confidence": "medium",
+    "economic_mechanism": "Rising staple prices compress real incomes of the poor, raise wage demands, and feed into broader inflation expectations.",
+    "who_should_care": [
+      "consumer sector",
+      "food importers",
+      "social protection agencies"
+    ],
+    "expected_effects": [
+      "real income erosion for the poor",
+      "wage pressure",
+      "headline inflation rise"
+    ],
+    "headline": "Climate shocks hit salt production, push prices up 50%",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/climate-shocks-hit-salt-production-push-prices-50-1553886"
+    ]
+  },
+  {
+    "id": "2026-09-26_Energy_easing_cfea2be5",
+    "title": "Energy Supply Improvement",
+    "date": "2026-09-26",
+    "signal_type": "production_constraint",
+    "channel": "Energy",
+    "lead_indicator": "load_shedding_reduction",
+    "time_horizon": "immediate",
+    "direction": "easing",
+    "confidence": "medium",
+    "economic_mechanism": "Improved power and gas supply expands industrial operating hours, lowers unit costs, and reduces reliance on captive generation.",
+    "who_should_care": [
+      "industrial producers",
+      "manufacturers",
+      "energy traders"
+    ],
+    "expected_effects": [
+      "output normalization",
+      "production cost relief",
+      "inflation pressure easing"
+    ],
+    "headline": "PDB plans Tk870cr project to restore 20-30MW at Kaptai power plant",
+    "source": "The Business Standard — Economy",
+    "sources": [
+      "https://www.tbsnews.net/economy/energy/pdb-plans-tk870cr-project-restore-20-30mw-kaptai-power-plant-1553851"
+    ]
   }
 ]
